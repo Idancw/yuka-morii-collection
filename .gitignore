@@ -11,8 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-src/scripts/.env
-src/scripts/.env.local
+.env
+.env.local
 
 dist/
 node_modules/
