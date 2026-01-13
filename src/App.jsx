@@ -26,11 +26,10 @@ function App() {
   const [error, setError] = useState(null);
   const [sortOrder, setSortOrder] = useState('asc'); // 'asc' or 'desc'
 
-  // Load cards from JSON file in public folder
   useEffect(() => {
     const loadCards = async () => {
       try {
-        const response = await fetch('/cards.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}cards.json`);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -87,10 +86,10 @@ function App() {
         console.log('📦 Loaded shared collection');
 
         setCards(prevCards =>
-          prevCards.map(card => ({
-            ...card,
-            owned: userData[card.id] || 'no'
-          }))
+            prevCards.map(card => ({
+              ...card,
+              owned: userData[card.id] || 'no'
+            }))
         );
       }
     } catch (err) {
@@ -116,10 +115,10 @@ function App() {
 
           // Merge user's ownership data with card data
           setCards(prevCards =>
-            prevCards.map(card => ({
-              ...card,
-              owned: userData[card.id] || 'no'
-            }))
+              prevCards.map(card => ({
+                ...card,
+                owned: userData[card.id] || 'no'
+              }))
           );
         } else {
           console.log('📝 New user - will create collection on first save');
@@ -138,17 +137,17 @@ function App() {
     if (isViewOnly) return;
 
     setCards(prevCards =>
-      prevCards.map(card => {
-        if (card.id === cardId) {
-          let newStatus;
-          if (card.owned === 'no') newStatus = 'ordered';
-          else if (card.owned === 'ordered') newStatus = 'yes';
-          else newStatus = 'no';
+        prevCards.map(card => {
+          if (card.id === cardId) {
+            let newStatus;
+            if (card.owned === 'no') newStatus = 'ordered';
+            else if (card.owned === 'ordered') newStatus = 'yes';
+            else newStatus = 'no';
 
-          // Save to Firebase
-          saveCardStatus(cardId, newStatus);
+            // Save to Firebase
+            saveCardStatus(cardId, newStatus);
 
-          return { ...card, owned: newStatus };
+            return { ...card, owned: newStatus };
         }
         return card;
       })
