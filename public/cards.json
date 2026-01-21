@@ -2,167 +2,542 @@
   {
     "id": "neodiscovery-037",
     "name": "Corsola",
-    "set": "Neodiscovery",
+    "set": "Neo Discovery",
     "era": "Neo",
     "number": "037",
     "sheet_no": "1",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodiscovery/37.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/037.shtml"
+    "url": "https://www.serebii.net/card/neodiscovery/037.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodiscovery-053",
     "name": "Caterpie",
-    "set": "Neodiscovery",
+    "set": "Neo Discovery",
     "era": "Neo",
     "number": "053",
     "sheet_no": "2",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodiscovery/53.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/053.shtml"
+    "url": "https://www.serebii.net/card/neodiscovery/053.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodiscovery-056",
     "name": "Kabuto",
-    "set": "Neodiscovery",
+    "set": "Neo Discovery",
     "era": "Neo",
     "number": "056",
     "sheet_no": "3",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodiscovery/56.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/056.shtml"
+    "url": "https://www.serebii.net/card/neodiscovery/056.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodiscovery-060",
     "name": "Omanyte",
-    "set": "Neodiscovery",
+    "set": "Neo Discovery",
     "era": "Neo",
     "number": "060",
     "sheet_no": "4",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodiscovery/60.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/060.shtml"
+    "url": "https://www.serebii.net/card/neodiscovery/060.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neorevelation-002",
     "name": "Blissey",
-    "set": "Neorevelation",
+    "set": "Neo Revelation",
     "era": "Neo",
     "number": "002",
     "sheet_no": "5",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neorevelation/2.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/002.shtml"
+    "url": "https://www.serebii.net/card/neorevelation/002.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neorevelation-045",
     "name": "Goldeen",
-    "set": "Neorevelation",
+    "set": "Neo Revelation",
     "era": "Neo",
     "number": "045",
     "sheet_no": "6",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neorevelation/45.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/045.shtml"
+    "url": "https://www.serebii.net/card/neorevelation/045.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neorevelation-048",
     "name": "Quagsire",
-    "set": "Neorevelation",
+    "set": "Neo Revelation",
     "era": "Neo",
     "number": "048",
     "sheet_no": "7",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neorevelation/48.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/048.shtml"
+    "url": "https://www.serebii.net/card/neorevelation/048.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neorevelation-051",
     "name": "Shuckle",
-    "set": "Neorevelation",
+    "set": "Neo Revelation",
     "era": "Neo",
     "number": "051",
     "sheet_no": "8",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neorevelation/51.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/051.shtml"
+    "url": "https://www.serebii.net/card/neorevelation/051.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-013",
     "name": "Light Azumarill",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "013",
     "sheet_no": "9",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/13.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/013.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/013.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-031",
     "name": "Chansey",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "031",
     "sheet_no": "10",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/31.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/031.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/031.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-044",
     "name": "Jigglypuff",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "044",
     "sheet_no": "11",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/44.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/044.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/044.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-056",
     "name": "Togepi",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "056",
     "sheet_no": "12",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/56.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/056.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/056.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-063",
     "name": "Dratini",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "063",
     "sheet_no": "13",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/63.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/063.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/063.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-066",
     "name": "Girafarig",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "066",
     "sheet_no": "14",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/66.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/066.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/066.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "neodestiny-079",
     "name": "Psyduck",
-    "set": "Neodestiny",
+    "set": "Neo Destiny",
     "era": "Neo",
     "number": "079",
     "sheet_no": "15",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/neodestiny/79.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/079.shtml"
+    "url": "https://www.serebii.net/card/neodestiny/079.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-125",
@@ -173,7 +548,32 @@
     "sheet_no": "16",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/125.jpg",
-    "url": "https://www.serebii.net/card/expedition/125.shtml"
+    "url": "https://www.serebii.net/card/expedition/125.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-128",
@@ -184,7 +584,32 @@
     "sheet_no": "17",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/128.jpg",
-    "url": "https://www.serebii.net/card/expedition/128.shtml"
+    "url": "https://www.serebii.net/card/expedition/128.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-131",
@@ -195,7 +620,32 @@
     "sheet_no": "18",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/131.jpg",
-    "url": "https://www.serebii.net/card/expedition/131.shtml"
+    "url": "https://www.serebii.net/card/expedition/131.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-136",
@@ -206,7 +656,32 @@
     "sheet_no": "19",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/136.jpg",
-    "url": "https://www.serebii.net/card/expedition/136.shtml"
+    "url": "https://www.serebii.net/card/expedition/136.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-060",
@@ -217,7 +692,32 @@
     "sheet_no": "20",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/60.jpg",
-    "url": "https://www.serebii.net/card/expedition/060.shtml"
+    "url": "https://www.serebii.net/card/expedition/060.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-024",
@@ -228,7 +728,32 @@
     "sheet_no": "21",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/24.jpg",
-    "url": "https://www.serebii.net/card/expedition/024.shtml"
+    "url": "https://www.serebii.net/card/expedition/024.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "expedition-089",
@@ -239,7 +764,32 @@
     "sheet_no": "22",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/expedition/89.jpg",
-    "url": "https://www.serebii.net/card/expedition/089.shtml"
+    "url": "https://www.serebii.net/card/expedition/089.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-jumpluff-holo",
@@ -250,18 +800,82 @@
     "sheet_no": "23",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/17.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/017.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/017.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "ecard2-lanturn-holo",
     "name": "Lanturn HOLO",
-    "set": "Ecard2",
+    "set": "Aquapolis",
     "era": "e-cards",
     "number": "",
     "sheet_no": "24",
     "owned": "no",
     "imageUrl": "https://images.pokemontcg.io/ecard2/165.png",
-    "url": "https://images.pokemontcg.io/ecard2/165.png"
+    "url": "https://images.pokemontcg.io/ecard2/165.png",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-017",
@@ -272,7 +886,32 @@
     "sheet_no": "25",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/17.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/017.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/017.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-021",
@@ -283,7 +922,32 @@
     "sheet_no": "26",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/21.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/021.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/021.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-060",
@@ -294,7 +958,32 @@
     "sheet_no": "27",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/60.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/060.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/060.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-070",
@@ -305,7 +994,32 @@
     "sheet_no": "28",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/70.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/070.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/070.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-083",
@@ -316,7 +1030,32 @@
     "sheet_no": "29",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/83.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/083.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/083.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "aquapolis-090",
@@ -327,7 +1066,32 @@
     "sheet_no": "30",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/aquapolis/90.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/090.shtml"
+    "url": "https://www.serebii.net/card/aquapolis/090.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "skyridge-107",
@@ -338,29 +1102,118 @@
     "sheet_no": "31",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/skyridge/107.jpg",
-    "url": "https://www.serebii.net/card/skyridge/107.shtml"
+    "url": "https://www.serebii.net/card/skyridge/107.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "ecard3-piloswine-holo",
     "name": "Piloswine HOLO",
-    "set": "Ecard3",
+    "set": "Mysterious Mountains",
     "era": "e-cards",
     "number": "",
     "sheet_no": "32",
     "owned": "no",
     "imageUrl": "https://images.pokemontcg.io/ecard3/172.png",
-    "url": "https://images.pokemontcg.io/ecard3/172.png"
+    "url": "https://images.pokemontcg.io/ecard3/172.png",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "ecard3-raichu-holo",
     "name": "Raichu HOLO",
-    "set": "Ecard3",
+    "set": "Mysterious Mountains",
     "era": "e-cards",
     "number": "",
     "sheet_no": "33",
     "owned": "no",
     "imageUrl": "https://images.pokemontcg.io/ecard3/175.png",
-    "url": "https://images.pokemontcg.io/ecard3/175.png"
+    "url": "https://images.pokemontcg.io/ecard3/175.png",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "skyridge-024",
@@ -371,7 +1224,32 @@
     "sheet_no": "34",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/skyridge/24.jpg",
-    "url": "https://www.serebii.net/card/skyridge/024.shtml"
+    "url": "https://www.serebii.net/card/skyridge/024.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "skyridge-027",
@@ -382,7 +1260,32 @@
     "sheet_no": "35",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/skyridge/27.jpg",
-    "url": "https://www.serebii.net/card/skyridge/027.shtml"
+    "url": "https://www.serebii.net/card/skyridge/027.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "skyridge-053",
@@ -393,7 +1296,32 @@
     "sheet_no": "36",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/skyridge/53.jpg",
-    "url": "https://www.serebii.net/card/skyridge/053.shtml"
+    "url": "https://www.serebii.net/card/skyridge/053.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "skyridge-084",
@@ -404,7 +1332,32 @@
     "sheet_no": "37",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/skyridge/84.jpg",
-    "url": "https://www.serebii.net/card/skyridge/084.shtml"
+    "url": "https://www.serebii.net/card/skyridge/084.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-081",
@@ -415,7 +1368,32 @@
     "sheet_no": "38",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/81.jpg",
-    "url": "https://www.serebii.net/card/vs/081.shtml"
+    "url": "https://www.serebii.net/card/vs/081.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-084",
@@ -426,7 +1404,32 @@
     "sheet_no": "39",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/84.jpg",
-    "url": "https://www.serebii.net/card/vs/084.shtml"
+    "url": "https://www.serebii.net/card/vs/084.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-083",
@@ -437,7 +1440,32 @@
     "sheet_no": "40",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/83.jpg",
-    "url": "https://www.serebii.net/card/vs/083.shtml"
+    "url": "https://www.serebii.net/card/vs/083.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-082",
@@ -448,7 +1476,32 @@
     "sheet_no": "41",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/82.jpg",
-    "url": "https://www.serebii.net/card/vs/082.shtml"
+    "url": "https://www.serebii.net/card/vs/082.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-086",
@@ -459,7 +1512,32 @@
     "sheet_no": "42",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/86.jpg",
-    "url": "https://www.serebii.net/card/vs/086.shtml"
+    "url": "https://www.serebii.net/card/vs/086.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vs-085",
@@ -470,744 +1548,1898 @@
     "sheet_no": "43",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/vs/85.jpg",
-    "url": "https://www.serebii.net/card/vs/085.shtml"
+    "url": "https://www.serebii.net/card/vs/085.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exunseenforces-021",
     "name": "Cleffa",
-    "set": "Exunseenforces",
+    "set": "Unseen Forces",
     "era": "EX",
     "number": "021",
     "sheet_no": "44",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exunseenforces/21.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/021.shtml"
+    "url": "https://www.serebii.net/card/exunseenforces/021.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exunseenforces-023",
     "name": "Elekid",
-    "set": "Exunseenforces",
+    "set": "Unseen Forces",
     "era": "EX",
     "number": "023",
     "sheet_no": "45",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exunseenforces/23.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/023.shtml"
+    "url": "https://www.serebii.net/card/exunseenforces/023.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exunseenforces-031",
     "name": "Smoochum",
-    "set": "Exunseenforces",
+    "set": "Unseen Forces",
     "era": "EX",
     "number": "031",
     "sheet_no": "46",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exunseenforces/31.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/031.shtml"
+    "url": "https://www.serebii.net/card/exunseenforces/031.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exunseenforces-033",
     "name": "Tyrogue",
-    "set": "Exunseenforces",
+    "set": "Unseen Forces",
     "era": "EX",
     "number": "033",
     "sheet_no": "47",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exunseenforces/33.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/033.shtml"
+    "url": "https://www.serebii.net/card/exunseenforces/033.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-035",
     "name": "Ditto",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "035",
     "sheet_no": "48",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/35.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/035.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/035.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-036",
     "name": "Ditto BULBASAUR",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "036",
     "sheet_no": "49",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/36.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/036.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/036.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-037",
     "name": "Ditto CHARMANDER 2",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "037",
     "sheet_no": "50",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/37.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/037.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/037.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-038",
     "name": "Ditto MR MIME",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "038",
     "sheet_no": "51",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/38.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/038.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/038.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-039",
     "name": "Ditto PIKACHU",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "039",
     "sheet_no": "52",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/39.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/039.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/039.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-040",
     "name": "Ditto SQUIRTLE 2",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "040",
     "sheet_no": "53",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/40.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/040.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/040.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-061",
     "name": "Ditto CHARMANDER",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "061",
     "sheet_no": "54",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/61.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/061.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/061.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-062",
     "name": "Ditto GEODUDE",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "062",
     "sheet_no": "55",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/62.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/062.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/062.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-063",
     "name": "Ditto PIKACHU",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "063",
     "sheet_no": "56",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/63.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/063.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/063.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeltaspecies-064",
     "name": "Ditto SQUIRTLE",
-    "set": "Exdeltaspecies",
+    "set": "Delta Species",
     "era": "EX",
     "number": "064",
     "sheet_no": "57",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/64.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/064.shtml"
+    "url": "https://www.serebii.net/card/exdeltaspecies/064.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exlegendmaker-058",
     "name": "Magby",
-    "set": "Exlegendmaker",
+    "set": "Legend Maker",
     "era": "EX",
     "number": "058",
     "sheet_no": "58",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exlegendmaker/58.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/058.shtml"
+    "url": "https://www.serebii.net/card/exlegendmaker/058.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exlegendmaker-061",
     "name": "Seedot",
-    "set": "Exlegendmaker",
+    "set": "Legend Maker",
     "era": "EX",
     "number": "061",
     "sheet_no": "59",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exlegendmaker/61.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/061.shtml"
+    "url": "https://www.serebii.net/card/exlegendmaker/061.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exlegendmaker-071",
     "name": "Wynaut",
-    "set": "Exlegendmaker",
+    "set": "Legend Maker",
     "era": "EX",
     "number": "071",
     "sheet_no": "60",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exlegendmaker/71.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/071.shtml"
+    "url": "https://www.serebii.net/card/exlegendmaker/071.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragonfrontiers-027",
     "name": "Croconaw 未",
-    "set": "Exdragonfrontiers",
+    "set": "Dragon Frontiers",
     "era": "EX",
     "number": "027",
     "sheet_no": "61",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/27.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/027.shtml"
+    "url": "https://www.serebii.net/card/exdragonfrontiers/027.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragonfrontiers-030",
     "name": "Flaaffy 未",
-    "set": "Exdragonfrontiers",
+    "set": "Dragon Frontiers",
     "era": "EX",
     "number": "030",
     "sheet_no": "62",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/30.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/030.shtml"
+    "url": "https://www.serebii.net/card/exdragonfrontiers/030.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragonfrontiers-044",
     "name": "Chikorita 未",
-    "set": "Exdragonfrontiers",
+    "set": "Dragon Frontiers",
     "era": "EX",
     "number": "044",
     "sheet_no": "63",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/44.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/044.shtml"
+    "url": "https://www.serebii.net/card/exdragonfrontiers/044.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragonfrontiers-047",
     "name": "Ekans 未",
-    "set": "Exdragonfrontiers",
+    "set": "Dragon Frontiers",
     "era": "EX",
     "number": "047",
     "sheet_no": "64",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/47.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/047.shtml"
+    "url": "https://www.serebii.net/card/exdragonfrontiers/047.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragon-041",
     "name": "Shelgon",
-    "set": "Exdragon",
+    "set": "Dragon",
     "era": "EX",
     "number": "041",
     "sheet_no": "65",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragon/41.jpg",
-    "url": "https://www.serebii.net/card/exdragon/041.shtml"
+    "url": "https://www.serebii.net/card/exdragon/041.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragon-057",
     "name": "Grimer",
-    "set": "Exdragon",
+    "set": "Dragon",
     "era": "EX",
     "number": "057",
     "sheet_no": "66",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragon/57.jpg",
-    "url": "https://www.serebii.net/card/exdragon/057.shtml"
+    "url": "https://www.serebii.net/card/exdragon/057.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragon-069",
     "name": "Numel",
-    "set": "Exdragon",
+    "set": "Dragon",
     "era": "EX",
     "number": "069",
     "sheet_no": "67",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragon/69.jpg",
-    "url": "https://www.serebii.net/card/exdragon/069.shtml"
+    "url": "https://www.serebii.net/card/exdragon/069.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdragon-078",
     "name": "Trapinch",
-    "set": "Exdragon",
+    "set": "Dragon",
     "era": "EX",
     "number": "078",
     "sheet_no": "68",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdragon/78.jpg",
-    "url": "https://www.serebii.net/card/exdragon/078.shtml"
+    "url": "https://www.serebii.net/card/exdragon/078.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exhiddenlegends-016",
     "name": "Bellossom",
-    "set": "Exhiddenlegends",
+    "set": "Hidden Legends",
     "era": "EX",
     "number": "016",
     "sheet_no": "69",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exhiddenlegends/16.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/016.shtml"
+    "url": "https://www.serebii.net/card/exhiddenlegends/016.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exhiddenlegends-035",
     "name": "Gloom",
-    "set": "Exhiddenlegends",
+    "set": "Hidden Legends",
     "era": "EX",
     "number": "035",
     "sheet_no": "70",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exhiddenlegends/35.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/035.shtml"
+    "url": "https://www.serebii.net/card/exhiddenlegends/035.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exhiddenlegends-050",
     "name": "Swalot",
-    "set": "Exhiddenlegends",
+    "set": "Hidden Legends",
     "era": "EX",
     "number": "050",
     "sheet_no": "71",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exhiddenlegends/50.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/050.shtml"
+    "url": "https://www.serebii.net/card/exhiddenlegends/050.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exhiddenlegends-062",
     "name": "Gulpin",
-    "set": "Exhiddenlegends",
+    "set": "Hidden Legends",
     "era": "EX",
     "number": "062",
     "sheet_no": "72",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exhiddenlegends/62.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/062.shtml"
+    "url": "https://www.serebii.net/card/exhiddenlegends/062.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exhiddenlegends-068",
     "name": "Oddish",
-    "set": "Exhiddenlegends",
+    "set": "Hidden Legends",
     "era": "EX",
     "number": "068",
     "sheet_no": "73",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exhiddenlegends/68.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/068.shtml"
+    "url": "https://www.serebii.net/card/exhiddenlegends/068.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exfireredandleafgreen-014",
     "name": "Slowbro",
-    "set": "Exfireredandleafgreen",
+    "set": " Fire Red & Leaf Green",
     "era": "EX",
     "number": "014",
     "sheet_no": "74",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/14.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/014.shtml"
+    "url": "https://www.serebii.net/card/exfireredandleafgreen/014.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exfireredandleafgreen-030",
     "name": "Tangela",
-    "set": "Exfireredandleafgreen",
+    "set": " Fire Red & Leaf Green",
     "era": "EX",
     "number": "030",
     "sheet_no": "75",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/30.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/030.shtml"
+    "url": "https://www.serebii.net/card/exfireredandleafgreen/030.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exfireredandleafgreen-043",
     "name": "Parasect",
-    "set": "Exfireredandleafgreen",
+    "set": " Fire Red & Leaf Green",
     "era": "EX",
     "number": "043",
     "sheet_no": "76",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/43.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/043.shtml"
+    "url": "https://www.serebii.net/card/exfireredandleafgreen/043.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exfireredandleafgreen-072",
     "name": "Paras",
-    "set": "Exfireredandleafgreen",
+    "set": " Fire Red & Leaf Green",
     "era": "EX",
     "number": "072",
     "sheet_no": "77",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/72.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/072.shtml"
+    "url": "https://www.serebii.net/card/exfireredandleafgreen/072.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exfireredandleafgreen-080",
     "name": "Slowpoke",
-    "set": "Exfireredandleafgreen",
+    "set": " Fire Red & Leaf Green",
     "era": "EX",
     "number": "080",
     "sheet_no": "78",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/80.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/080.shtml"
+    "url": "https://www.serebii.net/card/exfireredandleafgreen/080.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exteamrocketreturns-021",
     "name": "Delibird",
-    "set": "Exteamrocketreturns",
+    "set": "Rocket Gang Strikes Back",
     "era": "EX",
     "number": "021",
     "sheet_no": "79",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/21.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/021.shtml"
+    "url": "https://www.serebii.net/card/exteamrocketreturns/021.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exteamrocketreturns-022",
     "name": "Furret",
-    "set": "Exteamrocketreturns",
+    "set": "Rocket Gang Strikes Back",
     "era": "EX",
     "number": "022",
     "sheet_no": "80",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/22.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/022.shtml"
+    "url": "https://www.serebii.net/card/exteamrocketreturns/022.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exteamrocketreturns-075",
     "name": "Sentret",
-    "set": "Exteamrocketreturns",
+    "set": "Rocket Gang Strikes Back",
     "era": "EX",
     "number": "075",
     "sheet_no": "81",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/75.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/075.shtml"
+    "url": "https://www.serebii.net/card/exteamrocketreturns/075.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exteamrocketreturns-078",
     "name": "Spinarak",
-    "set": "Exteamrocketreturns",
+    "set": "Rocket Gang Strikes Back",
     "era": "EX",
     "number": "078",
     "sheet_no": "82",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/78.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/078.shtml"
+    "url": "https://www.serebii.net/card/exteamrocketreturns/078.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeoxys-029",
     "name": "Xatu",
-    "set": "Exdeoxys",
+    "set": "Deoxys",
     "era": "EX",
     "number": "029",
     "sheet_no": "83",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeoxys/29.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/029.shtml"
+    "url": "https://www.serebii.net/card/exdeoxys/029.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeoxys-030",
     "name": "Donphan",
-    "set": "Exdeoxys",
+    "set": "Deoxys",
     "era": "EX",
     "number": "030",
     "sheet_no": "84",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeoxys/30.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/030.shtml"
+    "url": "https://www.serebii.net/card/exdeoxys/030.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeoxys-066",
     "name": "Natu",
-    "set": "Exdeoxys",
+    "set": "Deoxys",
     "era": "EX",
     "number": "066",
     "sheet_no": "85",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeoxys/66.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/066.shtml"
+    "url": "https://www.serebii.net/card/exdeoxys/066.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exdeoxys-069",
     "name": "Phanpy",
-    "set": "Exdeoxys",
+    "set": "Deoxys",
     "era": "EX",
     "number": "069",
     "sheet_no": "86",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeoxys/69.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/069.shtml"
+    "url": "https://www.serebii.net/card/exdeoxys/069.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exemerald-024",
     "name": "Claydol",
-    "set": "Exemerald",
+    "set": "Emerald",
     "era": "EX",
     "number": "024",
     "sheet_no": "87",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exemerald/24.jpg",
-    "url": "https://www.serebii.net/card/exemerald/024.shtml"
+    "url": "https://www.serebii.net/card/exemerald/024.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exemerald-034",
     "name": "Linoone",
-    "set": "Exemerald",
+    "set": "Emerald",
     "era": "EX",
     "number": "034",
     "sheet_no": "88",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exemerald/34.jpg",
-    "url": "https://www.serebii.net/card/exemerald/034.shtml"
+    "url": "https://www.serebii.net/card/exemerald/034.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exemerald-043",
     "name": "Baltoy",
-    "set": "Exemerald",
+    "set": "Emerald",
     "era": "EX",
     "number": "043",
     "sheet_no": "89",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exemerald/43.jpg",
-    "url": "https://www.serebii.net/card/exemerald/043.shtml"
+    "url": "https://www.serebii.net/card/exemerald/043.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "exemerald-074",
     "name": "Zigzagoon",
-    "set": "Exemerald",
+    "set": "Emerald",
     "era": "EX",
     "number": "074",
     "sheet_no": "90",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exemerald/74.jpg",
-    "url": "https://www.serebii.net/card/exemerald/074.shtml"
+    "url": "https://www.serebii.net/card/exemerald/074.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mysterioustreasures-105",
     "name": "Teddiursa",
-    "set": "Mysterioustreasures",
+    "set": "Mysterious Treasures",
     "era": "Diamond Pearl",
     "number": "105",
     "sheet_no": "91",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/mysterioustreasures/105.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/105.shtml"
+    "url": "https://www.serebii.net/card/mysterioustreasures/105.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mysterioustreasures-052",
     "name": "Happiny",
-    "set": "Mysterioustreasures",
+    "set": "Mysterious Treasures",
     "era": "Diamond Pearl",
     "number": "052",
     "sheet_no": "92",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/mysterioustreasures/52.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/052.shtml"
+    "url": "https://www.serebii.net/card/mysterioustreasures/052.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "burger_king_collection_2008": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mysterioustreasures-071",
     "name": "Aron",
-    "set": "Mysterioustreasures",
+    "set": "Mysterious Treasures",
     "era": "Diamond Pearl",
     "number": "071",
     "sheet_no": "93",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/mysterioustreasures/71.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/071.shtml"
+    "url": "https://www.serebii.net/card/mysterioustreasures/071.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mysterioustreasures-093",
     "name": "Pichu",
-    "set": "Mysterioustreasures",
+    "set": "Mysterious Treasures",
     "era": "Diamond Pearl",
     "number": "093",
     "sheet_no": "94",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/mysterioustreasures/93.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/093.shtml"
+    "url": "https://www.serebii.net/card/mysterioustreasures/093.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mysterioustreasures-099",
     "name": "Slakoth",
-    "set": "Mysterioustreasures",
+    "set": "Mysterious Treasures",
     "era": "Diamond Pearl",
     "number": "099",
     "sheet_no": "95",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/mysterioustreasures/99.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/099.shtml"
+    "url": "https://www.serebii.net/card/mysterioustreasures/099.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "stormfront-033",
     "name": "Budew",
-    "set": "Stormfront",
+    "set": "Storm Front",
     "era": "Diamond Pearl",
     "number": "033",
     "sheet_no": "96",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/stormfront/33.jpg",
-    "url": "https://www.serebii.net/card/stormfront/033.shtml"
+    "url": "https://www.serebii.net/card/stormfront/033.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "stormfront-054",
     "name": "Bidoof",
-    "set": "Stormfront",
+    "set": "Storm Front",
     "era": "Diamond Pearl",
     "number": "054",
     "sheet_no": "97",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/stormfront/54.jpg",
-    "url": "https://www.serebii.net/card/stormfront/054.shtml"
+    "url": "https://www.serebii.net/card/stormfront/054.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "stormfront-063",
     "name": "Happiny",
-    "set": "Stormfront",
+    "set": "Storm Front",
     "era": "Diamond Pearl",
     "number": "063",
     "sheet_no": "98",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/stormfront/63.jpg",
-    "url": "https://www.serebii.net/card/stormfront/063.shtml"
+    "url": "https://www.serebii.net/card/stormfront/063.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dpt-p-squirtle",
     "name": "Squirtle",
-    "set": "Dpt P",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "",
     "sheet_no": "99",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dpt-p/9.jpg",
-    "url": "https://www.serebii.net/card/dpt-p/009.shtml"
+    "url": "https://www.serebii.net/card/dpt-p/009.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dpt-p-bulbasaur",
     "name": "Bulbasaur",
-    "set": "Dpt P",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "",
     "sheet_no": "100",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dpt-p/30.jpg",
-    "url": "https://www.serebii.net/card/dpt-p/030.shtml"
+    "url": "https://www.serebii.net/card/dpt-p/030.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-pikachu-tokyo",
     "name": "Pikachu TOKYO",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "",
     "sheet_no": "101",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/98.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/098.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/098.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-pikachu-fukuoka",
     "name": "Pikachu FUKUOKA",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "102",
     "sheet_no": "102",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/102.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/102.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/102.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-pikachu-nagoya",
     "name": "Pikachu NAGOYA",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "101",
     "sheet_no": "103",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/101.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/101.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/101.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-pikachu-osaka",
     "name": "Pikachu OSAKA",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "100",
     "sheet_no": "104",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/100.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/100.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/100.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-pikachu-yokohama",
     "name": "Pikachu YOKOHAMA",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "99",
     "sheet_no": "105",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/99.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/99.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/99.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-charmander",
     "name": "Charmander",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "124",
     "sheet_no": "106",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/124.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/124.shtml"
+    "url": "https://www.serebii.net/card/dp-ppromos/124.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dp-ppromos-treecko",
     "name": "Treecko",
-    "set": "Dp Ppromos",
+    "set": "Dpt-P",
     "era": "10th Anniversary Promos",
     "number": "37",
     "sheet_no": "107",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/pcgpromos/37.jpg",
-    "url": "https://www.serebii.net/card/pcgpromos/037.shtml"
+    "url": "https://www.serebii.net/card/pcgpromos/037.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "popseries2-016",
     "name": "Pikachu",
-    "set": "Popseries2",
+    "set": " POP Series 2",
     "era": "POP series",
     "number": "016",
     "sheet_no": "108",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/popseries2/16.jpg",
-    "url": "https://www.serebii.net/card/popseries2/016.shtml"
+    "url": "https://www.serebii.net/card/popseries2/016.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "popseries3-012",
     "name": "Ditto MR MIME",
-    "set": "Popseries3",
+    "set": " POP Series 3",
     "era": "POP series",
     "number": "012",
     "sheet_no": "109",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/popseries3/12.jpg",
-    "url": "https://www.serebii.net/card/popseries3/012.shtml"
+    "url": "https://www.serebii.net/card/popseries3/012.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "popseries8-014",
     "name": "Happiny",
-    "set": "Popseries8",
+    "set": " POP Series 8",
     "era": "POP series",
     "number": "014",
     "sheet_no": "110",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/popseries8/14.jpg",
-    "url": "https://www.serebii.net/card/popseries8/014.shtml"
+    "url": "https://www.serebii.net/card/popseries8/014.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-103",
@@ -1218,7 +3450,25 @@
     "sheet_no": "111",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/platinum/103.jpg",
-    "url": "https://www.serebii.net/card/platinum/103.shtml"
+    "url": "https://www.serebii.net/card/platinum/103.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-080",
@@ -1229,7 +3479,25 @@
     "sheet_no": "112",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/platinum/80.jpg",
-    "url": "https://www.serebii.net/card/platinum/080.shtml"
+    "url": "https://www.serebii.net/card/platinum/080.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-082",
@@ -1240,7 +3508,25 @@
     "sheet_no": "113",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/platinum/82.jpg",
-    "url": "https://www.serebii.net/card/platinum/082.shtml"
+    "url": "https://www.serebii.net/card/platinum/082.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-132",
@@ -1251,7 +3537,25 @@
     "sheet_no": "115",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/supremevictors/132.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/132.shtml"
+    "url": "https://www.serebii.net/card/supremevictors/132.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-071",
@@ -1262,7 +3566,25 @@
     "sheet_no": "116",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/supremevictors/71.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/071.shtml"
+    "url": "https://www.serebii.net/card/supremevictors/071.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "platinum-076",
@@ -1273,7 +3595,25 @@
     "sheet_no": "117",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/supremevictors/76.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/076.shtml"
+    "url": "https://www.serebii.net/card/supremevictors/076.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "arceus-060",
@@ -1284,7 +3624,25 @@
     "sheet_no": "118",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/arceus/60.jpg",
-    "url": "https://www.serebii.net/card/arceus/060.shtml"
+    "url": "https://www.serebii.net/card/arceus/060.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "arceus-075",
@@ -1295,62 +3653,170 @@
     "sheet_no": "119",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/arceus/75.jpg",
-    "url": "https://www.serebii.net/card/arceus/075.shtml"
+    "url": "https://www.serebii.net/card/arceus/075.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "heartgoldsoulsilver-013",
     "name": "Wobbuffet",
-    "set": "Heartgoldsoulsilver",
+    "set": "HeartGold & SoulSilver",
     "era": "Heart Gold Soul Silver",
     "number": "013",
     "sheet_no": "120",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/13.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/013.shtml"
+    "url": "https://www.serebii.net/card/heartgoldsoulsilver/013.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "heartgoldsoulsilver-025",
     "name": "Ledian",
-    "set": "Heartgoldsoulsilver",
+    "set": "HeartGold & SoulSilver",
     "era": "Heart Gold Soul Silver",
     "number": "025",
     "sheet_no": "121",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/25.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/025.shtml"
+    "url": "https://www.serebii.net/card/heartgoldsoulsilver/025.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "heartgoldsoulsilver-031",
     "name": "Sunflora",
-    "set": "Heartgoldsoulsilver",
+    "set": "HeartGold & SoulSilver",
     "era": "Heart Gold Soul Silver",
     "number": "031",
     "sheet_no": "122",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/31.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/031.shtml"
+    "url": "https://www.serebii.net/card/heartgoldsoulsilver/031.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "heartgoldsoulsilver-071",
     "name": "Ledyba",
-    "set": "Heartgoldsoulsilver",
+    "set": "HeartGold & SoulSilver",
     "era": "Heart Gold Soul Silver",
     "number": "071",
     "sheet_no": "123",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/71.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/071.shtml"
+    "url": "https://www.serebii.net/card/heartgoldsoulsilver/071.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
-    {
+  {
     "id": "heartgoldsoulsilver-085",
     "name": "Sunkern",
-    "set": "HeartGoldSoulSilver",
+    "set": "HeartGold & SoulSilver",
     "era": "Heart Gold Soul Silver",
     "number": "085",
     "sheet_no": "124",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/85.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/085.shtml"
+    "url": "https://www.serebii.net/card/heartgoldsoulsilver/085.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "undaunted-006",
@@ -1361,7 +3827,25 @@
     "sheet_no": "125",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/undaunted/6.jpg",
-    "url": "https://www.serebii.net/card/undaunted/006.shtml"
+    "url": "https://www.serebii.net/card/undaunted/006.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "undaunted-067",
@@ -1372,7 +3856,25 @@
     "sheet_no": "126",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/undaunted/67.jpg",
-    "url": "https://www.serebii.net/card/undaunted/067.shtml"
+    "url": "https://www.serebii.net/card/undaunted/067.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "triumphant-015",
@@ -1383,7 +3885,25 @@
     "sheet_no": "127",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/triumphant/15.jpg",
-    "url": "https://www.serebii.net/card/triumphant/015.shtml"
+    "url": "https://www.serebii.net/card/triumphant/015.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "Triumphant-058",
@@ -1394,128 +3914,344 @@
     "sheet_no": "128",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/triumphant/58.jpg",
-    "url": "https://www.serebii.net/card/triumphant/058.shtml"
+    "url": "https://www.serebii.net/card/triumphant/058.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "legendarytreasures-083",
     "name": "Stunfisk",
-    "set": "Legendarytreasures",
+    "set": "Legendary Treasures",
     "era": "Black and White",
     "number": "083",
     "sheet_no": "129",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/legendarytreasures/83.jpg",
-    "url": "https://www.serebii.net/card/legendarytreasures/083.shtml"
+    "url": "https://www.serebii.net/card/legendarytreasures/083.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "legendarytreasures-009",
     "name": "Sewaddle",
-    "set": "Legendarytreasures",
+    "set": "Legendary Treasures",
     "era": "Black and White",
     "number": "009",
     "sheet_no": "130",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/legendarytreasures/9.jpg",
-    "url": "https://www.serebii.net/card/legendarytreasures/009.shtml"
+    "url": "https://www.serebii.net/card/legendarytreasures/009.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "steamsiege-012",
     "name": "Foongus",
-    "set": "Steamsiege",
+    "set": "Steam Siege",
     "era": "X&Y",
     "number": "012",
     "sheet_no": "131",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/steamsiege/12.jpg",
-    "url": "https://www.serebii.net/card/steamsiege/012.shtml"
+    "url": "https://www.serebii.net/card/steamsiege/012.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "primalclash-113",
     "name": "Skitty",
-    "set": "Primalclash",
+    "set": "Primal Clash",
     "era": "X&Y",
     "number": "113",
     "sheet_no": "132",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/primalclash/113.jpg",
-    "url": "https://www.serebii.net/card/primalclash/113.shtml"
+    "url": "https://www.serebii.net/card/primalclash/113.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "primalclash-087",
     "name": "Hippopotas",
-    "set": "Primalclash",
+    "set": "Primal Clash",
     "era": "X&Y",
     "number": "087",
     "sheet_no": "133",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/primalclash/87.jpg",
-    "url": "https://www.serebii.net/card/primalclash/087.shtml"
+    "url": "https://www.serebii.net/card/primalclash/087.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "roaringskies-068",
     "name": "Dunsparce",
-    "set": "RoaringSkies",
+    "set": "Roaring Skies",
     "era": "X&Y",
     "number": "068",
     "sheet_no": "134",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/roaringskies/68.jpg",
-    "url": "https://www.serebii.net/card/roaringskies/068.shtml"
+    "url": "https://www.serebii.net/card/roaringskies/068.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "ancientorigins-047",
     "name": "Beldum",
-    "set": "AncientOrigins",
+    "set": "Ancient Origins",
     "era": "X&Y",
     "number": "047",
     "sheet_no": "135",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/ancientorigins/47.jpg",
-    "url": "https://www.serebii.net/card/ancientorigins/047.shtml"
+    "url": "https://www.serebii.net/card/ancientorigins/047.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "breakthrough-004",
     "name": "Cacnea",
-    "set": "BreakThrough",
+    "set": "Break Through",
     "era": "X&Y",
     "number": "004",
     "sheet_no": "136",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/breakthrough/4.jpg",
-    "url": "https://www.serebii.net/card/breakthrough/004.shtml"
+    "url": "https://www.serebii.net/card/breakthrough/004.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "breakthrough-098",
     "name": "Snubbull",
-    "set": "BreakThrough",
+    "set": "Break Through",
     "era": "X&Y",
     "number": "098",
     "sheet_no": "137",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/breakthrough/98.jpg",
-    "url": "https://www.serebii.net/card/breakthrough/098.shtml"
+    "url": "https://www.serebii.net/card/breakthrough/098.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "breakpoint-072",
     "name": "Nuzleaf",
-    "set": "BreakPoint",
+    "set": "Break Point",
     "era": "X&Y",
     "number": "072",
     "sheet_no": "138",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/breakpoint/72.jpg",
-    "url": "https://www.serebii.net/card/breakpoint/072.shtml"
+    "url": "https://www.serebii.net/card/breakpoint/072.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "fatescollide-049",
     "name": "Carbink",
-    "set": "FatesCollide",
+    "set": "Fates Collide",
     "era": "X&Y",
     "number": "049",
     "sheet_no": "139",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/fatescollide/49.jpg",
-    "url": "https://www.serebii.net/card/fatescollide/049.shtml"
+    "url": "https://www.serebii.net/card/fatescollide/049.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "generations-H19",
@@ -1526,897 +4262,2366 @@
     "sheet_no": "140",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/generations/h19.jpg",
-    "url": "https://www.serebii.net/card/generations/H19.shtml"
+    "url": "https://www.serebii.net/card/generations/H19.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "sunmoon-002",
     "name": "Metapod",
-    "set": "Sunmoon",
+    "set": "Sun & Moon",
     "era": "Sun & Moon",
     "number": "002",
     "sheet_no": "141",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/sunmoon/2.jpg",
-    "url": "https://www.serebii.net/card/sunmoon/002.shtml"
+    "url": "https://www.serebii.net/card/sunmoon/002.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "guardiansrising-050",
     "name": "Trubbish",
-    "set": "Guardiansrising",
+    "set": "Guardians Rising",
     "era": "Sun & Moon",
     "number": "050",
     "sheet_no": "143",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/guardiansrising/50.jpg",
-    "url": "https://www.serebii.net/card/guardiansrising/050.shtml"
+    "url": "https://www.serebii.net/card/guardiansrising/050.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "guardiansrising-052",
     "name": "Gothita",
-    "set": "Guardiansrising",
+    "set": "Guardians Rising",
     "era": "Sun & Moon",
     "number": "052",
     "sheet_no": "144",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/guardiansrising/52.jpg",
-    "url": "https://www.serebii.net/card/guardiansrising/052.shtml"
+    "url": "https://www.serebii.net/card/guardiansrising/052.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "crimsoninvasion-016",
     "name": "Starmie",
-    "set": "Crimsoninvasion",
+    "set": "Crimson Invasion",
     "era": "Sun & Moon",
     "number": "016",
     "sheet_no": "145",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/crimsoninvasion/16.jpg",
-    "url": "https://www.serebii.net/card/crimsoninvasion/016.shtml"
+    "url": "https://www.serebii.net/card/crimsoninvasion/016.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "crimsoninvasion-051",
     "name": "Primeape",
-    "set": "Crimsoninvasion",
+    "set": "Crimson Invasion",
     "era": "Sun & Moon",
     "number": "051",
     "sheet_no": "146",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/crimsoninvasion/51.jpg",
-    "url": "https://www.serebii.net/card/crimsoninvasion/051.shtml"
+    "url": "https://www.serebii.net/card/crimsoninvasion/051.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "forbiddenlight-001",
     "name": "Exeggcute",
-    "set": "Forbiddenlight",
+    "set": "Forbidden Light",
     "era": "Sun & Moon",
     "number": "001",
     "sheet_no": "147",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/forbiddenlight/1.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/001.shtml"
+    "url": "https://www.serebii.net/card/forbiddenlight/001.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "forbiddenlight-018",
     "name": "Litleo",
-    "set": "Forbiddenlight",
+    "set": "Forbidden Light",
     "era": "Sun & Moon",
     "number": "018",
     "sheet_no": "148",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/forbiddenlight/18.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/018.shtml"
+    "url": "https://www.serebii.net/card/forbiddenlight/018.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "forbiddenlight-066",
     "name": "Binacle",
-    "set": "Forbiddenlight",
+    "set": "Forbidden Light",
     "era": "Sun & Moon",
     "number": "066",
     "sheet_no": "149",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/forbiddenlight/66.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/066.shtml"
+    "url": "https://www.serebii.net/card/forbiddenlight/066.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "celestialstorm-057",
     "name": "Gulpin",
-    "set": "Celestialstorm",
+    "set": "Celestial Storm",
     "era": "Sun & Moon",
     "number": "057",
     "sheet_no": "150",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/celestialstorm/57.jpg",
-    "url": "https://www.serebii.net/card/celestialstorm/057.shtml"
+    "url": "https://www.serebii.net/card/celestialstorm/057.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "celestialstorm-058",
     "name": "Swalot",
-    "set": "Celestialstorm",
+    "set": "Celestial Storm",
     "era": "Sun & Moon",
     "number": "058",
     "sheet_no": "151",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/celestialstorm/58.jpg",
-    "url": "https://www.serebii.net/card/celestialstorm/058.shtml"
+    "url": "https://www.serebii.net/card/celestialstorm/058.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "dragonmajesty-043",
     "name": "Shelgon",
-    "set": "Dragonmajesty",
+    "set": "Dragon Majesty",
     "era": "Sun & Moon",
     "number": "043",
     "sheet_no": "152",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dragonmajesty/43.jpg",
-    "url": "https://www.serebii.net/card/dragonmajesty/043.shtml"
+    "url": "https://www.serebii.net/card/dragonmajesty/043.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostthunder-116",
     "name": "Pupitar",
-    "set": "Lostthunder",
+    "set": "Lost Thunder",
     "era": "Sun & Moon",
     "number": "116",
     "sheet_no": "153",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/lostthunder/116.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/116.shtml"
+    "url": "https://www.serebii.net/card/lostthunder/116.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostthunder-123",
     "name": "Alolan Dugtrio",
-    "set": "Lostthunder",
+    "set": "Lost Thunder",
     "era": "Sun & Moon",
     "number": "123",
     "sheet_no": "154",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/lostthunder/123.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/123.shtml"
+    "url": "https://www.serebii.net/card/lostthunder/123.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostthunder-139",
     "name": "Ralts",
-    "set": "Lostthunder",
+    "set": "Lost Thunder",
     "era": "Sun & Moon",
     "number": "139",
     "sheet_no": "155",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/lostthunder/139.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/139.shtml"
+    "url": "https://www.serebii.net/card/lostthunder/139.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostthunder-080",
     "name": "Pachirisu",
-    "set": "Lostthunder",
+    "set": "Lost Thunder",
     "era": "Sun & Moon",
     "number": "080",
     "sheet_no": "156",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/lostthunder/80.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/080.shtml"
+    "url": "https://www.serebii.net/card/lostthunder/080.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "teamup-004",
     "name": "Kakuna",
-    "set": "Teamup",
+    "set": "Team Up",
     "era": "Sun & Moon",
     "number": "004",
     "sheet_no": "157",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-004-kakuna.jpg",
-    "url": "https://pkmncards.com/card/kakuna-team-up-teu-4/"
+    "url": "https://pkmncards.com/card/kakuna-team-up-teu-4/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "teamup-035",
     "name": "Alolan Geodude",
-    "set": "Teamup",
+    "set": "Team Up",
     "era": "Sun & Moon",
     "number": "035",
     "sheet_no": "158",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-035-alolan_geodude.jpg",
-    "url": "https://pkmncards.com/card/alolan-geodude-team-up-teu-35/"
+    "url": "https://pkmncards.com/card/alolan-geodude-team-up-teu-35/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "teamup-047",
     "name": "Joltik",
-    "set": "Teamup",
+    "set": "Team Up",
     "era": "Sun & Moon",
     "number": "047",
     "sheet_no": "159",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-047-joltik.jpg",
-    "url": "https://pkmncards.com/card/joltik-team-up-teu-47/"
+    "url": "https://pkmncards.com/card/joltik-team-up-teu-47/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "teamup-081",
     "name": "Pancham",
-    "set": "Teamup",
+    "set": "Team Up",
     "era": "Sun & Moon",
     "number": "081",
     "sheet_no": "160",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-081-pancham.jpg",
-    "url": "https://pkmncards.com/card/pancham-team-up-teu-81/"
+    "url": "https://pkmncards.com/card/pancham-team-up-teu-81/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unbrokenbonds-010",
     "name": "Venonat",
-    "set": "Unbrokenbonds",
+    "set": "Unbroken Bonds",
     "era": "Sun & Moon",
     "number": "010",
     "sheet_no": "161",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-010-venonat.jpg",
-    "url": "https://pkmncards.com/card/venonat-unbroken-bonds-unb-10/"
+    "url": "https://pkmncards.com/card/venonat-unbroken-bonds-unb-10/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unbrokenbonds-018",
     "name": "Grubbin",
-    "set": "Unbrokenbonds",
+    "set": "Unbroken Bonds",
     "era": "Sun & Moon",
     "number": "018",
     "sheet_no": "162",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-018-grubbin.jpg",
-    "url": "https://pkmncards.com/card/grubbin-unbroken-bonds-unb-18/"
+    "url": "https://pkmncards.com/card/grubbin-unbroken-bonds-unb-18/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unbrokenbonds-023",
     "name": "Darumaka",
-    "set": "Unbrokenbonds",
+    "set": "Unbroken Bonds",
     "era": "Sun & Moon",
     "number": "023",
     "sheet_no": "163",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-023-darumaka.jpg",
-    "url": "https://pkmncards.com/card/darumaka-unbroken-bonds-unb-23/"
+    "url": "https://pkmncards.com/card/darumaka-unbroken-bonds-unb-23/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unbrokenbonds-113",
     "name": "Sandile",
-    "set": "Unbrokenbonds",
+    "set": "Unbroken Bonds",
     "era": "Sun & Moon",
     "number": "113",
     "sheet_no": "164",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-113-sandile.jpg",
-    "url": "https://pkmncards.com/card/sandile-unbroken-bonds-unb-113/"
+    "url": "https://pkmncards.com/card/sandile-unbroken-bonds-unb-113/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unifiedminds-015",
     "name": "Fomantis",
-    "set": "Unifiedminds",
+    "set": "Unified Minds",
     "era": "Sun & Moon",
     "number": "015",
     "sheet_no": "165",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM11-015-fomantis.jpg",
-    "url": "https://pkmncards.com/card/fomantis-unified-minds-unm-15/"
+    "url": "https://pkmncards.com/card/fomantis-unified-minds-unm-15/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "unifiedminds-111",
     "name": "Relicanth",
-    "set": "Unifiedminds",
+    "set": "Unified Minds",
     "era": "Sun & Moon",
     "number": "111",
     "sheet_no": "166",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM11-111-relicanth.jpg",
-    "url": "https://pkmncards.com/card/relicanth-unified-minds-unm-111/"
+    "url": "https://pkmncards.com/card/relicanth-unified-minds-unm-111/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "cosmiceclipse-017",
     "name": "Rowlet",
-    "set": "Cosmiceclipse",
+    "set": "Cosmic Eclipse",
     "era": "Sun & Moon",
     "number": "017",
     "sheet_no": "167",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM12-017-rowlet.jpg",
-    "url": "https://pkmncards.com/card/rowlet-cosmic-eclipse-cec-17/"
+    "url": "https://pkmncards.com/card/rowlet-cosmic-eclipse-cec-17/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "cosmiceclipse-097",
     "name": "Mimikyu",
-    "set": "Cosmiceclipse",
+    "set": "Cosmic Eclipse",
     "era": "Sun & Moon",
     "number": "097",
     "sheet_no": "168",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM12-097-mimikyu.jpg",
-    "url": "https://pkmncards.com/card/mimikyu-cosmic-eclipse-cec-97/"
+    "url": "https://pkmncards.com/card/mimikyu-cosmic-eclipse-cec-97/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "sunmoonpromos-sm229",
     "name": "Venusaur & Snivy GX",
-    "set": "Sunmoonpromos",
+    "set": "Promo",
     "era": "Sun & Moon",
     "number": "SM229",
     "sheet_no": "169",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM229-venusaur_snivy_gx-1.jpg",
-    "url": "https://pkmncards.com/card/venusaur-snivy-gx-sun-moon-promos-smp-sm229/"
+    "url": "https://pkmncards.com/card/venusaur-snivy-gx-sun-moon-promos-smp-sm229/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "ssh-ferroseed-sword-shield-ssh-130",
     "name": "Ferroseed",
-    "set": "Ssh",
+    "set": "Sword & Shield ",
     "era": "Sword & Shield",
     "number": "130",
     "sheet_no": "170",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH1-130-ferroseed.jpg",
-    "url": "https://pkmncards.com/card/ferroseed-sword-shield-ssh-130/"
+    "url": "https://pkmncards.com/card/ferroseed-sword-shield-ssh-130/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "rcl-sandygast-rebel-clash-rcl-081",
     "name": "Sandygast",
-    "set": "Rcl",
+    "set": "Rebel Clash",
     "era": "Sword & Shield",
     "number": "081",
     "sheet_no": "171",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-081-sandygast.jpg",
-    "url": "https://pkmncards.com/card/sandygast-rebel-clash-rcl-081/"
+    "url": "https://pkmncards.com/card/sandygast-rebel-clash-rcl-081/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "rcl-bunnelby-rebel-clash-rcl-146",
     "name": "Bunnelby",
-    "set": "Rcl",
+    "set": "Rebel Clash",
     "era": "Sword & Shield",
     "number": "146",
     "sheet_no": "172",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-146-bunnelby.jpg",
-    "url": "https://pkmncards.com/card/bunnelby-rebel-clash-rcl-146/"
+    "url": "https://pkmncards.com/card/bunnelby-rebel-clash-rcl-146/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "darknessablaze-014",
     "name": "Bounsweet",
-    "set": "Darknessablaze",
+    "set": "Darkness Ablaze",
     "era": "Sword & Shield",
     "number": "014",
     "sheet_no": "173",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH3-014-bounsweet.jpg",
-    "url": "https://pkmncards.com/card/bounsweet-darkness-ablaze-daa-014/"
+    "url": "https://pkmncards.com/card/bounsweet-darkness-ablaze-daa-014/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "darknessablaze-022",
     "name": "Torchic",
-    "set": "Darknessablaze",
+    "set": "Darkness Ablaze",
     "era": "Sword & Shield",
     "number": "022",
     "sheet_no": "174",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH3-022-torchic.jpg",
-    "url": "https://pkmncards.com/card/torchic-darkness-ablaze-daa-022/"
+    "url": "https://pkmncards.com/card/torchic-darkness-ablaze-daa-022/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "championspath-002",
     "name": "Weedle",
-    "set": "Championspath",
+    "set": "Champions Path",
     "era": "Sword & Shield",
     "number": "002",
     "sheet_no": "175",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CP-002-weedle.jpg",
-    "url": "https://pkmncards.com/card/weedle-champions-path-cpa-002/"
+    "url": "https://pkmncards.com/card/weedle-champions-path-cpa-002/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vividvoltage-077",
     "name": "Dedenne",
-    "set": "Vividvoltage",
+    "set": "Vivid Voltage",
     "era": "Sword & Shield",
     "number": "077",
     "sheet_no": "176",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-077-dedenne.jpg",
-    "url": "https://pkmncards.com/card/dedenne-vivid-voltage-viv-077/"
+    "url": "https://pkmncards.com/card/dedenne-vivid-voltage-viv-077/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vividvoltage-091",
     "name": "Drilbur",
-    "set": "Vividvoltage",
+    "set": "Vivid Voltage",
     "era": "Sword & Shield",
     "number": "091",
     "sheet_no": "177",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-091-drilbur.jpg",
-    "url": "https://pkmncards.com/card/drilbur-vivid-voltage-viv-091/"
+    "url": "https://pkmncards.com/card/drilbur-vivid-voltage-viv-091/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "vividvoltage-133",
     "name": "Taillow",
-    "set": "Vividvoltage",
+    "set": "Vivid Voltage",
     "era": "Sword & Shield",
     "number": "133",
     "sheet_no": "178",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-133-taillow.jpg",
-    "url": "https://pkmncards.com/card/taillow-vivid-voltage-viv-133/"
+    "url": "https://pkmncards.com/card/taillow-vivid-voltage-viv-133/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "battlestyles-027",
     "name": "Salandit",
-    "set": "Battlestyles",
+    "set": "Battle Styles",
     "era": "Sword & Shield",
     "number": "027",
     "sheet_no": "179",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-027-salandit.jpg",
-    "url": "https://pkmncards.com/card/salandit-battle-styles-bst-027/"
+    "url": "https://pkmncards.com/card/salandit-battle-styles-bst-027/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "battlestyles-029",
     "name": "Sizzlipede",
-    "set": "Battlestyles",
+    "set": "Battle Styles",
     "era": "Sword & Shield",
     "number": "029",
     "sheet_no": "180",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-029-sizzlipede.jpg",
-    "url": "https://pkmncards.com/card/sizzlipede-battle-styles-bst-029/"
+    "url": "https://pkmncards.com/card/sizzlipede-battle-styles-bst-029/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "chillingreign-022",
     "name": "Castform Sunny Form",
-    "set": "Chillingreign",
+    "set": "Chilling Reign",
     "era": "Sword & Shield",
     "number": "022",
     "sheet_no": "181",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH6-022-castform_sunny_form.jpg",
-    "url": "https://pkmncards.com/card/castform-sunny-form-chilling-reign-cre-022/"
+    "url": "https://pkmncards.com/card/castform-sunny-form-chilling-reign-cre-022/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "chillingreign-091",
     "name": "Clobbopus",
-    "set": "Chillingreign",
+    "set": "Chilling Reign",
     "era": "Sword & Shield",
     "number": "091",
     "sheet_no": "182",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH6-091-clobbopus.jpg",
-    "url": "https://pkmncards.com/card/clobbopus-chilling-reign-cre-091/"
+    "url": "https://pkmncards.com/card/clobbopus-chilling-reign-cre-091/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "evolvingskies-068",
     "name": "Woobat",
-    "set": "Evolvingskies",
+    "set": "Evolving Skies",
     "era": "Sword & Shield",
     "number": "068",
     "sheet_no": "183",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-068-woobat.jpg",
-    "url": "https://pkmncards.com/card/woobat-evolving-skies-evs-068/"
+    "url": "https://pkmncards.com/card/woobat-evolving-skies-evs-068/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "evolvingskies-076",
     "name": "Pumpkaboo",
-    "set": "Evolvingskies",
+    "set": "Evolving Skies",
     "era": "Sword & Shield",
     "number": "076",
     "sheet_no": "184",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-076-pumpkaboo.jpg",
-    "url": "https://pkmncards.com/card/pumpkaboo-evolving-skies-evs-076/"
+    "url": "https://pkmncards.com/card/pumpkaboo-evolving-skies-evs-076/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "fusionstrike-084",
     "name": "Snom",
-    "set": "Fusionstrike",
+    "set": "Fusion Strike",
     "era": "Sword & Shield",
     "number": "084",
     "sheet_no": "185",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-084-snom.jpg",
-    "url": "https://pkmncards.com/card/snom-fusion-strike-fst-084/"
+    "url": "https://pkmncards.com/card/snom-fusion-strike-fst-084/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "fusionstrike-095",
     "name": "Tynamo",
-    "set": "Fusionstrike",
+    "set": "Fusion Strike",
     "era": "Sword & Shield",
     "number": "095",
     "sheet_no": "186",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-095-tynamo.jpg",
-    "url": "https://pkmncards.com/card/tynamo-fusion-strike-fst-095/"
+    "url": "https://pkmncards.com/card/tynamo-fusion-strike-fst-095/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "fusionstrike-131",
     "name": "Sandshrew",
-    "set": "Fusionstrike",
+    "set": "Fusion Strike",
     "era": "Sword & Shield",
     "number": "131",
     "sheet_no": "187",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-131-sandshrew.jpg",
-    "url": "https://pkmncards.com/card/sandshrew-fusion-strike-fst-131/"
+    "url": "https://pkmncards.com/card/sandshrew-fusion-strike-fst-131/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "brilliantstars-010",
     "name": "Wormadam",
-    "set": "Brilliantstars",
+    "set": "Brilliant Stars",
     "era": "Sword & Shield",
     "number": "010",
     "sheet_no": "188",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-010-wormadam-1.jpg",
-    "url": "https://pkmncards.com/card/wormadam-brilliant-stars-brs-010/"
+    "url": "https://pkmncards.com/card/wormadam-brilliant-stars-brs-010/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "brilliantstars-030",
     "name": "Staryu",
-    "set": "Brilliantstars",
+    "set": "Brilliant Stars",
     "era": "Sword & Shield",
     "number": "030",
     "sheet_no": "189",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-030-staryu-1.jpg",
-    "url": "https://pkmncards.com/card/staryu-brilliant-stars-brs-030/"
+    "url": "https://pkmncards.com/card/staryu-brilliant-stars-brs-030/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "astralradiance-109",
     "name": "Shieldon",
-    "set": "Astralradiance",
+    "set": "Astral Radiance",
     "era": "Sword & Shield",
     "number": "109",
     "sheet_no": "190",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH10-109-shieldon.jpg",
-    "url": "https://pkmncards.com/card/shieldon-astral-radiance-asr-109/"
+    "url": "https://pkmncards.com/card/shieldon-astral-radiance-asr-109/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "pokemongo-006",
     "name": "Spinarak",
-    "set": "Pokemongo",
+    "set": "Pokemon Go",
     "era": "Sword & Shield",
     "number": "006",
     "sheet_no": "191",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-PGO-006-spinarak.jpg",
-    "url": "https://pkmncards.com/card/spinarak-pokemon-go-pgo-006/"
+    "url": "https://pkmncards.com/card/spinarak-pokemon-go-pgo-006/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostorigin-011",
     "name": "Seedot",
-    "set": "Lostorigin",
+    "set": "Lost Origin",
     "era": "Sword & Shield",
     "number": "011",
     "sheet_no": "192",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-011-seedot-1.jpg",
-    "url": "https://pkmncards.com/card/seedot-lost-origin-lor-011/"
+    "url": "https://pkmncards.com/card/seedot-lost-origin-lor-011/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostorigin-024",
     "name": "Litwick",
-    "set": "Lostorigin",
+    "set": "Lost Origin",
     "era": "Sword & Shield",
     "number": "024",
     "sheet_no": "193",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-024-litwick.jpg",
-    "url": "https://pkmncards.com/card/litwick-lost-origin-lor-024/"
+    "url": "https://pkmncards.com/card/litwick-lost-origin-lor-024/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostorigin-046",
     "name": "Ducklett",
-    "set": "Lostorigin",
+    "set": "Lost Origin",
     "era": "Sword & Shield",
     "number": "046",
     "sheet_no": "194",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-046-ducklett.jpg",
-    "url": "https://pkmncards.com/card/ducklett-lost-origin-lor-046/"
+    "url": "https://pkmncards.com/card/ducklett-lost-origin-lor-046/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostorigin-086",
     "name": "Machop",
-    "set": "Lostorigin",
+    "set": "Lost Origin",
     "era": "Sword & Shield",
     "number": "086",
     "sheet_no": "195",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-086-machop.jpg",
-    "url": "https://pkmncards.com/card/machop-lost-origin-lor-086/"
+    "url": "https://pkmncards.com/card/machop-lost-origin-lor-086/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "lostorigin-114",
     "name": "Murkrow",
-    "set": "Lostorigin",
+    "set": "Lost Origin",
     "era": "Sword & Shield",
     "number": "114",
     "sheet_no": "196",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-114-murkrow.jpg",
-    "url": "https://pkmncards.com/card/murkrow-lost-origin-lor-114/"
+    "url": "https://pkmncards.com/card/murkrow-lost-origin-lor-114/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "silvertempest-093",
     "name": "Baltoy",
-    "set": "Silvertempest",
+    "set": "Silver Tempest",
     "era": "Sword & Shield",
     "number": "093",
     "sheet_no": "197",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH12-093-baltoy.jpg",
-    "url": "https://pkmncards.com/card/baltoy-silver-tempest-sit-093/"
+    "url": "https://pkmncards.com/card/baltoy-silver-tempest-sit-093/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "crownzenith-092",
     "name": "Pawniard",
-    "set": "Crownzenith",
+    "set": "Crown Zenith",
     "era": "Sword & Shield",
     "number": "092",
     "sheet_no": "198",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-092-pawniard.jpg",
-    "url": "https://pkmncards.com/card/pawniard-crown-zenith-crz-092/"
+    "url": "https://pkmncards.com/card/pawniard-crown-zenith-crz-092/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "crownzenith-drapionv",
     "name": "Drapion V",
-    "set": "Crownzenith",
+    "set": "Crown Zenith",
     "era": "Sword & Shield",
     "number": "GG51",
     "sheet_no": "199",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-GG049-drapion_v.jpg",
-    "url": "https://pkmncards.com/card/drapion-v-crown-zenith-crz-gg49/"
+    "url": "https://pkmncards.com/card/drapion-v-crown-zenith-crz-gg49/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "svi-stonjourner-scarlet-violet-svi-121",
     "name": "Stonjourner",
-    "set": "Svi",
+    "set": "Scarlet & Violet",
     "era": "Scarlet & Violet",
     "number": "121",
     "sheet_no": "200",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv1_en_121.png",
-    "url": "https://pkmncards.com/card/stonjourner-scarlet-violet-svi-121/"
+    "url": "https://pkmncards.com/card/stonjourner-scarlet-violet-svi-121/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "svi-starly-scarlet-violet-svi-148",
     "name": "Starly",
-    "set": "Svi",
+    "set": "Scarlet & Violet",
     "era": "Scarlet & Violet",
     "number": "148",
     "sheet_no": "201",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv1_en_148.png",
-    "url": "https://pkmncards.com/card/starly-scarlet-violet-svi-148/"
+    "url": "https://pkmncards.com/card/starly-scarlet-violet-svi-148/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "pal-pincurchin-paldea-evolved-pal-072",
     "name": "Pincurchin",
-    "set": "Pal",
+    "set": "Paldea Evolved",
     "era": "Scarlet & Violet",
     "number": "072",
     "sheet_no": "202",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv2_en_072.jpg",
-    "url": "https://pkmncards.com/card/pincurchin-paldea-evolved-pal-072/"
+    "url": "https://pkmncards.com/card/pincurchin-paldea-evolved-pal-072/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "obf-larvesta-obsidian-flames-obf-040",
     "name": "Larvesta",
-    "set": "Obf",
+    "set": "Obsidian Flames",
     "era": "Scarlet & Violet",
     "number": "040",
     "sheet_no": "203",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_040.jpg",
-    "url": "https://pkmncards.com/card/larvesta-obsidian-flames-obf-040/"
+    "url": "https://pkmncards.com/card/larvesta-obsidian-flames-obf-040/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "obf-clefairy-obsidian-flames-obf-081",
     "name": "Clefairy",
-    "set": "Obf",
+    "set": "Obsidian Flames",
     "era": "Scarlet & Violet",
     "number": "081",
     "sheet_no": "204",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_081.jpg",
-    "url": "https://pkmncards.com/card/clefairy-obsidian-flames-obf-081/"
+    "url": "https://pkmncards.com/card/clefairy-obsidian-flames-obf-081/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "obf-sinistea-obsidian-flames-obf-097",
     "name": "Sinistea",
-    "set": "Obf",
+    "set": "Obsidian Flames",
     "era": "Scarlet & Violet",
     "number": "097",
     "sheet_no": "205",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_097.jpg",
-    "url": "https://pkmncards.com/card/sinistea-obsidian-flames-obf-097/"
+    "url": "https://pkmncards.com/card/sinistea-obsidian-flames-obf-097/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "obf-lillipup-obsidian-flames-obf-170",
     "name": "Lillipup",
-    "set": "Obf",
+    "set": "Obsidian Flames",
     "era": "Scarlet & Violet",
     "number": "170",
     "sheet_no": "206",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_170.jpg",
-    "url": "https://pkmncards.com/card/lillipup-obsidian-flames-obf-170/"
+    "url": "https://pkmncards.com/card/lillipup-obsidian-flames-obf-170/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mew-magnemite-151-mew-081",
     "name": "Magnemite",
-    "set": "Mew",
+    "set": "151",
     "era": "Scarlet & Violet",
     "number": "081",
     "sheet_no": "207",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3-5_en_081_std.jpg",
-    "url": "https://pkmncards.com/card/magnemite-151-mew-081/"
+    "url": "https://pkmncards.com/card/magnemite-151-mew-081/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "mew-magneton-151-mew-082",
     "name": "Magneton",
-    "set": "Mew",
+    "set": "151",
     "era": "Scarlet & Violet",
     "number": "082",
     "sheet_no": "208",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3-5_en_082_std.jpg",
-    "url": "https://pkmncards.com/card/magneton-151-mew-082/"
+    "url": "https://pkmncards.com/card/magneton-151-mew-082/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "par-octillery-paradox-rift-par-034",
     "name": "Octillery",
-    "set": "Par",
+    "set": "Paradox Rift",
     "era": "Scarlet & Violet",
     "number": "034",
     "sheet_no": "209",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_034_std.jpg",
-    "url": "https://pkmncards.com/card/octillery-paradox-rift-par-034/"
+    "url": "https://pkmncards.com/card/octillery-paradox-rift-par-034/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "par-toxel-paradox-rift-par-069",
     "name": "Toxel",
-    "set": "Par",
+    "set": "Paradox Rift",
     "era": "Scarlet & Violet",
     "number": "069",
     "sheet_no": "210",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_069_std.jpg",
-    "url": "https://pkmncards.com/card/toxel-paradox-rift-par-069/"
+    "url": "https://pkmncards.com/card/toxel-paradox-rift-par-069/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "par-aipom-paradox-rift-par-211",
     "name": "Aipom",
-    "set": "Par",
+    "set": "Paradox Rift",
     "era": "Scarlet & Violet",
     "number": "211",
     "sheet_no": "211",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_211_std.jpg",
-    "url": "https://pkmncards.com/card/aipom-paradox-rift-par-211/"
+    "url": "https://pkmncards.com/card/aipom-paradox-rift-par-211/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "tef-minccino-temporal-forces-tef-136",
     "name": "Minccino",
-    "set": "Tef",
+    "set": "Temporal Forces",
     "era": "Scarlet & Violet",
     "number": "136",
     "sheet_no": "213",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/sv5_en_136_std.jpg",
-    "url": "https://pkmncards.com/card/minccino-temporal-forces-tef-136/"
+    "url": "https://pkmncards.com/card/minccino-temporal-forces-tef-136/",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "twilightmasquerade-056",
     "name": "Froakie",
-    "set": "Twilightmasquerade",
+    "set": "Twilight Masquerade",
     "era": "Scarlet & Violet",
     "number": "056",
     "sheet_no": "214",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/twilightmasquerade/56.jpg",
-    "url": "https://www.serebii.net/card/twilightmasquerade/056.shtml"
+    "url": "https://www.serebii.net/card/twilightmasquerade/056.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "stellarcrown-102",
     "name": "Meltan",
-    "set": "Stellarcrown",
+    "set": "Stellar Crown",
     "era": "Scarlet & Violet",
     "number": "102",
     "sheet_no": "215",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/stellarcrown/102.jpg",
-    "url": "https://www.serebii.net/card/stellarcrown/102.shtml"
+    "url": "https://www.serebii.net/card/stellarcrown/102.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "stellarcrown-043",
     "name": "Chewtle",
-    "set": "Stellarcrown",
+    "set": "Stellar Crown",
     "era": "Scarlet & Violet",
     "number": "043",
     "sheet_no": "216",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/stellarcrown/43.jpg",
-    "url": "https://www.serebii.net/card/stellarcrown/043.shtml"
+    "url": "https://www.serebii.net/card/stellarcrown/043.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "surgingsparks-138",
     "name": "Applin",
-    "set": "Surgingsparks",
+    "set": "Surging Sparks",
     "era": "Scarlet & Violet",
     "number": "138",
     "sheet_no": "217",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/surgingsparks/138.jpg",
-    "url": "https://www.serebii.net/card/surgingsparks/138.shtml"
+    "url": "https://www.serebii.net/card/surgingsparks/138.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "journeytogether-009",
     "name": "Karrablast",
-    "set": "Journeytogether",
+    "set": "Journey Together",
     "era": "Scarlet & Violet",
     "number": "009",
     "sheet_no": "218",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/journeytogether/9.jpg",
-    "url": "https://www.serebii.net/card/journeytogether/009.shtml"
+    "url": "https://www.serebii.net/card/journeytogether/009.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "destinedrivals-021",
     "name": "Smoliv",
-    "set": "Destinedrivals",
+    "set": "Destined Rivals",
     "era": "Scarlet & Violet",
     "number": "021",
     "sheet_no": "219",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/destinedrivals/21.jpg",
-    "url": "https://www.serebii.net/card/destinedrivals/021.shtml"
+    "url": "https://www.serebii.net/card/destinedrivals/021.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "blackbolt-141",
     "name": "Klinklang",
-    "set": "Blackbolt",
+    "set": "Black Bolt",
     "era": "Scarlet & Violet",
     "number": "141",
     "sheet_no": "220",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/blackbolt/141.jpg",
-    "url": "https://www.serebii.net/card/blackbolt/141.shtml"
+    "url": "https://www.serebii.net/card/blackbolt/141.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "whiteflare-070",
     "name": "Durant",
-    "set": "Whiteflare",
+    "set": "White Flare",
     "era": "Scarlet & Violet",
     "number": "070",
     "sheet_no": "221",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/whiteflare/70.jpg",
-    "url": "https://www.serebii.net/card/whiteflare/070.shtml"
+    "url": "https://www.serebii.net/card/whiteflare/070.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "megaevolution-052",
     "name": "Helioptile",
-    "set": "MegaEvolution",
+    "set": "Mega Evolution",
     "era": "Mega Evolution",
     "number": "052",
     "sheet_no": "222",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/megaevolution/52.jpg",
-    "url": "https://www.serebii.net/card/megaevolution/052.shtml"
+    "url": "https://www.serebii.net/card/megaevolution/052.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   },
   {
     "id": "phantasmalflames-009",
     "name": "Nymble",
-    "set": "PhantasmalFlames",
+    "set": "Phantasmal Flames",
     "era": "Mega Evolution",
     "number": "009",
     "sheet_no": "232",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/phantasmalflames/9.jpg",
-    "url": "https://www.serebii.net/card/phantasmalflames/009.shtml"
+    "url": "https://www.serebii.net/card/phantasmalflames/009.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
   }
 ]
