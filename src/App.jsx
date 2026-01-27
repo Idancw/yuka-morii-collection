@@ -308,6 +308,141 @@ function App() {
     alert('Share link copied to clipboard!');
   };
 
+  const getVariationBadges = (variations) => {
+    const badges = [];
+
+    if (!variations) return badges;
+
+    // Countdown Calendar & Holiday Calendar
+    if (variations.countdown_calendar?.count > 0 || variations.holiday_calender_2023?.count > 0) {
+      badges.push({
+        type: 'calendar',
+        icon: 'https://cdn-icons-png.flaticon.com/512/9141/9141642.png',
+        alt: 'Calendar'
+      });
+    }
+
+    // Burger King Collection
+    if (variations.burger_king_collection_2008?.count > 0) {
+      badges.push({
+        type: 'burger_king',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/1024px-Burger_King_2020.svg.png',
+        alt: 'BK'
+      });
+    }
+
+    // First Edition
+    if (variations.first_edition?.count > 0 || variations.first_edition_holo?.count > 0) {
+      badges.push({
+        type: 'first_edition',
+        icon: 'https://archives.bulbagarden.net/media/upload/0/0b/1st_edition_English.png',
+        alt: '1st Ed'
+      });
+    }
+
+    // McDonald's Collections
+    if (variations["McDonal's_collections_2015"]?.count > 0) {
+      badges.push({
+        type: 'mcdonalds',
+        icon: 'https://static.tcgcollector.com/content/images/cd/68/ae/cd68aeeb12917f049a96466cda6f49c05f048663cf3a20b8102675037122767d.png',
+        alt: "McDonald's"
+      });
+    }
+
+    // Trick or Trade
+    if (variations.trick_or_trade_2023?.count > 0) {
+      badges.push({
+        type: 'trick_or_trade',
+        icon: 'https://static.tcgcollector.com/content/images/56/f2/0b/56f20b33b7fdbc299dcb083234a867e7df37aa7c468e1123f41c5affdb154c27.png',
+        alt: 'Trick or Trade'
+      });
+    }
+
+    // Comic-Con
+    if (variations['comic-con_san_diego_2007']?.count > 0) {
+      badges.push({
+        type: 'comic_con',
+        icon: 'https://play-lh.googleusercontent.com/gNToWY4-nL4_uKA93aQw6qFmG8nE4Ukq6TX9RGaOZ8CxObRDKBoZOHlP2c5CyXPGXA=w600-h300-pc0xffffff-pd',
+        alt: 'Comic-Con'
+      });
+    }
+
+    if (variations['world_championship_deck_2004:_Blaziken_teach']?.count > 0) {
+      badges.push({
+        type: 'world_championship_2004_blaziken_teach',
+        icon: 'https://static.tcgcollector.com/content/images/75/5f/25/755f25350a035533604832c437246b15b214a631d319a8e59ed760572b603eaf.png',
+        alt: 'World Championship 2004: Blaziken Teach'
+      });
+    }
+
+    if (variations['tropical_mega_battle_2001']?.count > 0) {
+      badges.push({
+        type: 'tropical_mega_battle_2001',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/tropicalMegaBattle2001.webp',
+        alt: 'Tropical Mega Battle 2001'
+      });
+    }
+
+    // Pokemon Center
+    if (variations.pokemon_center?.count > 0) {
+      badges.push({
+        type: 'pokemon_center',
+        icon: 'https://www.clipartmax.com/png/middle/30-301097_logo-pkmn-center-by-honokawa-pokemon-center.png',
+        alt: 'Pokemon Center'
+      });
+    }
+
+    // 10th Anniversary
+    if (variations['10th_anniversary']?.count > 0) {
+      badges.push({
+        type: '10th_anniversary',
+        icon: 'https://www.clipartmax.com/png/middle/213-2131138_pokémon-10th-anniversary-pokemon-10th-anniversary-logo.png',
+        alt: '10th Anniversary'
+      });
+    }
+
+    // Prerelease/Expansion Stamp
+    const hasStamp = Object.keys(variations).some(key =>
+      (key.includes('expansion_stamp') || key.includes('PRERELESE_stamp')) && variations[key]?.count > 0
+    );
+    if (hasStamp) {
+      badges.push({
+        type: 'stamp',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/StampVariant.webp',
+        alt: 'Stamp'
+      });
+    }
+
+    // Play! Pokemon
+    if (variations['play!_pokemon']?.count > 0) {
+      badges.push({
+        type: 'play_pokemon',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/PlayPokemonVariant.webp',
+        alt: 'Play! Pokemon'
+      });
+    }
+
+    // Cosmos Holo
+    if (variations.cosmos_holo?.count > 0) {
+      badges.push({
+        type: 'cosmos_holo',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/HoloVariant.webp',
+        alt: 'Cosmos Holo'
+      });
+    }
+
+    // Unpeeled Ditto
+    if (variations.unpeeled_ditto?.count > 0) {
+      badges.push({
+        type: 'ditto',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/UnpeeledDittoVariant.webp',
+        alt: 'Ditto'
+      });
+    }
+
+    return badges;
+  };
+
   const toggleLanguage = (cardId, variationType, language, e) => {
     if (e) e.stopPropagation();
     if (isViewOnly) return;
@@ -813,49 +948,11 @@ function App() {
               const variations = card.variations || {};
               const totalCopies = Object.values(variations).reduce((sum, v) => sum + (v.count || 0), 0);
               const hasReverseHolo = variations.reverse_holo && (variations.reverse_holo.count > 0);
-              const hasSpecialVariant = Object.keys(variations).some(key =>
-                key !== 'normal' && key !== 'reverse_holo' && (variations[key].count > 0)
-              );
               const isOrdered = Object.values(variations).some(v => v.ordered === true && v.count === 0);
               const isOwned = totalCopies > 0;
 
-              // Get special variant icon
-              const getSpecialIcon = () => {
-                // Burger King Icon
-                if (variations.burger_king_collection_2008?.count > 0) {
-                  return (
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/1024px-Burger_King_2020.svg.png"
-                      alt="BK"
-                      className="w-5 h-5 object-contain"
-                    />
-                  );
-                }
-
-                // Countdown Calendar
-                if (variations.countdown_calendar?.count > 0) {
-                  return (
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/9141/9141642.png"
-                      alt="BK"
-                      className="w-5 h-5 object-contain"
-                    />
-                  );
-                }
-
-                // 1st Edition Stamp
-                if (variations.first_edition?.count > 0) {
-                  return (
-                    <img
-                      src="https://archives.bulbagarden.net/media/upload/0/0b/1st_edition_English.png"
-                      alt="1st Ed"
-                      className="w-5 h-5 object-contain"
-                    />
-                  );
-                }
-
-                return '⭐';
-              };
+              // Get variation badges (excluding reverse holo which is handled separately)
+              const variationBadges = getVariationBadges(variations);
 
               return (
                 <div
@@ -933,7 +1030,8 @@ function App() {
                       {/* Reverse Holo badge */}
                       {hasReverseHolo && (
                         <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50">
+                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
+                          title="Reverse Holo">
                           <img
                             src="https://static.dextcg.com/resources/variants/alternate/ReverseHoloVariant.webp"
                             alt="Reverse Holo"
@@ -942,13 +1040,20 @@ function App() {
                         </div>
                       )}
 
-                      {/* Special variant badge */}
-                      {hasSpecialVariant && (
+                      {/* Special variation badges */}
+                      {variationBadges.map((badge, index) => (
                         <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg">
-                          {getSpecialIcon()}
+                          key={`${badge.type}-${index}`}
+                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
+                          title={badge.alt}
+                        >
+                          <img
+                            src={badge.icon}
+                            alt={badge.alt}
+                            className="w-5 h-5 object-contain"
+                          />
                         </div>
-                      )}
+                      ))}
                     </div>
                   </div>
 
