@@ -42,7 +42,7 @@ function App() {
 
     if (sharedUserId) {
       setIsViewOnly(true);
-      setUser({ uid: sharedUserId, email: 'Shared Collection' });
+      setUser({uid: sharedUserId, email: 'Shared Collection'});
       loadCards();
       setTimeout(() => loadSharedCollection(sharedUserId), 500);
     } else {
@@ -307,6 +307,39 @@ function App() {
     navigator.clipboard.writeText(shareUrl);
     alert('Share link copied to clipboard!');
   };
+
+  function getExpansionStampMapping() {
+    return {
+      // EX Era
+      "Unseen Forces": "https://static.tcgcollector.com/content/images/8b/69/08/8b690895e437bb8e05703beae93ab969d242e92fa3daf990301884ba09009fda.png",
+      "Delta Species": "https://static.tcgcollector.com/content/images/5c/a6/17/5ca6176f30689b2a44406af607118616d09ecf20e522bd2a317a3cd10a6a1803.png",
+      "Legend Maker": "https://www.tcgcollector.com/sets/1127/ex-legend-maker?setCardCountMode=anyCardVariant",
+      "Dragon Frontiers": "https://static.tcgcollector.com/content/images/8e/2d/44/8e2d443613a9641708c2418af15304a801e6b046367f65c84ba5ec99a4656ca7.png",
+      "Team Rocket Returns": "https://static.tcgcollector.com/content/images/78/8d/13/788d132009893c9127853650d194e307c22e1aa97ae05375504a06433901ff24.png",
+      "Deoxys": "https://static.tcgcollector.com/content/images/0e/15/fb/0e15fbb1fc543fc4ad62aeebcf73d05727768b2f87297116751c1bb668aabdd1.png",
+      "Emerald": "https://static.tcgcollector.com/content/images/f3/1e/52/f31e526e0e5972bc49611b9e96f62318c87558a70f697235b7dfe5dfd0173390.png",
+
+      // Diamond Pearl Era
+      "Mysterious Treasures": "https://static.tcgcollector.com/content/images/3f/a6/4e/3fa64e1cf41c21777401645a08260412a37958e87352306123eabd6a558c8f29.png",
+
+      // Scarlet & Violet Era
+      "Stellar Crown": "https://static.tcgcollector.com/content/images/22/9d/b5/229db50764bfeb9e1a04db5c221fd5d2a4bc0d0e265d719bcc31667705a70de4.png"
+    };
+  }
+
+  function hasExpansionStampOwned(card) {
+    if (!card.variations) return false;
+
+    const expansionStampKey = Object.keys(card.variations).find(key =>
+      key.toLowerCase().includes('expansion') &&
+      key.toLowerCase().includes('stamp')
+    );
+
+    if (!expansionStampKey) return false;
+
+    const variation = card.variations[expansionStampKey];
+    return variation && variation.count > 0;
+  }
 
   const getVariationBadges = (variations) => {
     const badges = [];
@@ -951,6 +984,10 @@ function App() {
               const isOrdered = Object.values(variations).some(v => v.ordered === true && v.count === 0);
               const isOwned = totalCopies > 0;
 
+              const hasExpansionStamp = hasExpansionStampOwned(card);
+              const expansionStampUrl = hasExpansionStamp ? getExpansionStampMapping()[card.set] : null;
+
+
               // Get variation badges (excluding reverse holo which is handled separately)
               const variationBadges = getVariationBadges(variations);
 
@@ -969,6 +1006,21 @@ function App() {
                   <div className="aspect-[2/3] relative bg-slate-900">
                     <img src={card.imageUrl} alt={card.name}
                          className="w-full h-full object-contain p-2"/>
+
+                    {/* Expansion Stamp - Left side */}
+                    {expansionStampUrl && (
+                      <div className="absolute top-1/2 -translate-y-1/2"
+                           style={{left: '75%', transform: 'translate(-60%, -20%)'}}>
+                        <div
+                          className="w-24 h-24 flex items-center justify-center p-1.5">
+                          <img
+                            src={expansionStampUrl}
+                            alt="Expansion Stamp"
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      </div>
+                    )}
 
                     {/* Language badges - top left */}
                     <div className="absolute top-2 left-2 flex flex-col gap-1">
