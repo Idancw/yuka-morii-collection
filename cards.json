@@ -1485,7 +1485,7 @@
           "JP"
         ]
       },
-      "tropical_memga_battle_2001": {
+      "tropical_mega_battle_2001": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3004,7 +3004,7 @@
   {
     "id": "exteamrocketreturns-021",
     "name": "Delibird",
-    "set": "Rocket Gang Strikes Back",
+    "set": "Team Rocket Returns",
     "era": "EX",
     "number": "021",
     "sheet_no": "79",
@@ -3517,7 +3517,7 @@
           "JP"
         ]
       },
-      "buger_king_collection_2008": {
+      "burger_king_collection_2008": {
         "count": 0,
         "ordered": false,
         "languages": [],
