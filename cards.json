@@ -8,7 +8,7 @@
     "sheet_no": "0",
     "owned": "no",
     "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/de/PokémonPlazaCoroCoroPromo.jpg/180px-PokémonPlazaCoroCoroPromo.jpg",
-    "url": "https://bulbapedia.bulbagarden.net/wiki/Pokémon_Plaza_(CoroCoro_promo)",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Plaza_(CoroCoro_promo)",
     "variations": {
       "jumbo": {
         "count": 0,
@@ -383,10 +383,22 @@
     "imageUrl": "https://www.serebii.net/card/neodestiny/31.jpg",
     "url": "https://www.serebii.net/card/neodestiny/031.shtml",
     "variations": {
-      "10th_anniversary": {
+      "normal": {
         "count": 0,
         "ordered": false,
         "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -1820,16 +1832,6 @@
           "EN",
           "JP"
         ]
-      },
-      "origins": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -1980,6 +1982,16 @@
         ]
       },
       "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "origins": {
         "count": 0,
         "ordered": false,
         "languages": [],
