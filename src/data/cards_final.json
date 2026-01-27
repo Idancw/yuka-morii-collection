@@ -1,30 +1,4 @@
 [
-    {
-    "id": "unnumbered-releases-pokemon-plaza-promo",
-    "name": "Pokemon Plaza",
-    "set": "Unnumbered Releases",
-    "era": "Unnumbered Promo",
-    "number": "001",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/de/PokémonPlazaCoroCoroPromo.jpg/180px-PokémonPlazaCoroCoroPromo.jpg",
-    "url": "https://bulbapedia.bulbagarden.net/wiki/Pokémon_Plaza_(CoroCoro_promo)",
-    "variations": {
-      "jumbo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
   {
     "id": "neodiscovery-037",
     "name": "Corsola",
@@ -56,8 +30,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -95,8 +68,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -134,8 +106,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -173,8 +144,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -192,22 +162,21 @@
     "imageUrl": "https://www.serebii.net/card/neorevelation/2.jpg",
     "url": "https://www.serebii.net/card/neorevelation/002.shtml",
     "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "first_edition": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -249,8 +218,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -288,8 +256,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -327,8 +294,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -346,22 +312,21 @@
     "imageUrl": "https://www.serebii.net/card/neodestiny/13.jpg",
     "url": "https://www.serebii.net/card/neodestiny/013.shtml",
     "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "first_edition": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -383,14 +348,27 @@
     "imageUrl": "https://www.serebii.net/card/neodestiny/31.jpg",
     "url": "https://www.serebii.net/card/neodestiny/031.shtml",
     "variations": {
-      "10th_anniversary": {
+      "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
           "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
         ]
       }
     },
@@ -428,8 +406,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -467,8 +444,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -506,8 +482,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -545,8 +520,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -584,8 +558,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -621,6 +594,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -759,22 +742,22 @@
     "imageUrl": "https://www.serebii.net/card/expedition/60.jpg",
     "url": "https://www.serebii.net/card/expedition/060.shtml",
     "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -856,6 +839,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -872,16 +865,32 @@
     "imageUrl": "https://www.serebii.net/card/aquapolis/17.jpg",
     "url": "https://www.serebii.net/card/aquapolis/017.shtml",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
         ]
       }
     },
@@ -899,16 +908,32 @@
     "imageUrl": "https://images.pokemontcg.io/ecard2/165.png",
     "url": "https://images.pokemontcg.io/ecard2/165.png",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
         ]
       }
     },
@@ -1199,16 +1224,32 @@
     "imageUrl": "https://images.pokemontcg.io/ecard3/172.png",
     "url": "https://images.pokemontcg.io/ecard3/172.png",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
         ]
       }
     },
@@ -1226,16 +1267,32 @@
     "imageUrl": "https://images.pokemontcg.io/ecard3/175.png",
     "url": "https://images.pokemontcg.io/ecard3/175.png",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
         ]
       }
     },
@@ -1393,6 +1450,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1415,9 +1482,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1436,13 +1502,14 @@
     "imageUrl": "https://www.serebii.net/card/vs/84.jpg",
     "url": "https://www.serebii.net/card/vs/084.shtml",
     "variations": {
-      "first_edition_(holo)": {
+      "first_edition": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1467,19 +1534,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "tropical_memga_battle_2001": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1504,9 +1560,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1531,9 +1586,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1558,9 +1612,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1585,16 +1638,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -1627,16 +1670,6 @@
           "EN",
           "JP"
         ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -1659,16 +1692,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -1701,16 +1724,6 @@
           "EN",
           "JP"
         ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -1726,28 +1739,7 @@
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/exdeltaspecies/35.jpg",
     "url": "https://www.serebii.net/card/exdeltaspecies/035.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
+    "variations": {},
     "enriched": true,
     "enriched_method": "web_scraping"
   },
@@ -1770,18 +1762,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -1807,28 +1799,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "origins": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -1854,18 +1836,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -1891,18 +1873,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -1928,28 +1910,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "games_expo_2007": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -1975,18 +1947,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2012,18 +1984,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2049,28 +2021,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "comic-con_san_diego_2007": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2096,18 +2058,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2131,16 +2093,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -2173,16 +2125,6 @@
           "EN",
           "JP"
         ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -2205,16 +2147,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -2244,18 +2176,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2281,18 +2213,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2318,18 +2250,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2355,18 +2287,18 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "expansion stamp": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -2402,6 +2334,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -2447,17 +2389,7 @@
           "JP"
         ]
       },
-      "normal_(no_e-reader_logo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo_(no_e-reader_logo)": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2506,17 +2438,7 @@
           "JP"
         ]
       },
-      "normal_(no_e-reader_logo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo_(no_e-reader_logo)": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2565,17 +2487,7 @@
           "JP"
         ]
       },
-      "normal_(no_e-reader_logo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo_(no_e-reader_logo)": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2612,17 +2524,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "world_championship_deck_2004:_Blaziken_teach_by_chris_fulop": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2659,7 +2561,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2696,17 +2598,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "PRERELESE_stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2754,6 +2646,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2782,17 +2684,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "world_championship_deck_2004:_Blaziken_teach_by_chris_fulop": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2818,16 +2710,6 @@
     "url": "https://www.serebii.net/card/exfireredandleafgreen/014.shtml",
     "variations": {
       "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2864,7 +2746,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2901,7 +2783,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2938,7 +2820,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -2975,7 +2857,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3012,7 +2894,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3049,7 +2931,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3086,7 +2968,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3123,7 +3005,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3160,7 +3042,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3197,7 +3079,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3234,7 +3116,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3271,7 +3153,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3308,7 +3190,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3345,7 +3227,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3382,7 +3264,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3419,7 +3301,7 @@
           "JP"
         ]
       },
-      "expansion stamp": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3495,7 +3377,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3503,25 +3385,6 @@
         "available_languages": [
           "EN",
           "JP"
-        ]
-      },
-      "buger_king_collection_2008": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "countdown_calendar": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
         ]
       }
     },
@@ -3590,10 +3453,12 @@
           "JP"
         ]
       },
-      "first_edition": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -3723,7 +3588,7 @@
   },
   {
     "id": "stormfront-063",
-    "name": "Larvitar",
+    "name": "Happiny",
     "set": "Storm Front",
     "era": "Diamond Pearl",
     "number": "063",
@@ -3744,7 +3609,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -3769,181 +3634,6 @@
     "imageUrl": "https://www.serebii.net/card/dpt-p/9.jpg",
     "url": "https://www.serebii.net/card/dpt-p/009.shtml",
     "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dpt-p-bulbasaur",
-    "name": "Bulbasaur",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "",
-    "sheet_no": "100",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dpt-p/30.jpg",
-    "url": "https://www.serebii.net/card/dpt-p/030.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-tokyo",
-    "name": "Pikachu TOKYO",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "",
-    "sheet_no": "101",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/98.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/098.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-fukuoka",
-    "name": "Pikachu FUKUOKA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "102",
-    "sheet_no": "102",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/102.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/102.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-nagoya",
-    "name": "Pikachu NAGOYA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "101",
-    "sheet_no": "103",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/101.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/101.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-osaka",
-    "name": "Pikachu OSAKA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "100",
-    "sheet_no": "104",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/100.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/100.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-yokohama",
-    "name": "Pikachu YOKOHAMA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "99",
-    "sheet_no": "105",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/99.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/99.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-charmander",
-    "name": "Charmander",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "124",
-    "sheet_no": "106",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/124.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/124.shtml",
-    "variations": {
       "normal": {
         "count": 0,
         "ordered": false,
@@ -3971,6 +3661,188 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "dpt-p-bulbasaur",
+    "name": "Bulbasaur",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "",
+    "sheet_no": "100",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dpt-p/30.jpg",
+    "url": "https://www.serebii.net/card/dpt-p/030.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-tokyo",
+    "name": "Pikachu TOKYO",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "",
+    "sheet_no": "101",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/98.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/098.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-fukuoka",
+    "name": "Pikachu FUKUOKA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "102",
+    "sheet_no": "102",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/102.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/102.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-nagoya",
+    "name": "Pikachu NAGOYA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "101",
+    "sheet_no": "103",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/101.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/101.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-osaka",
+    "name": "Pikachu OSAKA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "100",
+    "sheet_no": "104",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/100.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/100.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-yokohama",
+    "name": "Pikachu YOKOHAMA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "99",
+    "sheet_no": "105",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/99.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/99.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-charmander",
+    "name": "Charmander",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "124",
+    "sheet_no": "106",
+    "owned": "no",
+    "imageUrl": "https://www.serebii.net/card/dp-ppromos/124.jpg",
+    "url": "https://www.serebii.net/card/dp-ppromos/124.shtml",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "dp-ppromos-treecko",
     "name": "Treecko",
     "set": "Dpt-P",
@@ -3981,13 +3853,14 @@
     "imageUrl": "https://www.serebii.net/card/pcgpromos/37.jpg",
     "url": "https://www.serebii.net/card/pcgpromos/037.shtml",
     "variations": {
-      "pokemon_center": {
+      "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -4027,6 +3900,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4051,8 +3934,16 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
         ]
       }
     },
@@ -4082,7 +3973,7 @@
           "JP"
         ]
       },
-      "cosmos_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -4224,22 +4115,22 @@
     "imageUrl": "https://www.serebii.net/card/supremevictors/132.jpg",
     "url": "https://www.serebii.net/card/supremevictors/132.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4261,22 +4152,22 @@
     "imageUrl": "https://www.serebii.net/card/supremevictors/71.jpg",
     "url": "https://www.serebii.net/card/supremevictors/071.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4298,22 +4189,22 @@
     "imageUrl": "https://www.serebii.net/card/supremevictors/76.jpg",
     "url": "https://www.serebii.net/card/supremevictors/076.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4413,22 +4304,22 @@
     "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/13.jpg",
     "url": "https://www.serebii.net/card/heartgoldsoulsilver/013.shtml",
     "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4606,22 +4497,22 @@
     "imageUrl": "https://www.serebii.net/card/undaunted/6.jpg",
     "url": "https://www.serebii.net/card/undaunted/006.shtml",
     "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4682,22 +4573,22 @@
     "imageUrl": "https://www.serebii.net/card/triumphant/15.jpg",
     "url": "https://www.serebii.net/card/triumphant/015.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4781,6 +4672,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4820,6 +4721,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4854,6 +4765,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -4899,27 +4820,7 @@
           "JP"
         ]
       },
-      "xy_trainer_kit:_latios_half_deck_1": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "xy_trainer_kit:_latios_half_deck_27": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "McDonal's_collections_2015": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -4962,6 +4863,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5045,6 +4956,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5079,6 +5000,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5123,6 +5054,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5157,6 +5098,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5201,6 +5152,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5217,6 +5178,28 @@
     "imageUrl": "https://www.serebii.net/card/generations/h19.jpg",
     "url": "https://www.serebii.net/card/generations/H19.shtml",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
@@ -5265,6 +5248,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5299,6 +5292,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5343,6 +5346,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5377,6 +5390,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5421,6 +5444,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5455,6 +5488,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5499,6 +5542,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5533,6 +5586,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5577,6 +5640,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5605,7 +5678,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -5653,6 +5726,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5687,6 +5770,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5731,6 +5824,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5765,6 +5868,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5809,6 +5922,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5843,6 +5966,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5887,6 +6020,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5921,6 +6064,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5965,6 +6118,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5999,6 +6162,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6043,6 +6216,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -6077,6 +6260,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6121,6 +6314,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -6155,6 +6358,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6199,6 +6412,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -6233,6 +6456,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6277,6 +6510,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -6293,10 +6536,24 @@
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM229-venusaur_snivy_gx-1.jpg",
     "url": "https://pkmncards.com/card/venusaur-snivy-gx-sun-moon-promos-smp-sm229/",
     "variations": {
-      "holo": {
+      "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6380,6 +6637,16 @@
           "EN",
           "JP"
         ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -6453,6 +6720,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -6926,16 +7203,6 @@
           "EN",
           "JP"
         ]
-      },
-      "holiday_calender_2023": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -7053,16 +7320,6 @@
           "EN",
           "JP"
         ]
-      },
-      "play!_pokemon": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -7169,17 +7426,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "unpeeled_ditto": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -7210,16 +7457,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -7259,16 +7496,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "trick_or_trade_2023": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -7419,7 +7646,7 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
@@ -7483,6 +7710,18 @@
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-GG049-drapion_v.jpg",
     "url": "https://pkmncards.com/card/drapion-v-crown-zenith-crz-gg49/",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
@@ -7645,16 +7884,6 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "battle_academy_2024:_armarouge_deck": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -8075,16 +8304,6 @@
           "EN",
           "JP"
         ]
-      },
-      "expansion_stamp_(stellar_crown)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
       }
     },
     "enriched": true,
@@ -8257,6 +8476,30 @@
     "imageUrl": "https://www.serebii.net/card/blackbolt/141.jpg",
     "url": "https://www.serebii.net/card/blackbolt/141.shtml",
     "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
@@ -8300,6 +8543,16 @@
         "languages": [
           "English"
         ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",

@@ -523,7 +523,7 @@ function App() {
                     <img
                       src={selectedCard.imageUrl}
                       alt={selectedCard.name}
-                      className="w-32 h-auto rounded-lg shadow-xl"
+                      className="w-48 h-auto rounded-lg shadow-xl"
                     />
                   </div>
                   <div className="flex-1 text-white min-w-0">
@@ -553,119 +553,110 @@ function App() {
                 </div>
               </div>
 
-              {/* Variant Selection */}
+              {/* Variant Rows */}
               <div className="p-4">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
+                <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-3">
                   <span>✨</span>
-                  Variant
+                  Variants
                 </h3>
 
-                <select
-                  value={selectedVariation || Object.keys(selectedCard.variations)[0]}
-                  onChange={(e) => setSelectedVariation(e.target.value)}
-                  className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white text-sm mb-4 focus:border-purple-500 focus:outline-none"
-                >
-                  <option value="">Select a variant...</option>
-                  {selectedCard.variations && Object.keys(selectedCard.variations).map(varType => (
-                    <option key={varType} value={varType}>
-                      {varType.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}
-                    </option>
-                  ))}
-                </select>
+                <div className="space-y-1.5">
+                  {selectedCard.variations && Object.entries(selectedCard.variations).map(([varType, varData]) => {
+                    const count = varData.count || 0;
+                    const isOrdered = varData.ordered || false;
+                    const languages = varData.languages || [];
+                    const availableLanguages = varData.available_languages || ['EN', 'JP'];
 
-                {/* Variant Details */}
-                {selectedVariation && selectedCard.variations[selectedVariation] && (
-                  <div className="space-y-3">
-                    {(() => {
-                      const varData = selectedCard.variations[selectedVariation];
-                      const count = varData.count || 0;
-                      const isOrdered = varData.ordered || false;
+                    // FIX: Replace ALL underscores with spaces (not just the first one)
+                    const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 
-                      return (
-                        <>
-                          {/* Count Controls */}
-                          {!isViewOnly && (
-                            <div
-                              className="flex items-center justify-between bg-slate-700/50 rounded-lg p-3">
-                              <span className="text-white text-sm font-semibold">Quantity</span>
-                              <div className="flex items-center gap-2">
-                                <button
-                                  onClick={(e) => decrementCount(selectedCard.id, selectedVariation, e)}
-                                  className="w-10 h-10 bg-slate-600 hover:bg-slate-500 rounded-lg flex items-center justify-center text-white font-bold text-lg"
-                                >
-                                  −
-                                </button>
-                                <div className="w-16 text-center">
-                                  <div className="text-white font-bold text-2xl">{count}</div>
-                                </div>
-                                <button
-                                  onClick={(e) => incrementCount(selectedCard.id, selectedVariation, e)}
-                                  className="w-10 h-10 bg-purple-600 hover:bg-purple-500 rounded-lg flex items-center justify-center text-white font-bold text-lg"
-                                >
-                                  +
-                                </button>
+                    return (
+                      <div key={varType} className="bg-slate-700/50 rounded-lg p-2">
+                        {/* Single row with everything */}
+                        <div className="flex items-center gap-2">
+                          {/* FIX: Variant name with fixed width for alignment */}
+                          <div
+                            className="text-white text-xs font-semibold w-48 truncate"
+                            title={displayName}
+                          >
+                            {displayName}
+                          </div>
+
+                          {/* Count controls */}
+                          {!isViewOnly ? (
+                            <div className="flex items-center gap-1.5">
+                              <button
+                                onClick={(e) => decrementCount(selectedCard.id, varType, e)}
+                                className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
+                              >
+                                −
+                              </button>
+                              <div className="w-8 text-center">
+                                <span className="text-white font-bold text-sm">{count}</span>
                               </div>
+                              <button
+                                onClick={(e) => incrementCount(selectedCard.id, varType, e)}
+                                className="w-6 h-6 bg-purple-600 hover:bg-purple-500 rounded text-white font-bold text-sm"
+                              >
+                                +
+                              </button>
+                            </div>
+                          ) : (
+                            <div className="text-white font-bold text-sm">{count}</div>
+                          )}
+
+                          {/* Language buttons */}
+                          {!isViewOnly && (
+                            <div className="flex items-center gap-1.5">
+                              {['EN', 'JP'].map(lang => {
+                                const isActive = languages.includes(lang);
+                                const isAvailable = availableLanguages.includes(lang);
+                                const isDisabled = count === 0 || !isAvailable;
+
+                                return (
+                                  <button
+                                    key={lang}
+                                    onClick={(e) => !isDisabled && toggleLanguage(selectedCard.id, varType, lang, e)}
+                                    disabled={isDisabled}
+                                    className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-all min-w-[32px] ${
+                                      isActive
+                                        ? 'bg-blue-600 text-white'
+                                        : isDisabled
+                                          ? 'bg-slate-800 text-slate-500 cursor-not-allowed opacity-40'
+                                          : 'bg-slate-600 text-slate-300 hover:bg-slate-500'
+                                    }`}
+                                  >
+                                    {lang}
+                                  </button>
+                                );
+                              })}
                             </div>
                           )}
 
-                          {/* Ordered Status - Only available when count is 0 */}
+                          {/* Ordered toggle - inline */}
                           {!isViewOnly && (
-                            <div
-                              className={`flex items-center justify-between bg-slate-700/50 rounded-lg px-3 py-2 ${
-                                count > 0 ? 'opacity-50' : ''
-                              }`}>
-                              <span className="text-white text-sm font-semibold">Ordered</span>
+                            <div className="flex items-center gap-1.5">
+                              <span className="text-slate-400 text-[10px]">Ordered</span>
                               <button
-                                onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, selectedVariation, e)}
+                                onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
                                 disabled={count > 0}
-                                className={`w-12 h-6 rounded-full transition-all relative ${
+                                className={`w-8 h-4 rounded-full transition-all relative ${
                                   isOrdered && count === 0 ? 'bg-yellow-600' : 'bg-slate-600'
-                                } ${count > 0 ? 'cursor-not-allowed' : 'cursor-pointer'}`}
+                                } ${count > 0 ? 'opacity-40 cursor-not-allowed' : ''}`}
                               >
                                 <div
-                                  className={`absolute top-0.5 w-5 h-5 bg-white rounded-full transition-all ${
+                                  className={`absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all ${
                                     isOrdered && count === 0 ? 'right-0.5' : 'left-0.5'
-                                  }`}></div>
+                                  }`}
+                                ></div>
                               </button>
                             </div>
                           )}
-
-                          {/* Language */}
-                          {!isViewOnly && (
-                            <div>
-                              <div className="text-white text-sm font-semibold mb-2">Language</div>
-                              <div className="grid grid-cols-2 gap-2">
-                                {['EN', 'JP'].map(lang => {
-                                  const isActive = (varData.languages || []).includes(lang);
-                                  const availableLanguages = selectedCard.variations[selectedVariation].available_languages || ['EN', 'JP'];
-                                  const isAvailable = availableLanguages.includes(lang);
-                                  const isDisabled = count === 0 || !isAvailable;
-
-                                  return (
-                                    <button
-                                      key={lang}
-                                      onClick={(e) => !isDisabled && toggleLanguage(selectedCard.id, selectedVariation, lang, e)}
-                                      disabled={isDisabled}
-                                      className={`px-3 py-2.5 rounded-lg text-sm font-semibold transition-all ${
-                                        isActive
-                                          ? 'bg-blue-600 text-white ring-2 ring-blue-400'
-                                          : isDisabled
-                                            ? 'bg-slate-800 text-slate-500 cursor-not-allowed opacity-50'
-                                            : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-                                      }`}
-                                    >
-                                      {lang === 'EN' ? '🇺🇸' : '🇯🇵'} {lang}
-                                    </button>
-                                  );
-                                })}
-                              </div>
-                            </div>
-                          )}
-                        </>
-                      );
-                    })()}
-                  </div>
-                )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
 
