@@ -19,6 +19,7 @@ function App() {
   const [error, setError] = useState(null);
   const [sortOrder, setSortOrder] = useState('asc');
   const [sharedOwnerEmail, setSharedOwnerEmail] = useState(null);
+  const [imagePopup, setImagePopup] = useState(null);
 
   useEffect(() => {
     const loadCards = async () => {
@@ -120,6 +121,27 @@ function App() {
     });
     return enriched;
   };
+
+  useEffect(() => {
+    if (selectedCard) {
+      // Prevent background scrolling when modal is open
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+    } else {
+      // Re-enable scrolling when modal is closed
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.width = '';
+    }
+
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.width = '';
+    };
+  }, [selectedCard]);
 
   const handleGoogleSignIn = async () => {
     try {
@@ -666,6 +688,26 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      {/* Image Popup Modal */}
+      {imagePopup && (
+        <div
+          className="fixed inset-0 bg-black/90 flex items-center justify-center z-[60] p-4"
+          onClick={() => setImagePopup(null)}
+        >
+          <button
+            onClick={() => setImagePopup(null)}
+            className="absolute top-4 right-4 w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white text-2xl z-10 backdrop-blur-sm"
+          >
+            ✕
+          </button>
+          <img
+            src={imagePopup}
+            alt="Card Detail"
+            className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
       {/* Share Modal */}
       {showShareModal && (
         <div
@@ -733,11 +775,14 @@ function App() {
                   </button>
 
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="flex-shrink-0 cursor-pointer" onClick={(e) => {
+                      e.stopPropagation();
+                      setImagePopup(selectedCard.imageUrl);
+                    }}>
                       <img
                         src={selectedCard.imageUrl}
                         alt={selectedCard.name}
-                        className="w-48 h-auto rounded-lg shadow-xl"
+                        className="w-48 h-auto rounded-lg shadow-xl hover:opacity-80 transition-opacity"
                       />
                     </div>
                     <div className="flex-1 text-white min-w-0">
@@ -768,7 +813,7 @@ function App() {
                 </div>
 
                 {/* Variant Rows */}
-                <div className="p-4">
+                <div className="p-4 max-h-[40vh] overflow-y-auto">
                   <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-3">
                     <span>✨</span>
                     Variants
@@ -901,16 +946,20 @@ function App() {
                 </button>
 
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0">
+                  <div className="flex-shrink-0 cursor-pointer" onClick={(e) => {
+                    e.stopPropagation();
+                    setImagePopup(selectedCard.imageUrl);
+                  }}>
                     <img
                       src={selectedCard.imageUrl}
                       alt={selectedCard.name}
-                      className="w-32 sm:w-48 h-auto rounded-lg shadow-xl"
+                      className="w-32 sm:w-48 h-auto rounded-lg shadow-xl hover:opacity-80 transition-opacity"
                     />
                   </div>
                   <div className="flex-1 text-white min-w-0">
                     <h2 className="text-lg sm:text-xl font-bold mb-1 truncate">{selectedCard.name}</h2>
-                    <p className="text-purple-300 text-xs sm:text-sm mb-3">#{selectedCard.number} • {selectedCard.set}</p>
+                    <p
+                      className="text-purple-300 text-xs sm:text-sm mb-3">#{selectedCard.number} • {selectedCard.set}</p>
 
                     <div className="space-y-2 text-xs">
                       <div className="flex items-center gap-2 bg-slate-700/50 rounded-lg p-2">
@@ -936,7 +985,7 @@ function App() {
               </div>
 
               {/* Variant Rows */}
-              <div className="p-4">
+              <div className="p-4 max-h-[35vh] overflow-y-auto">
                 <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-3">
                   <span>✨</span>
                   Variants
