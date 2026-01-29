@@ -560,6 +560,54 @@ function App() {
 
   const eras = ['all', ...new Set(cards.map(c => c.era).filter(Boolean))];
 
+  // Navigation functions for modal
+  const navigateToPreviousCard = (e) => {
+    if (e) e.stopPropagation();
+    const currentIndex = filteredCards.findIndex(c => c.id === selectedCard.id);
+    const prevIndex = currentIndex > 0 ? currentIndex - 1 : filteredCards.length - 1;
+    const prevCard = filteredCards[prevIndex];
+    setSelectedCard(prevCard);
+    setSelectedVariation(Object.keys(prevCard.variations)[0]);
+  };
+
+  const navigateToNextCard = (e) => {
+    if (e) e.stopPropagation();
+    const currentIndex = filteredCards.findIndex(c => c.id === selectedCard.id);
+    const nextIndex = currentIndex < filteredCards.length - 1 ? currentIndex + 1 : 0;
+    const nextCard = filteredCards[nextIndex];
+    setSelectedCard(nextCard);
+    setSelectedVariation(Object.keys(nextCard.variations)[0]);
+  };
+
+  // Touch handling for swipe gestures
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe) {
+      navigateToNextCard();
+    }
+    if (isRightSwipe) {
+      navigateToPreviousCard();
+    }
+  };
+
   if (loading) {
     return (
       <div
@@ -655,25 +703,191 @@ function App() {
               setSelectedVariation(null);
             }
           }}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
         >
-          <div className="relative flex items-center justify-center w-full max-w-4xl">
-            {/* Left Arrow - Outside modal */}
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                const currentIndex = filteredCards.findIndex(c => c.id === selectedCard.id);
-                const prevIndex = currentIndex > 0 ? currentIndex - 1 : filteredCards.length - 1;
-                const prevCard = filteredCards[prevIndex];
-                setSelectedCard(prevCard);
-                setSelectedVariation(Object.keys(prevCard.variations)[0]);
-              }}
-              className="w-10 h-10 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-xl border border-purple-500/50 hover:border-purple-400 transition-all z-10 flex-shrink-0"
-            >
-              ‹
-            </button>
+          <div className="relative flex flex-col items-center justify-center w-full max-w-4xl">
+            {/* Desktop Navigation Arrows - Hidden on mobile */}
+            <div className="hidden md:flex items-center justify-center w-full">
+              {/* Left Arrow */}
+              <button
+                onClick={navigateToPreviousCard}
+                className="w-10 h-10 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-xl border border-purple-500/50 hover:border-purple-400 transition-all z-10 flex-shrink-0"
+              >
+                ‹
+              </button>
 
-            {/* Modal */}
-            <div className="bg-slate-800 rounded-2xl max-w-lg w-full border border-purple-500/30 mx-4">
+              {/* Modal */}
+              <div className="bg-slate-800 rounded-2xl max-w-lg w-full border border-purple-500/30 mx-4">
+                {/* Card Image Header */}
+                <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 p-4">
+                  <button
+                    onClick={() => {
+                      setSelectedCard(null);
+                      setSelectedVariation(null);
+                    }}
+                    className="absolute top-2 right-2 w-8 h-8 bg-slate-700 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-lg z-10"
+                  >
+                    ✕
+                  </button>
+
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <img
+                        src={selectedCard.imageUrl}
+                        alt={selectedCard.name}
+                        className="w-48 h-auto rounded-lg shadow-xl"
+                      />
+                    </div>
+                    <div className="flex-1 text-white min-w-0">
+                      <h2 className="text-xl font-bold mb-1 truncate">{selectedCard.name}</h2>
+                      <p className="text-purple-300 text-sm mb-3">#{selectedCard.number} • {selectedCard.set}</p>
+
+                      <div className="space-y-2 text-xs">
+                        <div className="flex items-center gap-2 bg-slate-700/50 rounded-lg p-2">
+                          <span>🎨</span>
+                          <div>
+                            <div className="text-slate-400 text-[10px]">Illustrator</div>
+                            <div className="font-semibold">Yuka Morii</div>
+                          </div>
+                        </div>
+
+                        {selectedCard.era && (
+                          <div className="flex items-center gap-2 bg-slate-700/50 rounded-lg p-2">
+                            <span>📅</span>
+                            <div>
+                              <div className="text-slate-400 text-[10px]">Era</div>
+                              <div className="font-semibold">{selectedCard.era}</div>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Variant Rows */}
+                <div className="p-4">
+                  <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-3">
+                    <span>✨</span>
+                    Variants
+                  </h3>
+
+                  <div className="space-y-1.5">
+                    {selectedCard.variations && Object.entries(selectedCard.variations).map(([varType, varData]) => {
+                      const count = varData.count || 0;
+                      const isOrdered = varData.ordered || false;
+                      const languages = varData.languages || [];
+                      const availableLanguages = varData.available_languages || ['EN', 'JP'];
+
+                      // Replace ALL underscores with spaces
+                      const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+                      return (
+                        <div key={varType} className="bg-slate-700/50 rounded-lg p-2">
+                          {/* Single row with everything */}
+                          <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap">
+                            {/* Variant name - responsive with word wrap on mobile */}
+                            <div
+                              className="text-white font-semibold w-full sm:w-48 leading-tight text-xs sm:text-sm mb-1 sm:mb-0"
+                              title={displayName}
+                            >
+                              {displayName}
+                            </div>
+
+                            {/* Controls row - wraps on small screens */}
+                            <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap w-full sm:w-auto">
+                              {/* Count controls */}
+                              {!isViewOnly ? (
+                                <div className="flex items-center gap-1.5">
+                                  <button
+                                    onClick={(e) => decrementCount(selectedCard.id, varType, e)}
+                                    className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
+                                  >
+                                    −
+                                  </button>
+                                  <div className="w-8 text-center">
+                                    <span className="text-white font-bold text-sm">{count}</span>
+                                  </div>
+                                  <button
+                                    onClick={(e) => incrementCount(selectedCard.id, varType, e)}
+                                    className="w-6 h-6 bg-purple-600 hover:bg-purple-500 rounded text-white font-bold text-sm"
+                                  >
+                                    +
+                                  </button>
+                                </div>
+                              ) : (
+                                <div className="text-white font-bold text-sm">{count}</div>
+                              )}
+
+                              {/* Language buttons */}
+                              {!isViewOnly && (
+                                <div className="flex items-center gap-1.5">
+                                  {['EN', 'JP'].map(lang => {
+                                    const isActive = languages.includes(lang);
+                                    const isAvailable = availableLanguages.includes(lang);
+                                    const isDisabled = count === 0 || !isAvailable;
+
+                                    return (
+                                      <button
+                                        key={lang}
+                                        onClick={(e) => !isDisabled && toggleLanguage(selectedCard.id, varType, lang, e)}
+                                        disabled={isDisabled}
+                                        className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-all min-w-[32px] ${
+                                          isActive
+                                            ? 'bg-blue-600 text-white'
+                                            : isDisabled
+                                              ? 'bg-slate-800 text-slate-500 cursor-not-allowed opacity-40'
+                                              : 'bg-slate-600 text-slate-300 hover:bg-slate-500'
+                                        }`}
+                                      >
+                                        {lang}
+                                      </button>
+                                    );
+                                  })}
+                                </div>
+                              )}
+
+                              {/* Ordered toggle - inline */}
+                              {!isViewOnly && (
+                                <div className="flex items-center gap-1.5">
+                                  <span className="text-slate-400 text-[10px]">Ordered</span>
+                                  <button
+                                    onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
+                                    disabled={count > 0}
+                                    className={`w-8 h-4 rounded-full transition-all relative ${
+                                      isOrdered && count === 0 ? 'bg-yellow-600' : 'bg-slate-600'
+                                    } ${count > 0 ? 'opacity-40 cursor-not-allowed' : ''}`}
+                                  >
+                                    <div
+                                      className={`absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all ${
+                                        isOrdered && count === 0 ? 'right-0.5' : 'left-0.5'
+                                      }`}
+                                    ></div>
+                                  </button>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Arrow */}
+              <button
+                onClick={navigateToNextCard}
+                className="w-10 h-10 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-xl border border-purple-500/50 hover:border-purple-400 transition-all z-10 flex-shrink-0"
+              >
+                ›
+              </button>
+            </div>
+
+            {/* Mobile-only Modal (full width) */}
+            <div className="md:hidden bg-slate-800 rounded-2xl w-full border border-purple-500/30">
               {/* Card Image Header */}
               <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 p-4">
                 <button
@@ -691,19 +905,19 @@ function App() {
                     <img
                       src={selectedCard.imageUrl}
                       alt={selectedCard.name}
-                      className="w-48 h-auto rounded-lg shadow-xl"
+                      className="w-32 sm:w-48 h-auto rounded-lg shadow-xl"
                     />
                   </div>
                   <div className="flex-1 text-white min-w-0">
-                    <h2 className="text-xl font-bold mb-1 truncate">{selectedCard.name}</h2>
-                    <p className="text-purple-300 text-sm mb-3">#{selectedCard.number} • {selectedCard.set}</p>
+                    <h2 className="text-lg sm:text-xl font-bold mb-1 truncate">{selectedCard.name}</h2>
+                    <p className="text-purple-300 text-xs sm:text-sm mb-3">#{selectedCard.number} • {selectedCard.set}</p>
 
                     <div className="space-y-2 text-xs">
                       <div className="flex items-center gap-2 bg-slate-700/50 rounded-lg p-2">
                         <span>🎨</span>
                         <div>
                           <div className="text-slate-400 text-[10px]">Illustrator</div>
-                          <div className="font-semibold">Yuka Morii</div>
+                          <div className="font-semibold text-xs">Yuka Morii</div>
                         </div>
                       </div>
 
@@ -712,7 +926,7 @@ function App() {
                           <span>📅</span>
                           <div>
                             <div className="text-slate-400 text-[10px]">Era</div>
-                            <div className="font-semibold">{selectedCard.era}</div>
+                            <div className="font-semibold text-xs">{selectedCard.era}</div>
                           </div>
                         </div>
                       )}
@@ -735,113 +949,110 @@ function App() {
                     const languages = varData.languages || [];
                     const availableLanguages = varData.available_languages || ['EN', 'JP'];
 
-                    // FIX: Replace ALL underscores with spaces (not just the first one)
                     const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 
                     return (
                       <div key={varType} className="bg-slate-700/50 rounded-lg p-2">
-                        {/* Single row with everything */}
-                        <div className="flex items-center gap-2">
-                          {/* FIX: Variant name with fixed width for alignment */}
+                        <div className="flex items-center gap-2 flex-wrap">
                           <div
-                            className="text-white text-xs font-semibold w-48 truncate"
+                            className="text-white font-semibold w-full leading-tight text-xs mb-1"
                             title={displayName}
                           >
                             {displayName}
                           </div>
 
-                          {/* Count controls */}
-                          {!isViewOnly ? (
-                            <div className="flex items-center gap-1.5">
-                              <button
-                                onClick={(e) => decrementCount(selectedCard.id, varType, e)}
-                                className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
-                              >
-                                −
-                              </button>
-                              <div className="w-8 text-center">
-                                <span className="text-white font-bold text-sm">{count}</span>
+                          <div className="flex items-center gap-2 flex-wrap w-full">
+                            {!isViewOnly ? (
+                              <div className="flex items-center gap-1.5">
+                                <button
+                                  onClick={(e) => decrementCount(selectedCard.id, varType, e)}
+                                  className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
+                                >
+                                  −
+                                </button>
+                                <div className="w-8 text-center">
+                                  <span className="text-white font-bold text-sm">{count}</span>
+                                </div>
+                                <button
+                                  onClick={(e) => incrementCount(selectedCard.id, varType, e)}
+                                  className="w-6 h-6 bg-purple-600 hover:bg-purple-500 rounded text-white font-bold text-sm"
+                                >
+                                  +
+                                </button>
                               </div>
-                              <button
-                                onClick={(e) => incrementCount(selectedCard.id, varType, e)}
-                                className="w-6 h-6 bg-purple-600 hover:bg-purple-500 rounded text-white font-bold text-sm"
-                              >
-                                +
-                              </button>
-                            </div>
-                          ) : (
-                            <div className="text-white font-bold text-sm">{count}</div>
-                          )}
+                            ) : (
+                              <div className="text-white font-bold text-sm">{count}</div>
+                            )}
 
-                          {/* Language buttons */}
-                          {!isViewOnly && (
-                            <div className="flex items-center gap-1.5">
-                              {['EN', 'JP'].map(lang => {
-                                const isActive = languages.includes(lang);
-                                const isAvailable = availableLanguages.includes(lang);
-                                const isDisabled = count === 0 || !isAvailable;
+                            {!isViewOnly && (
+                              <>
+                                <div className="flex items-center gap-1.5">
+                                  {['EN', 'JP'].map(lang => {
+                                    const isActive = languages.includes(lang);
+                                    const isAvailable = availableLanguages.includes(lang);
+                                    const isDisabled = count === 0 || !isAvailable;
 
-                                return (
+                                    return (
+                                      <button
+                                        key={lang}
+                                        onClick={(e) => !isDisabled && toggleLanguage(selectedCard.id, varType, lang, e)}
+                                        disabled={isDisabled}
+                                        className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-all min-w-[32px] ${
+                                          isActive
+                                            ? 'bg-blue-600 text-white'
+                                            : isDisabled
+                                              ? 'bg-slate-800 text-slate-500 cursor-not-allowed opacity-40'
+                                              : 'bg-slate-600 text-slate-300 hover:bg-slate-500'
+                                        }`}
+                                      >
+                                        {lang}
+                                      </button>
+                                    );
+                                  })}
+                                </div>
+
+                                <div className="flex items-center gap-1.5">
+                                  <span className="text-slate-400 text-[10px]">Ordered</span>
                                   <button
-                                    key={lang}
-                                    onClick={(e) => !isDisabled && toggleLanguage(selectedCard.id, varType, lang, e)}
-                                    disabled={isDisabled}
-                                    className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-all min-w-[32px] ${
-                                      isActive
-                                        ? 'bg-blue-600 text-white'
-                                        : isDisabled
-                                          ? 'bg-slate-800 text-slate-500 cursor-not-allowed opacity-40'
-                                          : 'bg-slate-600 text-slate-300 hover:bg-slate-500'
-                                    }`}
+                                    onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
+                                    disabled={count > 0}
+                                    className={`w-8 h-4 rounded-full transition-all relative ${
+                                      isOrdered && count === 0 ? 'bg-yellow-600' : 'bg-slate-600'
+                                    } ${count > 0 ? 'opacity-40 cursor-not-allowed' : ''}`}
                                   >
-                                    {lang}
+                                    <div
+                                      className={`absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all ${
+                                        isOrdered && count === 0 ? 'right-0.5' : 'left-0.5'
+                                      }`}
+                                    ></div>
                                   </button>
-                                );
-                              })}
-                            </div>
-                          )}
-
-                          {/* Ordered toggle - inline */}
-                          {!isViewOnly && (
-                            <div className="flex items-center gap-1.5">
-                              <span className="text-slate-400 text-[10px]">Ordered</span>
-                              <button
-                                onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
-                                disabled={count > 0}
-                                className={`w-8 h-4 rounded-full transition-all relative ${
-                                  isOrdered && count === 0 ? 'bg-yellow-600' : 'bg-slate-600'
-                                } ${count > 0 ? 'opacity-40 cursor-not-allowed' : ''}`}
-                              >
-                                <div
-                                  className={`absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all ${
-                                    isOrdered && count === 0 ? 'right-0.5' : 'left-0.5'
-                                  }`}
-                                ></div>
-                              </button>
-                            </div>
-                          )}
+                                </div>
+                              </>
+                            )}
+                          </div>
                         </div>
                       </div>
                     );
                   })}
                 </div>
               </div>
-            </div>
 
-            {/* Right Arrow - Outside modal */}
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                const currentIndex = filteredCards.findIndex(c => c.id === selectedCard.id);
-                const nextIndex = currentIndex < filteredCards.length - 1 ? currentIndex + 1 : 0;
-                const nextCard = filteredCards[nextIndex];
-                setSelectedCard(nextCard);
-                setSelectedVariation(Object.keys(nextCard.variations)[0]);
-              }}
-              className="w-10 h-10 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-xl border border-purple-500/50 hover:border-purple-400 transition-all z-10 flex-shrink-0"
-            >
-              ›
-            </button>
+              {/* Mobile Navigation Arrows - Below modal */}
+              <div className="flex justify-center gap-4 py-4 px-4">
+                <button
+                  onClick={navigateToPreviousCard}
+                  className="w-12 h-12 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-2xl border border-purple-500/50 hover:border-purple-400 transition-all"
+                >
+                  ‹
+                </button>
+                <button
+                  onClick={navigateToNextCard}
+                  className="w-12 h-12 bg-slate-700/80 hover:bg-slate-600 rounded-full flex items-center justify-center text-white text-2xl border border-purple-500/50 hover:border-purple-400 transition-all"
+                >
+                  ›
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}
