@@ -239,15 +239,15 @@ useEffect(() => {
       const newCards = prevCards.map(card => {
         if (card.id === cardId && card.variations[variationType]) {
           const currentCount = card.variations[variationType].count || 0;
-          const defaultLanguage = card.variations[variationType].default_language || 'EN';
+          const availableLanguages = card.variations[variationType].available_languages || [];
+          const defaultLanguage = card.variations[variationType].default_language || (availableLanguages.length > 0 ? availableLanguages[0] : '');
           const updatedVariations = {
             ...card.variations,
             [variationType]: {
               ...card.variations[variationType],
               count: currentCount + 1,
               ordered: false,
-              languages: currentCount === 0 ? [defaultLanguage] : (card.variations[variationType].languages || [])
-
+              languages: currentCount === 0 ? (defaultLanguage ? [defaultLanguage] : []) : (card.variations[variationType].languages || [])
             }
           };
           saveCardStatus(cardId, updatedVariations);
