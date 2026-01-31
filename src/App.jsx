@@ -122,26 +122,39 @@ function App() {
     return enriched;
   };
 
-  useEffect(() => {
-    if (selectedCard) {
-      // Prevent background scrolling when modal is open
-      document.body.style.overflow = 'hidden';
-      document.body.style.position = 'fixed';
-      document.body.style.width = '100%';
-    } else {
-      // Re-enable scrolling when modal is closed
-      document.body.style.overflow = '';
-      document.body.style.position = '';
-      document.body.style.width = '';
+useEffect(() => {
+  if (selectedCard) {
+    // Save current scroll position
+    const scrollY = window.scrollY;
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = '100%';
+    document.body.dataset.scrollY = scrollY.toString();
+  } else {
+    // Restore scroll position
+    const scrollY = parseInt(document.body.dataset.scrollY || '0');
+    document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    if (scrollY > 0) {
+      window.scrollTo(0, scrollY);
     }
+  }
 
-    // Cleanup on unmount
-    return () => {
-      document.body.style.overflow = '';
-      document.body.style.position = '';
-      document.body.style.width = '';
-    };
-  }, [selectedCard]);
+  return () => {
+    const scrollY2 = parseInt(document.body.dataset.scrollY || '0');
+    document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    delete document.body.dataset.scrollY;
+    if (scrollY2 > 0) {
+      window.scrollTo(0, scrollY2);
+    }
+  };
+}, [selectedCard]);
 
   const handleGoogleSignIn = async () => {
     try {
@@ -824,7 +837,7 @@ function App() {
                       const count = varData.count || 0;
                       const isOrdered = varData.ordered || false;
                       const languages = varData.languages || [];
-                      const availableLanguages = varData.available_languages || ['EN', 'JP'];
+                      const availableLanguages = varData.available_languages || [];
 
                       // Replace ALL underscores with spaces
                       const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
@@ -869,7 +882,7 @@ function App() {
                               {/* Language buttons */}
                               {!isViewOnly && (
                                 <div className="flex items-center gap-1.5">
-                                  {['EN', 'JP'].map(lang => {
+                                  {availableLanguages.map(lang => {
                                     const isActive = languages.includes(lang);
                                     const isAvailable = availableLanguages.includes(lang);
                                     const isDisabled = count === 0 || !isAvailable;
@@ -996,7 +1009,7 @@ function App() {
                     const count = varData.count || 0;
                     const isOrdered = varData.ordered || false;
                     const languages = varData.languages || [];
-                    const availableLanguages = varData.available_languages || ['EN', 'JP'];
+                    const availableLanguages = varData.available_languages || [];
 
                     const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 
@@ -1036,7 +1049,7 @@ function App() {
                             {!isViewOnly && (
                               <>
                                 <div className="flex items-center gap-1.5">
-                                  {['EN', 'JP'].map(lang => {
+                                  {availableLanguages.map(lang => {
                                     const isActive = languages.includes(lang);
                                     const isAvailable = availableLanguages.includes(lang);
                                     const isDisabled = count === 0 || !isAvailable;

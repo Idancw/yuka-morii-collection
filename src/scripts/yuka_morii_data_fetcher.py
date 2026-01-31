@@ -269,10 +269,10 @@ def main():
 
     # Check if user wants to resume
     start_from = 0
-    if os.path.exists('../data/cards_enriched.json'):
+    if os.path.exists('../data/json/cards_enriched.json'):
         resume = input("Found existing cards_enriched.json. Resume from last position? (y/n): ")
         if resume.lower() == 'y':
-            with open('../data/cards_enriched.json', 'r') as f:
+            with open('../data/json/cards_enriched.json', 'r') as f:
                 existing = json.load(f)
                 start_from = len(existing)
                 print(f"Will resume from card #{start_from + 1}\n")
@@ -280,7 +280,7 @@ def main():
     # Process the collection
     enricher.process_collection(
         input_file='../../public/cards.json',
-        output_file='../data/cards_enriched.json',
+        output_file='../data/json/cards_enriched.json',
         delay=1.0,  # Be respectful - 1 second between requests
         start_from=start_from
     )

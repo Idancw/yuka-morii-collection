@@ -321,7 +321,7 @@ if __name__ == "__main__":
             print(f"✅ Fixed: {name}")
 
     # Save
-    with open('../data/cards_final.json', 'w', encoding='utf-8') as f:
+    with open('../data/json/cards_final.json', 'w', encoding='utf-8') as f:
         json.dump(cards, f, indent=2, ensure_ascii=False)
 
     print(f"\n✅ All done! Saved to cards_final.json")

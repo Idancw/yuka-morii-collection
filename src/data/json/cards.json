@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "unnumbered-releases-pokemon-plaza-promo",
     "name": "Pokemon Plaza",
     "set": "Unnumbered Releases",
@@ -7,8 +7,8 @@
     "number": "001",
     "sheet_no": "0",
     "owned": "no",
-    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/de/PokémonPlazaCoroCoroPromo.jpg/180px-PokémonPlazaCoroCoroPromo.jpg",
-    "url": "https://bulbapedia.bulbagarden.net/wiki/Pokémon_Plaza_(CoroCoro_promo)",
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/d/de/PokémonPlazaCoroCoroPromo.jpg",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Plaza_(CoroCoro_promo)",
     "variations": {
       "jumbo": {
         "count": 0,
@@ -22,7 +22,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -56,12 +56,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -95,51 +94,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "neodiscovery-056",
-    "name": "Kabuto",
-    "set": "Neo Discovery",
-    "era": "Neo",
-    "number": "056",
-    "sheet_no": "3",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodiscovery/56.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/056.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -178,7 +137,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -198,8 +157,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "first_edition": {
@@ -210,12 +168,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -249,12 +206,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -288,12 +244,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -327,12 +282,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -364,12 +318,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -383,18 +336,31 @@
     "imageUrl": "https://www.serebii.net/card/neodestiny/31.jpg",
     "url": "https://www.serebii.net/card/neodestiny/031.shtml",
     "variations": {
-      "10th_anniversary": {
+      "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -428,12 +394,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -467,12 +432,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -506,12 +470,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -545,12 +508,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -584,12 +546,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -611,8 +572,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -623,12 +583,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -650,8 +620,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -665,9 +634,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -701,12 +681,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -728,8 +718,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -740,12 +729,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -759,14 +758,24 @@
     "imageUrl": "https://www.serebii.net/card/expedition/60.jpg",
     "url": "https://www.serebii.net/card/expedition/060.shtml",
     "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -777,12 +786,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -796,6 +804,17 @@
     "imageUrl": "https://www.serebii.net/card/expedition/24.jpg",
     "url": "https://www.serebii.net/card/expedition/024.shtml",
     "variations": {
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
@@ -804,8 +823,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "holo": {
@@ -814,12 +832,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -841,8 +858,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -853,12 +869,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -883,9 +909,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -910,9 +947,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -946,12 +994,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -988,9 +1046,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1024,12 +1093,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1063,12 +1142,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1105,9 +1194,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1141,12 +1241,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1180,12 +1290,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1210,9 +1330,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1237,9 +1368,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1273,12 +1415,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1315,9 +1467,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1351,12 +1514,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1395,7 +1568,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1413,16 +1586,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1439,15 +1611,16 @@
       "first_edition_(holo)": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1465,26 +1638,26 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       },
-      "tropical_memga_battle_2001": {
+      "tropical_mega_battle_2001": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1502,16 +1675,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1529,16 +1701,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1556,16 +1727,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1597,12 +1767,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1634,12 +1814,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1671,12 +1861,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1708,12 +1908,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1743,12 +1942,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1780,12 +1989,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1817,22 +2036,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
-      "origins": {
+      "first_edition": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1864,12 +2083,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1901,12 +2130,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1938,8 +2177,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "games_expo_2007": {
@@ -1951,9 +2189,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -1985,12 +2234,32 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
+          "EN"
+        ]
+      },
+      "origins": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2022,12 +2291,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2059,8 +2338,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "comic-con_san_diego_2007": {
@@ -2069,12 +2347,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2106,12 +2394,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2143,12 +2441,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2180,12 +2488,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2217,12 +2535,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2254,12 +2582,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2291,12 +2629,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2328,12 +2676,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2365,12 +2723,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2404,12 +2772,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2443,8 +2821,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2453,8 +2830,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo_(no_e-reader_logo)": {
@@ -2463,12 +2839,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2490,8 +2876,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -2502,8 +2887,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2522,12 +2906,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition_(no_e-reader_logo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2561,8 +2955,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2571,8 +2964,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo_(no_e-reader_logo)": {
@@ -2581,12 +2973,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2618,7 +3020,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       },
@@ -2628,12 +3040,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2668,9 +3079,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2702,8 +3124,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "PRERELESE_stamp": {
@@ -2712,12 +3133,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2751,12 +3182,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2798,12 +3239,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2833,12 +3284,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2870,12 +3331,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2910,9 +3381,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2947,9 +3429,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "holo_(Venusaur_&_Lugia_ex_Deck)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -2981,18 +3485,28 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
     "id": "exteamrocketreturns-021",
     "name": "Delibird",
-    "set": "Rocket Gang Strikes Back",
+    "set": "Team Rocket Returns",
     "era": "EX",
     "number": "021",
     "sheet_no": "79",
@@ -3018,12 +3532,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3055,12 +3579,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3092,12 +3626,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3129,12 +3673,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3166,12 +3720,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3203,12 +3767,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3240,12 +3814,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3277,12 +3861,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3311,15 +3905,16 @@
       "expansion stamp": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3351,12 +3946,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3388,12 +3982,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3425,12 +4018,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3464,12 +4056,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3505,14 +4107,13 @@
           "JP"
         ]
       },
-      "buger_king_collection_2008": {
+      "burger_king_collection_2008": {
         "count": 0,
         "ordered": false,
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "countdown_calendar": {
@@ -3523,9 +4124,20 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3559,12 +4171,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3601,7 +4223,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3635,12 +4257,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3674,12 +4306,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3713,12 +4355,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3753,9 +4405,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3772,15 +4435,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3797,15 +4461,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3822,15 +4487,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3847,15 +4513,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3872,15 +4539,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3897,15 +4565,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3922,15 +4591,16 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3948,26 +4618,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -3984,15 +4643,16 @@
       "pokemon_center": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4029,7 +4689,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4054,9 +4714,20 @@
           "EN",
           "JP"
         ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4070,30 +4741,28 @@
     "imageUrl": "https://www.serebii.net/card/popseries8/14.jpg",
     "url": "https://www.serebii.net/card/popseries8/014.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "cosmos_holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4127,12 +4796,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4166,12 +4845,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4205,12 +4894,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4242,12 +4941,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4279,12 +4988,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4319,9 +5038,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4355,12 +5085,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4394,12 +5134,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4419,8 +5169,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4431,12 +5180,33 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4473,9 +5243,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4497,8 +5289,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4509,51 +5300,33 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "heartgoldsoulsilver-071",
-    "name": "Ledyba",
-    "set": "HeartGold & SoulSilver",
-    "era": "Heart Gold Soul Silver",
-    "number": "071",
-    "sheet_no": "123",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/71.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/071.shtml",
-    "variations": {
-      "normal": {
+      },
+      "first_edition": {
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       },
-      "reverse_holo": {
+      "first_edition_(reverse_holo)": {
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4575,8 +5348,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4587,12 +5359,33 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4627,9 +5420,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4666,9 +5481,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4700,12 +5537,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4731,6 +5578,28 @@
           "JP"
         ]
       },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
@@ -4744,7 +5613,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4781,9 +5650,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4820,9 +5711,31 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4859,9 +5772,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4895,8 +5819,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "xy_trainer_kit:_latios_half_deck_1": {
@@ -4905,8 +5828,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "xy_trainer_kit:_latios_half_deck_27": {
@@ -4915,8 +5837,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "McDonal's_collections_2015": {
@@ -4925,12 +5846,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -4967,9 +5887,31 @@
           "EN",
           "JP"
         ]
+      },
+      "pokemon_center": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5006,9 +5948,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5042,12 +5995,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5084,9 +6047,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5120,12 +6094,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5162,9 +6146,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5201,9 +6196,20 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5228,7 +6234,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5262,12 +6268,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5301,12 +6306,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5340,12 +6355,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5379,12 +6393,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5418,12 +6431,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5462,7 +6474,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5496,12 +6508,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5535,12 +6546,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5574,12 +6584,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5611,12 +6620,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5650,12 +6658,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5689,12 +6696,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5728,12 +6734,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5767,12 +6772,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5806,12 +6810,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5845,12 +6848,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5884,12 +6886,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5923,12 +6924,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -5962,12 +6962,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6001,12 +7000,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6040,12 +7038,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6079,12 +7076,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6118,12 +7114,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6157,12 +7152,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6196,12 +7190,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6235,12 +7228,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6279,7 +7271,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6304,7 +7296,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6338,12 +7330,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6377,12 +7368,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6416,12 +7406,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6455,12 +7444,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6494,12 +7482,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6529,16 +7516,15 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6572,12 +7558,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6611,12 +7596,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6650,12 +7634,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6689,12 +7672,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6728,12 +7710,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6772,7 +7753,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6806,12 +7787,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6845,12 +7825,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6889,7 +7868,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6923,8 +7902,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "holiday_calender_2023": {
@@ -6933,12 +7911,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -6972,12 +7949,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7011,12 +7987,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7050,8 +8025,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "play!_pokemon": {
@@ -7060,12 +8034,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7099,12 +8072,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7138,12 +8121,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7175,8 +8157,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "unpeeled_ditto": {
@@ -7190,7 +8171,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7222,12 +8203,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7271,12 +8251,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7310,12 +8300,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7354,7 +8343,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7388,12 +8377,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7425,12 +8413,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7469,7 +8456,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7496,7 +8483,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7530,12 +8517,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7569,12 +8555,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7608,12 +8593,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7647,8 +8631,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "battle_academy_2024:_armarouge_deck": {
@@ -7657,12 +8640,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7696,12 +8678,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "scarlet_&_violet_promo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7735,12 +8727,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7774,12 +8765,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7813,12 +8803,33 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7852,12 +8863,33 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7891,12 +8923,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7930,12 +8961,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7960,7 +8990,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -7994,12 +9024,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8033,12 +9062,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8072,8 +9100,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "expansion_stamp_(stellar_crown)": {
@@ -8082,12 +9109,22 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "Battle Academy: Lucario ex Deck": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8121,12 +9158,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8160,12 +9196,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8199,12 +9234,11 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8238,12 +9272,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8268,7 +9312,7 @@
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8302,12 +9346,94 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "Triumphant-015",
+    "name": "Bronzong",
+    "set": "Triumphant",
+    "era": "Heart Gold Soul Silver",
+    "number": "057",
+    "sheet_no": "222",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/q=75/https://static.dextcg.com/cards/hgss4%2F15.png",
+    "url": "https://dextcg.com/cards/hgss4-15",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8339,12 +9465,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   },
   {
@@ -8376,12 +9501,11 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
-    "enriched": true,
+    "enriched": false,
     "enriched_method": "web_scraping"
   }
 ]

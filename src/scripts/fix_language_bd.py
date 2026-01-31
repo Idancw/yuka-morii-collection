@@ -89,7 +89,7 @@ if __name__ == '__main__':
     cards = auto_fix_languages(cards)
 
     # Save auto-fixed version
-    with open('../data/cards_autofixed.json', 'w', encoding='utf-8') as f:
+    with open('../data/json/cards_autofixed.json', 'w', encoding='utf-8') as f:
         json.dump(cards, f, ensure_ascii=False, indent=2)
 
 
