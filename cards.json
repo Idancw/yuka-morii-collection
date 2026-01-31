@@ -7,8 +7,8 @@
     "number": "001",
     "sheet_no": "0",
     "owned": "no",
-    "imageUrl": "https://archives.bulbagarden.net/media/upload/d/de/PokémonPlazaCoroCoroPromo.jpg",
-    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Plaza_(CoroCoro_promo)",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_unp/50.png",
+    "url": "https://dextcg.com/cards/jpn_unp-50",
     "variations": {
       "jumbo": {
         "count": 0,
@@ -56,8 +56,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -95,8 +94,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -198,8 +196,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "first_edition": {
@@ -210,8 +207,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -249,8 +245,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -288,8 +283,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -327,8 +321,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -364,8 +357,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -386,7 +378,9 @@
       "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -401,8 +395,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -440,8 +433,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -479,8 +471,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -518,8 +509,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -557,8 +547,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -596,8 +585,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -623,8 +611,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -635,7 +622,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -662,8 +659,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -675,6 +671,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -713,7 +720,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -740,8 +757,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -752,7 +768,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -771,14 +797,24 @@
     "imageUrl": "https://www.serebii.net/card/expedition/60.jpg",
     "url": "https://www.serebii.net/card/expedition/060.shtml",
     "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
       "holo": {
         "count": 0,
         "ordered": false,
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -789,8 +825,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -808,6 +843,17 @@
     "imageUrl": "https://www.serebii.net/card/expedition/24.jpg",
     "url": "https://www.serebii.net/card/expedition/024.shtml",
     "variations": {
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
       "reverse_holo": {
         "count": 0,
         "ordered": false,
@@ -816,8 +862,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "holo": {
@@ -826,8 +871,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -853,8 +897,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -865,7 +908,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -895,6 +948,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -920,6 +984,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -958,7 +1033,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1000,6 +1085,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1036,7 +1132,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1075,7 +1181,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1117,6 +1233,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1153,7 +1280,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1192,7 +1329,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1222,6 +1369,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1247,6 +1405,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1285,7 +1454,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1327,6 +1506,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1363,7 +1553,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1427,9 +1627,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1451,10 +1650,11 @@
       "first_edition_(holo)": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1479,17 +1679,18 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       },
       "tropical_mega_battle_2001": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -1515,9 +1716,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1542,9 +1742,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1569,9 +1768,8 @@
         "languages": [
           "English"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -1610,6 +1808,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1646,6 +1855,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1681,6 +1901,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -1752,6 +1983,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1787,6 +2029,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -1824,6 +2077,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1860,6 +2124,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -1895,6 +2170,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -1940,6 +2226,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -1988,6 +2285,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2023,6 +2331,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2069,6 +2388,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2104,6 +2434,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2141,6 +2482,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2176,6 +2528,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2213,6 +2576,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2248,6 +2622,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2285,6 +2670,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2320,6 +2716,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2357,6 +2764,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2393,7 +2811,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2432,8 +2860,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2442,8 +2869,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo_(no_e-reader_logo)": {
@@ -2452,7 +2878,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2479,8 +2915,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -2491,8 +2926,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2511,7 +2945,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition_(no_e-reader_logo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2550,8 +2994,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "normal_(no_e-reader_logo)": {
@@ -2560,8 +3003,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo_(no_e-reader_logo)": {
@@ -2570,7 +3012,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2607,7 +3059,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       },
@@ -2656,6 +3118,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2690,8 +3163,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "PRERELESE_stamp": {
@@ -2701,6 +3173,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -2738,7 +3221,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2787,6 +3280,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2819,7 +3323,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2856,7 +3370,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -2896,6 +3420,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2933,6 +3468,28 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "holo_(Venusaur_&_Lugia_ex_Deck)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -2967,7 +3524,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3006,6 +3573,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3041,6 +3619,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -3078,6 +3667,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3113,6 +3713,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -3150,6 +3761,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3185,6 +3807,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -3222,6 +3855,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3258,6 +3902,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3289,7 +3944,9 @@
       "expansion stamp": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN"
@@ -3438,7 +4095,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3496,6 +4163,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3532,7 +4210,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3608,7 +4296,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3647,7 +4345,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3686,7 +4394,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -3726,6 +4444,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -3745,8 +4474,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3769,8 +4500,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3793,8 +4526,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3817,8 +4552,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3841,8 +4578,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3865,8 +4604,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3889,8 +4630,10 @@
       "10th_anniversary": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -3914,21 +4657,10 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -3950,8 +4682,10 @@
       "pokemon_center": {
         "count": 0,
         "ordered": false,
-        "languages": [],
-        "default_language": "EN",
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
         "available_languages": [
           "JP"
         ]
@@ -4019,6 +4753,17 @@
           "EN",
           "JP"
         ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4035,18 +4780,6 @@
     "imageUrl": "https://www.serebii.net/card/popseries8/14.jpg",
     "url": "https://www.serebii.net/card/popseries8/014.shtml",
     "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
       "cosmos_holo": {
         "count": 0,
         "ordered": false,
@@ -4054,6 +4787,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
+        ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
         ]
       }
     },
@@ -4091,7 +4835,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4130,7 +4884,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4169,7 +4933,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4206,7 +4980,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4243,7 +5027,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4283,6 +5077,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4319,7 +5124,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4358,7 +5173,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4383,8 +5208,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4395,7 +5219,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4437,6 +5282,28 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4461,8 +5328,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4473,7 +5339,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4500,8 +5387,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4512,7 +5398,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4539,8 +5446,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "reverse_holo": {
@@ -4551,7 +5457,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4589,6 +5516,28 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4630,6 +5579,28 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4641,7 +5612,7 @@
     "set": "Triumphant",
     "era": "Heart Gold Soul Silver",
     "number": "015",
-    "sheet_no": "127",
+    "sheet_no": "114",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/triumphant/15.jpg",
     "url": "https://www.serebii.net/card/triumphant/015.shtml",
@@ -4664,7 +5635,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4692,6 +5673,28 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       },
@@ -4745,6 +5748,28 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4782,6 +5807,28 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -4823,6 +5870,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4859,8 +5917,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "xy_trainer_kit:_latios_half_deck_1": {
@@ -4869,8 +5926,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "xy_trainer_kit:_latios_half_deck_27": {
@@ -4879,8 +5935,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "McDonal's_collections_2015": {
@@ -4930,6 +5985,28 @@
           "EN",
           "JP"
         ]
+      },
+      "pokemon_center": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -4969,6 +6046,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5005,7 +6093,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -5047,6 +6145,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5083,7 +6192,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -5125,6 +6244,17 @@
           "EN",
           "JP"
         ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -5162,6 +6292,17 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -5225,8 +6366,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5264,7 +6404,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -5303,8 +6453,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5342,8 +6491,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5381,8 +6529,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5459,8 +6606,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5498,8 +6644,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5537,8 +6682,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5574,8 +6718,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5613,8 +6756,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5652,8 +6794,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5691,8 +6832,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5730,8 +6870,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5769,8 +6908,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5808,8 +6946,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5847,8 +6984,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5886,8 +7022,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5925,8 +7060,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -5964,8 +7098,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6003,8 +7136,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6042,8 +7174,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6081,8 +7212,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6120,8 +7250,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6159,8 +7288,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6198,8 +7326,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6301,8 +7428,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6340,8 +7466,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6379,8 +7504,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6418,8 +7542,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6457,8 +7580,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6492,11 +7614,10 @@
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
         ]
       }
@@ -6535,8 +7656,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6574,8 +7694,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6613,8 +7732,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6652,8 +7770,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6691,8 +7808,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6769,8 +7885,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6808,8 +7923,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6886,8 +8000,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "holiday_calender_2023": {
@@ -6934,8 +8047,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -6973,8 +8085,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7012,8 +8123,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "play!_pokemon": {
@@ -7060,7 +8170,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -7099,8 +8219,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7136,8 +8255,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "unpeeled_ditto": {
@@ -7183,8 +8301,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7234,6 +8351,17 @@
         "available_languages": [
           "EN"
         ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -7270,8 +8398,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7348,8 +8475,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7385,8 +8511,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7490,8 +8615,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7529,8 +8653,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7568,8 +8691,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7607,8 +8729,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "battle_academy_2024:_armarouge_deck": {
@@ -7617,8 +8738,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7656,7 +8776,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "scarlet_&_violet_promo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -7695,8 +8825,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7734,8 +8863,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7773,7 +8901,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -7812,7 +8961,28 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -7851,8 +9021,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7890,8 +9059,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7954,8 +9122,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -7993,8 +9160,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -8032,8 +9198,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       },
       "expansion_stamp_(stellar_crown)": {
@@ -8042,7 +9207,17 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "Battle Academy: Lucario ex Deck": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -8081,8 +9256,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -8120,8 +9294,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -8159,8 +9332,7 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -8198,7 +9370,17 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN",
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -8262,7 +9444,89 @@
         ],
         "default_language": "EN",
         "available_languages": [
+          "EN"
+        ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "master_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "Triumphant-015",
+    "name": "Bronzong",
+    "set": "Triumphant",
+    "era": "Heart Gold Soul Silver",
+    "number": "057",
+    "sheet_no": "127",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/q=75/https://static.dextcg.com/cards/hgss4%2F15.png",
+    "url": "https://dextcg.com/cards/hgss4-15",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
           "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
           "JP"
         ]
       }
@@ -8299,8 +9563,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
@@ -8313,7 +9576,7 @@
     "set": "Phantasmal Flames",
     "era": "Mega Evolution",
     "number": "009",
-    "sheet_no": "232",
+    "sheet_no": "223",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/phantasmalflames/9.jpg",
     "url": "https://www.serebii.net/card/phantasmalflames/009.shtml",
@@ -8336,8 +9599,7 @@
         "languages": [],
         "default_language": "EN",
         "available_languages": [
-          "EN",
-          "JP"
+          "EN"
         ]
       }
     },
