@@ -469,6 +469,15 @@ useEffect(() => {
       });
     }
 
+    // 10th Anniversary
+    if (variations['meiji']?.count > 0) {
+      badges.push({
+        type: 'meiji',
+        icon: 'https://dextcg.com/cdn-cgi/image/w=2048,q=75,f=auto/https://static.dextcg.com/resources/variants/meiji.webp',
+        alt: 'Meiji'
+      });
+    }
+
     // Prerelease/Expansion Stamp
     const hasStamp = Object.keys(variations).some(key =>
       (key.includes('expansion_stamp') || key.includes('PRERELESE_stamp')) && variations[key]?.count > 0
@@ -858,7 +867,7 @@ useEffect(() => {
                             <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap w-full sm:w-auto">
                               {/* Count controls */}
                               {!isViewOnly ? (
-                                <div className="flex items-center gap-1.5">
+                                <div className="flex items-center gap-1.5 w-20">
                                   <button
                                     onClick={(e) => decrementCount(selectedCard.id, varType, e)}
                                     className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
@@ -881,7 +890,7 @@ useEffect(() => {
 
                               {/* Language buttons */}
                               {!isViewOnly && (
-                                <div className="flex items-center gap-1.5">
+                                <div className="flex items-center gap-1.5 w-20">
                                   {availableLanguages.map(lang => {
                                     const isActive = languages.includes(lang);
                                     const isAvailable = availableLanguages.includes(lang);
@@ -909,7 +918,7 @@ useEffect(() => {
 
                               {/* Ordered toggle - inline */}
                               {!isViewOnly && (
-                                <div className="flex items-center gap-1.5">
+                                <div className="flex items-center gap-1.5 w-20">
                                   <span className="text-slate-400 text-[10px]">Ordered</span>
                                   <button
                                     onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
@@ -1025,7 +1034,7 @@ useEffect(() => {
 
                           <div className="flex items-center gap-2 flex-wrap w-full">
                             {!isViewOnly ? (
-                              <div className="flex items-center gap-1.5">
+                              <div className="flex items-center gap-1.5 w-20">
                                 <button
                                   onClick={(e) => decrementCount(selectedCard.id, varType, e)}
                                   className="w-6 h-6 bg-slate-600 hover:bg-slate-500 rounded text-white font-bold text-sm"
@@ -1048,7 +1057,7 @@ useEffect(() => {
 
                             {!isViewOnly && (
                               <>
-                                <div className="flex items-center gap-1.5">
+                                <div className="flex items-center gap-1.5 w-20">
                                   {availableLanguages.map(lang => {
                                     const isActive = languages.includes(lang);
                                     const isAvailable = availableLanguages.includes(lang);
@@ -1073,7 +1082,7 @@ useEffect(() => {
                                   })}
                                 </div>
 
-                                <div className="flex items-center gap-1.5">
+                                <div className="flex items-center gap-1.5 w-20">
                                   <span className="text-slate-400 text-[10px]">Ordered</span>
                                   <button
                                     onClick={(e) => count === 0 && toggleOrdered(selectedCard.id, varType, e)}
