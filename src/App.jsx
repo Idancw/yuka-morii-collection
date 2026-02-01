@@ -20,6 +20,7 @@ function App() {
   const [sortOrder, setSortOrder] = useState('asc');
   const [sharedOwnerEmail, setSharedOwnerEmail] = useState(null);
   const [imagePopup, setImagePopup] = useState(null);
+  const [previousFilter, setPreviousFilter] = useState('all');
 
   useEffect(() => {
     const loadCards = async () => {
@@ -587,12 +588,20 @@ useEffect(() => {
     owned: cards.filter(c => getCardStats(c).owned === 'yes').length,
     ordered: cards.filter(c => getCardStats(c).owned === 'ordered').length,
     needed: cards.filter(c => getCardStats(c).owned === 'no').length,
+    trade: cards.filter(c => c.variations && Object.values(c.variations).some(v => (v.count || 0) > 1)).length,
     completion: cards.length > 0 ? Math.round((cards.filter(c => getCardStats(c).owned === 'yes').length / cards.length) * 100) : 0
   };
 
   const filteredCards = cards.filter(card => {
     const cardStats = getCardStats(card);
-    const statusMatch = currentFilter === 'all' || cardStats.owned === currentFilter;
+    const hasTradeAvailable = card.variations && Object.values(card.variations).some(v => (v.count || 0) > 1);
+
+    const statusMatch = currentFilter === 'all'
+      ? true
+      : currentFilter === 'trade'
+        ? hasTradeAvailable
+        : cardStats.owned === currentFilter;
+
     const eraMatch = currentEra === 'all' || card.era === currentEra;
 
     return statusMatch && eraMatch;
@@ -1149,7 +1158,23 @@ useEffect(() => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 flex-wrap">
+              <button
+                onClick={() => {
+                  if (currentFilter === 'trade') {
+                    setCurrentFilter(previousFilter);
+                  } else {
+                    setPreviousFilter(currentFilter);
+                    setCurrentFilter('trade');
+                  }
+                }}
+                className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+                  currentFilter === 'trade'
+                    ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white'
+                    : 'bg-slate-700 text-purple-200 hover:bg-slate-600'
+                }`}>
+                🤝 Trade View
+              </button>
               {!isViewOnly && (
                 <button onClick={() => setShowShareModal(true)}
                         className="px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-xl font-semibold hover:from-yellow-600 hover:to-orange-600 transition-all">
@@ -1265,10 +1290,18 @@ useEffect(() => {
               const hasReverseHolo = variations.reverse_holo && (variations.reverse_holo.count > 0);
               const isOrdered = Object.values(variations).some(v => v.ordered === true && v.count === 0);
               const isOwned = totalCopies > 0;
+              const isTradeView = currentFilter === 'trade';
+
+              const tradeTotal = Object.values(variations).reduce((sum, v) => {
+                const count = v.count || 0;
+                const languages = v.languages || [];
+                const languageCount = languages.length || 1; // If no languages selected, assume 1
+                const tradeCount = Math.max(0, count - languageCount);
+                return sum + tradeCount;
+              }, 0);
 
               const hasExpansionStamp = hasExpansionStampOwned(card);
               const expansionStampUrl = hasExpansionStamp ? getExpansionStampMapping()[card.set] : null;
-
 
               // Get variation badges (excluding reverse holo which is handled separately)
               const variationBadges = getVariationBadges(variations);
@@ -1277,123 +1310,158 @@ useEffect(() => {
                 <div
                   key={card.id}
                   onClick={() => {
-                    // Only allow opening the modal if NOT in view-only mode
-                    if (!isViewOnly) {
+                    // Disable modal if in trade view or if view-only
+                    if (!isViewOnly && currentFilter !== 'trade') {
                       setSelectedCard(card);
                       setSelectedVariation(Object.keys(card.variations)[0]);
                     }
                   }}
-                  className="relative bg-slate-700 rounded-xl overflow-hidden transition-all duration-300 border-2 border-slate-600 hover:border-purple-500 cursor-pointer hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20"
+                  className={`relative bg-slate-700 rounded-xl overflow-hidden transition-all duration-300 border-2 border-slate-600 
+      ${currentFilter === 'trade' ? 'cursor-default' : 'hover:border-purple-500 cursor-pointer hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20'}`}
                 >
                   <div className="aspect-[2/3] relative bg-slate-900">
-                    <img src={card.imageUrl} alt={card.name}
-                         className="w-full h-full object-contain p-2"/>
+                    <img
+                      src={card.imageUrl}
+                      alt={card.name}
+                      onClick={(e) => {
+                        if (currentFilter === 'trade') {
+                          e.stopPropagation();
+                          setImagePopup(card.imageUrl);
+                        }
+                      }}
+                      className={`w-full h-full object-contain p-2 ${currentFilter === 'trade' ? 'cursor-pointer hover:opacity-90 transition-opacity' : ''}`}
+                    />
 
-                    {/* Expansion Stamp - Left side */}
-                    {expansionStampUrl && (
-                      <div className="absolute top-1/2 -translate-y-1/2"
-                           style={{left: '75%', transform: 'translate(-60%, -20%)'}}>
+                    {/* Trade Status Overlay - Only shows when Trade filter is active */}
+                    {currentFilter === 'trade' ? (
+                      <>
+                        {/* Bottom section with trade quantities - bright and clear */}
                         <div
-                          className="w-24 h-24 flex items-center justify-center p-1.5">
-                          <img
-                            src={expansionStampUrl}
-                            alt="Expansion Stamp"
-                            className="w-full h-full object-contain"
-                          />
+                          className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900 via-slate-900/95 to-transparent p-2 pt-8">
+                          <div className="flex flex-col gap-1.5">
+                            {Object.entries(variations)
+                              .filter(([_, v]) => {
+                                const count = v.count || 0;
+                                const languages = v.languages || [];
+                                const languageCount = languages.length || 1;
+                                return count > languageCount;
+                              })
+                              .map(([varType, v]) => {
+                                const languages = v.languages || [];
+                                const count = v.count || 0;
+                                const languageCount = languages.length || 1;
+                                const tradeCount = count - languageCount;
+
+                                return (
+                                  <div key={varType}
+                                       className="bg-green-600 rounded-lg px-2 py-1.5 border-2 border-green-400 shadow-lg">
+                                    <div className="flex items-center justify-between gap-2">
+                                      <span className="text-white text-[10px] font-bold flex-1 leading-tight">
+                                        {varType.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                                      </span>
+                                      <div className="flex items-center gap-1.5">
+                                        {/* Language flags */}
+                                        {languages.includes('EN') && (
+                                          <span className="text-xs">🇺🇸</span>
+                                        )}
+                                        {languages.includes('JP') && (
+                                          <span className="text-xs">🇯🇵</span>
+                                        )}
+                                        {/* Quantity */}
+                                        <span
+                                          className="text-white font-black text-sm bg-green-800 px-1.5 py-0.5 rounded">
+                                          {tradeCount}×
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                );
+                              })}
+                          </div>
                         </div>
-                      </div>
+                      </>
+                    ) : (
+                      /* Regular Collection View Overlays (Checkmarks, Stamps, Badges) */
+                      <>
+                        {/* Expansion Stamp - Left side */}
+                        {expansionStampUrl && (
+                          <div className="absolute top-1/2 -translate-y-1/2"
+                               style={{left: '75%', transform: 'translate(-60%, -20%)'}}>
+                            <div className="w-24 h-24 flex items-center justify-center p-1.5">
+                              <img src={expansionStampUrl} alt="Expansion Stamp"
+                                   className="w-full h-full object-contain"/>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Language badges - top left */}
+                        <div className="absolute top-2 left-2 flex flex-col gap-1">
+                          {Object.values(variations).some(v => v.languages?.includes('EN')) && (
+                            <div
+                              className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg text-xs font-bold">🇺🇸</div>
+                          )}
+                          {Object.values(variations).some(v => v.languages?.includes('JP')) && (
+                            <div
+                              className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg text-xs font-bold">🇯🇵</div>
+                          )}
+                        </div>
+
+                        {/* Center Checkmark for owned cards */}
+                        {isOwned && (
+                          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div
+                              className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-2xl">
+                              <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd"
+                                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                      clipRule="evenodd"/>
+                              </svg>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Center Sandclock for ordered cards */}
+                        {isOrdered && !isOwned && (
+                          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div
+                              className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-2xl">
+                              <img src="https://cdn-icons-png.flaticon.com/512/3500/3500833.png" alt="Ordered"
+                                   className="w-8 h-8 object-contain"/>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Right side badges */}
+                        <div className="absolute top-2 right-2 flex flex-col gap-1">
+                          {totalCopies > 1 && (
+                            <div className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg">
+                              <span className="text-black text-xs font-bold">{totalCopies}</span>
+                            </div>
+                          )}
+                          {hasReverseHolo && (
+                            <div
+                              className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
+                              title="Reverse Holo">
+                              <img src="https://static.dextcg.com/resources/variants/alternate/ReverseHoloVariant.webp"
+                                   alt="Reverse Holo" className="w-5 h-5 object-contain invert"/>
+                            </div>
+                          )}
+                          {variationBadges.map((badge, index) => (
+                            <div key={`${badge.type}-${index}`}
+                                 className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
+                                 title={badge.alt}>
+                              <img src={badge.icon} alt={badge.alt} className="w-5 h-5 object-contain"/>
+                            </div>
+                          ))}
+                        </div>
+                      </>
                     )}
-
-                    {/* Language badges - top left */}
-                    <div className="absolute top-2 left-2 flex flex-col gap-1">
-                      {Object.values(variations).some(v => v.languages?.includes('EN')) && (
-                        <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg text-xs font-bold">
-                          🇺🇸
-                        </div>
-                      )}
-                      {Object.values(variations).some(v => v.languages?.includes('JP')) && (
-                        <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg text-xs font-bold">
-                          🇯🇵
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Center Checkmark for owned cards */}
-                    {isOwned && (
-                      <div
-                        className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        <div
-                          className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-2xl">
-                          <svg className="w-8 h-8 text-green-600" fill="currentColor"
-                               viewBox="0 0 20 20">
-                            <path fillRule="evenodd"
-                                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                  clipRule="evenodd"/>
-                          </svg>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Center Sandclock for ordered cards */}
-                    {isOrdered && !isOwned && (
-                      <div
-                        className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        <div
-                          className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-2xl">
-                          <img
-                            src="https://cdn-icons-png.flaticon.com/512/3500/3500833.png"
-                            alt="Ordered"
-                            className="w-8 h-8 object-contain"
-                          />
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Right side badges */}
-                    <div className="absolute top-2 right-2 flex flex-col gap-1">
-                      {/* Quantity badge (if more than 1) */}
-                      {totalCopies > 1 && (
-                        <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg">
-                          <span className="text-black text-xs font-bold">{totalCopies}</span>
-                        </div>
-                      )}
-
-                      {/* Reverse Holo badge */}
-                      {hasReverseHolo && (
-                        <div
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
-                          title="Reverse Holo">
-                          <img
-                            src="https://static.dextcg.com/resources/variants/alternate/ReverseHoloVariant.webp"
-                            alt="Reverse Holo"
-                            className="w-5 h-5 object-contain invert"
-                          />
-                        </div>
-                      )}
-
-                      {/* Special variation badges */}
-                      {variationBadges.map((badge, index) => (
-                        <div
-                          key={`${badge.type}-${index}`}
-                          className="w-7 h-7 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden border border-purple-400/50"
-                          title={badge.alt}
-                        >
-                          <img
-                            src={badge.icon}
-                            alt={badge.alt}
-                            className="w-5 h-5 object-contain"
-                          />
-                        </div>
-                      ))}
-                    </div>
                   </div>
 
                   <div className="p-2 bg-slate-900/50">
                     <div className="font-bold text-white text-xs truncate">{card.name}</div>
                     <div className="text-purple-300 text-[10px] truncate">#{card.number}</div>
+                    <div className="text-purple-400 text-[9px] truncate mt-0.5">{card.set}</div>
                   </div>
                 </div>
               );
