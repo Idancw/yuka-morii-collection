@@ -21,6 +21,7 @@ function App() {
   const [sharedOwnerEmail, setSharedOwnerEmail] = useState(null);
   const [imagePopup, setImagePopup] = useState(null);
   const [previousFilter, setPreviousFilter] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const loadCards = async () => {
@@ -596,6 +597,11 @@ useEffect(() => {
     const cardStats = getCardStats(card);
     const hasTradeAvailable = card.variations && Object.values(card.variations).some(v => (v.count || 0) > 1);
 
+    const searchMatch = searchQuery === '' ||
+        card.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        card.set?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        card.number?.toString().includes(searchQuery);
+
     const statusMatch = currentFilter === 'all'
       ? true
       : currentFilter === 'trade'
@@ -604,7 +610,7 @@ useEffect(() => {
 
     const eraMatch = currentEra === 'all' || card.era === currentEra;
 
-    return statusMatch && eraMatch;
+    return statusMatch && eraMatch && searchMatch;
   }).sort((a, b) => {
     const sheetA = parseInt(a.sheet_no) || 0;
     const sheetB = parseInt(b.sheet_no) || 0;
@@ -1195,26 +1201,26 @@ useEffect(() => {
         <div
           className="bg-slate-800/90 backdrop-blur-xl rounded-2xl shadow-2xl p-6 mb-6 border border-purple-500/20">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            <div
+            <div onClick={() => setCurrentFilter('all')}
               className="text-center p-4 bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl border border-purple-500/20">
               <div className="text-4xl font-bold text-purple-400">{stats.total}</div>
               <div className="text-purple-200 text-sm font-medium mt-2">Total Cards</div>
             </div>
 
             {/* Change: Label updated to "Owned" */}
-            <div
+            <div onClick={() => setCurrentFilter('yes')}
               className="text-center p-4 bg-gradient-to-br from-green-900/40 to-green-800/40 rounded-xl border border-green-500/30">
               <div className="text-4xl font-bold text-green-400">{stats.owned}</div>
               <div className="text-green-200 text-sm font-medium mt-2">✓ Owned</div>
             </div>
 
-            <div
+            <div onClick={() => setCurrentFilter('ordered')}
               className="text-center p-4 bg-gradient-to-br from-blue-900/40 to-blue-800/40 rounded-xl border border-blue-500/30">
               <div className="text-4xl font-bold text-blue-400">{stats.ordered}</div>
               <div className="text-blue-200 text-sm font-medium mt-2">📊 Ordered</div>
             </div>
 
-            <div
+            <div onClick={() => setCurrentFilter('no')}
               className="text-center p-4 bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl border border-slate-600">
               <div className="text-4xl font-bold text-slate-400">{stats.needed}</div>
               <div className="text-slate-300 text-sm font-medium mt-2">Needed</div>
@@ -1234,20 +1240,14 @@ useEffect(() => {
           className="bg-slate-800/90 backdrop-blur-xl rounded-2xl shadow-2xl p-4 mb-6 border border-purple-500/20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <label className="font-semibold text-purple-300 mb-2 block text-sm">🔍 Status</label>
-              <div className="flex flex-wrap gap-2">
-                {['all', 'yes', 'ordered', 'no'].map(status => (
-                  <button
-                    key={status}
-                    onClick={() => setCurrentFilter(status)}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                      currentFilter === status ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white' : 'bg-slate-700 text-purple-200'
-                    }`}
-                  >
-                    {status === 'all' ? 'All' : status === 'yes' ? '✓ Owned' : status === 'ordered' ? '📊 Ordered' : '○ Need'}
-                  </button>
-                ))}
-              </div>
+              <label className="font-semibold text-purple-300 mb-2 block text-sm">🔍 Search</label>
+              <input
+                  type="text"
+                  placeholder="Search by name, set, number..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-purple-200 text-sm placeholder-slate-400 focus:outline-none focus:border-purple-400"
+              />
             </div>
 
             <div>
