@@ -637,7 +637,7 @@ function App() {
       <div className="flex flex-col items-center justify-center min-h-screen bg-background">
         <div className="relative">
           <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl">🎴</div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl"><img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-16 h-16 mb-4" /></div>
         </div>
         <div className="text-foreground text-3xl font-heading font-bold mb-4 mt-8 tracking-wider">YUKA MORII</div>
         <div className="text-muted-foreground text-lg">Loading Collection...</div>
@@ -651,7 +651,7 @@ function App() {
       <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <div className="modal-content p-10 max-w-md w-full animate-fade-in-scale">
           <div className="text-center mb-8">
-            <div className="text-6xl mb-4">🎴</div>
+            <div className="text-6xl mb-4"><img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-16 h-16 mb-4" /></div>
             <h2 className="text-4xl font-heading font-bold gradient-text mb-2">
               Yuka Morii TCG Pokemon Collection
             </h2>
