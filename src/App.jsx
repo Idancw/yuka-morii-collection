@@ -16,15 +16,15 @@ function App() {
   const [user, setUser] = useState(null);
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [, setLoadingCollection] = useState(false);
+  const [loadingCollection, setLoadingCollection] = useState(false);
   const [isViewOnly, setIsViewOnly] = useState(false);
   const [currentFilter, setCurrentFilter] = useState('all');
   const [currentEra, setCurrentEra] = useState('all');
   const [showAuth, setShowAuth] = useState(false);
   const [showShareModal, setShowShareModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
-  const [, setSelectedVariation] = useState(null);
-  const [, setError] = useState(null);
+  const [selectedVariation, setSelectedVariation] = useState(null);
+  const [error, setError] = useState(null);
   const [sortOrder, setSortOrder] = useState('asc');
   const [sharedOwnerEmail, setSharedOwnerEmail] = useState(null);
   const [imagePopup, setImagePopup] = useState(null);
@@ -363,8 +363,8 @@ function App() {
     if (!card.variations) return false;
 
     const expansionStampKey = Object.keys(card.variations).find(key =>
-      key.toLowerCase().includes('expansion') &&
-      key.toLowerCase().includes('stamp')
+        key.toLowerCase().includes('expansion') &&
+        key.toLowerCase().includes('stamp')
     );
 
     if (!expansionStampKey) return false;
@@ -467,7 +467,7 @@ function App() {
     }
 
     const hasStamp = Object.keys(variations).some(key =>
-      (key.includes('expansion_stamp') || key.includes('PRERELESE_stamp')) && variations[key]?.count > 0
+        (key.includes('expansion_stamp') || key.includes('PRERELESE_stamp')) && variations[key]?.count > 0
     );
     if (hasStamp) {
       badges.push({
@@ -517,8 +517,8 @@ function App() {
 
           const currentLangs = card.variations[variationType].languages || [];
           const newLangs = currentLangs.includes(language)
-            ? currentLangs.filter(l => l !== language)
-            : [...currentLangs, language];
+              ? currentLangs.filter(l => l !== language)
+              : [...currentLangs, language];
 
           const updatedVariations = {
             ...card.variations,
@@ -540,6 +540,13 @@ function App() {
 
       return newCards;
     });
+  };
+
+  const hasAnyOwnership = (card) => {
+    if (!card.variations) return false;
+    return Object.values(card.variations).some(v =>
+        (v.count && v.count > 0)
+    );
   };
 
   const getCardStats = (card) => {
@@ -574,10 +581,10 @@ function App() {
         card.number?.toString().includes(searchQuery);
 
     const statusMatch = currentFilter === 'all'
-      ? true
-      : currentFilter === 'trade'
-        ? hasTradeAvailable
-        : cardStats.owned === currentFilter;
+        ? true
+        : currentFilter === 'trade'
+            ? hasTradeAvailable
+            : cardStats.owned === currentFilter;
 
     const eraMatch = currentEra === 'all' || card.era === currentEra;
 
@@ -608,22 +615,22 @@ function App() {
     setSelectedVariation(Object.keys(nextCard.variations)[0]);
   };
 
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
+  const touchStartRef = React.useRef(null);
+  const touchEndRef = React.useRef(null);
   const minSwipeDistance = 50;
 
   const onTouchStart = (e) => {
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
+    touchEndRef.current = null;
+    touchStartRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchMove = (e) => {
-    setTouchEnd(e.targetTouches[0].clientX);
+    touchEndRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
+    if (!touchStartRef.current || !touchEndRef.current) return;
+    const distance = touchStartRef.current - touchEndRef.current;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
 
@@ -634,132 +641,132 @@ function App() {
   // Loading screen
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-background">
-        <div className="relative">
-          <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl"><img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-16 h-16 mb-4" /></div>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-background">
+          <div className="relative">
+            <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl">🎴</div>
+          </div>
+          <div className="text-foreground text-3xl font-heading font-bold mb-4 mt-8 tracking-wider">YUKA MORII</div>
+          <div className="text-muted-foreground text-lg">Loading Collection...</div>
         </div>
-        <div className="text-foreground text-3xl font-heading font-bold mb-4 mt-8 tracking-wider">YUKA MORII</div>
-        <div className="text-muted-foreground text-lg">Loading Collection...</div>
-      </div>
     );
   }
 
   // Auth screen
   if (showAuth && !user) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center p-4">
-        <div className="modal-content p-10 max-w-md w-full animate-fade-in-scale">
-          <div className="text-center mb-8">
-            <div className="text-6xl mb-4"><img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-16 h-16 mb-4" /></div>
-            <h2 className="text-4xl font-heading font-bold gradient-text mb-2">
-              Yuka Morii TCG Pokemon Collection
-            </h2>
-            <p className="text-muted-foreground text-sm">Trading Card Collection</p>
-          </div>
-          <div className="space-y-4">
-            <button
-              type="button"
-              onClick={handleGoogleSignIn}
-              className="w-full bg-foreground text-background py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-all flex items-center justify-center gap-3"
-              style={{ boxShadow: 'var(--shadow-card)' }}
-            >
-              <svg className="w-6 h-6" viewBox="0 0 24 24">
-                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
-              </svg>
-              Sign in with Google
-            </button>
-            <p className="text-center text-muted-foreground text-xs">
-              Sign in to save and sync your collection across devices
-            </p>
+        <div className="min-h-screen bg-background flex items-center justify-center p-4">
+          <div className="modal-content p-10 max-w-md w-full animate-fade-in-scale">
+            <div className="text-center mb-8">
+              <div className="text-6xl mb-4">🎴</div>
+              <h2 className="text-4xl font-heading font-bold gradient-text mb-2">
+                Yuka Morii
+              </h2>
+              <p className="text-muted-foreground text-sm">Trading Card Collection</p>
+            </div>
+            <div className="space-y-4">
+              <button
+                  type="button"
+                  onClick={handleGoogleSignIn}
+                  className="w-full bg-foreground text-background py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  style={{ boxShadow: 'var(--shadow-card)' }}
+              >
+                <svg className="w-6 h-6" viewBox="0 0 24 24">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                </svg>
+                Sign in with Google
+              </button>
+              <p className="text-center text-muted-foreground text-xs">
+                Sign in to save and sync your collection across devices
+              </p>
+            </div>
           </div>
         </div>
-      </div>
     );
   }
 
   // Main app
   return (
-    <div className="min-h-screen bg-background">
-      {imagePopup && (
-        <ImageModal imageUrl={imagePopup} onClose={() => setImagePopup(null)} />
-      )}
+      <div className="min-h-screen bg-background">
+        {imagePopup && (
+            <ImageModal imageUrl={imagePopup} onClose={() => setImagePopup(null)} />
+        )}
 
-      {showShareModal && user && (
-        <ShareModal
-          userId={user.uid}
-          onCopyLink={copyShareLink}
-          onClose={() => setShowShareModal(false)}
-        />
-      )}
+        {showShareModal && user && (
+            <ShareModal
+                userId={user.uid}
+                onCopyLink={copyShareLink}
+                onClose={() => setShowShareModal(false)}
+            />
+        )}
 
-      {selectedCard && (
-        <CardModal
-          card={selectedCard}
-          isViewOnly={isViewOnly}
-          onClose={() => { setSelectedCard(null); setSelectedVariation(null); }}
-          onPrev={navigateToPreviousCard}
-          onNext={navigateToNextCard}
-          onImageClick={(url) => setImagePopup(url)}
-          onIncrement={incrementCount}
-          onDecrement={decrementCount}
-          onToggleLanguage={toggleLanguage}
-          onToggleOrdered={toggleOrdered}
-          onTouchStart={onTouchStart}
-          onTouchMove={onTouchMove}
-          onTouchEnd={onTouchEnd}
-        />
-      )}
+        {selectedCard && (
+            <CardModal
+                card={selectedCard}
+                isViewOnly={isViewOnly}
+                onClose={() => { setSelectedCard(null); setSelectedVariation(null); }}
+                onPrev={navigateToPreviousCard}
+                onNext={navigateToNextCard}
+                onImageClick={(url) => setImagePopup(url)}
+                onIncrement={incrementCount}
+                onDecrement={decrementCount}
+                onToggleLanguage={toggleLanguage}
+                onToggleOrdered={toggleOrdered}
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
+            />
+        )}
 
-      <div className="relative max-w-7xl mx-auto p-4 sm:p-6">
-        <Header
-          user={user}
-          isViewOnly={isViewOnly}
-          sharedOwnerEmail={sharedOwnerEmail}
-          currentFilter={currentFilter}
-          previousFilter={previousFilter}
-          onToggleTradeView={() => {
-            if (currentFilter === 'trade') {
-              setCurrentFilter(previousFilter);
-            } else {
-              setPreviousFilter(currentFilter);
-              setCurrentFilter('trade');
-            }
-          }}
-          onShare={() => setShowShareModal(true)}
-          onLogout={handleLogout}
-        />
+        <div className="relative max-w-7xl mx-auto p-4 sm:p-6">
+          <Header
+              user={user}
+              isViewOnly={isViewOnly}
+              sharedOwnerEmail={sharedOwnerEmail}
+              currentFilter={currentFilter}
+              previousFilter={previousFilter}
+              onToggleTradeView={() => {
+                if (currentFilter === 'trade') {
+                  setCurrentFilter(previousFilter);
+                } else {
+                  setPreviousFilter(currentFilter);
+                  setCurrentFilter('trade');
+                }
+              }}
+              onShare={() => setShowShareModal(true)}
+              onLogout={handleLogout}
+          />
 
-        <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
+          <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
 
-        <FiltersBar
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-          currentEra={currentEra}
-          onEraChange={setCurrentEra}
-          eras={eras}
-          sortOrder={sortOrder}
-          onSortChange={setSortOrder}
-        />
+          <FiltersBar
+              searchQuery={searchQuery}
+              onSearchChange={setSearchQuery}
+              currentEra={currentEra}
+              onEraChange={setCurrentEra}
+              eras={eras}
+              sortOrder={sortOrder}
+              onSortChange={setSortOrder}
+          />
 
-        <CardGrid
-          filteredCards={filteredCards}
-          currentFilter={currentFilter}
-          isViewOnly={isViewOnly}
-          hasExpansionStampOwned={hasExpansionStampOwned}
-          getExpansionStampMapping={getExpansionStampMapping}
-          getVariationBadges={getVariationBadges}
-          onCardClick={(card) => {
-            setSelectedCard(card);
-            setSelectedVariation(Object.keys(card.variations)[0]);
-          }}
-          onImagePopup={(url) => setImagePopup(url)}
-        />
+          <CardGrid
+              filteredCards={filteredCards}
+              currentFilter={currentFilter}
+              isViewOnly={isViewOnly}
+              hasExpansionStampOwned={hasExpansionStampOwned}
+              getExpansionStampMapping={getExpansionStampMapping}
+              getVariationBadges={getVariationBadges}
+              onCardClick={(card) => {
+                setSelectedCard(card);
+                setSelectedVariation(Object.keys(card.variations)[0]);
+              }}
+              onImagePopup={(url) => setImagePopup(url)}
+          />
+        </div>
       </div>
-    </div>
   );
 }
 
