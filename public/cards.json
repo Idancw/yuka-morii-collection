@@ -4451,7 +4451,7 @@
     "name": "Squirtle",
     "set": "Dpt-P",
     "era": "10th Anniversary Promos",
-    "number": "",
+    "number": "9",
     "sheet_no": "99",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dpt-p/9.jpg",
@@ -4477,7 +4477,7 @@
     "name": "Bulbasaur",
     "set": "Dpt-P",
     "era": "10th Anniversary Promos",
-    "number": "",
+    "number": "30",
     "sheet_no": "100",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dpt-p/30.jpg",
@@ -4503,7 +4503,7 @@
     "name": "Pikachu TOKYO",
     "set": "Dpt-P",
     "era": "10th Anniversary Promos",
-    "number": "",
+    "number": "98",
     "sheet_no": "101",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/dp-ppromos/98.jpg",
@@ -4645,6 +4645,15 @@
         "languages": [
           "Japanese"
         ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
         "default_language": "JP",
         "available_languages": [
           "JP"
@@ -5653,7 +5662,7 @@
     "name": "Bronzor",
     "set": "Triumphant",
     "era": "Heart Gold Soul Silver",
-    "number": "065",
+    "number": "058",
     "sheet_no": "128",
     "owned": "no",
     "imageUrl": "https://www.serebii.net/card/triumphant/58.jpg",
@@ -8567,7 +8576,7 @@
     "name": "Drapion V",
     "set": "Crown Zenith",
     "era": "Sword & Shield",
-    "number": "GG51",
+    "number": "GG49",
     "sheet_no": "199",
     "owned": "no",
     "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-GG049-drapion_v.jpg",
@@ -9483,7 +9492,7 @@
     "name": "Bronzong",
     "set": "Triumphant",
     "era": "Heart Gold Soul Silver",
-    "number": "057",
+    "number": "015",
     "sheet_no": "127",
     "owned": "no",
     "imageUrl": "https://dextcg.com/cdn-cgi/image/q=75/https://static.dextcg.com/cards/hgss4%2F15.png",
@@ -9612,273 +9621,6 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "jpn-pcgp-37",
-    "name": "Treecko",
-    "set": "PCG-P Promos",
-    "era": "Pokémon Card Game (PCG)",
-    "number": "37",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "pokemon_center": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "ex7-22",
-    "name": "Furret",
-    "set": "Team Rocket Returns",
-    "era": "EX",
-    "number": "22",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "expansion_stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "ex7-75",
-    "name": "Sentret",
-    "set": "Team Rocket Returns",
-    "era": "EX",
-    "number": "75",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "expansion_stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "ex7-78",
-    "name": "Spinarak",
-    "set": "Team Rocket Returns",
-    "era": "EX",
-    "number": "78",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "expansion_stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-98",
-    "name": "Pikachu",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "98",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-99",
-    "name": "Pikachu",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "99",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-100",
-    "name": "Pikachu",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "100",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-101",
-    "name": "Pikachu",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "101",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-102",
-    "name": "Pikachu",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "102",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-dpp-124",
-    "name": "Charmander",
-    "set": "Diamond & Pearl Promos",
-    "era": "Diamond & Pearl",
-    "number": "124",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
     "id": "jpn-rta-1",
     "name": "Pichu",
     "set": "Rampardos the Attacker",
@@ -9905,186 +9647,6 @@
         "default_language": "JP",
         "available_languages": [
           "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-plp-9",
-    "name": "Squirtle",
-    "set": "DPt-P Promos",
-    "era": "Diamond, Pearl and Platinum (DPt)",
-    "number": "9",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-plp-30",
-    "name": "Bulbasaur",
-    "set": "DPt-P Promos",
-    "era": "Diamond, Pearl and Platinum (DPt)",
-    "number": "30",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "pl3-127",
-    "name": "Shroomish",
-    "set": "Supreme Victors",
-    "era": "Platinum",
-    "number": "127",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "pl3-132",
-    "name": "Whismur",
-    "set": "Supreme Victors",
-    "era": "Platinum",
-    "number": "132",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "hgss4-15",
-    "name": "Bronzong",
-    "set": "Triumphant",
-    "era": "Heart Gold Soul Silver",
-    "number": "15",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "hgss4-58",
-    "name": "Bronzor",
-    "set": "Triumphant",
-    "era": "Heart Gold Soul Silver",
-    "number": "58",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
         ]
       }
     },
@@ -10121,30 +9683,6 @@
     "set": "Generations",
     "era": "Generations",
     "number": "RC19",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "smp-sm229",
-    "name": "Venusaur & Snivy GX",
-    "set": "Sun & Moon Promos",
-    "era": "Sun & Moon",
-    "number": "SM229",
     "sheet_no": "0",
     "owned": "no",
     "imageUrl": "",
@@ -10223,30 +9761,6 @@
         "default_language": "JP",
         "available_languages": [
           "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "swsh12pt5gg-gg49",
-    "name": "Drapion V",
-    "set": "Crown Zenith: Galarian Gallery",
-    "era": "Sword & Shield",
-    "number": "GG49",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
         ]
       }
     },

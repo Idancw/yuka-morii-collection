@@ -1,6 +1,8 @@
 import React from 'react';
 import { X } from 'lucide-react';
 
+const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}placeholder.svg`;
+
 interface ImageModalProps {
   imageUrl: string;
   onClose: () => void;
@@ -19,8 +21,11 @@ const ImageModal: React.FC<ImageModalProps> = ({ imageUrl, onClose }) => {
         <X className="w-5 h-5" />
       </button>
       <img
-        src={imageUrl}
+        src={imageUrl || PLACEHOLDER_IMAGE}
         alt="Card Detail"
+        onError={(e) => {
+          (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+        }}
         className="max-w-full max-h-[90vh] object-contain rounded-lg animate-fade-in-scale"
         style={{ boxShadow: 'var(--shadow-modal)' }}
         onClick={(e) => e.stopPropagation()}
