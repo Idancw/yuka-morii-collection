@@ -1,6 +1,8 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 
+const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}placeholder.svg`;
+
 interface CardItemProps {
   card: any;
   currentFilter: string;
@@ -43,8 +45,11 @@ const CardItem: React.FC<CardItemProps> = ({
     >
       <div className="aspect-[2/3] relative bg-background">
         <img
-          src={card.imageUrl}
+          src={card.imageUrl || PLACEHOLDER_IMAGE}
           alt={card.name}
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+          }}
           onClick={(e) => {
             if (isTradeView) {
               e.stopPropagation();

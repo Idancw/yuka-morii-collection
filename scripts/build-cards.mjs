@@ -43,7 +43,7 @@ const SET_ALIASES = {
   'exdragon': 'dragon',
   'exhiddenlegends': 'hiddenlegends',
   'exfireredleafgreen': 'fireredleafgreen',
-  'exteamrocketreturns': 'teamrocketreturns',
+  'exteamrocketreturns': 'rocketgangstrikesback',
   'exdeoxys': 'deoxys',
   'exemerald': 'emerald',
   'exunseenforces': 'unseenforces',
@@ -52,6 +52,13 @@ const SET_ALIASES = {
   'exdragonfrontiers': 'dragonfrontiers',
   'pokmonvs': 'vs',
   'pokmongo': 'pokemongo',
+  'teamrocketreturns': 'rocketgangstrikesback',
+  'diamondpearlpromos': 'dptp',
+  'dptppromos': 'dptp',
+  'pcgppromos': 'dptp',
+  'supremevictors': 'platinum',
+  'sunmoonpromos': 'promo',
+  'crownzenithgalariangallery': 'crownzenith',
 };
 
 function normSet(s) {
@@ -131,7 +138,7 @@ for (const r of rows) {
 const bySetNumber = new Map(); // "normSet|number" -> card id
 for (const card of byId.values()) {
   if (card.number) {
-    bySetNumber.set(`${normSet(card.set)}|${card.number.replace(/^0+/, '') || '0'}`, card.id);
+    bySetNumber.set(`${normSet(card.set)}|${card.number.toLowerCase().replace(/^0+/, '') || '0'}`, card.id);
   }
 }
 // also index the merged-away secondary numbers/codes so their CSV rows re-attach to the primary

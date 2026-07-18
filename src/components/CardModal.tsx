@@ -2,6 +2,8 @@ import React from 'react';
 import { X, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 import VariantRow from './VariantRow';
 
+const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}placeholder.svg`;
+
 interface CardModalProps {
   card: any;
   isViewOnly: boolean;
@@ -50,8 +52,11 @@ const CardModal: React.FC<CardModalProps> = ({
             onClick={(e) => { e.stopPropagation(); onImageClick(card.imageUrl); }}
           >
             <img
-              src={card.imageUrl}
+              src={card.imageUrl || PLACEHOLDER_IMAGE}
               alt={card.name}
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+              }}
               className={`${isMobile ? 'w-32' : 'w-48'} h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]`}
               style={{ boxShadow: 'var(--shadow-card)' }}
             />
