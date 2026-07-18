@@ -26,7 +26,12 @@ const VariantRow: React.FC<VariantRowProps> = ({
   const isOrdered = varData.ordered || false;
   const languages = varData.languages || [];
   const availableLanguages = varData.available_languages || [];
-  const displayName = varType.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+  const numberSuffix = varData.number ? `_${varData.number.toLowerCase()}` : null;
+  const varTypeForDisplay = numberSuffix && varType.endsWith(numberSuffix)
+    ? varType.slice(0, -numberSuffix.length)
+    : varType;
+  const baseDisplayName = varTypeForDisplay.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+  const displayName = varData.number ? `${baseDisplayName} (#${varData.number})` : baseDisplayName;
 
   return (
     <div className="variant-row">
@@ -69,8 +74,8 @@ const VariantRow: React.FC<VariantRowProps> = ({
           )}
 
           {/* Languages */}
-          {!isViewOnly && availableLanguages.length > 0 && (
-            <div className="flex items-center gap-1.5">
+          {!isViewOnly && (
+            <div className="flex items-center gap-1.5 w-[84px] shrink-0">
               {availableLanguages.map((lang: string) => {
                 const isActive = languages.includes(lang);
                 const isDisabled = count === 0;
