@@ -37,6 +37,18 @@ const MERGE_PAIRS = [
   { primary: 'skyridge-027', secondary: 'ecard3-raichu-holo', secondaryNumber: 'H25' },
 ];
 
+// ── CSV families that are the same physical card as an existing entry but
+// under a different regional/subset numbering (JP set vs its EN equivalent,
+// or an alternate print code within the same International set) — matched
+// by hand since their set name and number don't overlap with the existing
+// entry's, so the normSet+number index can't find them automatically.
+const FORCE_MATCH = {
+  'g1-RC19': 'generations-H19',
+  'jpn_s10a-34': 'lostorigin-086',
+  'jpn_s12a-061': 'evolvingskies-076',
+  'jpn_m1s-34': 'megaevolution-052',
+};
+
 // CSV "Set" -> cards.json "set" aliasing (spelling/naming differences).
 const SET_ALIASES = {
   'expeditionbaseset': 'expedition',
@@ -158,7 +170,7 @@ for (const [csvId, fam] of families.entries()) {
   const code = suffix.toLowerCase();
   const key1 = `${normSet(fam.set)}|${code.replace(/^0+/, '') || '0'}`;
   const key2 = numeric ? `${normSet(fam.set)}|${numeric.replace(/^0+/, '') || '0'}` : null;
-  const matchedId = bySetNumber.get(key1) || (key2 && bySetNumber.get(key2));
+  const matchedId = FORCE_MATCH[csvId] || bySetNumber.get(key1) || (key2 && bySetNumber.get(key2));
 
   if (matchedId) {
     matchedCount.matched++;
