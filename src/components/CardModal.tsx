@@ -70,13 +70,65 @@ const CardModal: React.FC<CardModalProps> = ({
                 <span className="text-lg">🎨</span>
                 <div>
                   <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Illustrator</div>
-                  <div className="text-foreground font-semibold text-sm">Yuka Morii TCG Pokemon Collection</div>
+                  <div className="text-foreground font-semibold text-sm">{card.illustrator || 'Yuka Morii'}</div>
                 </div>
               </div>
 
-              {card.era && (
+              {card.releaseDate && (
                 <div className="flex items-center gap-3 surface-elevated p-2.5">
                   <span className="text-lg">📅</span>
+                  <div>
+                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Release Date</div>
+                    <div className="text-foreground font-semibold text-sm">
+                      {new Date(card.releaseDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {card.rarity && (
+                <div className="flex items-center gap-3 surface-elevated p-2.5">
+                  <span className="text-lg">⭐</span>
+                  <div>
+                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Rarity</div>
+                    <div className="text-foreground font-semibold text-sm">{card.rarity}</div>
+                  </div>
+                </div>
+              )}
+
+              {card.nationalNumber && (
+                <div className="flex items-center gap-3 surface-elevated p-2.5">
+                  <span className="text-lg">#️⃣</span>
+                  <div>
+                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">National Number</div>
+                    <div className="text-foreground font-semibold text-sm">{card.nationalNumber}</div>
+                  </div>
+                </div>
+              )}
+
+              {card.energyType && (
+                <div className="flex items-center gap-3 surface-elevated p-2.5">
+                  <span className="text-lg">🔥</span>
+                  <div>
+                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Energy Type</div>
+                    <div className="text-foreground font-semibold text-sm">{card.energyType}</div>
+                  </div>
+                </div>
+              )}
+
+              {card.regulationMark && (
+                <div className="flex items-center gap-3 surface-elevated p-2.5">
+                  <span className="text-lg">🏷️</span>
+                  <div>
+                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Regulation Mark</div>
+                    <div className="text-foreground font-semibold text-sm">{card.regulationMark}</div>
+                  </div>
+                </div>
+              )}
+
+              {card.era && (
+                <div className="flex items-center gap-3 surface-elevated p-2.5">
+                  <span className="text-lg">🗂️</span>
                   <div>
                     <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Era</div>
                     <div className="text-foreground font-semibold text-sm">{card.era}</div>
