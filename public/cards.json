@@ -35,7 +35,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 222,
+    "energyType": "Water"
   },
   {
     "id": "neodiscovery-053",
@@ -73,7 +78,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 10,
+    "energyType": "Grass"
   },
   {
     "id": "neodiscovery-056",
@@ -112,7 +122,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 140,
+    "energyType": "Water"
   },
   {
     "id": "neodiscovery-060",
@@ -151,7 +166,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 138,
+    "energyType": "Fighting"
   },
   {
     "id": "vs-081",
@@ -177,7 +197,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Common"
   },
   {
     "id": "vs-082",
@@ -203,7 +225,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Common"
   },
   {
     "id": "vs-083",
@@ -240,7 +264,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Common"
   },
   {
     "id": "vs-084",
@@ -266,7 +292,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Holo Rare"
   },
   {
     "id": "vs-085",
@@ -292,7 +320,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Common"
   },
   {
     "id": "vs-086",
@@ -318,7 +348,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-07-19",
+    "rarity": "Common"
   },
   {
     "id": "neorevelation-002",
@@ -353,7 +385,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-09-21",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 242,
+    "energyType": "Colorless"
   },
   {
     "id": "neorevelation-045",
@@ -391,7 +428,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-09-21",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 118,
+    "energyType": "Water"
   },
   {
     "id": "neorevelation-048",
@@ -429,7 +471,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-09-21",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 195,
+    "energyType": "Water"
   },
   {
     "id": "neorevelation-051",
@@ -467,7 +514,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2001-09-21",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 213,
+    "energyType": "Fighting"
   },
   {
     "id": "neodestiny-013",
@@ -503,7 +555,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 184,
+    "energyType": "Water"
   },
   {
     "id": "neodestiny-031",
@@ -541,7 +598,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 113,
+    "energyType": "Colorless"
   },
   {
     "id": "neodestiny-044",
@@ -579,7 +641,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 39,
+    "energyType": "Colorless"
   },
   {
     "id": "neodestiny-056",
@@ -617,7 +684,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 175,
+    "energyType": "Colorless"
   },
   {
     "id": "neodestiny-063",
@@ -655,7 +727,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 147,
+    "energyType": "Colorless"
   },
   {
     "id": "neodestiny-066",
@@ -693,7 +770,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 203,
+    "energyType": "Colorless"
   },
   {
     "id": "neodestiny-079",
@@ -731,7 +813,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-02-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 54,
+    "energyType": "Water"
   },
   {
     "id": "expedition-060",
@@ -811,7 +898,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 62,
+    "energyType": "Water"
   },
   {
     "id": "expedition-089",
@@ -859,7 +951,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 61,
+    "energyType": "Water"
   },
   {
     "id": "expedition-125",
@@ -907,7 +1004,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 60,
+    "energyType": "Water"
   },
   {
     "id": "expedition-128",
@@ -956,7 +1058,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 19,
+    "energyType": "Colorless"
   },
   {
     "id": "expedition-131",
@@ -1005,7 +1112,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 7,
+    "energyType": "Water"
   },
   {
     "id": "expedition-136",
@@ -1053,7 +1165,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2002-09-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 37,
+    "energyType": "Fire"
   },
   {
     "id": "unnumbered-releases-pokemon-plaza-promo",
@@ -1079,7 +1196,8 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-01"
   },
   {
     "id": "aquapolis-017",
@@ -1153,7 +1271,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 189,
+    "energyType": "Grass"
   },
   {
     "id": "aquapolis-021",
@@ -1228,7 +1351,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 171,
+    "energyType": "Lightning"
   },
   {
     "id": "aquapolis-060",
@@ -1277,7 +1405,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 188,
+    "energyType": "Grass"
   },
   {
     "id": "aquapolis-070",
@@ -1326,7 +1459,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 170,
+    "energyType": "Water"
   },
   {
     "id": "aquapolis-083",
@@ -1376,7 +1514,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 187,
+    "energyType": "Grass"
   },
   {
     "id": "aquapolis-090",
@@ -1425,7 +1568,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-01-15",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 108,
+    "energyType": "Colorless"
   },
   {
     "id": "skyridge-024",
@@ -1499,7 +1647,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-05-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 221,
+    "energyType": "Water"
   },
   {
     "id": "skyridge-027",
@@ -1574,7 +1727,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-05-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 26,
+    "energyType": "Lightning"
   },
   {
     "id": "skyridge-053",
@@ -1623,7 +1781,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-05-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 206,
+    "energyType": "Colorless"
   },
   {
     "id": "skyridge-084",
@@ -1662,7 +1825,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-05-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 25,
+    "energyType": "Lightning"
   },
   {
     "id": "skyridge-107",
@@ -1711,7 +1879,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-05-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 220,
+    "energyType": "Water"
   },
   {
     "id": "exdragon-041",
@@ -1760,7 +1933,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-11-24",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 372,
+    "energyType": "Colorless"
   },
   {
     "id": "exdragon-057",
@@ -1827,7 +2005,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-11-24",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 88,
+    "energyType": "Grass"
   },
   {
     "id": "exdragon-069",
@@ -1894,7 +2077,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-11-24",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 322,
+    "energyType": "Fire"
   },
   {
     "id": "exdragon-078",
@@ -1961,7 +2149,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2003-11-24",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 328,
+    "energyType": "Fighting"
   },
   {
     "id": "exhiddenlegends-016",
@@ -2027,7 +2220,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 182,
+    "energyType": "Grass"
   },
   {
     "id": "exhiddenlegends-035",
@@ -2075,7 +2273,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 44,
+    "energyType": "Grass"
   },
   {
     "id": "exhiddenlegends-050",
@@ -2141,7 +2344,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 317,
+    "energyType": "Grass"
   },
   {
     "id": "exhiddenlegends-062",
@@ -2190,7 +2398,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 316,
+    "energyType": "Grass"
   },
   {
     "id": "exhiddenlegends-068",
@@ -2257,7 +2470,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-06-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 43,
+    "energyType": "Grass"
   },
   {
     "id": "exfireredandleafgreen-014",
@@ -2302,7 +2520,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 80,
+    "energyType": "Psychic"
   },
   {
     "id": "exfireredandleafgreen-030",
@@ -2349,7 +2572,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 114,
+    "energyType": "Grass"
   },
   {
     "id": "exfireredandleafgreen-043",
@@ -2397,7 +2625,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 47,
+    "energyType": "Grass"
   },
   {
     "id": "exfireredandleafgreen-072",
@@ -2456,7 +2689,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 46,
+    "energyType": "Grass"
   },
   {
     "id": "exfireredandleafgreen-080",
@@ -2503,44 +2741,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "popseries2-016",
-    "name": "Pikachu",
-    "set": " POP Series 2",
-    "era": "POP series",
-    "number": "016",
-    "sheet_no": "108",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop2/16.png",
-    "url": "https://dextcg.com/cards/pop2-16",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 79,
+    "energyType": "Psychic"
   },
   {
     "id": "exteamrocketreturns-021",
@@ -2587,7 +2793,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 225,
+    "energyType": "Water"
   },
   {
     "id": "exteamrocketreturns-022",
@@ -2634,7 +2845,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 162,
+    "energyType": "Colorless"
   },
   {
     "id": "exteamrocketreturns-075",
@@ -2681,7 +2897,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 161,
+    "energyType": "Colorless"
   },
   {
     "id": "exteamrocketreturns-078",
@@ -2728,45 +2949,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "popseries3-012",
-    "name": "Ditto MR MIME",
-    "set": " POP Series 3",
-    "era": "POP series",
-    "number": "012",
-    "sheet_no": "109",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop3/12.png",
-    "url": "https://dextcg.com/cards/pop3-12",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "meiji": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2004-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 167,
+    "energyType": "Grass"
   },
   {
     "id": "exdeoxys-029",
@@ -2813,7 +3001,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 178,
+    "energyType": "Psychic"
   },
   {
     "id": "exdeoxys-030",
@@ -2860,7 +3053,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 232,
+    "energyType": "Fighting"
   },
   {
     "id": "exdeoxys-066",
@@ -2907,7 +3105,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 177,
+    "energyType": "Psychic"
   },
   {
     "id": "exdeoxys-069",
@@ -2954,7 +3157,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 231,
+    "energyType": "Fighting"
   },
   {
     "id": "exemerald-024",
@@ -2992,7 +3200,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 344,
+    "energyType": "Fighting"
   },
   {
     "id": "exemerald-034",
@@ -3028,7 +3241,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 264,
+    "energyType": "Colorless"
   },
   {
     "id": "exemerald-043",
@@ -3064,7 +3282,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 343,
+    "energyType": "Fighting"
   },
   {
     "id": "exemerald-074",
@@ -3100,7 +3323,54 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 263,
+    "energyType": "Colorless"
+  },
+  {
+    "id": "popseries2-016",
+    "name": "Pikachu",
+    "set": " POP Series 2",
+    "era": "POP series",
+    "number": "016",
+    "sheet_no": "108",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop2/16.png",
+    "url": "https://dextcg.com/cards/pop2-16",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 25,
+    "energyType": "Lightning"
   },
   {
     "id": "exunseenforces-021",
@@ -3147,7 +3417,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 173,
+    "energyType": "Colorless"
   },
   {
     "id": "exunseenforces-023",
@@ -3194,7 +3469,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 239,
+    "energyType": "Lightning"
   },
   {
     "id": "exunseenforces-031",
@@ -3241,7 +3521,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 238,
+    "energyType": "Water"
   },
   {
     "id": "exunseenforces-033",
@@ -3277,7 +3562,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 236,
+    "energyType": "Fighting"
   },
   {
     "id": "exdeltaspecies-035",
@@ -3322,7 +3612,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Colorless"
   },
   {
     "id": "exdeltaspecies-036",
@@ -3369,7 +3664,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Grass"
   },
   {
     "id": "exdeltaspecies-037",
@@ -3416,7 +3716,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Fire"
   },
   {
     "id": "exdeltaspecies-038",
@@ -3463,7 +3768,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Psychic"
   },
   {
     "id": "exdeltaspecies-039",
@@ -3510,7 +3820,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Lightning"
   },
   {
     "id": "exdeltaspecies-040",
@@ -3567,7 +3882,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 132,
+    "energyType": "Water"
   },
   {
     "id": "exdeltaspecies-061",
@@ -3624,7 +3944,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 132,
+    "energyType": "Fire"
   },
   {
     "id": "exdeltaspecies-062",
@@ -3671,7 +3996,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 132,
+    "energyType": "Fighting"
   },
   {
     "id": "exdeltaspecies-063",
@@ -3727,7 +4057,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 132,
+    "energyType": "Lightning"
   },
   {
     "id": "exdeltaspecies-064",
@@ -3784,7 +4119,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2005-10-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 132,
+    "energyType": "Water"
   },
   {
     "id": "exlegendmaker-058",
@@ -3831,7 +4171,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 240,
+    "energyType": "Fire"
   },
   {
     "id": "exlegendmaker-061",
@@ -3878,7 +4223,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 273,
+    "energyType": "Grass"
   },
   {
     "id": "exlegendmaker-071",
@@ -3925,7 +4275,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 360,
+    "energyType": "Psychic"
   },
   {
     "id": "dpt-p-squirtle",
@@ -3951,7 +4306,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dpt-p-bulbasaur",
@@ -3977,7 +4334,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-treecko",
@@ -4003,7 +4362,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-pikachu-tokyo",
@@ -4029,7 +4390,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-pikachu-yokohama",
@@ -4055,7 +4418,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-pikachu-osaka",
@@ -4081,7 +4446,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-pikachu-nagoya",
@@ -4107,7 +4474,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-pikachu-fukuoka",
@@ -4133,7 +4502,9 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
   },
   {
     "id": "dp-ppromos-charmander",
@@ -4168,7 +4539,52 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-02-27",
+    "rarity": "Promo"
+  },
+  {
+    "id": "popseries3-012",
+    "name": "Ditto MR MIME",
+    "set": " POP Series 3",
+    "era": "POP series",
+    "number": "012",
+    "sheet_no": "109",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop3/12.png",
+    "url": "https://dextcg.com/cards/pop3-12",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-04-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 132,
+    "energyType": "Psychic"
   },
   {
     "id": "exdragonfrontiers-027",
@@ -4215,7 +4631,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 159,
+    "energyType": "Lightning"
   },
   {
     "id": "exdragonfrontiers-030",
@@ -4262,7 +4683,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 180,
+    "energyType": "Colorless"
   },
   {
     "id": "exdragonfrontiers-044",
@@ -4309,7 +4735,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 152,
+    "energyType": "Fighting"
   },
   {
     "id": "exdragonfrontiers-047",
@@ -4356,7 +4787,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2006-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 23,
+    "energyType": "Fire"
   },
   {
     "id": "jpn-rta-1",
@@ -4389,7 +4825,8 @@
       }
     },
     "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
+    "enriched_method": "csv_import_pending_enrichment",
+    "releaseDate": "2007-02-15"
   },
   {
     "id": "mysterioustreasures-052",
@@ -4455,7 +4892,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2007-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 440,
+    "energyType": "Colorless"
   },
   {
     "id": "mysterioustreasures-071",
@@ -4504,7 +4946,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2007-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 304,
+    "energyType": "Metal"
   },
   {
     "id": "mysterioustreasures-093",
@@ -4551,7 +4998,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2007-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 172,
+    "energyType": "Lightning"
   },
   {
     "id": "mysterioustreasures-099",
@@ -4600,7 +5052,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2007-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 287,
+    "energyType": "Colorless"
   },
   {
     "id": "mysterioustreasures-105",
@@ -4649,7 +5106,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2007-08-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 216,
+    "energyType": "Colorless"
   },
   {
     "id": "popseries8-014",
@@ -4693,7 +5155,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2008-09-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 440,
+    "energyType": "Colorless"
   },
   {
     "id": "stormfront-033",
@@ -4742,7 +5209,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2008-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 406,
+    "energyType": "Psychic"
   },
   {
     "id": "stormfront-054",
@@ -4791,7 +5263,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2008-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 399,
+    "energyType": "Colorless"
   },
   {
     "id": "stormfront-063",
@@ -4839,7 +5316,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2008-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 246,
+    "energyType": "Fighting"
   },
   {
     "id": "platinum-080",
@@ -4888,7 +5370,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-02-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 108,
+    "energyType": "Colorless"
   },
   {
     "id": "platinum-082",
@@ -4937,7 +5424,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-02-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 179,
+    "energyType": "Lightning"
   },
   {
     "id": "platinum-103",
@@ -4986,101 +5478,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "platinum-127",
-    "name": "Shroomish",
-    "set": "Platinum",
-    "era": "Supreme Victors",
-    "number": "127",
-    "sheet_no": "114",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/127.png",
-    "url": "https://dextcg.com/cards/pl3-127",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "platinum-132",
-    "name": "Whismur",
-    "set": "Platinum",
-    "era": "Platinum",
-    "number": "132",
-    "sheet_no": "115",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/132.png",
-    "url": "https://dextcg.com/cards/pl3-132",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-02-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 265,
+    "energyType": "Grass"
   },
   {
     "id": "platinum-071",
@@ -5127,7 +5530,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-08-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 312,
+    "energyType": "Lightning"
   },
   {
     "id": "platinum-076",
@@ -5175,7 +5583,116 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-08-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 311,
+    "energyType": "Lightning"
+  },
+  {
+    "id": "platinum-127",
+    "name": "Shroomish",
+    "set": "Platinum",
+    "era": "Supreme Victors",
+    "number": "127",
+    "sheet_no": "114",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/127.png",
+    "url": "https://dextcg.com/cards/pl3-127",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-08-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 285,
+    "energyType": "Grass"
+  },
+  {
+    "id": "platinum-132",
+    "name": "Whismur",
+    "set": "Platinum",
+    "era": "Platinum",
+    "number": "132",
+    "sheet_no": "115",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/132.png",
+    "url": "https://dextcg.com/cards/pl3-132",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-08-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 293,
+    "energyType": "Colorless"
   },
   {
     "id": "arceus-060",
@@ -5224,7 +5741,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-11-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 420,
+    "energyType": "Grass"
   },
   {
     "id": "arceus-075",
@@ -5273,7 +5795,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2009-11-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 361,
+    "energyType": "Water"
   },
   {
     "id": "heartgoldsoulsilver-013",
@@ -5330,7 +5857,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-02-10",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 202,
+    "energyType": "Psychic"
   },
   {
     "id": "heartgoldsoulsilver-025",
@@ -5391,7 +5923,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-02-10",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 166,
+    "energyType": "Grass"
   },
   {
     "id": "heartgoldsoulsilver-031",
@@ -5450,7 +5987,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-02-10",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 192,
+    "energyType": "Grass"
   },
   {
     "id": "heartgoldsoulsilver-071",
@@ -5509,7 +6051,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-02-10",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 165,
+    "energyType": "Grass"
   },
   {
     "id": "heartgoldsoulsilver-085",
@@ -5568,7 +6115,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-02-10",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 191,
+    "energyType": "Grass"
   },
   {
     "id": "undaunted-006",
@@ -5627,7 +6179,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-08-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "nationalNumber": 219,
+    "energyType": "Fire"
   },
   {
     "id": "undaunted-067",
@@ -5688,7 +6245,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-08-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 218,
+    "energyType": "Fire"
   },
   {
     "id": "Triumphant-015",
@@ -5749,7 +6311,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 437,
+    "energyType": "Metal"
   },
   {
     "id": "Triumphant-058",
@@ -5810,7 +6377,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2010-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 436,
+    "energyType": "Metal"
   },
   {
     "id": "legendarytreasures-009",
@@ -5871,7 +6443,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2013-11-06",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 540,
+    "energyType": "Grass"
   },
   {
     "id": "legendarytreasures-083",
@@ -5932,7 +6509,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2013-11-06",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 618,
+    "energyType": "Fighting"
   },
   {
     "id": "primalclash-087",
@@ -5993,7 +6575,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-02-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 449,
+    "energyType": "Fighting"
   },
   {
     "id": "primalclash-113",
@@ -6059,7 +6646,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-02-04",
+    "illustrator": "Yuka Morii",
+    "nationalNumber": 300,
+    "energyType": "Colorless",
+    "rarity": "Common"
   },
   {
     "id": "roaringskies-068",
@@ -6109,7 +6701,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-05-06",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 206,
+    "energyType": "Colorless"
   },
   {
     "id": "ancientorigins-047",
@@ -6158,7 +6755,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-08-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 374,
+    "energyType": "Metal"
   },
   {
     "id": "breakthrough-004",
@@ -6208,7 +6810,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-11-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 331,
+    "energyType": "Grass"
   },
   {
     "id": "breakthrough-098",
@@ -6257,7 +6864,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2015-11-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 209,
+    "energyType": "Fairy"
   },
   {
     "id": "breakpoint-072",
@@ -6307,7 +6919,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2016-02-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 274,
+    "energyType": "Darkness"
   },
   {
     "id": "generations-H19",
@@ -6332,7 +6949,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2016-02-22",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 684,
+    "energyType": "Fairy"
   },
   {
     "id": "fatescollide-049",
@@ -6382,7 +7004,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2016-05-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 703,
+    "energyType": "Fighting"
   },
   {
     "id": "steamsiege-012",
@@ -6432,7 +7059,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2016-08-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 590,
+    "energyType": "Grass"
   },
   {
     "id": "sunmoon-002",
@@ -6470,7 +7102,42 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-02-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 11,
+    "energyType": "Grass"
+  },
+  {
+    "id": "sunmoonpromos-sm229",
+    "name": "Venusaur & Snivy GX",
+    "set": "Promo",
+    "era": "Sun & Moon",
+    "number": "SM229",
+    "sheet_no": "169",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/smp/SM229.png",
+    "url": "https://dextcg.com/cards/smp-SM229",
+    "variations": {
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-02-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Promo",
+    "nationalNumber": 3,
+    "energyType": "Grass"
   },
   {
     "id": "guardiansrising-050",
@@ -6519,7 +7186,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-05-05",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 568,
+    "energyType": "Psychic"
   },
   {
     "id": "guardiansrising-052",
@@ -6557,7 +7229,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-05-05",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 574,
+    "energyType": "Psychic"
   },
   {
     "id": "crimsoninvasion-016",
@@ -6595,7 +7272,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 121,
+    "energyType": "Water"
   },
   {
     "id": "crimsoninvasion-051",
@@ -6633,7 +7315,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2017-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 57,
+    "energyType": "Fighting"
   },
   {
     "id": "forbiddenlight-001",
@@ -6672,7 +7359,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-05-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 102,
+    "energyType": "Grass"
   },
   {
     "id": "forbiddenlight-018",
@@ -6710,7 +7402,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-05-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 667,
+    "energyType": "Fire"
   },
   {
     "id": "forbiddenlight-066",
@@ -6748,7 +7445,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-05-04",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 688,
+    "energyType": "Fighting"
   },
   {
     "id": "celestialstorm-057",
@@ -6786,7 +7488,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-08-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 316,
+    "energyType": "Psychic"
   },
   {
     "id": "celestialstorm-058",
@@ -6822,7 +7529,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-08-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 317,
+    "energyType": "Psychic"
   },
   {
     "id": "dragonmajesty-043",
@@ -6860,7 +7572,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-09-07",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 372,
+    "energyType": "Dragon"
   },
   {
     "id": "lostthunder-080",
@@ -6898,7 +7615,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-11-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 417,
+    "energyType": "Lightning"
   },
   {
     "id": "lostthunder-116",
@@ -6936,7 +7658,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-11-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 247,
+    "energyType": "Fighting"
   },
   {
     "id": "lostthunder-123",
@@ -6974,7 +7701,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-11-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 51,
+    "energyType": "Metal"
   },
   {
     "id": "lostthunder-139",
@@ -7012,7 +7744,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2018-11-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 280,
+    "energyType": "Fairy"
   },
   {
     "id": "teamup-004",
@@ -7050,7 +7787,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 14,
+    "energyType": "Grass"
   },
   {
     "id": "teamup-035",
@@ -7088,7 +7830,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 74,
+    "energyType": "Lightning"
   },
   {
     "id": "teamup-047",
@@ -7126,7 +7873,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 595,
+    "energyType": "Lightning"
   },
   {
     "id": "teamup-081",
@@ -7164,7 +7916,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-02-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 674,
+    "energyType": "Fighting"
   },
   {
     "id": "unbrokenbonds-010",
@@ -7202,7 +7959,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-05-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 48,
+    "energyType": "Grass"
   },
   {
     "id": "unbrokenbonds-018",
@@ -7240,7 +8002,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-05-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 736,
+    "energyType": "Grass"
   },
   {
     "id": "unbrokenbonds-023",
@@ -7278,7 +8045,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-05-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 554,
+    "energyType": "Fire"
   },
   {
     "id": "unbrokenbonds-113",
@@ -7316,7 +8088,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-05-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 551,
+    "energyType": "Darkness"
   },
   {
     "id": "unifiedminds-015",
@@ -7354,7 +8131,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-08-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 753,
+    "energyType": "Grass"
   },
   {
     "id": "unifiedminds-111",
@@ -7392,7 +8174,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-08-02",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 369,
+    "energyType": "Fighting"
   },
   {
     "id": "cosmiceclipse-017",
@@ -7430,7 +8217,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 722,
+    "energyType": "Grass"
   },
   {
     "id": "cosmiceclipse-097",
@@ -7469,32 +8261,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "sunmoonpromos-sm229",
-    "name": "Venusaur & Snivy GX",
-    "set": "Promo",
-    "era": "Sun & Moon",
-    "number": "SM229",
-    "sheet_no": "169",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/smp/SM229.png",
-    "url": "https://dextcg.com/cards/smp-SM229",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2019-11-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 778,
+    "energyType": "Psychic"
   },
   {
     "id": "ssh-ferroseed-sword-shield-ssh-130",
@@ -7532,7 +8304,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-02-07",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 597,
+    "energyType": "Metal",
+    "regulationMark": "D"
   },
   {
     "id": "rcl-sandygast-rebel-clash-rcl-081",
@@ -7570,7 +8348,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 769,
+    "energyType": "Psychic",
+    "regulationMark": "D"
   },
   {
     "id": "rcl-bunnelby-rebel-clash-rcl-146",
@@ -7608,7 +8392,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-05-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 659,
+    "energyType": "Colorless",
+    "regulationMark": "D"
   },
   {
     "id": "darknessablaze-014",
@@ -7646,7 +8436,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-08-14",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 761,
+    "energyType": "Grass",
+    "regulationMark": "D"
   },
   {
     "id": "darknessablaze-022",
@@ -7684,7 +8480,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-08-14",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 255,
+    "energyType": "Fire",
+    "regulationMark": "D"
   },
   {
     "id": "championspath-002",
@@ -7722,7 +8524,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-09-25",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 13,
+    "energyType": "Grass",
+    "regulationMark": "D"
   },
   {
     "id": "vividvoltage-077",
@@ -7760,7 +8568,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-11-13",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 702,
+    "energyType": "Psychic",
+    "regulationMark": "D"
   },
   {
     "id": "vividvoltage-091",
@@ -7798,7 +8612,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-11-13",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 529,
+    "energyType": "Fighting",
+    "regulationMark": "D"
   },
   {
     "id": "vividvoltage-133",
@@ -7836,7 +8656,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2020-11-13",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 276,
+    "energyType": "Colorless",
+    "regulationMark": "D"
   },
   {
     "id": "battlestyles-027",
@@ -7874,7 +8700,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-03-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 757,
+    "energyType": "Fire",
+    "regulationMark": "E"
   },
   {
     "id": "battlestyles-029",
@@ -7912,7 +8744,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-03-19",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 850,
+    "energyType": "Fire",
+    "regulationMark": "E"
   },
   {
     "id": "chillingreign-022",
@@ -7951,7 +8789,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-06-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 351,
+    "energyType": "Fire",
+    "regulationMark": "E"
   },
   {
     "id": "chillingreign-091",
@@ -7989,7 +8833,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-06-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 852,
+    "energyType": "Fighting",
+    "regulationMark": "E"
   },
   {
     "id": "evolvingskies-068",
@@ -8027,7 +8877,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-08-27",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 527,
+    "energyType": "Psychic",
+    "regulationMark": "E"
   },
   {
     "id": "evolvingskies-076",
@@ -8066,7 +8922,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-08-27",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 710,
+    "energyType": "Psychic",
+    "regulationMark": "E"
   },
   {
     "id": "fusionstrike-084",
@@ -8123,7 +8985,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-11-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 872,
+    "energyType": "Water",
+    "regulationMark": "E"
   },
   {
     "id": "fusionstrike-095",
@@ -8161,7 +9029,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-11-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 602,
+    "energyType": "Lightning",
+    "regulationMark": "E"
   },
   {
     "id": "fusionstrike-131",
@@ -8199,7 +9073,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2021-11-12",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 27,
+    "energyType": "Fighting",
+    "regulationMark": "E"
   },
   {
     "id": "brilliantstars-010",
@@ -8246,7 +9126,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-02-25",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare",
+    "nationalNumber": 413,
+    "energyType": "Grass",
+    "regulationMark": "F"
   },
   {
     "id": "brilliantstars-030",
@@ -8295,7 +9181,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-02-25",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 120,
+    "energyType": "Water",
+    "regulationMark": "F"
   },
   {
     "id": "astralradiance-109",
@@ -8333,7 +9225,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-05-27",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 410,
+    "energyType": "Metal",
+    "regulationMark": "F"
   },
   {
     "id": "pokemongo-006",
@@ -8379,7 +9277,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-07-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 167,
+    "energyType": "Grass",
+    "regulationMark": "F"
   },
   {
     "id": "lostorigin-011",
@@ -8415,7 +9319,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-09-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 273,
+    "energyType": "Grass",
+    "regulationMark": "F"
   },
   {
     "id": "lostorigin-024",
@@ -8474,7 +9384,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-09-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 607,
+    "energyType": "Fire",
+    "regulationMark": "F"
   },
   {
     "id": "lostorigin-046",
@@ -8512,7 +9428,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-09-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 580,
+    "energyType": "Water",
+    "regulationMark": "F"
   },
   {
     "id": "lostorigin-086",
@@ -8560,7 +9482,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-09-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 66,
+    "energyType": "Fighting",
+    "regulationMark": "F"
   },
   {
     "id": "lostorigin-114",
@@ -8598,7 +9526,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-09-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 198,
+    "energyType": "Darkness",
+    "regulationMark": "F"
   },
   {
     "id": "silvertempest-093",
@@ -8634,7 +9568,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2022-11-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 343,
+    "energyType": "Fighting",
+    "regulationMark": "F"
   },
   {
     "id": "crownzenith-drapionv",
@@ -8661,7 +9601,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-01-20",
+    "illustrator": "Yuka Morii",
+    "rarity": "Rare Holo V",
+    "nationalNumber": 452,
+    "energyType": "Darkness",
+    "regulationMark": "F"
   },
   {
     "id": "crownzenith-092",
@@ -8700,7 +9646,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-01-20",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 624,
+    "energyType": "Metal",
+    "regulationMark": "F"
   },
   {
     "id": "svi-stonjourner-scarlet-violet-svi-121",
@@ -8738,7 +9690,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-03-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 874,
+    "energyType": "Fighting",
+    "regulationMark": "G"
   },
   {
     "id": "svi-starly-scarlet-violet-svi-148",
@@ -8776,7 +9734,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-03-31",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 396,
+    "energyType": "Colorless",
+    "regulationMark": "G"
   },
   {
     "id": "pal-pincurchin-paldea-evolved-pal-072",
@@ -8814,7 +9778,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-06-09",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 871,
+    "energyType": "Lightning",
+    "regulationMark": "G"
   },
   {
     "id": "obf-larvesta-obsidian-flames-obf-040",
@@ -8861,7 +9831,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-08-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 636,
+    "energyType": "Fire",
+    "regulationMark": "G"
   },
   {
     "id": "obf-clefairy-obsidian-flames-obf-081",
@@ -8910,7 +9886,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-08-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 35,
+    "energyType": "Psychic",
+    "regulationMark": "G"
   },
   {
     "id": "obf-sinistea-obsidian-flames-obf-097",
@@ -8948,7 +9930,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-08-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 854,
+    "energyType": "Psychic",
+    "regulationMark": "G"
   },
   {
     "id": "obf-lillipup-obsidian-flames-obf-170",
@@ -8986,7 +9974,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-08-11",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 506,
+    "energyType": "Colorless",
+    "regulationMark": "G"
   },
   {
     "id": "mew-magnemite-151-mew-081",
@@ -9046,7 +10040,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-09-22",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 81,
+    "energyType": "Lightning",
+    "regulationMark": "G"
   },
   {
     "id": "mew-magneton-151-mew-082",
@@ -9106,7 +10106,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-09-22",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 82,
+    "energyType": "Lightning",
+    "regulationMark": "G"
   },
   {
     "id": "par-octillery-paradox-rift-par-034",
@@ -9144,7 +10150,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 224,
+    "energyType": "Water",
+    "regulationMark": "G"
   },
   {
     "id": "par-toxel-paradox-rift-par-069",
@@ -9182,7 +10194,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 848,
+    "energyType": "Lightning",
+    "regulationMark": "G"
   },
   {
     "id": "par-aipom-paradox-rift-par-211",
@@ -9207,7 +10225,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2023-11-03",
+    "illustrator": "Yuka Morii",
+    "rarity": "Illustration Rare",
+    "nationalNumber": 190,
+    "energyType": "Colorless",
+    "regulationMark": "G"
   },
   {
     "id": "tef-minccino-temporal-forces-tef-136",
@@ -9245,7 +10269,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2024-03-22",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 572,
+    "energyType": "Colorless",
+    "regulationMark": "H"
   },
   {
     "id": "twilightmasquerade-056",
@@ -9283,7 +10313,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2024-05-24",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 656,
+    "energyType": "Water",
+    "regulationMark": "H"
   },
   {
     "id": "stellarcrown-043",
@@ -9321,7 +10357,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2024-09-13",
+    "rarity": "Common",
+    "nationalNumber": 833,
+    "energyType": "Water",
+    "regulationMark": "H"
   },
   {
     "id": "stellarcrown-102",
@@ -9379,7 +10420,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2024-09-13",
+    "rarity": "Common",
+    "nationalNumber": 808,
+    "energyType": "Metal",
+    "regulationMark": "H"
   },
   {
     "id": "surgingsparks-138",
@@ -9417,7 +10463,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2024-11-08",
+    "rarity": "Common",
+    "nationalNumber": 840,
+    "energyType": "Dragon",
+    "regulationMark": "H"
   },
   {
     "id": "journeytogether-009",
@@ -9455,7 +10506,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-03-28",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 588,
+    "energyType": "Grass",
+    "regulationMark": "I"
   },
   {
     "id": "destinedrivals-021",
@@ -9504,7 +10561,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-05-30",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 928,
+    "energyType": "Grass",
+    "regulationMark": "I"
   },
   {
     "id": "whiteflare-070",
@@ -9564,7 +10627,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-07-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Uncommon",
+    "nationalNumber": 632,
+    "energyType": "Metal",
+    "regulationMark": "I"
   },
   {
     "id": "blackbolt-141",
@@ -9589,7 +10658,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-07-18",
+    "illustrator": "Yuka Morii",
+    "rarity": "Illustration Rare",
+    "nationalNumber": 599,
+    "energyType": "Metal",
+    "regulationMark": "I"
   },
   {
     "id": "megaevolution-052",
@@ -9625,7 +10700,12 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-09-26",
+    "rarity": "Common",
+    "nationalNumber": 694,
+    "energyType": "Lightning",
+    "regulationMark": "I"
   },
   {
     "id": "phantasmalflames-009",
@@ -9661,7 +10741,13 @@
       }
     },
     "enriched": true,
-    "enriched_method": "web_scraping"
+    "enriched_method": "web_scraping",
+    "releaseDate": "2025-11-14",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common",
+    "nationalNumber": 919,
+    "energyType": "Grass",
+    "regulationMark": "I"
   },
   {
     "id": "me5-42",
@@ -9694,6 +10780,11 @@
       }
     },
     "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
+    "enriched_method": "csv_import_pending_enrichment",
+    "releaseDate": "2026-07-17",
+    "rarity": "Common",
+    "nationalNumber": 56,
+    "energyType": "Fighting",
+    "regulationMark": "J"
   }
 ]
