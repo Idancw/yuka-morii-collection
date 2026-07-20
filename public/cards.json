@@ -1,31 +1,5 @@
 [
   {
-    "id": "unnumbered-releases-pokemon-plaza-promo",
-    "name": "Pokemon Plaza",
-    "set": "Unnumbered Releases",
-    "era": "Unnumbered Promo",
-    "number": "001",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_unp/50.png",
-    "url": "https://dextcg.com/cards/jpn_unp-50",
-    "variations": {
-      "jumbo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
     "id": "neodiscovery-037",
     "name": "Corsola",
     "set": "Neo Discovery",
@@ -33,8 +7,8 @@
     "number": "037",
     "sheet_no": "1",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodiscovery/37.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/037.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo2/37.png",
+    "url": "https://dextcg.com/cards/neo2-37",
     "variations": {
       "normal": {
         "count": 0,
@@ -71,8 +45,8 @@
     "number": "053",
     "sheet_no": "2",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodiscovery/53.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/053.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo2/53.png",
+    "url": "https://dextcg.com/cards/neo2-53",
     "variations": {
       "normal": {
         "count": 0,
@@ -109,8 +83,8 @@
     "number": "056",
     "sheet_no": "3",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodiscovery/56.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/056.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo2/56.png",
+    "url": "https://dextcg.com/cards/neo2-56",
     "variations": {
       "normal": {
         "count": 0,
@@ -148,8 +122,8 @@
     "number": "060",
     "sheet_no": "4",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodiscovery/60.jpg",
-    "url": "https://www.serebii.net/card/neodiscovery/060.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo2/60.png",
+    "url": "https://dextcg.com/cards/neo2-60",
     "variations": {
       "normal": {
         "count": 0,
@@ -180,6 +154,173 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "vs-081",
+    "name": "Bruno's Machamp",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "081",
+    "sheet_no": "38",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/81.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-81",
+    "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "vs-082",
+    "name": "Bruno's Hitmonlee",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "082",
+    "sheet_no": "41",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/82.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-82",
+    "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "vs-083",
+    "name": "Bruno's Hitmonchan",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "083",
+    "sheet_no": "40",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/83.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-83",
+    "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "tropical_mega_battle_2001": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "vs-084",
+    "name": "Bruno's Steelix",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "084",
+    "sheet_no": "39",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/84.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-84",
+    "variations": {
+      "first_edition_(holo)": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "vs-085",
+    "name": "Bruno's Ursaring",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "085",
+    "sheet_no": "43",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/85.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-85",
+    "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "vs-086",
+    "name": "Bruno's Hitmontop",
+    "set": "Vs",
+    "era": "e-cards",
+    "number": "086",
+    "sheet_no": "42",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_versus1/86.png",
+    "url": "https://dextcg.com/cards/jpn_versus1-86",
+    "variations": {
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "neorevelation-002",
     "name": "Blissey",
     "set": "Neo Revelation",
@@ -187,8 +328,8 @@
     "number": "002",
     "sheet_no": "5",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neorevelation/2.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/002.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo3/2.png",
+    "url": "https://dextcg.com/cards/neo3-2",
     "variations": {
       "holo": {
         "count": 0,
@@ -222,8 +363,8 @@
     "number": "045",
     "sheet_no": "6",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neorevelation/45.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/045.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo3/45.png",
+    "url": "https://dextcg.com/cards/neo3-45",
     "variations": {
       "normal": {
         "count": 0,
@@ -260,8 +401,8 @@
     "number": "048",
     "sheet_no": "7",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neorevelation/48.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/048.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo3/48.png",
+    "url": "https://dextcg.com/cards/neo3-48",
     "variations": {
       "normal": {
         "count": 0,
@@ -298,8 +439,8 @@
     "number": "051",
     "sheet_no": "8",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neorevelation/51.jpg",
-    "url": "https://www.serebii.net/card/neorevelation/051.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo3/51.png",
+    "url": "https://dextcg.com/cards/neo3-51",
     "variations": {
       "normal": {
         "count": 0,
@@ -336,8 +477,8 @@
     "number": "013",
     "sheet_no": "9",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/13.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/013.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/13.png",
+    "url": "https://dextcg.com/cards/neo4-13",
     "variations": {
       "holo": {
         "count": 0,
@@ -372,8 +513,8 @@
     "number": "031",
     "sheet_no": "10",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/31.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/031.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/31.png",
+    "url": "https://dextcg.com/cards/neo4-31",
     "variations": {
       "normal": {
         "count": 0,
@@ -410,8 +551,8 @@
     "number": "044",
     "sheet_no": "11",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/44.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/044.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/44.png",
+    "url": "https://dextcg.com/cards/neo4-44",
     "variations": {
       "normal": {
         "count": 0,
@@ -448,8 +589,8 @@
     "number": "056",
     "sheet_no": "12",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/56.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/056.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/56.png",
+    "url": "https://dextcg.com/cards/neo4-56",
     "variations": {
       "normal": {
         "count": 0,
@@ -486,8 +627,8 @@
     "number": "063",
     "sheet_no": "13",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/63.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/063.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/63.png",
+    "url": "https://dextcg.com/cards/neo4-63",
     "variations": {
       "normal": {
         "count": 0,
@@ -524,8 +665,8 @@
     "number": "066",
     "sheet_no": "14",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/66.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/066.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/66.png",
+    "url": "https://dextcg.com/cards/neo4-66",
     "variations": {
       "normal": {
         "count": 0,
@@ -562,8 +703,8 @@
     "number": "079",
     "sheet_no": "15",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/neodestiny/79.jpg",
-    "url": "https://www.serebii.net/card/neodestiny/079.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/neo4/79.png",
+    "url": "https://dextcg.com/cards/neo4-79",
     "variations": {
       "normal": {
         "count": 0,
@@ -586,200 +727,6 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "expedition-125",
-    "name": "Poliwag",
-    "set": "Expedition",
-    "era": "e-cards",
-    "number": "125",
-    "sheet_no": "16",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/125.jpg",
-    "url": "https://www.serebii.net/card/expedition/125.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "expedition-128",
-    "name": "Rattata",
-    "set": "Expedition",
-    "era": "e-cards",
-    "number": "128",
-    "sheet_no": "17",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/128.jpg",
-    "url": "https://www.serebii.net/card/expedition/128.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "expedition-131",
-    "name": "Squirtle",
-    "set": "Expedition",
-    "era": "e-cards",
-    "number": "131",
-    "sheet_no": "18",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/131.jpg",
-    "url": "https://www.serebii.net/card/expedition/131.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "expedition-136",
-    "name": "Vulpix",
-    "set": "Expedition",
-    "era": "e-cards",
-    "number": "136",
-    "sheet_no": "19",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/136.jpg",
-    "url": "https://www.serebii.net/card/expedition/136.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
         ]
       }
     },
@@ -794,8 +741,8 @@
     "number": "060",
     "sheet_no": "20",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/60.jpg",
-    "url": "https://www.serebii.net/card/expedition/060.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/24.png",
+    "url": "https://dextcg.com/cards/ecard1-24",
     "variations": {
       "first_edition": {
         "count": 0,
@@ -874,8 +821,8 @@
     "number": "089",
     "sheet_no": "22",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/expedition/89.jpg",
-    "url": "https://www.serebii.net/card/expedition/089.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/89.png",
+    "url": "https://dextcg.com/cards/ecard1-89",
     "variations": {
       "normal": {
         "count": 0,
@@ -915,6 +862,226 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "expedition-125",
+    "name": "Poliwag",
+    "set": "Expedition",
+    "era": "e-cards",
+    "number": "125",
+    "sheet_no": "16",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/125.png",
+    "url": "https://dextcg.com/cards/ecard1-125",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "expedition-128",
+    "name": "Rattata",
+    "set": "Expedition",
+    "era": "e-cards",
+    "number": "128",
+    "sheet_no": "17",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/128.png",
+    "url": "https://dextcg.com/cards/ecard1-128",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "expedition-131",
+    "name": "Squirtle",
+    "set": "Expedition",
+    "era": "e-cards",
+    "number": "131",
+    "sheet_no": "18",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/131.png",
+    "url": "https://dextcg.com/cards/ecard1-131",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "expedition-136",
+    "name": "Vulpix",
+    "set": "Expedition",
+    "era": "e-cards",
+    "number": "136",
+    "sheet_no": "19",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard1/136.png",
+    "url": "https://dextcg.com/cards/ecard1-136",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "unnumbered-releases-pokemon-plaza-promo",
+    "name": "Pokemon Plaza",
+    "set": "Unnumbered Releases",
+    "era": "Unnumbered Promo",
+    "number": "001",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_unp/50.png",
+    "url": "https://dextcg.com/cards/jpn_unp-50",
+    "variations": {
+      "jumbo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "aquapolis-017",
     "name": "Jumpluff",
     "set": "Aquapolis",
@@ -922,8 +1089,8 @@
     "number": "017",
     "sheet_no": "25",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/17.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/017.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/17.png",
+    "url": "https://dextcg.com/cards/ecard2-17",
     "variations": {
       "normal": {
         "count": 0,
@@ -996,8 +1163,8 @@
     "number": "021",
     "sheet_no": "26",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/21.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/021.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/21.png",
+    "url": "https://dextcg.com/cards/ecard2-21",
     "variations": {
       "normal": {
         "count": 0,
@@ -1071,8 +1238,8 @@
     "number": "060",
     "sheet_no": "27",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/60.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/060.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/60.png",
+    "url": "https://dextcg.com/cards/ecard2-60",
     "variations": {
       "normal": {
         "count": 0,
@@ -1120,8 +1287,8 @@
     "number": "070",
     "sheet_no": "28",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/70.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/070.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/70.png",
+    "url": "https://dextcg.com/cards/ecard2-70",
     "variations": {
       "normal": {
         "count": 0,
@@ -1169,8 +1336,8 @@
     "number": "083",
     "sheet_no": "29",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/83.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/083.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/83.png",
+    "url": "https://dextcg.com/cards/ecard2-83",
     "variations": {
       "normal": {
         "count": 0,
@@ -1219,57 +1386,8 @@
     "number": "090",
     "sheet_no": "30",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/aquapolis/90.jpg",
-    "url": "https://www.serebii.net/card/aquapolis/090.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "skyridge-107",
-    "name": "Swinub",
-    "set": "Skyridge",
-    "era": "e-cards",
-    "number": "107",
-    "sheet_no": "31",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/skyridge/107.jpg",
-    "url": "https://www.serebii.net/card/skyridge/107.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard2/90.png",
+    "url": "https://dextcg.com/cards/ecard2-90",
     "variations": {
       "normal": {
         "count": 0,
@@ -1317,8 +1435,8 @@
     "number": "024",
     "sheet_no": "34",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/skyridge/24.jpg",
-    "url": "https://www.serebii.net/card/skyridge/024.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard3/H22.png",
+    "url": "https://dextcg.com/cards/ecard3-H22",
     "variations": {
       "normal": {
         "count": 0,
@@ -1391,8 +1509,8 @@
     "number": "027",
     "sheet_no": "35",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/skyridge/27.jpg",
-    "url": "https://www.serebii.net/card/skyridge/027.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard3/27.png",
+    "url": "https://dextcg.com/cards/ecard3-27",
     "variations": {
       "normal": {
         "count": 0,
@@ -1466,8 +1584,8 @@
     "number": "053",
     "sheet_no": "36",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/skyridge/53.jpg",
-    "url": "https://www.serebii.net/card/skyridge/053.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard3/53.png",
+    "url": "https://dextcg.com/cards/ecard3-53",
     "variations": {
       "normal": {
         "count": 0,
@@ -1515,8 +1633,8 @@
     "number": "084",
     "sheet_no": "37",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/skyridge/84.jpg",
-    "url": "https://www.serebii.net/card/skyridge/084.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard3/84.png",
+    "url": "https://dextcg.com/cards/ecard3-84",
     "variations": {
       "normal": {
         "count": 0,
@@ -1547,182 +1665,15 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "vs-081",
-    "name": "Bruno's Machamp",
-    "set": "Vs",
+    "id": "skyridge-107",
+    "name": "Swinub",
+    "set": "Skyridge",
     "era": "e-cards",
-    "number": "081",
-    "sheet_no": "38",
+    "number": "107",
+    "sheet_no": "31",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/81.jpg",
-    "url": "https://www.serebii.net/card/vs/081.shtml",
-    "variations": {
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "vs-084",
-    "name": "Bruno's Steelix",
-    "set": "Vs",
-    "era": "e-cards",
-    "number": "084",
-    "sheet_no": "39",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/84.jpg",
-    "url": "https://www.serebii.net/card/vs/084.shtml",
-    "variations": {
-      "first_edition_(holo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "vs-083",
-    "name": "Bruno's Hitmonchan",
-    "set": "Vs",
-    "era": "e-cards",
-    "number": "083",
-    "sheet_no": "40",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/83.jpg",
-    "url": "https://www.serebii.net/card/vs/083.shtml",
-    "variations": {
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "tropical_mega_battle_2001": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "vs-082",
-    "name": "Bruno's Hitmonlee",
-    "set": "Vs",
-    "era": "e-cards",
-    "number": "082",
-    "sheet_no": "41",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/82.jpg",
-    "url": "https://www.serebii.net/card/vs/082.shtml",
-    "variations": {
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "vs-086",
-    "name": "Bruno's Hitmontop",
-    "set": "Vs",
-    "era": "e-cards",
-    "number": "086",
-    "sheet_no": "42",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/86.jpg",
-    "url": "https://www.serebii.net/card/vs/086.shtml",
-    "variations": {
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "vs-085",
-    "name": "Bruno's Ursaring",
-    "set": "Vs",
-    "era": "e-cards",
-    "number": "085",
-    "sheet_no": "43",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/vs/85.jpg",
-    "url": "https://www.serebii.net/card/vs/085.shtml",
-    "variations": {
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exunseenforces-021",
-    "name": "Cleffa",
-    "set": "Unseen Forces",
-    "era": "EX",
-    "number": "021",
-    "sheet_no": "44",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exunseenforces/21.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/021.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ecard3/107.png",
+    "url": "https://dextcg.com/cards/ecard3-107",
     "variations": {
       "normal": {
         "count": 0,
@@ -1736,976 +1687,12 @@
           "JP"
         ]
       },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exunseenforces-023",
-    "name": "Elekid",
-    "set": "Unseen Forces",
-    "era": "EX",
-    "number": "023",
-    "sheet_no": "45",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exunseenforces/23.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/023.shtml",
-    "variations": {
-      "normal": {
+      "reverse_holo": {
         "count": 0,
         "ordered": false,
         "languages": [
           "English"
         ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exunseenforces-031",
-    "name": "Smoochum",
-    "set": "Unseen Forces",
-    "era": "EX",
-    "number": "031",
-    "sheet_no": "46",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exunseenforces/31.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/031.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exunseenforces-033",
-    "name": "Tyrogue",
-    "set": "Unseen Forces",
-    "era": "EX",
-    "number": "033",
-    "sheet_no": "47",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exunseenforces/33.jpg",
-    "url": "https://www.serebii.net/card/exunseenforces/033.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-035",
-    "name": "Ditto",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "035",
-    "sheet_no": "48",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/35.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/035.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-036",
-    "name": "Ditto BULBASAUR",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "036",
-    "sheet_no": "49",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/36.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/036.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-037",
-    "name": "Ditto CHARMANDER 2",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "037",
-    "sheet_no": "50",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/37.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/037.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-038",
-    "name": "Ditto MR MIME",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "038",
-    "sheet_no": "51",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/38.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/038.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-039",
-    "name": "Ditto PIKACHU",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "039",
-    "sheet_no": "52",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/39.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/039.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-040",
-    "name": "Ditto SQUIRTLE 2",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "040",
-    "sheet_no": "53",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/40.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/040.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "games_expo_2007": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-061",
-    "name": "Ditto CHARMANDER",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "061",
-    "sheet_no": "54",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/61.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/061.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "origins": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-062",
-    "name": "Ditto GEODUDE",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "062",
-    "sheet_no": "55",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/62.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/062.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-063",
-    "name": "Ditto PIKACHU",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "063",
-    "sheet_no": "56",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/63.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/063.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "comic-con_san_diego_2007": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdeltaspecies-064",
-    "name": "Ditto SQUIRTLE",
-    "set": "Delta Species",
-    "era": "EX",
-    "number": "064",
-    "sheet_no": "57",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeltaspecies/64.jpg",
-    "url": "https://www.serebii.net/card/exdeltaspecies/064.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "games_expo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exlegendmaker-058",
-    "name": "Magby",
-    "set": "Legend Maker",
-    "era": "EX",
-    "number": "058",
-    "sheet_no": "58",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exlegendmaker/58.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/058.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exlegendmaker-061",
-    "name": "Seedot",
-    "set": "Legend Maker",
-    "era": "EX",
-    "number": "061",
-    "sheet_no": "59",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exlegendmaker/61.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/061.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exlegendmaker-071",
-    "name": "Wynaut",
-    "set": "Legend Maker",
-    "era": "EX",
-    "number": "071",
-    "sheet_no": "60",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exlegendmaker/71.jpg",
-    "url": "https://www.serebii.net/card/exlegendmaker/071.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdragonfrontiers-027",
-    "name": "Croconaw 未",
-    "set": "Dragon Frontiers",
-    "era": "EX",
-    "number": "027",
-    "sheet_no": "61",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/27.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/027.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdragonfrontiers-030",
-    "name": "Flaaffy 未",
-    "set": "Dragon Frontiers",
-    "era": "EX",
-    "number": "030",
-    "sheet_no": "62",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/30.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/030.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdragonfrontiers-044",
-    "name": "Chikorita 未",
-    "set": "Dragon Frontiers",
-    "era": "EX",
-    "number": "044",
-    "sheet_no": "63",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/44.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/044.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "exdragonfrontiers-047",
-    "name": "Ekans 未",
-    "set": "Dragon Frontiers",
-    "era": "EX",
-    "number": "047",
-    "sheet_no": "64",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragonfrontiers/47.jpg",
-    "url": "https://www.serebii.net/card/exdragonfrontiers/047.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "expansion stamp": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN"
@@ -2734,8 +1721,8 @@
     "number": "041",
     "sheet_no": "65",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragon/41.jpg",
-    "url": "https://www.serebii.net/card/exdragon/041.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex3/41.png",
+    "url": "https://dextcg.com/cards/ex3-41",
     "variations": {
       "normal": {
         "count": 0,
@@ -2783,8 +1770,8 @@
     "number": "057",
     "sheet_no": "66",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragon/57.jpg",
-    "url": "https://www.serebii.net/card/exdragon/057.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex3/57.png",
+    "url": "https://dextcg.com/cards/ex3-57",
     "variations": {
       "normal": {
         "count": 0,
@@ -2850,8 +1837,8 @@
     "number": "069",
     "sheet_no": "67",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragon/69.jpg",
-    "url": "https://www.serebii.net/card/exdragon/069.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex3/69.png",
+    "url": "https://dextcg.com/cards/ex3-69",
     "variations": {
       "normal": {
         "count": 0,
@@ -2917,8 +1904,8 @@
     "number": "078",
     "sheet_no": "68",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdragon/78.jpg",
-    "url": "https://www.serebii.net/card/exdragon/078.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex3/78.png",
+    "url": "https://dextcg.com/cards/ex3-78",
     "variations": {
       "normal": {
         "count": 0,
@@ -2984,8 +1971,8 @@
     "number": "016",
     "sheet_no": "69",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exhiddenlegends/16.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/016.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex5/16.png",
+    "url": "https://dextcg.com/cards/ex5-16",
     "variations": {
       "normal": {
         "count": 0,
@@ -3050,8 +2037,8 @@
     "number": "035",
     "sheet_no": "70",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exhiddenlegends/35.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/035.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex5/35.png",
+    "url": "https://dextcg.com/cards/ex5-35",
     "variations": {
       "normal": {
         "count": 0,
@@ -3098,8 +2085,8 @@
     "number": "050",
     "sheet_no": "71",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exhiddenlegends/50.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/050.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex5/50.png",
+    "url": "https://dextcg.com/cards/ex5-50",
     "variations": {
       "normal": {
         "count": 0,
@@ -3164,8 +2151,8 @@
     "number": "062",
     "sheet_no": "72",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exhiddenlegends/62.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/062.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex5/62.png",
+    "url": "https://dextcg.com/cards/ex5-62",
     "variations": {
       "normal": {
         "count": 0,
@@ -3213,8 +2200,8 @@
     "number": "068",
     "sheet_no": "73",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exhiddenlegends/68.jpg",
-    "url": "https://www.serebii.net/card/exhiddenlegends/068.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex5/68.png",
+    "url": "https://dextcg.com/cards/ex5-68",
     "variations": {
       "normal": {
         "count": 0,
@@ -3280,8 +2267,8 @@
     "number": "014",
     "sheet_no": "74",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/14.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/014.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex6/14.png",
+    "url": "https://dextcg.com/cards/ex6-14",
     "variations": {
       "holo": {
         "count": 0,
@@ -3325,8 +2312,8 @@
     "number": "030",
     "sheet_no": "75",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/30.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/030.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex6/30.png",
+    "url": "https://dextcg.com/cards/ex6-30",
     "variations": {
       "normal": {
         "count": 0,
@@ -3372,8 +2359,8 @@
     "number": "043",
     "sheet_no": "76",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/43.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/043.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex6/43.png",
+    "url": "https://dextcg.com/cards/ex6-43",
     "variations": {
       "normal": {
         "count": 0,
@@ -3420,8 +2407,8 @@
     "number": "072",
     "sheet_no": "77",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/72.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/072.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex6/72.png",
+    "url": "https://dextcg.com/cards/ex6-72",
     "variations": {
       "normal": {
         "count": 0,
@@ -3479,8 +2466,8 @@
     "number": "080",
     "sheet_no": "78",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exfireredandleafgreen/80.jpg",
-    "url": "https://www.serebii.net/card/exfireredandleafgreen/080.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex6/80.png",
+    "url": "https://dextcg.com/cards/ex6-80",
     "variations": {
       "normal": {
         "count": 0,
@@ -3519,6 +2506,43 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "popseries2-016",
+    "name": "Pikachu",
+    "set": " POP Series 2",
+    "era": "POP series",
+    "number": "016",
+    "sheet_no": "108",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop2/16.png",
+    "url": "https://dextcg.com/cards/pop2-16",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "exteamrocketreturns-021",
     "name": "Delibird",
     "set": "Team Rocket Returns",
@@ -3526,8 +2550,8 @@
     "number": "021",
     "sheet_no": "79",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/21.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/021.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex7/21.png",
+    "url": "https://dextcg.com/cards/ex7-21",
     "variations": {
       "normal": {
         "count": 0,
@@ -3573,8 +2597,8 @@
     "number": "022",
     "sheet_no": "80",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/22.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/022.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex7/22.png",
+    "url": "https://dextcg.com/cards/ex7-22",
     "variations": {
       "normal": {
         "count": 0,
@@ -3620,8 +2644,8 @@
     "number": "075",
     "sheet_no": "81",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/75.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/075.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex7/75.png",
+    "url": "https://dextcg.com/cards/ex7-75",
     "variations": {
       "normal": {
         "count": 0,
@@ -3667,8 +2691,8 @@
     "number": "078",
     "sheet_no": "82",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exteamrocketreturns/78.jpg",
-    "url": "https://www.serebii.net/card/exteamrocketreturns/078.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex7/78.png",
+    "url": "https://dextcg.com/cards/ex7-78",
     "variations": {
       "normal": {
         "count": 0,
@@ -3707,6 +2731,44 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "popseries3-012",
+    "name": "Ditto MR MIME",
+    "set": " POP Series 3",
+    "era": "POP series",
+    "number": "012",
+    "sheet_no": "109",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop3/12.png",
+    "url": "https://dextcg.com/cards/pop3-12",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "exdeoxys-029",
     "name": "Xatu",
     "set": "Deoxys",
@@ -3714,8 +2776,8 @@
     "number": "029",
     "sheet_no": "83",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeoxys/29.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/029.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex8/29.png",
+    "url": "https://dextcg.com/cards/ex8-29",
     "variations": {
       "normal": {
         "count": 0,
@@ -3761,8 +2823,8 @@
     "number": "030",
     "sheet_no": "84",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeoxys/30.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/030.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex8/30.png",
+    "url": "https://dextcg.com/cards/ex8-30",
     "variations": {
       "normal": {
         "count": 0,
@@ -3808,8 +2870,8 @@
     "number": "066",
     "sheet_no": "85",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeoxys/66.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/066.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex8/66.png",
+    "url": "https://dextcg.com/cards/ex8-66",
     "variations": {
       "normal": {
         "count": 0,
@@ -3855,8 +2917,8 @@
     "number": "069",
     "sheet_no": "86",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exdeoxys/69.jpg",
-    "url": "https://www.serebii.net/card/exdeoxys/069.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex8/69.png",
+    "url": "https://dextcg.com/cards/ex8-69",
     "variations": {
       "normal": {
         "count": 0,
@@ -3902,8 +2964,8 @@
     "number": "024",
     "sheet_no": "87",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exemerald/24.jpg",
-    "url": "https://www.serebii.net/card/exemerald/024.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex9/24.png",
+    "url": "https://dextcg.com/cards/ex9-24",
     "variations": {
       "normal": {
         "count": 0,
@@ -3940,8 +3002,8 @@
     "number": "034",
     "sheet_no": "88",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exemerald/34.jpg",
-    "url": "https://www.serebii.net/card/exemerald/034.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex9/34.png",
+    "url": "https://dextcg.com/cards/ex9-34",
     "variations": {
       "normal": {
         "count": 0,
@@ -3976,8 +3038,8 @@
     "number": "043",
     "sheet_no": "89",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exemerald/43.jpg",
-    "url": "https://www.serebii.net/card/exemerald/043.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex9/43.png",
+    "url": "https://dextcg.com/cards/ex9-43",
     "variations": {
       "normal": {
         "count": 0,
@@ -4012,8 +3074,8 @@
     "number": "074",
     "sheet_no": "90",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/exemerald/74.jpg",
-    "url": "https://www.serebii.net/card/exemerald/074.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex9/74.png",
+    "url": "https://dextcg.com/cards/ex9-74",
     "variations": {
       "normal": {
         "count": 0,
@@ -4041,15 +3103,15 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "mysterioustreasures-105",
-    "name": "Teddiursa",
-    "set": "Mysterious Treasures",
-    "era": "Diamond Pearl",
-    "number": "105",
-    "sheet_no": "91",
+    "id": "exunseenforces-021",
+    "name": "Cleffa",
+    "set": "Unseen Forces",
+    "era": "EX",
+    "number": "021",
+    "sheet_no": "44",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/mysterioustreasures/105.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/105.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex10/21.png",
+    "url": "https://dextcg.com/cards/ex10-21",
     "variations": {
       "normal": {
         "count": 0,
@@ -4063,12 +3125,10 @@
           "JP"
         ]
       },
-      "reverse_holo": {
+      "expansion stamp": {
         "count": 0,
         "ordered": false,
-        "languages": [
-          "English"
-        ],
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN"
@@ -4090,6 +3150,1248 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "exunseenforces-023",
+    "name": "Elekid",
+    "set": "Unseen Forces",
+    "era": "EX",
+    "number": "023",
+    "sheet_no": "45",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex10/23.png",
+    "url": "https://dextcg.com/cards/ex10-23",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exunseenforces-031",
+    "name": "Smoochum",
+    "set": "Unseen Forces",
+    "era": "EX",
+    "number": "031",
+    "sheet_no": "46",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex10/31.png",
+    "url": "https://dextcg.com/cards/ex10-31",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exunseenforces-033",
+    "name": "Tyrogue",
+    "set": "Unseen Forces",
+    "era": "EX",
+    "number": "033",
+    "sheet_no": "47",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex10/33.png",
+    "url": "https://dextcg.com/cards/ex10-33",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-035",
+    "name": "Ditto",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "035",
+    "sheet_no": "48",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/35.png",
+    "url": "https://dextcg.com/cards/ex11-35",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-036",
+    "name": "Ditto BULBASAUR",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "036",
+    "sheet_no": "49",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/36.png",
+    "url": "https://dextcg.com/cards/ex11-36",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-037",
+    "name": "Ditto CHARMANDER 2",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "037",
+    "sheet_no": "50",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/37.png",
+    "url": "https://dextcg.com/cards/ex11-37",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-038",
+    "name": "Ditto MR MIME",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "038",
+    "sheet_no": "51",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/38.png",
+    "url": "https://dextcg.com/cards/ex11-38",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-039",
+    "name": "Ditto PIKACHU",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "039",
+    "sheet_no": "52",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/39.png",
+    "url": "https://dextcg.com/cards/ex11-39",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-040",
+    "name": "Ditto SQUIRTLE 2",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "040",
+    "sheet_no": "53",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/40.png",
+    "url": "https://dextcg.com/cards/ex11-40",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "games_expo_2007": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-061",
+    "name": "Ditto CHARMANDER",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "061",
+    "sheet_no": "54",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/61.png",
+    "url": "https://dextcg.com/cards/ex11-61",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "origins": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-062",
+    "name": "Ditto GEODUDE",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "062",
+    "sheet_no": "55",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/62.png",
+    "url": "https://dextcg.com/cards/ex11-62",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-063",
+    "name": "Ditto PIKACHU",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "063",
+    "sheet_no": "56",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/63.png",
+    "url": "https://dextcg.com/cards/ex11-63",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "comic-con_san_diego_2007": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdeltaspecies-064",
+    "name": "Ditto SQUIRTLE",
+    "set": "Delta Species",
+    "era": "EX",
+    "number": "064",
+    "sheet_no": "57",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex11/64.png",
+    "url": "https://dextcg.com/cards/ex11-64",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "games_expo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exlegendmaker-058",
+    "name": "Magby",
+    "set": "Legend Maker",
+    "era": "EX",
+    "number": "058",
+    "sheet_no": "58",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex12/58.png",
+    "url": "https://dextcg.com/cards/ex12-58",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exlegendmaker-061",
+    "name": "Seedot",
+    "set": "Legend Maker",
+    "era": "EX",
+    "number": "061",
+    "sheet_no": "59",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex12/61.png",
+    "url": "https://dextcg.com/cards/ex12-61",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exlegendmaker-071",
+    "name": "Wynaut",
+    "set": "Legend Maker",
+    "era": "EX",
+    "number": "071",
+    "sheet_no": "60",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex12/71.png",
+    "url": "https://dextcg.com/cards/ex12-71",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dpt-p-squirtle",
+    "name": "Squirtle",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "9",
+    "sheet_no": "99",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_plp/9.png",
+    "url": "https://dextcg.com/cards/jpn_plp-9",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dpt-p-bulbasaur",
+    "name": "Bulbasaur",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "30",
+    "sheet_no": "100",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_plp/30.png",
+    "url": "https://dextcg.com/cards/jpn_plp-30",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-treecko",
+    "name": "Treecko",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "37",
+    "sheet_no": "107",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_pcgp/37.png",
+    "url": "https://dextcg.com/cards/jpn_pcgp-37",
+    "variations": {
+      "pokemon_center": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-tokyo",
+    "name": "Pikachu TOKYO",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "98",
+    "sheet_no": "101",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/98.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-98",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-yokohama",
+    "name": "Pikachu YOKOHAMA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "99",
+    "sheet_no": "105",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/99.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-99",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-osaka",
+    "name": "Pikachu OSAKA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "100",
+    "sheet_no": "104",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/100.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-100",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-nagoya",
+    "name": "Pikachu NAGOYA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "101",
+    "sheet_no": "103",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/101.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-101",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-pikachu-fukuoka",
+    "name": "Pikachu FUKUOKA",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "102",
+    "sheet_no": "102",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/102.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-102",
+    "variations": {
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "dp-ppromos-charmander",
+    "name": "Charmander",
+    "set": "Dpt-P",
+    "era": "10th Anniversary Promos",
+    "number": "124",
+    "sheet_no": "106",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_dpp/124.png",
+    "url": "https://dextcg.com/cards/jpn_dpp-124",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "10th_anniversary": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdragonfrontiers-027",
+    "name": "Croconaw 未",
+    "set": "Dragon Frontiers",
+    "era": "EX",
+    "number": "027",
+    "sheet_no": "61",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex15/27.png",
+    "url": "https://dextcg.com/cards/ex15-27",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdragonfrontiers-030",
+    "name": "Flaaffy 未",
+    "set": "Dragon Frontiers",
+    "era": "EX",
+    "number": "030",
+    "sheet_no": "62",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex15/30.png",
+    "url": "https://dextcg.com/cards/ex15-30",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdragonfrontiers-044",
+    "name": "Chikorita 未",
+    "set": "Dragon Frontiers",
+    "era": "EX",
+    "number": "044",
+    "sheet_no": "63",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex15/44.png",
+    "url": "https://dextcg.com/cards/ex15-44",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "exdragonfrontiers-047",
+    "name": "Ekans 未",
+    "set": "Dragon Frontiers",
+    "era": "EX",
+    "number": "047",
+    "sheet_no": "64",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/ex15/47.png",
+    "url": "https://dextcg.com/cards/ex15-47",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "expansion stamp": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "jpn-rta-1",
+    "name": "Pichu",
+    "set": "Rampardos the Attacker",
+    "era": "Diamond & Pearl",
+    "number": "1",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_rta/1.png",
+    "url": "https://dextcg.com/cards/jpn_rta-1",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "csv_import_pending_enrichment"
+  },
+  {
     "id": "mysterioustreasures-052",
     "name": "Happiny",
     "set": "Mysterious Treasures",
@@ -4097,8 +4399,8 @@
     "number": "052",
     "sheet_no": "92",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/mysterioustreasures/52.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/052.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp2/52.png",
+    "url": "https://dextcg.com/cards/dp2-52",
     "variations": {
       "normal": {
         "count": 0,
@@ -4163,8 +4465,8 @@
     "number": "071",
     "sheet_no": "93",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/mysterioustreasures/71.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/071.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp2/71.png",
+    "url": "https://dextcg.com/cards/dp2-71",
     "variations": {
       "normal": {
         "count": 0,
@@ -4212,8 +4514,8 @@
     "number": "093",
     "sheet_no": "94",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/mysterioustreasures/93.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/093.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp2/93.png",
+    "url": "https://dextcg.com/cards/dp2-93",
     "variations": {
       "normal": {
         "count": 0,
@@ -4259,8 +4561,8 @@
     "number": "099",
     "sheet_no": "95",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/mysterioustreasures/99.jpg",
-    "url": "https://www.serebii.net/card/mysterioustreasures/099.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp2/99.png",
+    "url": "https://dextcg.com/cards/dp2-99",
     "variations": {
       "normal": {
         "count": 0,
@@ -4301,6 +4603,99 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "mysterioustreasures-105",
+    "name": "Teddiursa",
+    "set": "Mysterious Treasures",
+    "era": "Diamond Pearl",
+    "number": "105",
+    "sheet_no": "91",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp2/105.png",
+    "url": "https://dextcg.com/cards/dp2-105",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "popseries8-014",
+    "name": "Happiny",
+    "set": " POP Series 8",
+    "era": "POP series",
+    "number": "014",
+    "sheet_no": "110",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pop8/14.png",
+    "url": "https://dextcg.com/cards/pop8-14",
+    "variations": {
+      "cosmos_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "meiji": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "stormfront-033",
     "name": "Budew",
     "set": "Storm Front",
@@ -4308,8 +4703,8 @@
     "number": "033",
     "sheet_no": "96",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/stormfront/33.jpg",
-    "url": "https://www.serebii.net/card/stormfront/033.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp7/33.png",
+    "url": "https://dextcg.com/cards/dp7-33",
     "variations": {
       "normal": {
         "count": 0,
@@ -4357,8 +4752,8 @@
     "number": "054",
     "sheet_no": "97",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/stormfront/54.jpg",
-    "url": "https://www.serebii.net/card/stormfront/054.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp7/54.png",
+    "url": "https://dextcg.com/cards/dp7-54",
     "variations": {
       "normal": {
         "count": 0,
@@ -4406,8 +4801,8 @@
     "number": "063",
     "sheet_no": "98",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/stormfront/63.jpg",
-    "url": "https://www.serebii.net/card/stormfront/063.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/dp7/63.png",
+    "url": "https://dextcg.com/cards/dp7-63",
     "variations": {
       "normal": {
         "count": 0,
@@ -4429,417 +4824,6 @@
         "available_languages": [
           "EN",
           "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dpt-p-squirtle",
-    "name": "Squirtle",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "9",
-    "sheet_no": "99",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dpt-p/9.jpg",
-    "url": "https://www.serebii.net/card/dpt-p/009.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dpt-p-bulbasaur",
-    "name": "Bulbasaur",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "30",
-    "sheet_no": "100",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dpt-p/30.jpg",
-    "url": "https://www.serebii.net/card/dpt-p/030.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-tokyo",
-    "name": "Pikachu TOKYO",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "98",
-    "sheet_no": "101",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/98.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/098.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-fukuoka",
-    "name": "Pikachu FUKUOKA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "102",
-    "sheet_no": "102",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/102.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/102.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-nagoya",
-    "name": "Pikachu NAGOYA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "101",
-    "sheet_no": "103",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/101.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/101.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-osaka",
-    "name": "Pikachu OSAKA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "100",
-    "sheet_no": "104",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/100.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/100.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-pikachu-yokohama",
-    "name": "Pikachu YOKOHAMA",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "99",
-    "sheet_no": "105",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/99.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/99.shtml",
-    "variations": {
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-charmander",
-    "name": "Charmander",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "124",
-    "sheet_no": "106",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dp-ppromos/124.jpg",
-    "url": "https://www.serebii.net/card/dp-ppromos/124.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "10th_anniversary": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "dp-ppromos-treecko",
-    "name": "Treecko",
-    "set": "Dpt-P",
-    "era": "10th Anniversary Promos",
-    "number": "37",
-    "sheet_no": "107",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/pcgpromos/37.jpg",
-    "url": "https://www.serebii.net/card/pcgpromos/037.shtml",
-    "variations": {
-      "pokemon_center": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "popseries2-016",
-    "name": "Pikachu",
-    "set": " POP Series 2",
-    "era": "POP series",
-    "number": "016",
-    "sheet_no": "108",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/popseries2/16.jpg",
-    "url": "https://www.serebii.net/card/popseries2/016.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "popseries3-012",
-    "name": "Ditto MR MIME",
-    "set": " POP Series 3",
-    "era": "POP series",
-    "number": "012",
-    "sheet_no": "109",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/popseries3/12.jpg",
-    "url": "https://www.serebii.net/card/popseries3/012.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "meiji": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "popseries8-014",
-    "name": "Happiny",
-    "set": " POP Series 8",
-    "era": "POP series",
-    "number": "014",
-    "sheet_no": "110",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/popseries8/14.jpg",
-    "url": "https://www.serebii.net/card/popseries8/014.shtml",
-    "variations": {
-      "cosmos_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "meiji": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "platinum-103",
-    "name": "Wurmple",
-    "set": "Platinum",
-    "era": "Platinum",
-    "number": "103",
-    "sheet_no": "111",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/platinum/103.jpg",
-    "url": "https://www.serebii.net/card/platinum/103.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
         ]
       },
       "first_edition": {
@@ -4865,8 +4849,8 @@
     "number": "080",
     "sheet_no": "112",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/platinum/80.jpg",
-    "url": "https://www.serebii.net/card/platinum/080.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl1/80.png",
+    "url": "https://dextcg.com/cards/pl1-80",
     "variations": {
       "normal": {
         "count": 0,
@@ -4914,8 +4898,8 @@
     "number": "082",
     "sheet_no": "113",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/platinum/82.jpg",
-    "url": "https://www.serebii.net/card/platinum/082.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl1/82.png",
+    "url": "https://dextcg.com/cards/pl1-82",
     "variations": {
       "normal": {
         "count": 0,
@@ -4956,6 +4940,102 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "platinum-103",
+    "name": "Wurmple",
+    "set": "Platinum",
+    "era": "Platinum",
+    "number": "103",
+    "sheet_no": "111",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl1/103.png",
+    "url": "https://dextcg.com/cards/pl1-103",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "platinum-127",
+    "name": "Shroomish",
+    "set": "Platinum",
+    "era": "Supreme Victors",
+    "number": "127",
+    "sheet_no": "114",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/127.png",
+    "url": "https://dextcg.com/cards/pl3-127",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "platinum-132",
     "name": "Whismur",
     "set": "Platinum",
@@ -4963,8 +5043,8 @@
     "number": "132",
     "sheet_no": "115",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/supremevictors/132.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/132.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/132.png",
+    "url": "https://dextcg.com/cards/pl3-132",
     "variations": {
       "normal": {
         "count": 0,
@@ -5010,8 +5090,8 @@
     "number": "071",
     "sheet_no": "116",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/supremevictors/71.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/071.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/71.png",
+    "url": "https://dextcg.com/cards/pl3-71",
     "variations": {
       "normal": {
         "count": 0,
@@ -5057,8 +5137,8 @@
     "number": "076",
     "sheet_no": "117",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/supremevictors/76.jpg",
-    "url": "https://www.serebii.net/card/supremevictors/076.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/76.png",
+    "url": "https://dextcg.com/cards/pl3-76",
     "variations": {
       "normal": {
         "count": 0,
@@ -5105,8 +5185,8 @@
     "number": "060",
     "sheet_no": "118",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/arceus/60.jpg",
-    "url": "https://www.serebii.net/card/arceus/060.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl4/60.png",
+    "url": "https://dextcg.com/cards/pl4-60",
     "variations": {
       "normal": {
         "count": 0,
@@ -5154,8 +5234,8 @@
     "number": "075",
     "sheet_no": "119",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/arceus/75.jpg",
-    "url": "https://www.serebii.net/card/arceus/075.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl4/75.png",
+    "url": "https://dextcg.com/cards/pl4-75",
     "variations": {
       "normal": {
         "count": 0,
@@ -5203,8 +5283,8 @@
     "number": "013",
     "sheet_no": "120",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/13.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/013.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss1/13.png",
+    "url": "https://dextcg.com/cards/hgss1-13",
     "variations": {
       "holo": {
         "count": 0,
@@ -5260,8 +5340,8 @@
     "number": "025",
     "sheet_no": "121",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/25.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/025.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss1/25.png",
+    "url": "https://dextcg.com/cards/hgss1-25",
     "variations": {
       "normal": {
         "count": 0,
@@ -5321,8 +5401,8 @@
     "number": "031",
     "sheet_no": "122",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/31.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/031.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss1/31.png",
+    "url": "https://dextcg.com/cards/hgss1-31",
     "variations": {
       "normal": {
         "count": 0,
@@ -5380,8 +5460,8 @@
     "number": "071",
     "sheet_no": "123",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/71.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/071.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss1/71.png",
+    "url": "https://dextcg.com/cards/hgss1-71",
     "variations": {
       "normal": {
         "count": 0,
@@ -5439,8 +5519,8 @@
     "number": "085",
     "sheet_no": "124",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/heartgoldsoulsilver/85.jpg",
-    "url": "https://www.serebii.net/card/heartgoldsoulsilver/085.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss1/85.png",
+    "url": "https://dextcg.com/cards/hgss1-85",
     "variations": {
       "normal": {
         "count": 0,
@@ -5498,8 +5578,8 @@
     "number": "006",
     "sheet_no": "125",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/undaunted/6.jpg",
-    "url": "https://www.serebii.net/card/undaunted/006.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss3/6.png",
+    "url": "https://dextcg.com/cards/hgss3-6",
     "variations": {
       "holo": {
         "count": 0,
@@ -5557,8 +5637,8 @@
     "number": "067",
     "sheet_no": "126",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/undaunted/67.jpg",
-    "url": "https://www.serebii.net/card/undaunted/067.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss3/67.png",
+    "url": "https://dextcg.com/cards/hgss3-67",
     "variations": {
       "normal": {
         "count": 0,
@@ -5611,20 +5691,22 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "platinum-127",
-    "name": "Shroomish",
-    "set": "Platinum",
-    "era": "Supreme Victors",
-    "number": "127",
-    "sheet_no": "114",
+    "id": "Triumphant-015",
+    "name": "Bronzong",
+    "set": "Triumphant",
+    "era": "Heart Gold Soul Silver",
+    "number": "015",
+    "sheet_no": "127",
     "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pl3/127.png",
-    "url": "https://dextcg.com/pokedex/285",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss4/15.png",
+    "url": "https://dextcg.com/cards/hgss4-15",
     "variations": {
       "normal": {
         "count": 0,
         "ordered": false,
-        "languages": [],
+        "languages": [
+          "English"
+        ],
         "default_language": "EN",
         "available_languages": [
           "EN",
@@ -5639,10 +5721,22 @@
         ],
         "default_language": "EN",
         "available_languages": [
-          "EN"
+          "EN",
+          "JP"
         ]
       },
       "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      },
+      "first_edition_(reverse_holo)": {
         "count": 0,
         "ordered": false,
         "languages": [
@@ -5665,8 +5759,8 @@
     "number": "058",
     "sheet_no": "128",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/triumphant/58.jpg",
-    "url": "https://www.serebii.net/card/triumphant/058.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/hgss4/58.png",
+    "url": "https://dextcg.com/cards/hgss4-58",
     "variations": {
       "normal": {
         "count": 0,
@@ -5711,67 +5805,6 @@
         "default_language": "EN",
         "available_languages": [
           "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "legendarytreasures-083",
-    "name": "Stunfisk",
-    "set": "Legendary Treasures",
-    "era": "Black and White",
-    "number": "083",
-    "sheet_no": "129",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/legendarytreasures/83.jpg",
-    "url": "https://www.serebii.net/card/legendarytreasures/083.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "first_edition_(reverse_holo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
           "JP"
         ]
       }
@@ -5787,8 +5820,8 @@
     "number": "009",
     "sheet_no": "130",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/legendarytreasures/9.jpg",
-    "url": "https://www.serebii.net/card/legendarytreasures/009.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/bw11/9.png",
+    "url": "https://dextcg.com/cards/bw11-9",
     "variations": {
       "normal": {
         "count": 0,
@@ -5841,15 +5874,15 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "steamsiege-012",
-    "name": "Foongus",
-    "set": "Steam Siege",
-    "era": "X&Y",
-    "number": "012",
-    "sheet_no": "131",
+    "id": "legendarytreasures-083",
+    "name": "Stunfisk",
+    "set": "Legendary Treasures",
+    "era": "Black and White",
+    "number": "083",
+    "sheet_no": "129",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/steamsiege/12.jpg",
-    "url": "https://www.serebii.net/card/steamsiege/012.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/bw11/83.png",
+    "url": "https://dextcg.com/cards/bw11-83",
     "variations": {
       "normal": {
         "count": 0,
@@ -5885,70 +5918,16 @@
         "available_languages": [
           "JP"
         ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "primalclash-113",
-    "name": "Skitty",
-    "set": "Primal Clash",
-    "era": "X&Y",
-    "number": "113",
-    "sheet_no": "132",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/primalclash/113.jpg",
-    "url": "https://www.serebii.net/card/primalclash/113.shtml",
-    "variations": {
-      "normal": {
+      },
+      "first_edition_(reverse_holo)": {
         "count": 0,
         "ordered": false,
         "languages": [
-          "English"
+          "Japanese"
         ],
-        "default_language": "EN",
+        "default_language": "JP",
         "available_languages": [
-          "EN",
           "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "xy_trainer_kit:_latios_half_deck_1": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "xy_trainer_kit:_latios_half_deck_27": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      },
-      "McDonal's_collections_2015": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
         ]
       }
     },
@@ -5963,8 +5942,8 @@
     "number": "087",
     "sheet_no": "133",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/primalclash/87.jpg",
-    "url": "https://www.serebii.net/card/primalclash/087.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy5/87.png",
+    "url": "https://dextcg.com/cards/xy5-87",
     "variations": {
       "normal": {
         "count": 0,
@@ -6017,6 +5996,72 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "primalclash-113",
+    "name": "Skitty",
+    "set": "Primal Clash",
+    "era": "X&Y",
+    "number": "113",
+    "sheet_no": "132",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy5/113.png",
+    "url": "https://dextcg.com/cards/xy5-113",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "xy_trainer_kit:_latios_half_deck_1": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "xy_trainer_kit:_latios_half_deck_27": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      },
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "roaringskies-068",
     "name": "Dunsparce",
     "set": "Roaring Skies",
@@ -6024,8 +6069,8 @@
     "number": "068",
     "sheet_no": "134",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/roaringskies/68.jpg",
-    "url": "https://www.serebii.net/card/roaringskies/068.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy6/68.png",
+    "url": "https://dextcg.com/cards/xy6-68",
     "variations": {
       "normal": {
         "count": 0,
@@ -6074,8 +6119,8 @@
     "number": "047",
     "sheet_no": "135",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/ancientorigins/47.jpg",
-    "url": "https://www.serebii.net/card/ancientorigins/047.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy7/47.png",
+    "url": "https://dextcg.com/cards/xy7-47",
     "variations": {
       "normal": {
         "count": 0,
@@ -6123,8 +6168,8 @@
     "number": "004",
     "sheet_no": "136",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/breakthrough/4.jpg",
-    "url": "https://www.serebii.net/card/breakthrough/004.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy8/4.png",
+    "url": "https://dextcg.com/cards/xy8-4",
     "variations": {
       "normal": {
         "count": 0,
@@ -6173,8 +6218,8 @@
     "number": "098",
     "sheet_no": "137",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/breakthrough/98.jpg",
-    "url": "https://www.serebii.net/card/breakthrough/098.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy8/98.png",
+    "url": "https://dextcg.com/cards/xy8-98",
     "variations": {
       "normal": {
         "count": 0,
@@ -6222,58 +6267,8 @@
     "number": "072",
     "sheet_no": "138",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/breakpoint/72.jpg",
-    "url": "https://www.serebii.net/card/breakpoint/072.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "fatescollide-049",
-    "name": "Carbink",
-    "set": "Fates Collide",
-    "era": "X&Y",
-    "number": "049",
-    "sheet_no": "139",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/fatescollide/49.jpg",
-    "url": "https://www.serebii.net/card/fatescollide/049.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy9/72.png",
+    "url": "https://dextcg.com/cards/xy9-72",
     "variations": {
       "normal": {
         "count": 0,
@@ -6322,8 +6317,8 @@
     "number": "H19",
     "sheet_no": "140",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/generations/h19.jpg",
-    "url": "https://www.serebii.net/card/generations/H19.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/g1/RC19.png",
+    "url": "https://dextcg.com/cards/g1-RC19",
     "variations": {
       "holo": {
         "count": 0,
@@ -6340,6 +6335,106 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "fatescollide-049",
+    "name": "Carbink",
+    "set": "Fates Collide",
+    "era": "X&Y",
+    "number": "049",
+    "sheet_no": "139",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy10/49.png",
+    "url": "https://dextcg.com/cards/xy10-49",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "steamsiege-012",
+    "name": "Foongus",
+    "set": "Steam Siege",
+    "era": "X&Y",
+    "number": "012",
+    "sheet_no": "131",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/xy11/12.png",
+    "url": "https://dextcg.com/cards/xy11-12",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "first_edition": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "Japanese"
+        ],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "sunmoon-002",
     "name": "Metapod",
     "set": "Sun & Moon",
@@ -6347,8 +6442,8 @@
     "number": "002",
     "sheet_no": "141",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/sunmoon/2.jpg",
-    "url": "https://www.serebii.net/card/sunmoon/002.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm1/2.png",
+    "url": "https://dextcg.com/cards/sm1-2",
     "variations": {
       "normal": {
         "count": 0,
@@ -6385,8 +6480,8 @@
     "number": "050",
     "sheet_no": "143",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/guardiansrising/50.jpg",
-    "url": "https://www.serebii.net/card/guardiansrising/050.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm2/50.png",
+    "url": "https://dextcg.com/cards/sm2-50",
     "variations": {
       "normal": {
         "count": 0,
@@ -6434,8 +6529,8 @@
     "number": "052",
     "sheet_no": "144",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/guardiansrising/52.jpg",
-    "url": "https://www.serebii.net/card/guardiansrising/052.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm2/52.png",
+    "url": "https://dextcg.com/cards/sm2-52",
     "variations": {
       "normal": {
         "count": 0,
@@ -6472,8 +6567,8 @@
     "number": "016",
     "sheet_no": "145",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/crimsoninvasion/16.jpg",
-    "url": "https://www.serebii.net/card/crimsoninvasion/016.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm4/16.png",
+    "url": "https://dextcg.com/cards/sm4-16",
     "variations": {
       "normal": {
         "count": 0,
@@ -6510,8 +6605,8 @@
     "number": "051",
     "sheet_no": "146",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/crimsoninvasion/51.jpg",
-    "url": "https://www.serebii.net/card/crimsoninvasion/051.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm4/51.png",
+    "url": "https://dextcg.com/cards/sm4-51",
     "variations": {
       "normal": {
         "count": 0,
@@ -6548,8 +6643,8 @@
     "number": "001",
     "sheet_no": "147",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/forbiddenlight/1.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/001.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm6/1.png",
+    "url": "https://dextcg.com/cards/sm6-1",
     "variations": {
       "normal": {
         "count": 0,
@@ -6587,8 +6682,8 @@
     "number": "018",
     "sheet_no": "148",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/forbiddenlight/18.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/018.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm6/18.png",
+    "url": "https://dextcg.com/cards/sm6-18",
     "variations": {
       "normal": {
         "count": 0,
@@ -6625,8 +6720,8 @@
     "number": "066",
     "sheet_no": "149",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/forbiddenlight/66.jpg",
-    "url": "https://www.serebii.net/card/forbiddenlight/066.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm6/66.png",
+    "url": "https://dextcg.com/cards/sm6-66",
     "variations": {
       "normal": {
         "count": 0,
@@ -6663,8 +6758,8 @@
     "number": "057",
     "sheet_no": "150",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/celestialstorm/57.jpg",
-    "url": "https://www.serebii.net/card/celestialstorm/057.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm7/57.png",
+    "url": "https://dextcg.com/cards/sm7-57",
     "variations": {
       "normal": {
         "count": 0,
@@ -6701,8 +6796,8 @@
     "number": "058",
     "sheet_no": "151",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/celestialstorm/58.jpg",
-    "url": "https://www.serebii.net/card/celestialstorm/058.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm7/58.png",
+    "url": "https://dextcg.com/cards/sm7-58",
     "variations": {
       "normal": {
         "count": 0,
@@ -6737,122 +6832,8 @@
     "number": "043",
     "sheet_no": "152",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/dragonmajesty/43.jpg",
-    "url": "https://www.serebii.net/card/dragonmajesty/043.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "lostthunder-116",
-    "name": "Pupitar",
-    "set": "Lost Thunder",
-    "era": "Sun & Moon",
-    "number": "116",
-    "sheet_no": "153",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/lostthunder/116.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/116.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "lostthunder-123",
-    "name": "Alolan Dugtrio",
-    "set": "Lost Thunder",
-    "era": "Sun & Moon",
-    "number": "123",
-    "sheet_no": "154",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/lostthunder/123.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/123.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
-    "id": "lostthunder-139",
-    "name": "Ralts",
-    "set": "Lost Thunder",
-    "era": "Sun & Moon",
-    "number": "139",
-    "sheet_no": "155",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/lostthunder/139.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/139.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm75/43.png",
+    "url": "https://dextcg.com/cards/sm75-43",
     "variations": {
       "normal": {
         "count": 0,
@@ -6889,8 +6870,122 @@
     "number": "080",
     "sheet_no": "156",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/lostthunder/80.jpg",
-    "url": "https://www.serebii.net/card/lostthunder/080.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm8/80.png",
+    "url": "https://dextcg.com/cards/sm8-80",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "lostthunder-116",
+    "name": "Pupitar",
+    "set": "Lost Thunder",
+    "era": "Sun & Moon",
+    "number": "116",
+    "sheet_no": "153",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm8/116.png",
+    "url": "https://dextcg.com/cards/sm8-116",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "lostthunder-123",
+    "name": "Alolan Dugtrio",
+    "set": "Lost Thunder",
+    "era": "Sun & Moon",
+    "number": "123",
+    "sheet_no": "154",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm8/123.png",
+    "url": "https://dextcg.com/cards/sm8-123",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "lostthunder-139",
+    "name": "Ralts",
+    "set": "Lost Thunder",
+    "era": "Sun & Moon",
+    "number": "139",
+    "sheet_no": "155",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm8/139.png",
+    "url": "https://dextcg.com/cards/sm8-139",
     "variations": {
       "normal": {
         "count": 0,
@@ -6927,8 +7022,8 @@
     "number": "004",
     "sheet_no": "157",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-004-kakuna.jpg",
-    "url": "https://pkmncards.com/card/kakuna-team-up-teu-4/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm9/4.png",
+    "url": "https://dextcg.com/cards/sm9-4",
     "variations": {
       "normal": {
         "count": 0,
@@ -6965,8 +7060,8 @@
     "number": "035",
     "sheet_no": "158",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-035-alolan_geodude.jpg",
-    "url": "https://pkmncards.com/card/alolan-geodude-team-up-teu-35/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm9/35.png",
+    "url": "https://dextcg.com/cards/sm9-35",
     "variations": {
       "normal": {
         "count": 0,
@@ -7003,8 +7098,8 @@
     "number": "047",
     "sheet_no": "159",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-047-joltik.jpg",
-    "url": "https://pkmncards.com/card/joltik-team-up-teu-47/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm9/47.png",
+    "url": "https://dextcg.com/cards/sm9-47",
     "variations": {
       "normal": {
         "count": 0,
@@ -7041,8 +7136,8 @@
     "number": "081",
     "sheet_no": "160",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM9-081-pancham.jpg",
-    "url": "https://pkmncards.com/card/pancham-team-up-teu-81/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm9/81.png",
+    "url": "https://dextcg.com/cards/sm9-81",
     "variations": {
       "normal": {
         "count": 0,
@@ -7079,8 +7174,8 @@
     "number": "010",
     "sheet_no": "161",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-010-venonat.jpg",
-    "url": "https://pkmncards.com/card/venonat-unbroken-bonds-unb-10/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm10/10.png",
+    "url": "https://dextcg.com/cards/sm10-10",
     "variations": {
       "normal": {
         "count": 0,
@@ -7117,8 +7212,8 @@
     "number": "018",
     "sheet_no": "162",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-018-grubbin.jpg",
-    "url": "https://pkmncards.com/card/grubbin-unbroken-bonds-unb-18/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm10/18.png",
+    "url": "https://dextcg.com/cards/sm10-18",
     "variations": {
       "normal": {
         "count": 0,
@@ -7155,8 +7250,8 @@
     "number": "023",
     "sheet_no": "163",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-023-darumaka.jpg",
-    "url": "https://pkmncards.com/card/darumaka-unbroken-bonds-unb-23/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm10/23.png",
+    "url": "https://dextcg.com/cards/sm10-23",
     "variations": {
       "normal": {
         "count": 0,
@@ -7193,8 +7288,8 @@
     "number": "113",
     "sheet_no": "164",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM10-113-sandile.jpg",
-    "url": "https://pkmncards.com/card/sandile-unbroken-bonds-unb-113/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm10/113.png",
+    "url": "https://dextcg.com/cards/sm10-113",
     "variations": {
       "normal": {
         "count": 0,
@@ -7231,8 +7326,8 @@
     "number": "015",
     "sheet_no": "165",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM11-015-fomantis.jpg",
-    "url": "https://pkmncards.com/card/fomantis-unified-minds-unm-15/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm11/15.png",
+    "url": "https://dextcg.com/cards/sm11-15",
     "variations": {
       "normal": {
         "count": 0,
@@ -7269,8 +7364,8 @@
     "number": "111",
     "sheet_no": "166",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM11-111-relicanth.jpg",
-    "url": "https://pkmncards.com/card/relicanth-unified-minds-unm-111/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm11/111.png",
+    "url": "https://dextcg.com/cards/sm11-111",
     "variations": {
       "normal": {
         "count": 0,
@@ -7307,8 +7402,8 @@
     "number": "017",
     "sheet_no": "167",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM12-017-rowlet.jpg",
-    "url": "https://pkmncards.com/card/rowlet-cosmic-eclipse-cec-17/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm12/17.png",
+    "url": "https://dextcg.com/cards/sm12-17",
     "variations": {
       "normal": {
         "count": 0,
@@ -7345,8 +7440,8 @@
     "number": "097",
     "sheet_no": "168",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SM12-097-mimikyu.jpg",
-    "url": "https://pkmncards.com/card/mimikyu-cosmic-eclipse-cec-97/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sm12/97.png",
+    "url": "https://dextcg.com/cards/sm12-97",
     "variations": {
       "normal": {
         "count": 0,
@@ -7384,8 +7479,8 @@
     "number": "SM229",
     "sheet_no": "169",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM229-venusaur_snivy_gx-1.jpg",
-    "url": "https://pkmncards.com/card/venusaur-snivy-gx-sun-moon-promos-smp-sm229/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/smp/SM229.png",
+    "url": "https://dextcg.com/cards/smp-SM229",
     "variations": {
       "holo": {
         "count": 0,
@@ -7409,8 +7504,8 @@
     "number": "130",
     "sheet_no": "170",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH1-130-ferroseed.jpg",
-    "url": "https://pkmncards.com/card/ferroseed-sword-shield-ssh-130/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh1/130.png",
+    "url": "https://dextcg.com/cards/swsh1-130",
     "variations": {
       "normal": {
         "count": 0,
@@ -7447,8 +7542,8 @@
     "number": "081",
     "sheet_no": "171",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-081-sandygast.jpg",
-    "url": "https://pkmncards.com/card/sandygast-rebel-clash-rcl-081/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh2/81.png",
+    "url": "https://dextcg.com/cards/swsh2-81",
     "variations": {
       "normal": {
         "count": 0,
@@ -7485,8 +7580,8 @@
     "number": "146",
     "sheet_no": "172",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-146-bunnelby.jpg",
-    "url": "https://pkmncards.com/card/bunnelby-rebel-clash-rcl-146/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh2/146.png",
+    "url": "https://dextcg.com/cards/swsh2-146",
     "variations": {
       "normal": {
         "count": 0,
@@ -7523,8 +7618,8 @@
     "number": "014",
     "sheet_no": "173",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH3-014-bounsweet.jpg",
-    "url": "https://pkmncards.com/card/bounsweet-darkness-ablaze-daa-014/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh3/14.png",
+    "url": "https://dextcg.com/cards/swsh3-14",
     "variations": {
       "normal": {
         "count": 0,
@@ -7561,8 +7656,8 @@
     "number": "022",
     "sheet_no": "174",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH3-022-torchic.jpg",
-    "url": "https://pkmncards.com/card/torchic-darkness-ablaze-daa-022/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh3/22.png",
+    "url": "https://dextcg.com/cards/swsh3-22",
     "variations": {
       "normal": {
         "count": 0,
@@ -7599,8 +7694,8 @@
     "number": "002",
     "sheet_no": "175",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CP-002-weedle.jpg",
-    "url": "https://pkmncards.com/card/weedle-champions-path-cpa-002/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh35/2.png",
+    "url": "https://dextcg.com/cards/swsh35-2",
     "variations": {
       "normal": {
         "count": 0,
@@ -7637,8 +7732,8 @@
     "number": "077",
     "sheet_no": "176",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-077-dedenne.jpg",
-    "url": "https://pkmncards.com/card/dedenne-vivid-voltage-viv-077/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh4/77.png",
+    "url": "https://dextcg.com/cards/swsh4-77",
     "variations": {
       "normal": {
         "count": 0,
@@ -7675,8 +7770,8 @@
     "number": "091",
     "sheet_no": "177",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-091-drilbur.jpg",
-    "url": "https://pkmncards.com/card/drilbur-vivid-voltage-viv-091/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh4/91.png",
+    "url": "https://dextcg.com/cards/swsh4-91",
     "variations": {
       "normal": {
         "count": 0,
@@ -7713,8 +7808,8 @@
     "number": "133",
     "sheet_no": "178",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-133-taillow.jpg",
-    "url": "https://pkmncards.com/card/taillow-vivid-voltage-viv-133/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh4/133.png",
+    "url": "https://dextcg.com/cards/swsh4-133",
     "variations": {
       "normal": {
         "count": 0,
@@ -7751,8 +7846,8 @@
     "number": "027",
     "sheet_no": "179",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-027-salandit.jpg",
-    "url": "https://pkmncards.com/card/salandit-battle-styles-bst-027/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh5/27.png",
+    "url": "https://dextcg.com/cards/swsh5-27",
     "variations": {
       "normal": {
         "count": 0,
@@ -7789,8 +7884,8 @@
     "number": "029",
     "sheet_no": "180",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-029-sizzlipede.jpg",
-    "url": "https://pkmncards.com/card/sizzlipede-battle-styles-bst-029/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh5/29.png",
+    "url": "https://dextcg.com/cards/swsh5-29",
     "variations": {
       "normal": {
         "count": 0,
@@ -7827,8 +7922,8 @@
     "number": "022",
     "sheet_no": "181",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH6-022-castform_sunny_form.jpg",
-    "url": "https://pkmncards.com/card/castform-sunny-form-chilling-reign-cre-022/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh6/22.png",
+    "url": "https://dextcg.com/cards/swsh6-22",
     "variations": {
       "normal": {
         "count": 0,
@@ -7866,8 +7961,8 @@
     "number": "091",
     "sheet_no": "182",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH6-091-clobbopus.jpg",
-    "url": "https://pkmncards.com/card/clobbopus-chilling-reign-cre-091/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh6/91.png",
+    "url": "https://dextcg.com/cards/swsh6-91",
     "variations": {
       "normal": {
         "count": 0,
@@ -7904,8 +7999,8 @@
     "number": "068",
     "sheet_no": "183",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-068-woobat.jpg",
-    "url": "https://pkmncards.com/card/woobat-evolving-skies-evs-068/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh7/68.png",
+    "url": "https://dextcg.com/cards/swsh7-68",
     "variations": {
       "normal": {
         "count": 0,
@@ -7942,8 +8037,8 @@
     "number": "076",
     "sheet_no": "184",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-076-pumpkaboo.jpg",
-    "url": "https://pkmncards.com/card/pumpkaboo-evolving-skies-evs-076/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_s12a/061.png",
+    "url": "https://dextcg.com/cards/jpn_s12a-061",
     "variations": {
       "normal": {
         "count": 0,
@@ -7981,8 +8076,8 @@
     "number": "084",
     "sheet_no": "185",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-084-snom.jpg",
-    "url": "https://pkmncards.com/card/snom-fusion-strike-fst-084/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh8/84.png",
+    "url": "https://dextcg.com/cards/swsh8-84",
     "variations": {
       "normal": {
         "count": 0,
@@ -8038,8 +8133,8 @@
     "number": "095",
     "sheet_no": "186",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-095-tynamo.jpg",
-    "url": "https://pkmncards.com/card/tynamo-fusion-strike-fst-095/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh8/95.png",
+    "url": "https://dextcg.com/cards/swsh8-95",
     "variations": {
       "normal": {
         "count": 0,
@@ -8076,8 +8171,8 @@
     "number": "131",
     "sheet_no": "187",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-131-sandshrew.jpg",
-    "url": "https://pkmncards.com/card/sandshrew-fusion-strike-fst-131/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh8/131.png",
+    "url": "https://dextcg.com/cards/swsh8-131",
     "variations": {
       "normal": {
         "count": 0,
@@ -8114,8 +8209,8 @@
     "number": "010",
     "sheet_no": "188",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-010-wormadam-1.jpg",
-    "url": "https://pkmncards.com/card/wormadam-brilliant-stars-brs-010/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh9/10.png",
+    "url": "https://dextcg.com/cards/swsh9-10",
     "variations": {
       "normal": {
         "count": 0,
@@ -8161,8 +8256,8 @@
     "number": "030",
     "sheet_no": "189",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-030-staryu-1.jpg",
-    "url": "https://pkmncards.com/card/staryu-brilliant-stars-brs-030/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh9/30.png",
+    "url": "https://dextcg.com/cards/swsh9-30",
     "variations": {
       "normal": {
         "count": 0,
@@ -8210,8 +8305,8 @@
     "number": "109",
     "sheet_no": "190",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH10-109-shieldon.jpg",
-    "url": "https://pkmncards.com/card/shieldon-astral-radiance-asr-109/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh10/109.png",
+    "url": "https://dextcg.com/cards/swsh10-109",
     "variations": {
       "normal": {
         "count": 0,
@@ -8248,8 +8343,8 @@
     "number": "006",
     "sheet_no": "191",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-PGO-006-spinarak.jpg",
-    "url": "https://pkmncards.com/card/spinarak-pokemon-go-pgo-006/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/pgo/6.png",
+    "url": "https://dextcg.com/cards/pgo-6",
     "variations": {
       "normal": {
         "count": 0,
@@ -8294,8 +8389,8 @@
     "number": "011",
     "sheet_no": "192",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-011-seedot-1.jpg",
-    "url": "https://pkmncards.com/card/seedot-lost-origin-lor-011/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh11/11.png",
+    "url": "https://dextcg.com/cards/swsh11-11",
     "variations": {
       "normal": {
         "count": 0,
@@ -8330,8 +8425,8 @@
     "number": "024",
     "sheet_no": "193",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-024-litwick.jpg",
-    "url": "https://pkmncards.com/card/litwick-lost-origin-lor-024/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh11/24.png",
+    "url": "https://dextcg.com/cards/swsh11-24",
     "variations": {
       "normal": {
         "count": 0,
@@ -8389,8 +8484,8 @@
     "number": "046",
     "sheet_no": "194",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-046-ducklett.jpg",
-    "url": "https://pkmncards.com/card/ducklett-lost-origin-lor-046/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh11/46.png",
+    "url": "https://dextcg.com/cards/swsh11-46",
     "variations": {
       "normal": {
         "count": 0,
@@ -8427,8 +8522,8 @@
     "number": "086",
     "sheet_no": "195",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-086-machop.jpg",
-    "url": "https://pkmncards.com/card/machop-lost-origin-lor-086/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_s10a/34.png",
+    "url": "https://dextcg.com/cards/jpn_s10a-34",
     "variations": {
       "normal": {
         "count": 0,
@@ -8475,8 +8570,8 @@
     "number": "114",
     "sheet_no": "196",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-114-murkrow.jpg",
-    "url": "https://pkmncards.com/card/murkrow-lost-origin-lor-114/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh11/114.png",
+    "url": "https://dextcg.com/cards/swsh11-114",
     "variations": {
       "normal": {
         "count": 0,
@@ -8513,8 +8608,8 @@
     "number": "093",
     "sheet_no": "197",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-SWSH12-093-baltoy.jpg",
-    "url": "https://pkmncards.com/card/baltoy-silver-tempest-sit-093/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh12/93.png",
+    "url": "https://dextcg.com/cards/swsh12-93",
     "variations": {
       "normal": {
         "count": 0,
@@ -8542,6 +8637,33 @@
     "enriched_method": "web_scraping"
   },
   {
+    "id": "crownzenith-drapionv",
+    "name": "Drapion V",
+    "set": "Crown Zenith",
+    "era": "Sword & Shield",
+    "number": "GG49",
+    "sheet_no": "199",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh12pt5gg/GG49.png",
+    "url": "https://dextcg.com/cards/swsh12pt5gg-GG49",
+    "variations": {
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
     "id": "crownzenith-092",
     "name": "Pawniard",
     "set": "Crown Zenith",
@@ -8549,8 +8671,8 @@
     "number": "092",
     "sheet_no": "198",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-092-pawniard.jpg",
-    "url": "https://pkmncards.com/card/pawniard-crown-zenith-crz-092/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/swsh12pt5/92.png",
+    "url": "https://dextcg.com/cards/swsh12pt5-92",
     "variations": {
       "normal": {
         "count": 0,
@@ -8581,33 +8703,6 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "crownzenith-drapionv",
-    "name": "Drapion V",
-    "set": "Crown Zenith",
-    "era": "Sword & Shield",
-    "number": "GG49",
-    "sheet_no": "199",
-    "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/en_US-CZ-GG049-drapion_v.jpg",
-    "url": "https://pkmncards.com/card/drapion-v-crown-zenith-crz-gg49/",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
     "id": "svi-stonjourner-scarlet-violet-svi-121",
     "name": "Stonjourner",
     "set": "Scarlet & Violet",
@@ -8615,8 +8710,8 @@
     "number": "121",
     "sheet_no": "200",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv1_en_121.png",
-    "url": "https://pkmncards.com/card/stonjourner-scarlet-violet-svi-121/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv1/121.png",
+    "url": "https://dextcg.com/cards/sv1-121",
     "variations": {
       "normal": {
         "count": 0,
@@ -8653,8 +8748,8 @@
     "number": "148",
     "sheet_no": "201",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv1_en_148.png",
-    "url": "https://pkmncards.com/card/starly-scarlet-violet-svi-148/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv1/148.png",
+    "url": "https://dextcg.com/cards/sv1-148",
     "variations": {
       "normal": {
         "count": 0,
@@ -8691,8 +8786,8 @@
     "number": "072",
     "sheet_no": "202",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv2_en_072.jpg",
-    "url": "https://pkmncards.com/card/pincurchin-paldea-evolved-pal-072/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv2/72.png",
+    "url": "https://dextcg.com/cards/sv2-72",
     "variations": {
       "normal": {
         "count": 0,
@@ -8729,8 +8824,8 @@
     "number": "040",
     "sheet_no": "203",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_040.jpg",
-    "url": "https://pkmncards.com/card/larvesta-obsidian-flames-obf-040/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv3/40.png",
+    "url": "https://dextcg.com/cards/sv3-40",
     "variations": {
       "normal": {
         "count": 0,
@@ -8776,8 +8871,8 @@
     "number": "081",
     "sheet_no": "204",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_081.jpg",
-    "url": "https://pkmncards.com/card/clefairy-obsidian-flames-obf-081/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv3/81.png",
+    "url": "https://dextcg.com/cards/sv3-81",
     "variations": {
       "normal": {
         "count": 0,
@@ -8825,8 +8920,8 @@
     "number": "097",
     "sheet_no": "205",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_097.jpg",
-    "url": "https://pkmncards.com/card/sinistea-obsidian-flames-obf-097/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv3/97.png",
+    "url": "https://dextcg.com/cards/sv3-97",
     "variations": {
       "normal": {
         "count": 0,
@@ -8863,8 +8958,8 @@
     "number": "170",
     "sheet_no": "206",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3_en_170.jpg",
-    "url": "https://pkmncards.com/card/lillipup-obsidian-flames-obf-170/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv3/170.png",
+    "url": "https://dextcg.com/cards/sv3-170",
     "variations": {
       "normal": {
         "count": 0,
@@ -8901,8 +8996,8 @@
     "number": "081",
     "sheet_no": "207",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3-5_en_081_std.jpg",
-    "url": "https://pkmncards.com/card/magnemite-151-mew-081/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv35/81.png",
+    "url": "https://dextcg.com/cards/sv35-81",
     "variations": {
       "normal": {
         "count": 0,
@@ -8961,8 +9056,8 @@
     "number": "082",
     "sheet_no": "208",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv3-5_en_082_std.jpg",
-    "url": "https://pkmncards.com/card/magneton-151-mew-082/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv35/82.png",
+    "url": "https://dextcg.com/cards/sv35-82",
     "variations": {
       "normal": {
         "count": 0,
@@ -9021,8 +9116,8 @@
     "number": "034",
     "sheet_no": "209",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_034_std.jpg",
-    "url": "https://pkmncards.com/card/octillery-paradox-rift-par-034/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv4/34.png",
+    "url": "https://dextcg.com/cards/sv4-34",
     "variations": {
       "normal": {
         "count": 0,
@@ -9059,8 +9154,8 @@
     "number": "069",
     "sheet_no": "210",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_069_std.jpg",
-    "url": "https://pkmncards.com/card/toxel-paradox-rift-par-069/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv4/69.png",
+    "url": "https://dextcg.com/cards/sv4-69",
     "variations": {
       "normal": {
         "count": 0,
@@ -9097,8 +9192,8 @@
     "number": "211",
     "sheet_no": "211",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv4_en_211_std.jpg",
-    "url": "https://pkmncards.com/card/aipom-paradox-rift-par-211/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv4/211.png",
+    "url": "https://dextcg.com/cards/sv4-211",
     "variations": {
       "holo": {
         "count": 0,
@@ -9122,8 +9217,8 @@
     "number": "136",
     "sheet_no": "213",
     "owned": "no",
-    "imageUrl": "https://pkmncards.com/wp-content/uploads/sv5_en_136_std.jpg",
-    "url": "https://pkmncards.com/card/minccino-temporal-forces-tef-136/",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv5/136.png",
+    "url": "https://dextcg.com/cards/sv5-136",
     "variations": {
       "normal": {
         "count": 0,
@@ -9160,8 +9255,46 @@
     "number": "056",
     "sheet_no": "214",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/twilightmasquerade/56.jpg",
-    "url": "https://www.serebii.net/card/twilightmasquerade/056.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv6/56.png",
+    "url": "https://dextcg.com/cards/sv6-56",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN",
+          "JP"
+        ]
+      },
+      "reverse_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [
+          "English"
+        ],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": true,
+    "enriched_method": "web_scraping"
+  },
+  {
+    "id": "stellarcrown-043",
+    "name": "Chewtle",
+    "set": "Stellar Crown",
+    "era": "Scarlet & Violet",
+    "number": "043",
+    "sheet_no": "216",
+    "owned": "no",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv7/43.png",
+    "url": "https://dextcg.com/cards/sv7-43",
     "variations": {
       "normal": {
         "count": 0,
@@ -9198,8 +9331,8 @@
     "number": "102",
     "sheet_no": "215",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/stellarcrown/102.jpg",
-    "url": "https://www.serebii.net/card/stellarcrown/102.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv7/102.png",
+    "url": "https://dextcg.com/cards/sv7-102",
     "variations": {
       "normal": {
         "count": 0,
@@ -9249,44 +9382,6 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "stellarcrown-043",
-    "name": "Chewtle",
-    "set": "Stellar Crown",
-    "era": "Scarlet & Violet",
-    "number": "043",
-    "sheet_no": "216",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/stellarcrown/43.jpg",
-    "url": "https://www.serebii.net/card/stellarcrown/043.shtml",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
     "id": "surgingsparks-138",
     "name": "Applin",
     "set": "Surging Sparks",
@@ -9294,8 +9389,8 @@
     "number": "138",
     "sheet_no": "217",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/surgingsparks/138.jpg",
-    "url": "https://www.serebii.net/card/surgingsparks/138.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv8/138.png",
+    "url": "https://dextcg.com/cards/sv8-138",
     "variations": {
       "normal": {
         "count": 0,
@@ -9332,8 +9427,8 @@
     "number": "009",
     "sheet_no": "218",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/journeytogether/9.jpg",
-    "url": "https://www.serebii.net/card/journeytogether/009.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv9/9.png",
+    "url": "https://dextcg.com/cards/sv9-9",
     "variations": {
       "normal": {
         "count": 0,
@@ -9370,8 +9465,8 @@
     "number": "021",
     "sheet_no": "219",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/destinedrivals/21.jpg",
-    "url": "https://www.serebii.net/card/destinedrivals/021.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv10/21.png",
+    "url": "https://dextcg.com/cards/sv10-21",
     "variations": {
       "normal": {
         "count": 0,
@@ -9412,31 +9507,6 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "blackbolt-141",
-    "name": "Klinklang",
-    "set": "Black Bolt",
-    "era": "Scarlet & Violet",
-    "number": "141",
-    "sheet_no": "220",
-    "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/blackbolt/141.jpg",
-    "url": "https://www.serebii.net/card/blackbolt/141.shtml",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      }
-    },
-    "enriched": true,
-    "enriched_method": "web_scraping"
-  },
-  {
     "id": "whiteflare-070",
     "name": "Durant",
     "set": "White Flare",
@@ -9444,8 +9514,8 @@
     "number": "070",
     "sheet_no": "221",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/whiteflare/70.jpg",
-    "url": "https://www.serebii.net/card/whiteflare/070.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv105w/70.png",
+    "url": "https://dextcg.com/cards/sv105w-70",
     "variations": {
       "normal": {
         "count": 0,
@@ -9497,59 +9567,23 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "Triumphant-015",
-    "name": "Bronzong",
-    "set": "Triumphant",
-    "era": "Heart Gold Soul Silver",
-    "number": "015",
-    "sheet_no": "127",
+    "id": "blackbolt-141",
+    "name": "Klinklang",
+    "set": "Black Bolt",
+    "era": "Scarlet & Violet",
+    "number": "141",
+    "sheet_no": "220",
     "owned": "no",
-    "imageUrl": "https://dextcg.com/cdn-cgi/image/q=75/https://static.dextcg.com/cards/hgss4%2F15.png",
-    "url": "https://dextcg.com/cards/hgss4-15",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/sv105b/141.png",
+    "url": "https://dextcg.com/cards/sv105b-141",
     "variations": {
-      "normal": {
+      "holo": {
         "count": 0,
         "ordered": false,
-        "languages": [
-          "English"
-        ],
+        "languages": [],
         "default_language": "EN",
         "available_languages": [
           "EN",
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "English"
-        ],
-        "default_language": "EN",
-        "available_languages": [
-          "EN",
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "first_edition_(reverse_holo)": {
-        "count": 0,
-        "ordered": false,
-        "languages": [
-          "Japanese"
-        ],
-        "default_language": "JP",
-        "available_languages": [
           "JP"
         ]
       }
@@ -9565,8 +9599,8 @@
     "number": "052",
     "sheet_no": "222",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/megaevolution/52.jpg",
-    "url": "https://www.serebii.net/card/megaevolution/052.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/jpn_m1s/34.png",
+    "url": "https://dextcg.com/cards/jpn_m1s-34",
     "variations": {
       "normal": {
         "count": 0,
@@ -9601,8 +9635,8 @@
     "number": "009",
     "sheet_no": "223",
     "owned": "no",
-    "imageUrl": "https://www.serebii.net/card/phantasmalflames/9.jpg",
-    "url": "https://www.serebii.net/card/phantasmalflames/009.shtml",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/me2/9.png",
+    "url": "https://dextcg.com/cards/me2-9",
     "variations": {
       "normal": {
         "count": 0,
@@ -9630,63 +9664,6 @@
     "enriched_method": "web_scraping"
   },
   {
-    "id": "jpn-rta-1",
-    "name": "Pichu",
-    "set": "Rampardos the Attacker",
-    "era": "Diamond & Pearl",
-    "number": "1",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "first_edition": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "mcd15-12",
-    "name": "Skitty",
-    "set": "McDonald's Collection 2015",
-    "era": "McDonald's Collections",
-    "number": "12",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
     "id": "me5-42",
     "name": "Mankey",
     "set": "Pitch Black",
@@ -9694,8 +9671,8 @@
     "number": "42",
     "sheet_no": "0",
     "owned": "no",
-    "imageUrl": "",
-    "url": "",
+    "imageUrl": "https://dextcg.com/cdn-cgi/image/w=640,q=75,f=auto/https://static.dextcg.com/cards/me5/42.png",
+    "url": "https://dextcg.com/cards/me5-42",
     "variations": {
       "normal": {
         "count": 0,
