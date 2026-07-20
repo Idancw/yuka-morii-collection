@@ -8453,6 +8453,15 @@
           "EN",
           "JP"
         ]
+      },
+      "poke_ball_holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "JP",
+        "available_languages": [
+          "JP"
+        ]
       }
     },
     "enriched": true,
@@ -9671,120 +9680,6 @@
         "default_language": "EN",
         "available_languages": [
           "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "g1-rc19",
-    "name": "Swirlix",
-    "set": "Generations",
-    "era": "Generations",
-    "number": "RC19",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "EN",
-        "available_languages": [
-          "EN"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-s10a-34",
-    "name": "Machop",
-    "set": "Dark Phantasma",
-    "era": "Sword & Shield",
-    "number": "34",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "poke_ball_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-s12a-061",
-    "name": "Pumpkaboo",
-    "set": "VSTAR Universe",
-    "era": "Sword & Shield",
-    "number": "061",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      },
-      "reverse_holo": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
-        ]
-      }
-    },
-    "enriched": false,
-    "enriched_method": "csv_import_pending_enrichment"
-  },
-  {
-    "id": "jpn-m1s-34",
-    "name": "Helioptile",
-    "set": "Mega Symphonia",
-    "era": "MEGA",
-    "number": "34",
-    "sheet_no": "0",
-    "owned": "no",
-    "imageUrl": "",
-    "url": "",
-    "variations": {
-      "normal": {
-        "count": 0,
-        "ordered": false,
-        "languages": [],
-        "default_language": "JP",
-        "available_languages": [
-          "JP"
         ]
       }
     },
