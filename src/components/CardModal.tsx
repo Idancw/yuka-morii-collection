@@ -57,82 +57,55 @@ const CardModal: React.FC<CardModalProps> = ({
               onError={(e) => {
                 (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
               }}
-              className={`${isMobile ? 'w-32' : 'w-48'} h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]`}
+              className={`${isMobile ? 'w-36' : 'w-56'} h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]`}
               style={{ boxShadow: 'var(--shadow-card)' }}
             />
           </div>
           <div className="flex-1 min-w-0 py-1">
             <h2 className="text-lg sm:text-xl font-heading font-bold text-foreground mb-1 truncate">{card.name}</h2>
-            <p className="text-muted-foreground text-sm mb-4">#{card.number} · {card.set}</p>
+            <p className="text-muted-foreground text-sm mb-3">#{card.number} · {card.set}</p>
 
-            <div className="space-y-2">
-              <div className="flex items-center gap-3 surface-elevated p-2.5">
-                <span className="text-lg">🎨</span>
-                <div>
-                  <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Illustrator</div>
-                  <div className="text-foreground font-semibold text-sm">{card.illustrator || 'Yuka Morii'}</div>
-                </div>
+            <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs border-t border-border pt-2.5">
+              <div>
+                <span className="text-muted-foreground">Illustrator</span>{' '}
+                <span className="text-foreground font-medium">{card.illustrator || 'Yuka Morii'}</span>
               </div>
-
               {card.releaseDate && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">📅</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Release Date</div>
-                    <div className="text-foreground font-semibold text-sm">
-                      {new Date(card.releaseDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
-                    </div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">Released</span>{' '}
+                  <span className="text-foreground font-medium">
+                    {new Date(card.releaseDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
+                  </span>
                 </div>
               )}
-
               {card.rarity && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">⭐</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Rarity</div>
-                    <div className="text-foreground font-semibold text-sm">{card.rarity}</div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">Rarity</span>{' '}
+                  <span className="text-foreground font-medium">{card.rarity}</span>
                 </div>
               )}
-
               {card.nationalNumber && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">#️⃣</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">National Number</div>
-                    <div className="text-foreground font-semibold text-sm">{card.nationalNumber}</div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">National #</span>{' '}
+                  <span className="text-foreground font-medium">{card.nationalNumber}</span>
                 </div>
               )}
-
               {card.energyType && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">🔥</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Energy Type</div>
-                    <div className="text-foreground font-semibold text-sm">{card.energyType}</div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">Energy</span>{' '}
+                  <span className="text-foreground font-medium">{card.energyType}</span>
                 </div>
               )}
-
               {card.regulationMark && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">🏷️</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Regulation Mark</div>
-                    <div className="text-foreground font-semibold text-sm">{card.regulationMark}</div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">Reg. Mark</span>{' '}
+                  <span className="text-foreground font-medium">{card.regulationMark}</span>
                 </div>
               )}
-
               {card.era && (
-                <div className="flex items-center gap-3 surface-elevated p-2.5">
-                  <span className="text-lg">🗂️</span>
-                  <div>
-                    <div className="text-muted-foreground text-[10px] uppercase tracking-wider">Era</div>
-                    <div className="text-foreground font-semibold text-sm">{card.era}</div>
-                  </div>
+                <div>
+                  <span className="text-muted-foreground">Era</span>{' '}
+                  <span className="text-foreground font-medium">{card.era}</span>
                 </div>
               )}
             </div>
@@ -141,7 +114,7 @@ const CardModal: React.FC<CardModalProps> = ({
       </div>
 
       {/* Variants */}
-      <div className={`p-4 sm:p-5 ${isMobile ? 'max-h-[35vh]' : 'max-h-[40vh]'} overflow-y-auto`}>
+      <div className={`p-4 sm:p-5 ${isMobile ? 'max-h-[42vh]' : 'max-h-[48vh]'} overflow-y-auto`}>
         <h3 className="text-sm font-heading font-bold text-foreground mb-3 flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-primary" />
           Variants
