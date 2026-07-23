@@ -35,24 +35,48 @@ const StatsPanel: React.FC<StatsPanelProps> = ({ stats, onFilterChange }) => {
   };
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6 animate-slide-up" style={{ animationDelay: '0.05s' }}>
-      {statItems.map((item) => {
-        const Icon = item.icon;
-        return (
-          <div
-            key={item.key}
-            onClick={() => item.filter && onFilterChange(item.filter)}
-            className={`stat-card ${item.filter ? 'cursor-pointer' : ''}`}
-          >
-            <Icon className={`w-5 h-5 ${item.colorClass} mx-auto mb-2`} />
-            <div className={`text-3xl font-heading font-bold ${item.colorClass}`}>
-              {getStatValue(item.key)}
+    <>
+      {/* Mobile: compact single-line strip */}
+      <div className="sm:hidden surface-card px-1 py-2 mb-4 flex items-stretch animate-slide-up" style={{ animationDelay: '0.05s' }}>
+        {statItems.map((item, i) => {
+          const Icon = item.icon;
+          return (
+            <button
+              key={item.key}
+              onClick={() => item.filter && onFilterChange(item.filter)}
+              className={`flex-1 flex items-center justify-center gap-1 py-1 ${
+                i !== statItems.length - 1 ? 'border-r border-border' : ''
+              }`}
+            >
+              <Icon className={`w-3.5 h-3.5 flex-shrink-0 ${item.colorClass}`} />
+              <span className={`text-xs font-heading font-bold ${item.colorClass}`}>
+                {getStatValue(item.key)}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Desktop: full stat cards */}
+      <div className="hidden sm:grid sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6 animate-slide-up" style={{ animationDelay: '0.05s' }}>
+        {statItems.map((item) => {
+          const Icon = item.icon;
+          return (
+            <div
+              key={item.key}
+              onClick={() => item.filter && onFilterChange(item.filter)}
+              className={`stat-card ${item.filter ? 'cursor-pointer' : ''}`}
+            >
+              <Icon className={`w-5 h-5 ${item.colorClass} mx-auto mb-2`} />
+              <div className={`text-3xl font-heading font-bold ${item.colorClass}`}>
+                {getStatValue(item.key)}
+              </div>
+              <div className="text-muted-foreground text-xs font-medium mt-1">{item.label}</div>
             </div>
-            <div className="text-muted-foreground text-xs font-medium mt-1">{item.label}</div>
-          </div>
-        );
-      })}
-    </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 
