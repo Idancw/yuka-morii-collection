@@ -57,7 +57,7 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
             }`}
           >
             <ArrowUpAZ className="w-4 h-4" />
-            1→223
+            Oldest
           </button>
           <button
             onClick={() => onSortChange('desc')}
@@ -68,7 +68,7 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
             }`}
           >
             <ArrowDownAZ className="w-4 h-4" />
-            223→1
+            Newest
           </button>
         </div>
       </div>
