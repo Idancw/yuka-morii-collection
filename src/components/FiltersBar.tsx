@@ -50,9 +50,9 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
         <div className="flex gap-2">
           <button
             onClick={() => onSortChange('asc')}
-            className={`flex-1 flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+            className={`flex-1 flex items-center justify-center gap-2 px-3 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
               sortOrder === 'asc'
-                ? 'bg-success text-success-foreground'
+                ? 'bg-primary text-primary-foreground'
                 : 'btn-surface'
             }`}
           >
@@ -61,9 +61,9 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
           </button>
           <button
             onClick={() => onSortChange('desc')}
-            className={`flex-1 flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+            className={`flex-1 flex items-center justify-center gap-2 px-3 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
               sortOrder === 'desc'
-                ? 'bg-accent text-accent-foreground'
+                ? 'bg-primary text-primary-foreground'
                 : 'btn-surface'
             }`}
           >

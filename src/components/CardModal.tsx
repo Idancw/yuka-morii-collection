@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Sparkles, PenTool, Calendar, Star, Hash, Zap, FileBadge, History, Images } from 'lucide-react';
 import VariantRow from './VariantRow';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}placeholder.svg`;
@@ -20,6 +20,47 @@ interface CardModalProps {
   onTouchEnd: () => void;
 }
 
+const ATTRIBUTE_ICONS: Record<string, any> = {
+  illustrator: PenTool,
+  releaseDate: Calendar,
+  rarity: Star,
+  nationalNumber: Hash,
+  energyType: Zap,
+  regulationMark: FileBadge,
+  era: History,
+};
+
+function getAttributes(card: any) {
+  const rows: { key: string; label: string; value: string }[] = [
+    { key: 'illustrator', label: 'Illustrator', value: card.illustrator || 'Yuka Morii' },
+  ];
+  if (card.releaseDate) {
+    rows.push({
+      key: 'releaseDate',
+      label: 'Released',
+      value: new Date(card.releaseDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' }),
+    });
+  }
+  if (card.rarity) rows.push({ key: 'rarity', label: 'Rarity', value: card.rarity });
+  if (card.nationalNumber) rows.push({ key: 'nationalNumber', label: 'National #', value: `#${card.nationalNumber}` });
+  if (card.energyType) rows.push({ key: 'energyType', label: 'Energy', value: card.energyType });
+  if (card.regulationMark) rows.push({ key: 'regulationMark', label: 'Reg. Mark', value: card.regulationMark });
+  if (card.era) rows.push({ key: 'era', label: 'Era', value: card.era });
+  return rows;
+}
+
+function getOtherPrintings(card: any) {
+  if (!card.variations) return [];
+  const seen = new Set<string>();
+  const printings: { key: string; number: string; languages: string[] }[] = [];
+  Object.entries(card.variations).forEach(([key, v]: [string, any]) => {
+    if (!v.number || v.number === card.number || seen.has(v.number)) return;
+    seen.add(v.number);
+    printings.push({ key, number: v.number, languages: v.languages || v.available_languages || [] });
+  });
+  return printings;
+}
+
 const CardModal: React.FC<CardModalProps> = ({
   card,
   isViewOnly,
@@ -35,120 +76,8 @@ const CardModal: React.FC<CardModalProps> = ({
   onTouchMove,
   onTouchEnd,
 }) => {
-  const ModalContent = ({ isMobile = false }: { isMobile?: boolean }) => (
-    <div className={`modal-content ${isMobile ? 'w-full' : 'max-w-lg w-full mx-4'} animate-fade-in-scale`}>
-      {/* Card Image Header */}
-      <div className="relative bg-background p-4 sm:p-5">
-        <button
-          onClick={onClose}
-          className="absolute top-3 right-3 w-8 h-8 rounded-lg bg-muted hover:bg-muted/80 flex items-center justify-center text-muted-foreground transition-colors z-10"
-        >
-          <X className="w-4 h-4" />
-        </button>
-
-        <div className="flex gap-4 sm:gap-5">
-          <div
-            className="flex-shrink-0 cursor-pointer group"
-            onClick={(e) => { e.stopPropagation(); onImageClick(card.imageUrl); }}
-          >
-            <img
-              src={card.imageUrl || PLACEHOLDER_IMAGE}
-              alt={card.name}
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
-              }}
-              className={`${isMobile ? 'w-36' : 'w-56'} h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]`}
-              style={{ boxShadow: 'var(--shadow-card)' }}
-            />
-          </div>
-          <div className="flex-1 min-w-0 py-1">
-            <h2 className="text-lg sm:text-xl font-heading font-bold text-foreground mb-1 truncate">{card.name}</h2>
-            <p className="text-muted-foreground text-sm mb-3">#{card.number} · {card.set}</p>
-
-            <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs border-t border-border pt-2.5">
-              <div>
-                <span className="text-muted-foreground">Illustrator</span>{' '}
-                <span className="text-foreground font-medium">{card.illustrator || 'Yuka Morii'}</span>
-              </div>
-              {card.releaseDate && (
-                <div>
-                  <span className="text-muted-foreground">Released</span>{' '}
-                  <span className="text-foreground font-medium">
-                    {new Date(card.releaseDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
-                  </span>
-                </div>
-              )}
-              {card.rarity && (
-                <div>
-                  <span className="text-muted-foreground">Rarity</span>{' '}
-                  <span className="text-foreground font-medium">{card.rarity}</span>
-                </div>
-              )}
-              {card.nationalNumber && (
-                <div>
-                  <span className="text-muted-foreground">National #</span>{' '}
-                  <span className="text-foreground font-medium">{card.nationalNumber}</span>
-                </div>
-              )}
-              {card.energyType && (
-                <div>
-                  <span className="text-muted-foreground">Energy</span>{' '}
-                  <span className="text-foreground font-medium">{card.energyType}</span>
-                </div>
-              )}
-              {card.regulationMark && (
-                <div>
-                  <span className="text-muted-foreground">Reg. Mark</span>{' '}
-                  <span className="text-foreground font-medium">{card.regulationMark}</span>
-                </div>
-              )}
-              {card.era && (
-                <div>
-                  <span className="text-muted-foreground">Era</span>{' '}
-                  <span className="text-foreground font-medium">{card.era}</span>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Variants */}
-      <div className={`p-4 sm:p-5 ${isMobile ? 'max-h-[42vh]' : 'max-h-[48vh]'} overflow-y-auto`}>
-        <h3 className="text-sm font-heading font-bold text-foreground mb-3 flex items-center gap-2">
-          <Sparkles className="w-4 h-4 text-primary" />
-          Variants
-        </h3>
-        <div className="space-y-2">
-          {card.variations && Object.entries(card.variations).map(([varType, varData]: [string, any]) => (
-            <VariantRow
-              key={varType}
-              cardId={card.id}
-              varType={varType}
-              varData={varData}
-              isViewOnly={isViewOnly}
-              onIncrement={onIncrement}
-              onDecrement={onDecrement}
-              onToggleLanguage={onToggleLanguage}
-              onToggleOrdered={onToggleOrdered}
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* Mobile Nav */}
-      {isMobile && (
-        <div className="flex justify-center gap-4 py-4 px-4 border-t border-border">
-          <button onClick={onPrev} className="w-12 h-12 rounded-full btn-surface flex items-center justify-center">
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button onClick={onNext} className="w-12 h-12 rounded-full btn-surface flex items-center justify-center">
-            <ChevronRight className="w-6 h-6" />
-          </button>
-        </div>
-      )}
-    </div>
-  );
+  const attributes = getAttributes(card);
+  const otherPrintings = getOtherPrintings(card);
 
   return (
     <div
@@ -158,21 +87,111 @@ const CardModal: React.FC<CardModalProps> = ({
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
     >
-      <div className="relative flex flex-col items-center justify-center w-full max-w-4xl">
-        {/* Desktop */}
-        <div className="hidden md:flex items-center justify-center w-full">
-          <button onClick={onPrev} className="w-10 h-10 rounded-full btn-surface flex items-center justify-center flex-shrink-0">
-            <ChevronLeft className="w-5 h-5" />
+      <div className="modal-content max-w-2xl w-full mx-4 animate-fade-in-scale max-h-[90vh] flex flex-col">
+        {/* Top bar: nav + close */}
+        <div className="flex items-center justify-end gap-2 p-3 border-b border-border flex-shrink-0">
+          <button onClick={onPrev} className="w-8 h-8 rounded-full btn-surface flex items-center justify-center">
+            <ChevronLeft className="w-4 h-4" />
           </button>
-          <ModalContent />
-          <button onClick={onNext} className="w-10 h-10 rounded-full btn-surface flex items-center justify-center flex-shrink-0">
-            <ChevronRight className="w-5 h-5" />
+          <button onClick={onNext} className="w-8 h-8 rounded-full btn-surface flex items-center justify-center">
+            <ChevronRight className="w-4 h-4" />
+          </button>
+          <button onClick={onClose} className="w-8 h-8 rounded-full bg-muted hover:bg-muted/80 flex items-center justify-center text-muted-foreground transition-colors">
+            <X className="w-4 h-4" />
           </button>
         </div>
 
-        {/* Mobile */}
-        <div className="md:hidden w-full">
-          <ModalContent isMobile />
+        <div className="overflow-y-auto">
+          {/* Image + title header */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 bg-secondary/30 p-4 sm:p-5">
+            <div
+              className="flex-shrink-0 mx-auto sm:mx-0 cursor-pointer group"
+              onClick={(e) => { e.stopPropagation(); onImageClick(card.imageUrl); }}
+            >
+              <img
+                src={card.imageUrl || PLACEHOLDER_IMAGE}
+                alt={card.name}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+                }}
+                className="w-40 sm:w-52 h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]"
+                style={{ boxShadow: 'var(--shadow-card)' }}
+              />
+            </div>
+            <div className="flex-1 min-w-0 py-1 text-center sm:text-left">
+              <p className="text-muted-foreground text-xs font-medium mb-1">Pokémon · {card.set}</p>
+              <h2 className="text-2xl sm:text-3xl font-heading font-extrabold italic text-foreground truncate">{card.name}</h2>
+              <p className="text-muted-foreground text-sm mt-1">#{card.number}</p>
+            </div>
+          </div>
+
+          <div className="p-4 sm:p-5 space-y-6">
+            {/* Variants */}
+            <div>
+              <h3 className="text-sm font-heading font-bold text-foreground mb-3 flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-primary" />
+                Variants
+              </h3>
+              <div className="space-y-2">
+                {card.variations && Object.entries(card.variations).map(([varType, varData]: [string, any]) => (
+                  <VariantRow
+                    key={varType}
+                    cardId={card.id}
+                    varType={varType}
+                    varData={varData}
+                    isViewOnly={isViewOnly}
+                    onIncrement={onIncrement}
+                    onDecrement={onDecrement}
+                    onToggleLanguage={onToggleLanguage}
+                    onToggleOrdered={onToggleOrdered}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Attributes */}
+            <div>
+              <h3 className="text-sm font-heading font-bold text-foreground mb-3">Attributes</h3>
+              <div className="space-y-2">
+                {attributes.map((attr) => {
+                  const Icon = ATTRIBUTE_ICONS[attr.key] || Star;
+                  return (
+                    <div key={attr.key} className="attribute-row">
+                      <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-4 h-4" />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="text-muted-foreground text-[11px] leading-tight">{attr.label}</div>
+                        <div className="text-foreground text-sm font-semibold leading-tight truncate">{attr.value}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Other Printings */}
+            {otherPrintings.length > 0 && (
+              <div>
+                <h3 className="text-sm font-heading font-bold text-foreground mb-3 flex items-center gap-2">
+                  <Images className="w-4 h-4 text-primary" />
+                  Other Printings
+                </h3>
+                <div className="flex gap-3 overflow-x-auto pb-1">
+                  {otherPrintings.map((p) => (
+                    <div key={p.key} className="flex-shrink-0 w-16 text-center">
+                      <img
+                        src={card.imageUrl || PLACEHOLDER_IMAGE}
+                        alt={`${card.name} ${p.number}`}
+                        className="w-16 h-auto rounded-lg border border-border"
+                      />
+                      <div className="text-muted-foreground text-[10px] mt-1 truncate">#{p.number}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

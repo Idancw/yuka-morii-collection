@@ -659,7 +659,7 @@ function App() {
           <div className="modal-content p-10 max-w-md w-full animate-fade-in-scale">
             <div className="text-center mb-8">
               <div className="text-6xl mb-4">🎴</div>
-              <h2 className="text-4xl font-heading font-bold gradient-text mb-2">
+              <h2 className="text-4xl font-heading font-extrabold italic text-foreground mb-2">
                 Yuka Morii
               </h2>
               <p className="text-muted-foreground text-sm">Trading Card Collection</p>
@@ -668,7 +668,7 @@ function App() {
               <button
                   type="button"
                   onClick={handleGoogleSignIn}
-                  className="w-full bg-foreground text-background py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-card text-foreground border border-border py-4 rounded-full font-bold text-lg hover:bg-secondary transition-all flex items-center justify-center gap-3"
                   style={{ boxShadow: 'var(--shadow-card)' }}
               >
                 <svg className="w-6 h-6" viewBox="0 0 24 24">

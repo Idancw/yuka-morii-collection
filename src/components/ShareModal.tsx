@@ -21,7 +21,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ userId, onCopyLink, onClose }) 
             <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
               <Link className="w-5 h-5 text-primary" />
             </div>
-            <h3 className="text-2xl font-heading font-bold gradient-text">Share Collection</h3>
+            <h3 className="text-2xl font-heading font-extrabold italic text-foreground">Share Collection</h3>
           </div>
           <button onClick={onClose} className="w-8 h-8 rounded-lg bg-muted hover:bg-muted/80 flex items-center justify-center text-muted-foreground transition-colors">
             <X className="w-4 h-4" />
