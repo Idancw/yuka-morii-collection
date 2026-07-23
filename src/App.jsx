@@ -776,15 +776,7 @@ function App() {
                 onOpenPreferences={() => setShowPreferences(true)}
             />
 
-            <div
-                className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-                  isScrolled ? 'grid-rows-[0fr] sm:grid-rows-[1fr]' : 'grid-rows-[1fr]'
-                }`}
-            >
-              <div className="overflow-hidden">
-                <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
-              </div>
-            </div>
+            <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
 
             <FiltersBar
                 searchQuery={searchQuery}
