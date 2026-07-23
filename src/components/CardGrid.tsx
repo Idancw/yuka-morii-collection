@@ -25,9 +25,9 @@ const CardGrid: React.FC<CardGridProps> = ({
 }) => {
   return (
     <div className="surface-card p-4 sm:p-6 animate-slide-up" style={{ animationDelay: '0.15s' }}>
-      <h2 className="text-xl sm:text-2xl font-heading font-bold gradient-text mb-5 flex items-center gap-2">
-        📚 Collection
-        <span className="text-muted-foreground text-sm font-body font-normal">
+      <h2 className="text-xl sm:text-2xl font-heading font-extrabold italic text-foreground mb-5 flex items-center gap-2">
+        Collection
+        <span className="text-muted-foreground text-sm font-body font-normal not-italic">
           — {filteredCards.length} cards
         </span>
       </h2>

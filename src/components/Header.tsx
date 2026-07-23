@@ -28,11 +28,11 @@ const Header: React.FC<HeaderProps> = ({
       <div className="flex justify-between items-center gap-4">
         {/* Left: Logo & User */}
         <div className="flex items-center gap-3 sm:gap-4 min-w-0">
-          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{ background: 'var(--gradient-primary)' }}>
-            <img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-full h-full object-contain rounded-xl" />
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl flex items-center justify-center flex-shrink-0" style={{ background: 'var(--gradient-primary)' }}>
+            <img src={`${import.meta.env.BASE_URL}icon.png`} alt="logo" className="w-full h-full object-contain rounded-2xl" />
           </div>
           <div className="min-w-0">
-            <h1 className="text-xl sm:text-3xl font-heading font-bold gradient-text truncate">
+            <h1 className="text-xl sm:text-3xl font-heading font-extrabold italic text-foreground truncate">
               Yuka Morii Collection
             </h1>
             <p className="text-muted-foreground text-xs sm:text-sm truncate flex items-center gap-1.5">

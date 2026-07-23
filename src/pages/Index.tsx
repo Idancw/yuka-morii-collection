@@ -19,11 +19,11 @@ const AuthScreen = ({ onSignIn }: { onSignIn: () => void }) => (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <div className="surface-card max-w-md w-full p-10 text-center">
             <div className="text-6xl mb-4">🎴</div>
-            <h2 className="text-4xl font-heading font-bold gradient-text mb-2">Yuka Morii</h2>
+            <h2 className="text-4xl font-heading font-extrabold italic text-foreground mb-2">Yuka Morii</h2>
             <p className="text-muted-foreground text-sm mb-8">Trading Card Collection</p>
             <button
                 onClick={onSignIn}
-                className="w-full bg-white text-gray-700 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-3 shadow-lg"
+                className="w-full bg-card text-foreground border border-border py-4 rounded-full font-bold text-lg hover:bg-secondary transition-all flex items-center justify-center gap-3 shadow-lg"
             >
                 <svg className="w-6 h-6" viewBox="0 0 24 24">
                     <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
