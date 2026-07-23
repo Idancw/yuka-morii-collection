@@ -384,9 +384,9 @@ const Index = () => {
         const eraMatch = currentEra === 'all' || card.era === currentEra;
         return statusMatch && eraMatch && searchMatch;
     }).sort((a, b) => {
-        const sa = parseInt(a.sheet_no) || 0;
-        const sb = parseInt(b.sheet_no) || 0;
-        return sortOrder === 'asc' ? sa - sb : sb - sa;
+        const da = a.releaseDate || '';
+        const db = b.releaseDate || '';
+        return sortOrder === 'asc' ? da.localeCompare(db) : db.localeCompare(da);
     });
 
     const eras = ['all', ...Array.from(new Set(cards.map((c: any) => c.era).filter(Boolean)))];

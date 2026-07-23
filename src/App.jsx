@@ -590,9 +590,9 @@ function App() {
 
     return statusMatch && eraMatch && searchMatch;
   }).sort((a, b) => {
-    const sheetA = parseInt(a.sheet_no) || 0;
-    const sheetB = parseInt(b.sheet_no) || 0;
-    return sortOrder === 'asc' ? sheetA - sheetB : sheetB - sheetA;
+    const dateA = a.releaseDate || '';
+    const dateB = b.releaseDate || '';
+    return sortOrder === 'asc' ? dateA.localeCompare(dateB) : dateB.localeCompare(dateA);
   });
 
   const eras = ['all', ...new Set(cards.map(c => c.era).filter(Boolean))];
