@@ -11,6 +11,8 @@ import CardGrid from './components/CardGrid';
 import CardModal from './components/CardModal';
 import ShareModal from './components/ShareModal';
 import ImageModal from './components/ImageModal';
+import PreferencesModal from './components/PreferencesModal';
+import { useThemePreferences } from './hooks/use-theme-preferences';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -30,6 +32,23 @@ function App() {
   const [imagePopup, setImagePopup] = useState(null);
   const [previousFilter, setPreviousFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [showPreferences, setShowPreferences] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const { mode: themeMode, setMode: setThemeMode, accent: themeAccent, setAccent: setThemeAccent } = useThemePreferences();
+
+  useEffect(() => {
+    let ticking = false;
+    const handleScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        setIsScrolled(window.scrollY > 24);
+        ticking = false;
+      });
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     const loadCards = async () => {
@@ -703,6 +722,16 @@ function App() {
             />
         )}
 
+        {showPreferences && (
+            <PreferencesModal
+                mode={themeMode}
+                accent={themeAccent}
+                onModeChange={setThemeMode}
+                onAccentChange={setThemeAccent}
+                onClose={() => setShowPreferences(false)}
+            />
+        )}
+
         {selectedCard && (
             <CardModal
                 card={selectedCard}
@@ -721,36 +750,52 @@ function App() {
             />
         )}
 
-        <div className="relative max-w-7xl mx-auto p-4 sm:p-6">
-          <Header
-              user={user}
-              isViewOnly={isViewOnly}
-              sharedOwnerEmail={sharedOwnerEmail}
-              currentFilter={currentFilter}
-              previousFilter={previousFilter}
-              onToggleTradeView={() => {
-                if (currentFilter === 'trade') {
-                  setCurrentFilter(previousFilter);
-                } else {
-                  setPreviousFilter(currentFilter);
-                  setCurrentFilter('trade');
-                }
-              }}
-              onShare={() => setShowShareModal(true)}
-              onLogout={handleLogout}
-          />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pb-4 sm:pb-6">
+          <div
+              className={`sticky top-0 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 pt-4 sm:pt-6 pb-2 bg-background transition-shadow duration-200 ${
+                isScrolled ? 'shadow-md' : ''
+              }`}
+          >
+            <Header
+                user={user}
+                isViewOnly={isViewOnly}
+                sharedOwnerEmail={sharedOwnerEmail}
+                currentFilter={currentFilter}
+                previousFilter={previousFilter}
+                compact={isScrolled}
+                onToggleTradeView={() => {
+                  if (currentFilter === 'trade') {
+                    setCurrentFilter(previousFilter);
+                  } else {
+                    setPreviousFilter(currentFilter);
+                    setCurrentFilter('trade');
+                  }
+                }}
+                onShare={() => setShowShareModal(true)}
+                onLogout={handleLogout}
+                onOpenPreferences={() => setShowPreferences(true)}
+            />
 
-          <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
+            <div
+                className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                  isScrolled ? 'grid-rows-[0fr] sm:grid-rows-[1fr]' : 'grid-rows-[1fr]'
+                }`}
+            >
+              <div className="overflow-hidden">
+                <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
+              </div>
+            </div>
 
-          <FiltersBar
-              searchQuery={searchQuery}
-              onSearchChange={setSearchQuery}
-              currentEra={currentEra}
-              onEraChange={setCurrentEra}
-              eras={eras}
-              sortOrder={sortOrder}
-              onSortChange={setSortOrder}
-          />
+            <FiltersBar
+                searchQuery={searchQuery}
+                onSearchChange={setSearchQuery}
+                currentEra={currentEra}
+                onEraChange={setCurrentEra}
+                eras={eras}
+                sortOrder={sortOrder}
+                onSortChange={setSortOrder}
+            />
+          </div>
 
           <CardGrid
               filteredCards={filteredCards}
