@@ -486,6 +486,8 @@ const Index = () => {
                     currentFilter={currentFilter}
                     previousFilter={previousFilter}
                     onToggleTradeView={handleToggleTradeView}
+                    onOpenPreferences={() => {}}
+                    onOpenExportSheet={() => {}}
                     onShare={() => setShowShareModal(true)}
                     onLogout={handleLogout}
                 />
