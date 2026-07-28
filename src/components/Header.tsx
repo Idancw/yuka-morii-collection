@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeftRight, Share2, LogOut, Eye, Settings } from 'lucide-react';
+import { ArrowLeftRight, Share2, LogOut, Eye, Settings, Printer } from 'lucide-react';
 
 interface HeaderProps {
   user: any;
@@ -12,6 +12,7 @@ interface HeaderProps {
   onShare: () => void;
   onLogout: () => void;
   onOpenPreferences: () => void;
+  onOpenExportSheet: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -24,6 +25,7 @@ const Header: React.FC<HeaderProps> = ({
   onShare,
   onLogout,
   onOpenPreferences,
+  onOpenExportSheet,
 }) => {
   const isTradeView = currentFilter === 'trade';
 
@@ -59,6 +61,15 @@ const Header: React.FC<HeaderProps> = ({
 
         {/* Right: Actions */}
         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+          <button
+            onClick={onOpenExportSheet}
+            aria-label="Export missing cards to a printable sheet"
+            title="Export missing cards to a printable sheet"
+            className="w-9 h-9 sm:w-10 sm:h-10 rounded-full btn-surface flex items-center justify-center flex-shrink-0"
+          >
+            <Printer className="w-4 h-4" />
+          </button>
+
           <button
             onClick={onOpenPreferences}
             aria-label="Preferences"

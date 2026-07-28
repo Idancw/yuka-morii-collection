@@ -12,6 +12,7 @@ import CardModal from './components/CardModal';
 import ShareModal from './components/ShareModal';
 import ImageModal from './components/ImageModal';
 import PreferencesModal from './components/PreferencesModal';
+import ExportSheetModal from './components/ExportSheetModal';
 import { useThemePreferences } from './hooks/use-theme-preferences';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
   const [previousFilter, setPreviousFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [showPreferences, setShowPreferences] = useState(false);
+  const [showExportSheet, setShowExportSheet] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const { mode: themeMode, setMode: setThemeMode, accent: themeAccent, setAccent: setThemeAccent } = useThemePreferences();
 
@@ -616,6 +618,19 @@ function App() {
 
   const eras = ['all', ...new Set(cards.map(c => c.era).filter(Boolean))];
 
+  const neededCardsForExport = cards.filter(card => {
+    const searchMatch = searchQuery === '' ||
+        card.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        card.set?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        card.number?.toString().includes(searchQuery);
+    const eraMatch = currentEra === 'all' || card.era === currentEra;
+    return getCardStats(card).owned === 'no' && eraMatch && searchMatch;
+  }).sort((a, b) => {
+    const dateA = a.releaseDate || '';
+    const dateB = b.releaseDate || '';
+    return sortOrder === 'asc' ? dateA.localeCompare(dateB) : dateB.localeCompare(dateA);
+  });
+
   const navigateToPreviousCard = (e) => {
     if (e) e.stopPropagation();
     const currentIndex = filteredCards.findIndex(c => c.id === selectedCard.id);
@@ -732,6 +747,13 @@ function App() {
             />
         )}
 
+        {showExportSheet && (
+            <ExportSheetModal
+                cards={neededCardsForExport}
+                onClose={() => setShowExportSheet(false)}
+            />
+        )}
+
         {selectedCard && (
             <CardModal
                 card={selectedCard}
@@ -774,6 +796,7 @@ function App() {
                 onShare={() => setShowShareModal(true)}
                 onLogout={handleLogout}
                 onOpenPreferences={() => setShowPreferences(true)}
+                onOpenExportSheet={() => setShowExportSheet(true)}
             />
 
             <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />

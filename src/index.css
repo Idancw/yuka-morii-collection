@@ -236,3 +236,86 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--muted-foreground));
 }
+
+/* ── Printable missing-cards sheet ──────────────────────────────────────── */
+.print-page {
+  width: 8.5in;
+  min-height: 11in;
+  margin: 0 auto 24px;
+  padding: 0.25in;
+  background: #fff;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 2.5in);
+  grid-template-rows: repeat(3, 3.5in);
+  justify-content: center;
+  gap: 0;
+  box-shadow: 0 2px 12px hsla(0, 0%, 0%, 0.15);
+}
+
+.print-card {
+  width: 2.5in;
+  height: 3.5in;
+  box-sizing: border-box;
+  border: 1px dashed #999;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+}
+
+.print-card img {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  object-fit: contain;
+  background: #fff;
+}
+
+.print-card-caption {
+  flex-shrink: 0;
+  padding: 2px 4px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.print-card-caption .name {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #111;
+}
+
+.print-card-caption .meta {
+  font-size: 7px;
+  color: #555;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-sheet,
+  .print-sheet * {
+    visibility: visible;
+  }
+  .print-sheet {
+    position: absolute;
+    inset: 0;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-page {
+    margin: 0;
+    box-shadow: none;
+    break-after: page;
+  }
+  .print-page:last-child {
+    break-after: auto;
+  }
+  @page {
+    size: letter;
+    margin: 0;
+  }
+}
