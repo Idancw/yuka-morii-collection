@@ -2,7 +2,7 @@ import React from 'react';
 import { X, Printer } from 'lucide-react';
 
 const PLACEHOLDER_IMAGE = `${import.meta.env.BASE_URL}placeholder.svg`;
-const CARDS_PER_PAGE = 9;
+const CARDS_PER_PAGE = 16;
 
 interface ExportSheetModalProps {
   cards: any[];
@@ -17,7 +17,7 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
   const pageCount = Math.max(pages.length, 1);
 
   return (
-    <div className="fixed inset-0 bg-foreground/50 backdrop-blur-md z-50 flex flex-col animate-fade-in">
+    <div className="export-sheet-overlay fixed inset-0 bg-foreground/50 backdrop-blur-md z-50 flex flex-col animate-fade-in">
       {/* Toolbar (hidden when printing) */}
       <div className="no-print flex-shrink-0 bg-card border-b border-border px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
         <div className="min-w-0">
@@ -25,7 +25,7 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
             Missing Cards Sheet
           </h2>
           <p className="text-muted-foreground text-xs sm:text-sm truncate">
-            {cards.length} {cards.length === 1 ? 'card' : 'cards'} · {pageCount} {pageCount === 1 ? 'page' : 'pages'} · 3×3, card-sized for binder pockets
+            {cards.length} {cards.length === 1 ? 'card' : 'cards'} · {pageCount} {pageCount === 1 ? 'page' : 'pages'} · 4×4 per page
           </p>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
@@ -48,7 +48,7 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
       </div>
 
       {/* Preview / print content */}
-      <div className="flex-1 overflow-auto bg-muted/60 py-6">
+      <div className="export-sheet-scroll flex-1 overflow-auto bg-muted/60 py-6">
         {cards.length === 0 ? (
           <p className="text-center text-muted-foreground py-20">Nothing missing — your collection is complete!</p>
         ) : (

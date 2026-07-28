@@ -11,7 +11,7 @@ interface ImageModalProps {
 const ImageModal: React.FC<ImageModalProps> = ({ imageUrl, onClose }) => {
   return (
     <div
-      className="fixed inset-0 bg-black/90 flex items-center justify-center z-[60] p-4 animate-fade-in"
+      className="no-print fixed inset-0 bg-black/90 flex items-center justify-center z-[60] p-4 animate-fade-in"
       onClick={onClose}
     >
       <button
