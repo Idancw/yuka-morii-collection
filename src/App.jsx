@@ -772,7 +772,7 @@ function App() {
             />
         )}
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pb-4 sm:pb-6">
+        <div className="no-print relative max-w-7xl mx-auto px-4 sm:px-6 pb-4 sm:pb-6">
           <div
               className={`sticky top-0 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 pt-4 sm:pt-6 pb-2 bg-background transition-shadow duration-200 ${
                 isScrolled ? 'shadow-md' : ''
