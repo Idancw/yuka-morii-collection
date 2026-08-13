@@ -22,7 +22,7 @@ function App() {
   const [loadingCollection, setLoadingCollection] = useState(false);
   const [isViewOnly, setIsViewOnly] = useState(false);
   const [currentFilter, setCurrentFilter] = useState('all');
-  const [currentEra, setCurrentEra] = useState('all');
+  const [selectedEras, setSelectedEras] = useState([]);
   const [showAuth, setShowAuth] = useState(false);
   const [showShareModal, setShowShareModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
@@ -607,7 +607,7 @@ function App() {
             ? hasTradeAvailable
             : cardStats.owned === currentFilter;
 
-    const eraMatch = currentEra === 'all' || card.era === currentEra;
+    const eraMatch = selectedEras.length === 0 || selectedEras.includes(card.era);
 
     return statusMatch && eraMatch && searchMatch;
   }).sort((a, b) => {
@@ -616,14 +616,14 @@ function App() {
     return sortOrder === 'asc' ? dateA.localeCompare(dateB) : dateB.localeCompare(dateA);
   });
 
-  const eras = ['all', ...new Set(cards.map(c => c.era).filter(Boolean))];
+  const eras = [...new Set(cards.map(c => c.era).filter(Boolean))];
 
   const neededCardsForExport = cards.filter(card => {
     const searchMatch = searchQuery === '' ||
         card.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
         card.set?.toLowerCase().includes(searchQuery.toLowerCase()) ||
         card.number?.toString().includes(searchQuery);
-    const eraMatch = currentEra === 'all' || card.era === currentEra;
+    const eraMatch = selectedEras.length === 0 || selectedEras.includes(card.era);
     return getCardStats(card).owned === 'no' && eraMatch && searchMatch;
   }).sort((a, b) => {
     const dateA = a.releaseDate || '';
@@ -774,8 +774,8 @@ function App() {
 
         <div className="no-print relative max-w-7xl mx-auto px-4 sm:px-6 pb-4 sm:pb-6">
           <div
-              className={`sticky top-0 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 pt-4 sm:pt-6 pb-2 bg-background transition-shadow duration-200 ${
-                isScrolled ? 'shadow-md' : ''
+              className={`sticky top-0 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 pb-2 bg-background transition-all duration-200 ${
+                isScrolled ? 'shadow-md pt-2' : 'pt-4 sm:pt-6'
               }`}
           >
             <Header
@@ -799,16 +799,17 @@ function App() {
                 onOpenExportSheet={() => setShowExportSheet(true)}
             />
 
-            <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
+            <StatsPanel stats={stats} compact={isScrolled} onFilterChange={setCurrentFilter} />
 
             <FiltersBar
                 searchQuery={searchQuery}
                 onSearchChange={setSearchQuery}
-                currentEra={currentEra}
-                onEraChange={setCurrentEra}
+                selectedEras={selectedEras}
+                onErasChange={setSelectedEras}
                 eras={eras}
                 sortOrder={sortOrder}
                 onSortChange={setSortOrder}
+                compact={isScrolled}
             />
           </div>
 

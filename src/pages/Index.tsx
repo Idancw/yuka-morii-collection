@@ -141,7 +141,7 @@ const Index = () => {
     const [sharedOwnerEmail, setSharedOwnerEmail] = useState<string | null>(null);
     const [currentFilter, setCurrentFilter] = useState('all');
     const [previousFilter, setPreviousFilter] = useState('all');
-    const [currentEra, setCurrentEra] = useState('all');
+    const [selectedEras, setSelectedEras] = useState<string[]>([]);
     const [sortOrder, setSortOrder] = useState('asc');
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCard, setSelectedCard] = useState<any>(null);
@@ -381,7 +381,7 @@ const Index = () => {
             : currentFilter === 'trade' ? hasTradeAvailable
                 : stats.owned === currentFilter;
 
-        const eraMatch = currentEra === 'all' || card.era === currentEra;
+        const eraMatch = selectedEras.length === 0 || selectedEras.includes(card.era);
         return statusMatch && eraMatch && searchMatch;
     }).sort((a, b) => {
         const da = a.releaseDate || '';
@@ -389,7 +389,7 @@ const Index = () => {
         return sortOrder === 'asc' ? da.localeCompare(db) : db.localeCompare(da);
     });
 
-    const eras = ['all', ...Array.from(new Set(cards.map((c: any) => c.era).filter(Boolean)))];
+    const eras = Array.from(new Set(cards.map((c: any) => c.era).filter(Boolean)));
 
     const stats = {
         total: cards.length,
@@ -497,8 +497,8 @@ const Index = () => {
                 <FiltersBar
                     searchQuery={searchQuery}
                     onSearchChange={setSearchQuery}
-                    currentEra={currentEra}
-                    onEraChange={setCurrentEra}
+                    selectedEras={selectedEras}
+                    onErasChange={setSelectedEras}
                     eras={eras as string[]}
                     sortOrder={sortOrder}
                     onSortChange={setSortOrder}
