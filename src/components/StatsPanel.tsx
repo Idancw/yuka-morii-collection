@@ -11,6 +11,7 @@ interface Stats {
 
 interface StatsPanelProps {
   stats: Stats;
+  compact?: boolean;
   onFilterChange: (filter: string) => void;
 }
 
@@ -22,7 +23,7 @@ const statItems = [
   { key: 'completion', filter: '', label: 'Owned %', icon: TrendingUp, colorClass: 'text-accent' },
 ];
 
-const StatsPanel: React.FC<StatsPanelProps> = ({ stats, onFilterChange }) => {
+const StatsPanel: React.FC<StatsPanelProps> = ({ stats, compact = false, onFilterChange }) => {
   const getStatValue = (key: string) => {
     switch (key) {
       case 'all': return stats.total;
@@ -36,8 +37,11 @@ const StatsPanel: React.FC<StatsPanelProps> = ({ stats, onFilterChange }) => {
 
   return (
     <>
-      {/* Mobile: compact single-line strip */}
-      <div className="sm:hidden surface-card px-1 py-2 mb-4 flex items-stretch animate-slide-up" style={{ animationDelay: '0.05s' }}>
+      {/* Compact strip: always used on mobile, and on all sizes once scrolled */}
+      <div
+        className={`${compact ? '' : 'sm:hidden'} surface-card px-1 py-2 mb-2 sm:mb-4 flex items-stretch animate-slide-up transition-all duration-200`}
+        style={{ animationDelay: '0.05s' }}
+      >
         {statItems.map((item, i) => {
           const Icon = item.icon;
           return (
@@ -57,8 +61,8 @@ const StatsPanel: React.FC<StatsPanelProps> = ({ stats, onFilterChange }) => {
         })}
       </div>
 
-      {/* Desktop: full stat cards */}
-      <div className="hidden sm:grid sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6 animate-slide-up" style={{ animationDelay: '0.05s' }}>
+      {/* Desktop: full stat cards, hidden once scrolled/compact */}
+      <div className={`hidden ${compact ? '' : 'sm:grid sm:grid-cols-3 lg:grid-cols-5'} gap-3 mb-6 animate-slide-up`} style={{ animationDelay: '0.05s' }}>
         {statItems.map((item) => {
           const Icon = item.icon;
           return (
