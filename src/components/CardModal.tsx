@@ -88,7 +88,6 @@ const CardModal: React.FC<CardModalProps> = ({
   const otherPrintings = getOtherPrintings(card);
   const cardLanguages = getCardLanguages(card);
   const showBothLanguages = cardLanguages.has('EN') && cardLanguages.has('JP');
-  const imageLanguages = showBothLanguages ? ['English', 'Japanese'] : [null];
 
   return (
     <div
@@ -115,30 +114,24 @@ const CardModal: React.FC<CardModalProps> = ({
         <div className="overflow-y-auto">
           {/* Image + title header */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 bg-secondary/30 p-4 sm:p-5">
-            <div className="flex-shrink-0 mx-auto sm:mx-0 flex items-start justify-center sm:justify-start gap-3">
-              {imageLanguages.map((lang) => (
-                <div
-                  key={lang || 'default'}
-                  className="cursor-pointer group text-center"
-                  onClick={(e) => { e.stopPropagation(); onImageClick(card.imageUrl); }}
-                >
-                  <img
-                    src={card.imageUrl || PLACEHOLDER_IMAGE}
-                    alt={lang ? `${card.name} (${lang})` : card.name}
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
-                    }}
-                    className={`${showBothLanguages ? 'w-28 sm:w-36' : 'w-40 sm:w-52'} h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]`}
-                    style={{ boxShadow: 'var(--shadow-card)' }}
-                  />
-                  {lang && (
-                    <div className="text-muted-foreground text-[11px] font-semibold mt-1">{lang}</div>
-                  )}
-                </div>
-              ))}
+            <div
+              className="flex-shrink-0 mx-auto sm:mx-0 cursor-pointer group"
+              onClick={(e) => { e.stopPropagation(); onImageClick(card.imageUrl); }}
+            >
+              <img
+                src={card.imageUrl || PLACEHOLDER_IMAGE}
+                alt={card.name}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+                }}
+                className="w-40 sm:w-52 h-auto rounded-xl transition-all duration-200 group-hover:opacity-80 group-hover:scale-[1.02]"
+                style={{ boxShadow: 'var(--shadow-card)' }}
+              />
             </div>
             <div className="flex-1 min-w-0 py-1 text-center sm:text-left">
-              <p className="text-muted-foreground text-xs font-medium mb-1">Pokémon · {card.set}</p>
+              <p className="text-muted-foreground text-xs font-medium mb-1">
+                {card.set}{showBothLanguages && card.jpSet ? ` · ${card.jpSet}` : ''}
+              </p>
               <h2 className="text-2xl sm:text-3xl font-heading font-extrabold italic text-foreground truncate">{card.name}</h2>
               <p className="text-muted-foreground text-sm mt-1">#{card.number}</p>
             </div>
