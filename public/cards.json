@@ -40,7 +40,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 222,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Crossing the Ruins..."
   },
   {
     "id": "neodiscovery-053",
@@ -83,7 +84,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 10,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Crossing the Ruins..."
   },
   {
     "id": "neodiscovery-056",
@@ -127,7 +129,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 140,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Crossing the Ruins..."
   },
   {
     "id": "neodiscovery-060",
@@ -171,7 +174,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 138,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Crossing the Ruins..."
   },
   {
     "id": "vs-081",
@@ -433,7 +437,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 118,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Awakening Legends"
   },
   {
     "id": "neorevelation-048",
@@ -476,7 +481,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 195,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Awakening Legends"
   },
   {
     "id": "neorevelation-051",
@@ -519,7 +525,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 213,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Awakening Legends"
   },
   {
     "id": "neodestiny-013",
@@ -560,7 +567,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 184,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-031",
@@ -603,7 +611,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 113,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-044",
@@ -646,7 +655,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 39,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-056",
@@ -689,7 +699,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 175,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-063",
@@ -732,7 +743,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 147,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-066",
@@ -775,7 +787,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 203,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "neodestiny-079",
@@ -818,7 +831,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 54,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Darkness, and to Light..."
   },
   {
     "id": "expedition-060",
@@ -903,7 +917,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 62,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "expedition-089",
@@ -956,7 +971,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 61,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "expedition-125",
@@ -1009,7 +1025,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 60,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "expedition-128",
@@ -1063,7 +1080,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 19,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "expedition-131",
@@ -1117,7 +1135,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 7,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "expedition-136",
@@ -1170,7 +1189,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 37,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Base Expansion Pack"
   },
   {
     "id": "unnumbered-releases-pokemon-plaza-promo",
@@ -1276,7 +1296,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 189,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "aquapolis-021",
@@ -1356,7 +1377,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 171,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "aquapolis-060",
@@ -1410,7 +1432,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 188,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "aquapolis-070",
@@ -1464,7 +1487,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 170,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "aquapolis-083",
@@ -1519,7 +1543,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 187,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "aquapolis-090",
@@ -1573,7 +1598,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 108,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "The Town on No Map / Wind from the Sea"
   },
   {
     "id": "skyridge-024",
@@ -1652,7 +1678,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 221,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Split Earth / Mysterious Mountains"
   },
   {
     "id": "skyridge-027",
@@ -1732,7 +1759,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 26,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Split Earth / Mysterious Mountains"
   },
   {
     "id": "skyridge-053",
@@ -1786,7 +1814,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 206,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Split Earth / Mysterious Mountains"
   },
   {
     "id": "skyridge-084",
@@ -1830,7 +1859,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 25,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Split Earth / Mysterious Mountains"
   },
   {
     "id": "skyridge-107",
@@ -1884,7 +1914,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 220,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Split Earth / Mysterious Mountains"
   },
   {
     "id": "exdragon-041",
@@ -1938,7 +1969,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 372,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Rulers of the Heavens"
   },
   {
     "id": "exdragon-057",
@@ -2010,7 +2042,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 88,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Rulers of the Heavens"
   },
   {
     "id": "exdragon-069",
@@ -2082,7 +2115,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 322,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Rulers of the Heavens"
   },
   {
     "id": "exdragon-078",
@@ -2154,7 +2188,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 328,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Rulers of the Heavens"
   },
   {
     "id": "exhiddenlegends-016",
@@ -2225,7 +2260,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 182,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Undone Seal"
   },
   {
     "id": "exhiddenlegends-035",
@@ -2278,7 +2314,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 44,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Undone Seal"
   },
   {
     "id": "exhiddenlegends-050",
@@ -2349,7 +2386,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 317,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Undone Seal"
   },
   {
     "id": "exhiddenlegends-062",
@@ -2403,7 +2441,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 316,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Undone Seal"
   },
   {
     "id": "exhiddenlegends-068",
@@ -2475,7 +2514,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 43,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Undone Seal"
   },
   {
     "id": "exfireredandleafgreen-014",
@@ -2525,7 +2565,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 80,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exfireredandleafgreen-030",
@@ -2577,7 +2618,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 114,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exfireredandleafgreen-043",
@@ -2630,7 +2672,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 47,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exfireredandleafgreen-072",
@@ -2694,7 +2737,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 46,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exfireredandleafgreen-080",
@@ -2746,7 +2790,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 79,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exteamrocketreturns-021",
@@ -2798,12 +2843,13 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 225,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Rocket Gang Strikes Back"
   },
   {
     "id": "exteamrocketreturns-022",
     "name": "Furret",
-    "set": "Rocket Gang Strikes Back",
+    "set": "Team Rocket Returns",
     "era": "EX",
     "number": "022",
     "sheet_no": "80",
@@ -2850,12 +2896,13 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 162,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Rocket Gang Strikes Back"
   },
   {
     "id": "exteamrocketreturns-075",
     "name": "Sentret",
-    "set": "Rocket Gang Strikes Back",
+    "set": "Team Rocket Returns",
     "era": "EX",
     "number": "075",
     "sheet_no": "81",
@@ -2902,12 +2949,13 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 161,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Rocket Gang Strikes Back"
   },
   {
     "id": "exteamrocketreturns-078",
     "name": "Spinarak",
-    "set": "Rocket Gang Strikes Back",
+    "set": "Team Rocket Returns",
     "era": "EX",
     "number": "078",
     "sheet_no": "82",
@@ -2954,7 +3002,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 167,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Rocket Gang Strikes Back"
   },
   {
     "id": "exdeoxys-029",
@@ -3006,7 +3055,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 178,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Clash of the Blue Sky"
   },
   {
     "id": "exdeoxys-030",
@@ -3058,7 +3108,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 232,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Clash of the Blue Sky"
   },
   {
     "id": "exdeoxys-066",
@@ -3110,7 +3161,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 177,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Clash of the Blue Sky"
   },
   {
     "id": "exdeoxys-069",
@@ -3162,7 +3214,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 231,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Clash of the Blue Sky"
   },
   {
     "id": "exemerald-024",
@@ -3370,7 +3423,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 25,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Flight of Legends"
   },
   {
     "id": "exunseenforces-021",
@@ -3422,7 +3476,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 173,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Golden Sky, Silvery Ocean"
   },
   {
     "id": "exunseenforces-023",
@@ -3474,7 +3529,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 239,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Golden Sky, Silvery Ocean"
   },
   {
     "id": "exunseenforces-031",
@@ -3526,7 +3582,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 238,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Golden Sky, Silvery Ocean"
   },
   {
     "id": "exunseenforces-033",
@@ -3567,7 +3624,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 236,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Golden Sky, Silvery Ocean"
   },
   {
     "id": "exdeltaspecies-035",
@@ -3617,7 +3675,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-036",
@@ -3669,7 +3728,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-037",
@@ -3721,7 +3781,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-038",
@@ -3773,7 +3834,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-039",
@@ -3825,7 +3887,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-040",
@@ -3887,7 +3950,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 132,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-061",
@@ -3949,7 +4013,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 132,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-062",
@@ -4001,7 +4066,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 132,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-063",
@@ -4062,7 +4128,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 132,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exdeltaspecies-064",
@@ -4124,7 +4191,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 132,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Holon Research Tower"
   },
   {
     "id": "exlegendmaker-058",
@@ -4176,7 +4244,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 240,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Mirage Forest"
   },
   {
     "id": "exlegendmaker-061",
@@ -4228,7 +4297,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 273,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Mirage Forest"
   },
   {
     "id": "exlegendmaker-071",
@@ -4280,7 +4350,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 360,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Mirage Forest"
   },
   {
     "id": "dpt-p-squirtle",
@@ -4636,7 +4707,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 159,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Offense and Defense of the Furthest Ends"
   },
   {
     "id": "exdragonfrontiers-030",
@@ -4688,7 +4760,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 180,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Offense and Defense of the Furthest Ends"
   },
   {
     "id": "exdragonfrontiers-044",
@@ -4740,7 +4813,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 152,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Offense and Defense of the Furthest Ends"
   },
   {
     "id": "exdragonfrontiers-047",
@@ -4792,7 +4866,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 23,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Offense and Defense of the Furthest Ends"
   },
   {
     "id": "jpn-rta-1",
@@ -4897,7 +4972,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 440,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Secret of the Lakes"
   },
   {
     "id": "mysterioustreasures-071",
@@ -4951,7 +5027,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 304,
-    "energyType": "Metal"
+    "energyType": "Metal",
+    "jpSet": "Secret of the Lakes"
   },
   {
     "id": "mysterioustreasures-093",
@@ -5003,7 +5080,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 172,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Secret of the Lakes"
   },
   {
     "id": "mysterioustreasures-099",
@@ -5057,7 +5135,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 287,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Secret of the Lakes"
   },
   {
     "id": "mysterioustreasures-105",
@@ -5111,7 +5190,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 216,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Secret of the Lakes"
   },
   {
     "id": "popseries8-014",
@@ -5214,7 +5294,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 406,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Intense Fight in the Destroyed Sky"
   },
   {
     "id": "stormfront-054",
@@ -5268,7 +5349,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 399,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Intense Fight in the Destroyed Sky"
   },
   {
     "id": "stormfront-063",
@@ -5321,7 +5403,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 246,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Intense Fight in the Destroyed Sky"
   },
   {
     "id": "platinum-080",
@@ -5375,7 +5458,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 108,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Galactic's Conquest"
   },
   {
     "id": "platinum-082",
@@ -5429,7 +5513,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 179,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Galactic's Conquest"
   },
   {
     "id": "platinum-103",
@@ -5483,7 +5568,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 265,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Galactic's Conquest"
   },
   {
     "id": "platinum-071",
@@ -5535,7 +5621,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 312,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Beat of the Frontier"
   },
   {
     "id": "platinum-076",
@@ -5588,7 +5675,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 311,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Beat of the Frontier"
   },
   {
     "id": "platinum-127",
@@ -5640,7 +5728,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 285,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Galactic's Conquest"
   },
   {
     "id": "platinum-132",
@@ -5692,7 +5781,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 293,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Galactic's Conquest"
   },
   {
     "id": "arceus-060",
@@ -5746,7 +5836,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 420,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Advent of Arceus"
   },
   {
     "id": "arceus-075",
@@ -5800,7 +5891,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 361,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Advent of Arceus"
   },
   {
     "id": "heartgoldsoulsilver-013",
@@ -5862,7 +5954,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 202,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "HeartGold Collection • SoulSilver Collection"
   },
   {
     "id": "heartgoldsoulsilver-025",
@@ -5928,7 +6021,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 166,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "HeartGold Collection • SoulSilver Collection"
   },
   {
     "id": "heartgoldsoulsilver-031",
@@ -5992,7 +6086,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 192,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "HeartGold Collection • SoulSilver Collection"
   },
   {
     "id": "heartgoldsoulsilver-071",
@@ -6056,7 +6151,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 165,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "HeartGold Collection • SoulSilver Collection"
   },
   {
     "id": "heartgoldsoulsilver-085",
@@ -6120,7 +6216,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 191,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "HeartGold Collection • SoulSilver Collection"
   },
   {
     "id": "undaunted-006",
@@ -6184,7 +6281,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare Holo",
     "nationalNumber": 219,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Reviving Legends"
   },
   {
     "id": "undaunted-067",
@@ -6250,7 +6348,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 218,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Reviving Legends"
   },
   {
     "id": "Triumphant-015",
@@ -6316,7 +6415,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 437,
-    "energyType": "Metal"
+    "energyType": "Metal",
+    "jpSet": "Clash at the Summit"
   },
   {
     "id": "Triumphant-058",
@@ -6382,7 +6482,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 436,
-    "energyType": "Metal"
+    "energyType": "Metal",
+    "jpSet": "Clash at the Summit"
   },
   {
     "id": "legendarytreasures-009",
@@ -6448,7 +6549,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 540,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "EX Battle Boost"
   },
   {
     "id": "legendarytreasures-083",
@@ -6514,7 +6616,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 618,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "EX Battle Boost"
   },
   {
     "id": "primalclash-087",
@@ -6580,7 +6683,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 449,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Gaia Volcano • Tidal Storm"
   },
   {
     "id": "primalclash-113",
@@ -6651,7 +6755,8 @@
     "illustrator": "Yuka Morii",
     "nationalNumber": 300,
     "energyType": "Colorless",
-    "rarity": "Common"
+    "rarity": "Common",
+    "jpSet": "Gaia Volcano • Tidal Storm"
   },
   {
     "id": "roaringskies-068",
@@ -6706,7 +6811,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 206,
-    "energyType": "Colorless"
+    "energyType": "Colorless",
+    "jpSet": "Emerald Break"
   },
   {
     "id": "ancientorigins-047",
@@ -6760,7 +6866,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 374,
-    "energyType": "Metal"
+    "energyType": "Metal",
+    "jpSet": "Bandit Ring"
   },
   {
     "id": "breakthrough-004",
@@ -6815,7 +6922,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 331,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Blue Shock / Red Flash"
   },
   {
     "id": "breakthrough-098",
@@ -6869,7 +6977,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 209,
-    "energyType": "Fairy"
+    "energyType": "Fairy",
+    "jpSet": "Blue Shock / Red Flash"
   },
   {
     "id": "breakpoint-072",
@@ -6924,7 +7033,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 274,
-    "energyType": "Darkness"
+    "energyType": "Darkness",
+    "jpSet": "Rage of the Broken Heavens"
   },
   {
     "id": "generations-H19",
@@ -7009,7 +7119,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 703,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Awakening Psychic King"
   },
   {
     "id": "steamsiege-012",
@@ -7064,7 +7175,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 590,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Fever-Burst Fighter / Cruel Traitor"
   },
   {
     "id": "sunmoon-002",
@@ -7107,7 +7219,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 11,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Collection Sun • Collection Moon"
   },
   {
     "id": "sunmoonpromos-sm229",
@@ -7137,7 +7250,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Promo",
     "nationalNumber": 3,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Remix Bout"
   },
   {
     "id": "guardiansrising-050",
@@ -7191,7 +7305,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 568,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Islands Await You / Alolan Moonlight"
   },
   {
     "id": "guardiansrising-052",
@@ -7234,7 +7349,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 574,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Islands Await You / Alolan Moonlight"
   },
   {
     "id": "crimsoninvasion-016",
@@ -7277,7 +7393,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 121,
-    "energyType": "Water"
+    "energyType": "Water",
+    "jpSet": "Awakened Heroes / Ultradimensional Beasts"
   },
   {
     "id": "crimsoninvasion-051",
@@ -7320,7 +7437,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 57,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Awakened Heroes / Ultradimensional Beasts"
   },
   {
     "id": "forbiddenlight-001",
@@ -7364,7 +7482,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 102,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Forbidden Light"
   },
   {
     "id": "forbiddenlight-018",
@@ -7407,7 +7526,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 667,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Forbidden Light"
   },
   {
     "id": "forbiddenlight-066",
@@ -7450,7 +7570,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 688,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Forbidden Light"
   },
   {
     "id": "celestialstorm-057",
@@ -7493,7 +7614,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 316,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Sky-Splitting Charisma"
   },
   {
     "id": "celestialstorm-058",
@@ -7534,7 +7656,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 317,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Sky-Splitting Charisma"
   },
   {
     "id": "dragonmajesty-043",
@@ -7577,7 +7700,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 372,
-    "energyType": "Dragon"
+    "energyType": "Dragon",
+    "jpSet": "Dragon Storm"
   },
   {
     "id": "lostthunder-080",
@@ -7620,7 +7744,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 417,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Super-Burst Impact"
   },
   {
     "id": "lostthunder-116",
@@ -7663,7 +7788,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 247,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Super-Burst Impact"
   },
   {
     "id": "lostthunder-123",
@@ -7706,7 +7832,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 51,
-    "energyType": "Metal"
+    "energyType": "Metal",
+    "jpSet": "Super-Burst Impact"
   },
   {
     "id": "lostthunder-139",
@@ -7749,7 +7876,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 280,
-    "energyType": "Fairy"
+    "energyType": "Fairy",
+    "jpSet": "Super-Burst Impact"
   },
   {
     "id": "teamup-004",
@@ -7792,7 +7920,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 14,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Tag Bolt"
   },
   {
     "id": "teamup-035",
@@ -7835,7 +7964,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 74,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Tag Bolt"
   },
   {
     "id": "teamup-047",
@@ -7878,7 +8008,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 595,
-    "energyType": "Lightning"
+    "energyType": "Lightning",
+    "jpSet": "Tag Bolt"
   },
   {
     "id": "teamup-081",
@@ -7921,7 +8052,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 674,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Tag Bolt"
   },
   {
     "id": "unbrokenbonds-010",
@@ -7964,7 +8096,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 48,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Double Blaze"
   },
   {
     "id": "unbrokenbonds-018",
@@ -8007,7 +8140,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 736,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Double Blaze"
   },
   {
     "id": "unbrokenbonds-023",
@@ -8050,7 +8184,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 554,
-    "energyType": "Fire"
+    "energyType": "Fire",
+    "jpSet": "Double Blaze"
   },
   {
     "id": "unbrokenbonds-113",
@@ -8093,7 +8228,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 551,
-    "energyType": "Darkness"
+    "energyType": "Darkness",
+    "jpSet": "Double Blaze"
   },
   {
     "id": "unifiedminds-015",
@@ -8136,7 +8272,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 753,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Miracle Twin"
   },
   {
     "id": "unifiedminds-111",
@@ -8179,7 +8316,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Uncommon",
     "nationalNumber": 369,
-    "energyType": "Fighting"
+    "energyType": "Fighting",
+    "jpSet": "Miracle Twin"
   },
   {
     "id": "cosmiceclipse-017",
@@ -8222,7 +8360,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Common",
     "nationalNumber": 722,
-    "energyType": "Grass"
+    "energyType": "Grass",
+    "jpSet": "Alter Genesis"
   },
   {
     "id": "cosmiceclipse-097",
@@ -8266,7 +8405,8 @@
     "illustrator": "Yuka Morii",
     "rarity": "Rare",
     "nationalNumber": 778,
-    "energyType": "Psychic"
+    "energyType": "Psychic",
+    "jpSet": "Alter Genesis"
   },
   {
     "id": "ssh-ferroseed-sword-shield-ssh-130",
@@ -8310,7 +8450,8 @@
     "rarity": "Common",
     "nationalNumber": 597,
     "energyType": "Metal",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Sword • Shield"
   },
   {
     "id": "rcl-sandygast-rebel-clash-rcl-081",
@@ -8354,7 +8495,8 @@
     "rarity": "Common",
     "nationalNumber": 769,
     "energyType": "Psychic",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Rebellion Crash"
   },
   {
     "id": "rcl-bunnelby-rebel-clash-rcl-146",
@@ -8398,7 +8540,8 @@
     "rarity": "Common",
     "nationalNumber": 659,
     "energyType": "Colorless",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Rebellion Crash"
   },
   {
     "id": "darknessablaze-014",
@@ -8442,7 +8585,8 @@
     "rarity": "Common",
     "nationalNumber": 761,
     "energyType": "Grass",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Infinity Zone"
   },
   {
     "id": "darknessablaze-022",
@@ -8486,7 +8630,8 @@
     "rarity": "Common",
     "nationalNumber": 255,
     "energyType": "Fire",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Infinity Zone"
   },
   {
     "id": "championspath-002",
@@ -8530,7 +8675,8 @@
     "rarity": "Common",
     "nationalNumber": 13,
     "energyType": "Grass",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Infinity Zone"
   },
   {
     "id": "vividvoltage-077",
@@ -8574,7 +8720,8 @@
     "rarity": "Common",
     "nationalNumber": 702,
     "energyType": "Psychic",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Amazing Volt Tackle"
   },
   {
     "id": "vividvoltage-091",
@@ -8618,7 +8765,8 @@
     "rarity": "Common",
     "nationalNumber": 529,
     "energyType": "Fighting",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Amazing Volt Tackle"
   },
   {
     "id": "vividvoltage-133",
@@ -8662,7 +8810,8 @@
     "rarity": "Common",
     "nationalNumber": 276,
     "energyType": "Colorless",
-    "regulationMark": "D"
+    "regulationMark": "D",
+    "jpSet": "Amazing Volt Tackle"
   },
   {
     "id": "battlestyles-027",
@@ -8706,7 +8855,8 @@
     "rarity": "Common",
     "nationalNumber": 757,
     "energyType": "Fire",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Single Strike Master / Rapid Strike Master"
   },
   {
     "id": "battlestyles-029",
@@ -8750,7 +8900,8 @@
     "rarity": "Common",
     "nationalNumber": 850,
     "energyType": "Fire",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Single Strike Master / Rapid Strike Master"
   },
   {
     "id": "chillingreign-022",
@@ -8795,7 +8946,8 @@
     "rarity": "Common",
     "nationalNumber": 351,
     "energyType": "Fire",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Silver Lance / Jet-Black Spirit"
   },
   {
     "id": "chillingreign-091",
@@ -8839,7 +8991,8 @@
     "rarity": "Common",
     "nationalNumber": 852,
     "energyType": "Fighting",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Silver Lance / Jet-Black Spirit"
   },
   {
     "id": "evolvingskies-068",
@@ -8883,7 +9036,8 @@
     "rarity": "Common",
     "nationalNumber": 527,
     "energyType": "Psychic",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Skyscraping Perfection / Blue Sky Stream"
   },
   {
     "id": "evolvingskies-076",
@@ -8928,7 +9082,8 @@
     "rarity": "Common",
     "nationalNumber": 710,
     "energyType": "Psychic",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Skyscraping Perfection / Blue Sky Stream"
   },
   {
     "id": "fusionstrike-084",
@@ -8991,7 +9146,8 @@
     "rarity": "Common",
     "nationalNumber": 872,
     "energyType": "Water",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Fusion Arts"
   },
   {
     "id": "fusionstrike-095",
@@ -9035,7 +9191,8 @@
     "rarity": "Common",
     "nationalNumber": 602,
     "energyType": "Lightning",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Fusion Arts"
   },
   {
     "id": "fusionstrike-131",
@@ -9079,7 +9236,8 @@
     "rarity": "Common",
     "nationalNumber": 27,
     "energyType": "Fighting",
-    "regulationMark": "E"
+    "regulationMark": "E",
+    "jpSet": "Fusion Arts"
   },
   {
     "id": "brilliantstars-010",
@@ -9132,7 +9290,8 @@
     "rarity": "Rare",
     "nationalNumber": 413,
     "energyType": "Grass",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Star Birth"
   },
   {
     "id": "brilliantstars-030",
@@ -9187,7 +9346,8 @@
     "rarity": "Common",
     "nationalNumber": 120,
     "energyType": "Water",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Star Birth"
   },
   {
     "id": "astralradiance-109",
@@ -9231,7 +9391,8 @@
     "rarity": "Uncommon",
     "nationalNumber": 410,
     "energyType": "Metal",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Time Gazer / Space Juggler"
   },
   {
     "id": "pokemongo-006",
@@ -9283,7 +9444,8 @@
     "rarity": "Common",
     "nationalNumber": 167,
     "energyType": "Grass",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Pokémon GO"
   },
   {
     "id": "lostorigin-011",
@@ -9325,7 +9487,8 @@
     "rarity": "Common",
     "nationalNumber": 273,
     "energyType": "Grass",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Lost Abyss"
   },
   {
     "id": "lostorigin-024",
@@ -9390,7 +9553,8 @@
     "rarity": "Common",
     "nationalNumber": 607,
     "energyType": "Fire",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Lost Abyss"
   },
   {
     "id": "lostorigin-046",
@@ -9434,7 +9598,8 @@
     "rarity": "Common",
     "nationalNumber": 580,
     "energyType": "Water",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Lost Abyss"
   },
   {
     "id": "lostorigin-086",
@@ -9488,7 +9653,8 @@
     "rarity": "Common",
     "nationalNumber": 66,
     "energyType": "Fighting",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Lost Abyss"
   },
   {
     "id": "lostorigin-114",
@@ -9532,7 +9698,8 @@
     "rarity": "Common",
     "nationalNumber": 198,
     "energyType": "Darkness",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Lost Abyss"
   },
   {
     "id": "silvertempest-093",
@@ -9574,7 +9741,8 @@
     "rarity": "Common",
     "nationalNumber": 343,
     "energyType": "Fighting",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "Paradigm Trigger"
   },
   {
     "id": "crownzenith-drapionv",
@@ -9607,7 +9775,8 @@
     "rarity": "Rare Holo V",
     "nationalNumber": 452,
     "energyType": "Darkness",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "VSTAR Universe"
   },
   {
     "id": "crownzenith-092",
@@ -9652,7 +9821,8 @@
     "rarity": "Common",
     "nationalNumber": 624,
     "energyType": "Metal",
-    "regulationMark": "F"
+    "regulationMark": "F",
+    "jpSet": "VSTAR Universe"
   },
   {
     "id": "svi-stonjourner-scarlet-violet-svi-121",
@@ -9696,7 +9866,8 @@
     "rarity": "Uncommon",
     "nationalNumber": 874,
     "energyType": "Fighting",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Scarlet ex • Violet ex"
   },
   {
     "id": "svi-starly-scarlet-violet-svi-148",
@@ -9740,7 +9911,8 @@
     "rarity": "Common",
     "nationalNumber": 396,
     "energyType": "Colorless",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Scarlet ex • Violet ex"
   },
   {
     "id": "pal-pincurchin-paldea-evolved-pal-072",
@@ -9784,7 +9956,8 @@
     "rarity": "Common",
     "nationalNumber": 871,
     "energyType": "Lightning",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Snow Hazard • Clay Burst"
   },
   {
     "id": "obf-larvesta-obsidian-flames-obf-040",
@@ -9837,7 +10010,8 @@
     "rarity": "Common",
     "nationalNumber": 636,
     "energyType": "Fire",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ruler of the Black Flame"
   },
   {
     "id": "obf-clefairy-obsidian-flames-obf-081",
@@ -9892,7 +10066,8 @@
     "rarity": "Common",
     "nationalNumber": 35,
     "energyType": "Psychic",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ruler of the Black Flame"
   },
   {
     "id": "obf-sinistea-obsidian-flames-obf-097",
@@ -9936,7 +10111,8 @@
     "rarity": "Common",
     "nationalNumber": 854,
     "energyType": "Psychic",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ruler of the Black Flame"
   },
   {
     "id": "obf-lillipup-obsidian-flames-obf-170",
@@ -9980,7 +10156,8 @@
     "rarity": "Common",
     "nationalNumber": 506,
     "energyType": "Colorless",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ruler of the Black Flame"
   },
   {
     "id": "mew-magnemite-151-mew-081",
@@ -10046,7 +10223,8 @@
     "rarity": "Common",
     "nationalNumber": 81,
     "energyType": "Lightning",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Pokémon Card 151"
   },
   {
     "id": "mew-magneton-151-mew-082",
@@ -10112,7 +10290,8 @@
     "rarity": "Uncommon",
     "nationalNumber": 82,
     "energyType": "Lightning",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Pokémon Card 151"
   },
   {
     "id": "par-octillery-paradox-rift-par-034",
@@ -10156,7 +10335,8 @@
     "rarity": "Common",
     "nationalNumber": 224,
     "energyType": "Water",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ancient Roar • Future Flash"
   },
   {
     "id": "par-toxel-paradox-rift-par-069",
@@ -10200,7 +10380,8 @@
     "rarity": "Common",
     "nationalNumber": 848,
     "energyType": "Lightning",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ancient Roar • Future Flash"
   },
   {
     "id": "par-aipom-paradox-rift-par-211",
@@ -10231,7 +10412,8 @@
     "rarity": "Illustration Rare",
     "nationalNumber": 190,
     "energyType": "Colorless",
-    "regulationMark": "G"
+    "regulationMark": "G",
+    "jpSet": "Ancient Roar • Future Flash"
   },
   {
     "id": "tef-minccino-temporal-forces-tef-136",
@@ -10275,7 +10457,8 @@
     "rarity": "Common",
     "nationalNumber": 572,
     "energyType": "Colorless",
-    "regulationMark": "H"
+    "regulationMark": "H",
+    "jpSet": "Wild Force • Cyber Judge"
   },
   {
     "id": "twilightmasquerade-056",
@@ -10319,7 +10502,8 @@
     "rarity": "Common",
     "nationalNumber": 656,
     "energyType": "Water",
-    "regulationMark": "H"
+    "regulationMark": "H",
+    "jpSet": "Transformation Mask"
   },
   {
     "id": "stellarcrown-043",
@@ -10362,7 +10546,8 @@
     "rarity": "Common",
     "nationalNumber": 833,
     "energyType": "Water",
-    "regulationMark": "H"
+    "regulationMark": "H",
+    "jpSet": "Stellar Miracle"
   },
   {
     "id": "stellarcrown-102",
@@ -10425,7 +10610,8 @@
     "rarity": "Common",
     "nationalNumber": 808,
     "energyType": "Metal",
-    "regulationMark": "H"
+    "regulationMark": "H",
+    "jpSet": "Stellar Miracle"
   },
   {
     "id": "surgingsparks-138",
@@ -10468,7 +10654,8 @@
     "rarity": "Common",
     "nationalNumber": 840,
     "energyType": "Dragon",
-    "regulationMark": "H"
+    "regulationMark": "H",
+    "jpSet": "Super Electric Breaker"
   },
   {
     "id": "journeytogether-009",
@@ -10512,7 +10699,8 @@
     "rarity": "Common",
     "nationalNumber": 588,
     "energyType": "Grass",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Battle Partners"
   },
   {
     "id": "destinedrivals-021",
@@ -10567,7 +10755,8 @@
     "rarity": "Common",
     "nationalNumber": 928,
     "energyType": "Grass",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Glory of the Rocket Gang"
   },
   {
     "id": "whiteflare-070",
@@ -10633,7 +10822,8 @@
     "rarity": "Uncommon",
     "nationalNumber": 632,
     "energyType": "Metal",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Black Bolt • White Flare"
   },
   {
     "id": "blackbolt-141",
@@ -10664,7 +10854,8 @@
     "rarity": "Illustration Rare",
     "nationalNumber": 599,
     "energyType": "Metal",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Black Bolt • White Flare"
   },
   {
     "id": "megaevolution-052",
@@ -10705,7 +10896,8 @@
     "rarity": "Common",
     "nationalNumber": 694,
     "energyType": "Lightning",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Mega Brave • Mega Symphonia"
   },
   {
     "id": "phantasmalflames-009",
@@ -10747,7 +10939,8 @@
     "rarity": "Common",
     "nationalNumber": 919,
     "energyType": "Grass",
-    "regulationMark": "I"
+    "regulationMark": "I",
+    "jpSet": "Inferno X"
   },
   {
     "id": "me5-42",

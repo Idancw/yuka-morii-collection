@@ -17,28 +17,10 @@ function getCardLanguages(card: any): Set<string> {
   return langs;
 }
 
-// Split each missing card into one print item per language (English first,
-// Japanese second) when it was released in both, since each is a separate
-// physical card to source.
-function getPrintItems(cards: any[]) {
-  const items: any[] = [];
-  cards.forEach((card) => {
-    const langs = getCardLanguages(card);
-    if (langs.has('EN') && langs.has('JP')) {
-      items.push({ ...card, printKey: `${card.id}-en`, printLang: 'English' });
-      items.push({ ...card, printKey: `${card.id}-jp`, printLang: 'Japanese' });
-    } else {
-      items.push({ ...card, printKey: card.id, printLang: null });
-    }
-  });
-  return items;
-}
-
 const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) => {
-  const printItems = getPrintItems(cards);
   const pages: any[][] = [];
-  for (let i = 0; i < printItems.length; i += CARDS_PER_PAGE) {
-    pages.push(printItems.slice(i, i + CARDS_PER_PAGE));
+  for (let i = 0; i < cards.length; i += CARDS_PER_PAGE) {
+    pages.push(cards.slice(i, i + CARDS_PER_PAGE));
   }
   const pageCount = Math.max(pages.length, 1);
 
@@ -51,13 +33,13 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
             Missing Cards Sheet
           </h2>
           <p className="text-muted-foreground text-xs sm:text-sm truncate">
-            {printItems.length} {printItems.length === 1 ? 'print' : 'prints'} · {pageCount} {pageCount === 1 ? 'page' : 'pages'} · 4×4 per page
+            {cards.length} {cards.length === 1 ? 'card' : 'cards'} · {pageCount} {pageCount === 1 ? 'page' : 'pages'} · 4×4 per page
           </p>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
           <button
             onClick={() => window.print()}
-            disabled={printItems.length === 0}
+            disabled={cards.length === 0}
             className="flex items-center gap-2 px-4 sm:px-5 py-2.5 btn-primary text-sm disabled:opacity-40 disabled:pointer-events-none"
           >
             <Printer className="w-4 h-4" />
@@ -75,29 +57,37 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
 
       {/* Preview / print content */}
       <div className="export-sheet-scroll flex-1 overflow-auto bg-muted/60 py-6">
-        {printItems.length === 0 ? (
+        {cards.length === 0 ? (
           <p className="text-center text-muted-foreground py-20">Nothing missing — your collection is complete!</p>
         ) : (
           <div className="print-sheet">
             {pages.map((pageCards, pageIndex) => (
               <div key={pageIndex} className="print-page">
-                {pageCards.map((card) => (
-                  <div key={card.printKey} className="print-card">
-                    <img
-                      src={card.imageUrl || PLACEHOLDER_IMAGE}
-                      alt={card.printLang ? `${card.name} (${card.printLang})` : card.name}
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
-                      }}
-                    />
-                    <div className="print-card-caption">
-                      <div className="name">{card.name}</div>
-                      <div className="meta">
-                        #{card.number} · {card.set}{card.printLang ? ` · ${card.printLang}` : ''}
+                {pageCards.map((card) => {
+                  const langs = getCardLanguages(card);
+                  const showBothLanguages = card.jpSet && langs.has('EN') && langs.has('JP');
+                  return (
+                    <div key={card.id} className="print-card">
+                      <img
+                        src={card.imageUrl || PLACEHOLDER_IMAGE}
+                        alt={card.name}
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGE;
+                        }}
+                      />
+                      <div className="print-card-caption">
+                        <div className="name">{card.name}</div>
+                        {showBothLanguages ? (
+                          <div className="meta">
+                            #{card.number} · EN: {card.set} · JP: {card.jpSet}
+                          </div>
+                        ) : (
+                          <div className="meta">#{card.number} · {card.set}</div>
+                        )}
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             ))}
           </div>
