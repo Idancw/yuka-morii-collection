@@ -1,5 +1,5 @@
-import React from 'react';
-import { Layers, CheckCircle2, Clock, CircleDashed, TrendingUp } from 'lucide-react';
+import React, { useState } from 'react';
+import { Layers, CheckCircle2, Clock, CircleDashed, TrendingUp, ZoomIn, ZoomOut } from 'lucide-react';
 
 interface Stats {
   total: number;
@@ -11,7 +11,6 @@ interface Stats {
 
 interface StatsPanelProps {
   stats: Stats;
-  compact?: boolean;
   onFilterChange: (filter: string) => void;
 }
 
@@ -23,7 +22,9 @@ const statItems = [
   { key: 'completion', filter: '', label: 'Owned %', icon: TrendingUp, colorClass: 'text-accent' },
 ];
 
-const StatsPanel: React.FC<StatsPanelProps> = ({ stats, compact = false, onFilterChange }) => {
+const StatsPanel: React.FC<StatsPanelProps> = ({ stats, onFilterChange }) => {
+  const [expanded, setExpanded] = useState(false);
+
   const getStatValue = (key: string) => {
     switch (key) {
       case 'all': return stats.total;
@@ -35,52 +36,66 @@ const StatsPanel: React.FC<StatsPanelProps> = ({ stats, compact = false, onFilte
     }
   };
 
-  return (
-    <>
-      {/* Compact strip: always used on mobile, and on all sizes once scrolled */}
-      <div
-        className={`${compact ? '' : 'sm:hidden'} surface-card px-1 py-2 mb-2 sm:mb-4 flex items-stretch animate-slide-up transition-all duration-200`}
-        style={{ animationDelay: '0.05s' }}
-      >
-        {statItems.map((item, i) => {
-          const Icon = item.icon;
-          return (
-            <button
-              key={item.key}
-              onClick={() => item.filter && onFilterChange(item.filter)}
-              className={`flex-1 flex items-center justify-center gap-1 py-1 ${
-                i !== statItems.length - 1 ? 'border-r border-border' : ''
-              }`}
-            >
-              <Icon className={`w-3.5 h-3.5 flex-shrink-0 ${item.colorClass}`} />
-              <span className={`text-xs font-heading font-bold ${item.colorClass}`}>
-                {getStatValue(item.key)}
-              </span>
-            </button>
-          );
-        })}
-      </div>
+  const ToggleIcon = expanded ? ZoomOut : ZoomIn;
+  const toggleButton = (
+    <button
+      type="button"
+      onClick={() => setExpanded(e => !e)}
+      title={expanded ? 'Show compact stats' : 'Show full stats'}
+      className="flex-shrink-0 w-8 flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors"
+    >
+      <ToggleIcon className="w-4 h-4" />
+    </button>
+  );
 
-      {/* Desktop: full stat cards, hidden once scrolled/compact */}
-      <div className={`hidden ${compact ? '' : 'sm:grid sm:grid-cols-3 lg:grid-cols-5'} gap-3 mb-6 animate-slide-up`} style={{ animationDelay: '0.05s' }}>
-        {statItems.map((item) => {
-          const Icon = item.icon;
-          return (
-            <div
-              key={item.key}
-              onClick={() => item.filter && onFilterChange(item.filter)}
-              className={`stat-card ${item.filter ? 'cursor-pointer' : ''}`}
-            >
-              <Icon className={`w-5 h-5 ${item.colorClass} mx-auto mb-2`} />
-              <div className={`text-3xl font-heading font-bold ${item.colorClass}`}>
-                {getStatValue(item.key)}
+  if (expanded) {
+    return (
+      <div className="relative mb-4 animate-slide-up">
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-3 pr-8">
+          {statItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <div
+                key={item.key}
+                onClick={() => item.filter && onFilterChange(item.filter)}
+                className={`stat-card ${item.filter ? 'cursor-pointer' : ''}`}
+              >
+                <Icon className={`w-5 h-5 ${item.colorClass} mx-auto mb-2`} />
+                <div className={`text-3xl font-heading font-bold ${item.colorClass}`}>
+                  {getStatValue(item.key)}
+                </div>
+                <div className="text-muted-foreground text-xs font-medium mt-1">{item.label}</div>
               </div>
-              <div className="text-muted-foreground text-xs font-medium mt-1">{item.label}</div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
+        <div className="absolute top-0 right-0 h-8 flex">{toggleButton}</div>
       </div>
-    </>
+    );
+  }
+
+  return (
+    <div className="surface-card px-1 py-2 mb-2 flex items-stretch animate-slide-up">
+      {statItems.map((item, i) => {
+        const Icon = item.icon;
+        return (
+          <button
+            key={item.key}
+            onClick={() => item.filter && onFilterChange(item.filter)}
+            title={item.label}
+            className={`flex-1 flex items-center justify-center gap-1 py-1 ${
+              i !== statItems.length - 1 ? 'border-r border-border' : ''
+            }`}
+          >
+            <Icon className={`w-3.5 h-3.5 flex-shrink-0 ${item.colorClass}`} />
+            <span className={`text-xs font-heading font-bold ${item.colorClass}`}>
+              {getStatValue(item.key)}
+            </span>
+          </button>
+        );
+      })}
+      <div className="border-l border-border flex">{toggleButton}</div>
+    </div>
   );
 };
 
