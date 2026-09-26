@@ -9,8 +9,16 @@ interface FiltersBarProps {
   eras: string[];
   sortOrder: string;
   onSortChange: (order: string) => void;
+  language: string;
+  onLanguageChange: (language: string) => void;
   compact?: boolean;
 }
+
+const LANGUAGE_OPTIONS = [
+  { value: 'all', label: 'All', title: 'All languages' },
+  { value: 'EN', label: 'EN', title: 'English only' },
+  { value: 'JP', label: 'JP', title: 'Japanese only' },
+];
 
 const FiltersBar: React.FC<FiltersBarProps> = ({
   searchQuery,
@@ -20,6 +28,8 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
   eras,
   sortOrder,
   onSortChange,
+  language,
+  onLanguageChange,
   compact = false,
 }) => {
   const [eraMenuOpen, setEraMenuOpen] = useState(false);
@@ -52,7 +62,7 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
 
   return (
     <div className={`surface-card animate-slide-up transition-all duration-200 ${compact ? 'p-2 mb-2' : 'p-4 mb-6'}`} style={{ animationDelay: '0.1s' }}>
-      <div className={`grid gap-2 sm:gap-3 ${compact ? 'grid-cols-[1fr_auto_auto]' : 'grid-cols-1 md:grid-cols-3'}`}>
+      <div className={`grid gap-2 sm:gap-3 ${compact ? 'grid-cols-[1fr_auto_auto_auto]' : 'grid-cols-1 md:grid-cols-[1fr_1fr_auto_1fr]'}`}>
         {/* Search */}
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
@@ -113,6 +123,25 @@ const FiltersBar: React.FC<FiltersBarProps> = ({
               })}
             </div>
           )}
+        </div>
+
+        {/* Language */}
+        <div className="flex gap-1">
+          {LANGUAGE_OPTIONS.map(opt => (
+            <button
+              key={opt.value}
+              type="button"
+              onClick={() => onLanguageChange(opt.value)}
+              title={opt.title}
+              className={`flex-1 flex items-center justify-center rounded-full text-sm font-semibold transition-all duration-200 ${compact ? 'px-2.5 py-1.5' : 'px-3 py-2.5'} ${
+                language === opt.value
+                  ? 'bg-primary text-primary-foreground'
+                  : 'btn-surface'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
         </div>
 
         {/* Sort */}

@@ -23,6 +23,7 @@ function App() {
   const [isViewOnly, setIsViewOnly] = useState(false);
   const [currentFilter, setCurrentFilter] = useState('all');
   const [selectedEras, setSelectedEras] = useState([]);
+  const [language, setLanguage] = useState('all');
   const [showAuth, setShowAuth] = useState(false);
   const [showShareModal, setShowShareModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
@@ -592,6 +593,9 @@ function App() {
     completion: cards.length > 0 ? Math.round((cards.filter(c => getCardStats(c).owned === 'yes').length / cards.length) * 100) : 0
   };
 
+  const languageMatches = (card) => language === 'all' ||
+      Object.values(card.variations || {}).some(v => (v.available_languages || []).includes(language));
+
   const filteredCards = cards.filter(card => {
     const cardStats = getCardStats(card);
     const hasTradeAvailable = card.variations && Object.values(card.variations).some(v => (v.count || 0) > 1);
@@ -609,7 +613,7 @@ function App() {
 
     const eraMatch = selectedEras.length === 0 || selectedEras.includes(card.era);
 
-    return statusMatch && eraMatch && searchMatch;
+    return statusMatch && eraMatch && searchMatch && languageMatches(card);
   }).sort((a, b) => {
     const dateA = a.releaseDate || '';
     const dateB = b.releaseDate || '';
@@ -624,7 +628,7 @@ function App() {
         card.set?.toLowerCase().includes(searchQuery.toLowerCase()) ||
         card.number?.toString().includes(searchQuery);
     const eraMatch = selectedEras.length === 0 || selectedEras.includes(card.era);
-    return getCardStats(card).owned === 'no' && eraMatch && searchMatch;
+    return getCardStats(card).owned === 'no' && eraMatch && searchMatch && languageMatches(card);
   }).sort((a, b) => {
     const dateA = a.releaseDate || '';
     const dateB = b.releaseDate || '';
@@ -750,6 +754,7 @@ function App() {
         {showExportSheet && (
             <ExportSheetModal
                 cards={neededCardsForExport}
+                language={language}
                 onClose={() => setShowExportSheet(false)}
             />
         )}
@@ -799,7 +804,7 @@ function App() {
                 onOpenExportSheet={() => setShowExportSheet(true)}
             />
 
-            <StatsPanel stats={stats} compact={isScrolled} onFilterChange={setCurrentFilter} />
+            <StatsPanel stats={stats} onFilterChange={setCurrentFilter} />
 
             <FiltersBar
                 searchQuery={searchQuery}
@@ -809,6 +814,8 @@ function App() {
                 eras={eras}
                 sortOrder={sortOrder}
                 onSortChange={setSortOrder}
+                language={language}
+                onLanguageChange={setLanguage}
                 compact={isScrolled}
             />
           </div>

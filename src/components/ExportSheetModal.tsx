@@ -6,6 +6,7 @@ const CARDS_PER_PAGE = 16;
 
 interface ExportSheetModalProps {
   cards: any[];
+  language?: string;
   onClose: () => void;
 }
 
@@ -17,7 +18,7 @@ function getCardLanguages(card: any): Set<string> {
   return langs;
 }
 
-const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) => {
+const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, language = 'all', onClose }) => {
   const pages: any[][] = [];
   for (let i = 0; i < cards.length; i += CARDS_PER_PAGE) {
     pages.push(cards.slice(i, i + CARDS_PER_PAGE));
@@ -65,7 +66,8 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
               <div key={pageIndex} className="print-page">
                 {pageCards.map((card) => {
                   const langs = getCardLanguages(card);
-                  const showBothLanguages = card.jpSet && langs.has('EN') && langs.has('JP');
+                  const showBothLanguages = language === 'all' && card.jpSet && langs.has('EN') && langs.has('JP');
+                  const setName = language === 'JP' && card.jpSet ? card.jpSet : card.set;
                   return (
                     <div key={card.id} className="print-card">
                       <img
@@ -82,7 +84,7 @@ const ExportSheetModal: React.FC<ExportSheetModalProps> = ({ cards, onClose }) =
                             #{card.number} · EN: {card.set} · JP: {card.jpSet}
                           </div>
                         ) : (
-                          <div className="meta">#{card.number} · {card.set}</div>
+                          <div className="meta">#{card.number} · {setName}</div>
                         )}
                       </div>
                     </div>
