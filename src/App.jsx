@@ -593,8 +593,12 @@ function App() {
     completion: cards.length > 0 ? Math.round((cards.filter(c => getCardStats(c).owned === 'yes').length / cards.length) * 100) : 0
   };
 
-  const languageMatches = (card) => language === 'all' ||
-      Object.values(card.variations || {}).some(v => (v.available_languages || []).includes(language));
+  // EN / JP show only prints exclusive to that language
+  const languageMatches = (card) => {
+    if (language === 'all') return true;
+    const langs = new Set(Object.values(card.variations || {}).flatMap(v => v.available_languages || []));
+    return langs.size === 1 && langs.has(language);
+  };
 
   const filteredCards = cards.filter(card => {
     const cardStats = getCardStats(card);
