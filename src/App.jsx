@@ -593,11 +593,11 @@ function App() {
     completion: cards.length > 0 ? Math.round((cards.filter(c => getCardStats(c).owned === 'yes').length / cards.length) * 100) : 0
   };
 
-  // EN / JP show only prints exclusive to that language
+  // EN: any card with an English print; JP: Japanese-exclusive prints only
   const languageMatches = (card) => {
     if (language === 'all') return true;
-    const langs = new Set(Object.values(card.variations || {}).flatMap(v => v.available_languages || []));
-    return langs.size === 1 && langs.has(language);
+    const hasEnglish = Object.values(card.variations || {}).some(v => (v.available_languages || []).includes('EN'));
+    return language === 'EN' ? hasEnglish : !hasEnglish;
   };
 
   const filteredCards = cards.filter(card => {
