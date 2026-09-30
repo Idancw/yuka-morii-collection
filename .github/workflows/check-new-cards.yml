@@ -1,0 +1,48 @@
+name: Check for new cards
+
+on:
+  schedule:
+    - cron: '0 9 1 * *' # 09:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Check TCGdex for new Yuka Morii cards
+      run: node scripts/check-new-cards.mjs --write --report "$RUNNER_TEMP/report.md"
+
+    - name: Open PR with new cards
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        if git diff --quiet; then
+          echo "No new cards."
+          exit 0
+        fi
+        branch="new-cards/$(date -u +%Y-%m)"
+        if git ls-remote --exit-code --heads origin "$branch" >/dev/null; then
+          echo "Branch $branch already exists — skipping."
+          exit 0
+        fi
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git switch -c "$branch"
+        git add public/cards.json scripts/card-watch.json
+        git commit -m "Add new Yuka Morii cards ($(date -u +%Y-%m))"
+        git push origin "$branch"
+        gh pr create --base main --head "$branch" \
+          --title "New Yuka Morii cards ($(date -u +'%B %Y'))" \
+          --body-file "$RUNNER_TEMP/report.md"
