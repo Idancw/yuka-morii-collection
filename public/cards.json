@@ -10979,5 +10979,86 @@
     "nationalNumber": 56,
     "energyType": "Fighting",
     "regulationMark": "J"
+  },
+  {
+    "id": "30th-126",
+    "name": "Poké Pad",
+    "set": "30th Celebration",
+    "era": "Mega Evolution",
+    "number": "126",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "https://assets.tcgdex.net/en/me/30th/126/high.webp",
+    "url": "",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "tcgdex_monthly_check",
+    "releaseDate": "2026-09-16",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common"
+  },
+  {
+    "id": "30th-127",
+    "name": "Switch",
+    "set": "30th Celebration",
+    "era": "Mega Evolution",
+    "number": "127",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "https://assets.tcgdex.net/en/me/30th/127/high.webp",
+    "url": "",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "tcgdex_monthly_check",
+    "releaseDate": "2026-09-16",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common"
+  },
+  {
+    "id": "30th-128",
+    "name": "Ultra Ball",
+    "set": "30th Celebration",
+    "era": "Mega Evolution",
+    "number": "128",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "https://assets.tcgdex.net/en/me/30th/128/high.webp",
+    "url": "",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "tcgdex_monthly_check",
+    "releaseDate": "2026-09-16",
+    "illustrator": "Yuka Morii",
+    "rarity": "Common"
   }
 ]
