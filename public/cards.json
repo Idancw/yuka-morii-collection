@@ -11060,5 +11060,63 @@
     "releaseDate": "2026-09-16",
     "illustrator": "Yuka Morii",
     "rarity": "Common"
+  },
+  {
+    "id": "tk-ex-latia-5",
+    "name": "Numel",
+    "set": "EX trainer Kit (Latias)",
+    "era": "Trainer kits",
+    "number": "5",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "",
+    "url": "",
+    "variations": {
+      "normal": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "tcgdex_monthly_check",
+    "releaseDate": "2004-07-01",
+    "illustrator": "Yuka Morii",
+    "rarity": "None",
+    "nationalNumber": 322,
+    "energyType": "Fire"
+  },
+  {
+    "id": "2015xy-12",
+    "name": "Skitty",
+    "set": "McDonald's Collection 2015",
+    "era": "McDonald's Collection",
+    "number": "12",
+    "sheet_no": "0",
+    "owned": "no",
+    "imageUrl": "",
+    "url": "",
+    "variations": {
+      "holo": {
+        "count": 0,
+        "ordered": false,
+        "languages": [],
+        "default_language": "EN",
+        "available_languages": [
+          "EN"
+        ]
+      }
+    },
+    "enriched": false,
+    "enriched_method": "tcgdex_monthly_check",
+    "releaseDate": "2015-11-27",
+    "illustrator": "Yuka Morii",
+    "rarity": "None",
+    "nationalNumber": 300,
+    "energyType": "Colorless"
   }
 ]
